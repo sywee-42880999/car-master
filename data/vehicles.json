@@ -1,0 +1,21 @@
+[
+  {
+    "id": "hyundai_tucson",
+    "brand": "HYUNDAI",
+    "model": "TUCSON",
+    "body_type": "SUV",
+    "market": "KR",
+    "image": "images/hyundai/tucson/exterior-side.jpg",
+    "fallback": "images/placeholder-suv.svg",
+    "parts": [
+      "hood",
+      "front_lamp",
+      "wheel_tire",
+      "outside_mirror",
+      "door",
+      "tailgate",
+      "roof_rack",
+      "fender"
+    ]
+  }
+]

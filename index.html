@@ -1,0 +1,78 @@
+<!doctype html><html lang="ko"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#111111">
+<title>CAR MASTER</title>
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="stylesheet" href="./style.css">
+</head><body>
+<main class="wrap">
+  <div class="top">
+    <div>
+      <div class="eyebrow">HMG VISUAL LITERACY · SERVERLESS PWA</div>
+      <h1>CAR MASTER</h1>
+      <div>LEVEL 1 · SUV EXTERIOR — LEARN</div>
+    </div>
+    <div class="score-box"><div class="label">LOCAL SCORE</div><strong id="score">0</strong></div>
+  </div>
+
+  <div class="mobile-progress">
+    <div class="mobile-progress-row"><span>LEARN PROGRESS</span><strong id="mcount">1 / 8</strong></div>
+    <div class="progress"><div class="bar" id="mbar"></div></div>
+  </div>
+
+  <div class="grid">
+    <section>
+      <div class="card">
+        <div class="stage" id="stage">
+          <img id="hero" alt="SUV 학습 이미지">
+          <div class="tag">HYUNDAI · TUCSON · SUV</div>
+          <div class="swipe-hint">← SWIPE →</div>
+        </div>
+
+        <div class="panel">
+          <span id="sourceType" class="badge"></span>
+          <div class="term" id="term"></div>
+          <div class="ko" id="ko"></div>
+
+          <div class="meta">
+            <div><div class="label">WHERE</div><div id="where"></div></div>
+            <div><div class="label">LOOK</div><div id="look"></div></div>
+          </div>
+
+          <div id="imageNotice" class="notice" style="display:none">
+            현재 공식 로컬 이미지가 없어 placeholder를 표시합니다.
+            <b>images/hyundai/tucson/exterior-side.jpg</b>에 공식 이미지를 넣으면 자동 교체됩니다.
+          </div>
+
+          <div class="controls">
+            <button id="prev">← 이전</button>
+            <button id="next" class="primary">숙지 · 다음 →</button>
+            <button id="quizBtn">미니 테스트</button>
+          </div>
+
+          <div class="quiz" id="quiz">
+            <div class="label">CHECK</div>
+            <h3 id="q"></h3>
+            <div class="answers" id="answers"></div>
+            <div id="result"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <aside class="card side">
+      <div class="label">PROGRESS</div>
+      <div id="count"></div>
+      <div class="progress"><div class="bar" id="bar"></div></div>
+      <div id="partList" class="list"></div>
+      <div class="source">
+        <b>용어 원칙</b><br>
+        HYUNDAI OFFICIAL = 현대 오너스 매뉴얼 Picture Index 확인 용어.<br>
+        INDUSTRY TERM = 현장 통용 용어이며 공식 매뉴얼 용어와 구분.
+      </div>
+    </aside>
+  </div>
+</main>
+<script src="./app.js"></script>
+</body></html>

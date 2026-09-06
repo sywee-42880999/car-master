@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#f1f3f5"/>
+<path d="M190 600L260 470l250-60 145-160h370l175 165 205 55 55 130-65 80H260z" fill="#cfd4da" stroke="#343a40" stroke-width="14"/>
+<circle cx="470" cy="650" r="105" fill="#495057"/><circle cx="470" cy="650" r="52" fill="#adb5bd"/>
+<circle cx="1160" cy="650" r="105" fill="#495057"/><circle cx="1160" cy="650" r="52" fill="#adb5bd"/>
+<path d="M560 405l125-135h255l145 140z" fill="#adb5bd" stroke="#343a40" stroke-width="10"/>
+<text x="800" y="110" text-anchor="middle" font-family="Arial,sans-serif" font-size="42" fill="#495057">PLACE OFFICIAL LOCAL IMAGE HERE</text>
+<text x="800" y="160" text-anchor="middle" font-family="Arial,sans-serif" font-size="26" fill="#6c757d">images/hyundai/tucson/exterior-side.jpg</text>
+</svg>

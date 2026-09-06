@@ -1,0 +1,9 @@
+{
+  "name": "CAR MASTER — HMG Visual Literacy",
+  "short_name": "CAR MASTER",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#111111",
+  "icons": []
+}

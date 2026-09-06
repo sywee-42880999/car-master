@@ -1,1 +1,6 @@
-[{"id":"hood","name":"Hood","official":"Engine hood","where":"Front upper body panel"},{"id":"headlamp","name":"Headlamp","official":"Headlamp","where":"Front corners of the vehicle"},{"id":"wheel","name":"Wheel & Tire","official":"Tires and wheels","where":"Four lower corners of the vehicle"},{"id":"mirror","name":"Side Mirror","official":"Outside rearview mirror","where":"Upper front edge of each front door"}]
+[
+  {"id":"hood","term":"Hood","ko":"후드","source":"Hyundai Owner's Manual — Exterior Overview"},
+  {"id":"headlamps","term":"Headlamps","ko":"헤드램프","source":"Hyundai Global — Quad beam LED headlamps"},
+  {"id":"tires_wheels","term":"Tires and wheels","ko":"타이어와 휠","source":"Hyundai Owner's Manual — Exterior Overview"},
+  {"id":"mirrors","term":"Outside rearview mirrors","ko":"실외 후방 미러","source":"Hyundai Owner's Manual / Global Product Information"}
+]

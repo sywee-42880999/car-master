@@ -1,113 +1,16 @@
-
-let parts=[], vehicles=[], idx=0;
-let score=Number(localStorage.getItem('cm_score')||0);
-let learned=JSON.parse(localStorage.getItem('cm_learned')||'[]');
-const $=s=>document.querySelector(s);
-
-async function load(){
-  [parts,vehicles]=await Promise.all([
-    fetch('./data/parts.json').then(r=>r.json()),
-    fetch('./data/vehicles.json').then(r=>r.json())
-  ]);
-  idx=Math.min(Number(localStorage.getItem('cm_idx')||0), Math.max(parts.length-1,0));
-  render();
-}
-
-function currentPart(){ return parts[idx]; }
-
-function rememberProgress(){
-  localStorage.setItem('cm_idx', idx);
-  localStorage.setItem('cm_learned', JSON.stringify(learned));
-  localStorage.setItem('cm_score', score);
-}
-
-function render(){
-  const p=currentPart(), v=vehicles[0];
-  $('#term').textContent=p.en.toUpperCase();
-  $('#ko').textContent=p.ko;
-  $('#where').textContent=p.where;
-  $('#look').textContent=p.look;
-  $('#sourceType').textContent=p.source_type==='HYUNDAI_OFFICIAL'?'HYUNDAI OFFICIAL':'INDUSTRY TERM';
-  $('#count').textContent=`${idx+1} / ${parts.length}`;
-  const pct=Math.round(((idx+1)/parts.length)*100);
-  $('#bar').style.width=`${pct}%`;
-  $('#mbar').style.width=`${pct}%`;
-  $('#mcount').textContent=`${idx+1} / ${parts.length}`;
-  $('#score').textContent=score;
-
-  $('#partList').innerHTML=parts.map((x,i)=>(
-    `<div class="item ${i===idx?'active':''}">${i+1}. ${x.ko} / ${x.en}${learned.includes(x.id)?' ✓':''}</div>`
-  )).join('');
-
-  const img=$('#hero');
-  img.src=v.image;
-  img.onerror=()=>{
-    img.onerror=null;
-    img.src=v.fallback;
-    $('#imageNotice').style.display='block';
-  };
-  rememberProgress();
-}
-
-function goNext(){
-  const p=currentPart();
-  if(!learned.includes(p.id)) learned.push(p.id);
-  idx=(idx+1)%parts.length;
-  $('#quiz').style.display='none';
-  render();
-}
-
-function goPrev(){
-  idx=(idx-1+parts.length)%parts.length;
-  $('#quiz').style.display='none';
-  render();
-}
-
-$('#next').addEventListener('click',goNext);
-$('#prev').addEventListener('click',goPrev);
-$('#quizBtn').addEventListener('click',()=>{
-  $('#quiz').style.display=$('#quiz').style.display==='block'?'none':'block';
-  makeQuiz();
-});
-
-function makeQuiz(){
-  const correct=currentPart();
-  const distractors=parts.filter(x=>x.id!==correct.id).sort(()=>Math.random()-.5).slice(0,3);
-  const pool=[correct,...distractors].sort(()=>Math.random()-.5);
-  $('#q').textContent=`“${correct.ko}”의 영문 명칭은?`;
-  $('#answers').innerHTML=pool.map(x=>`<button data-id="${x.id}">${x.en}</button>`).join('');
-  $('#result').textContent='정답을 선택하세요.';
-  [...$('#answers').children].forEach(b=>{
-    b.addEventListener('click',()=>{
-      if(b.dataset.id===correct.id){
-        score+=100;
-        $('#result').textContent='정답 +100';
-      }else{
-        $('#result').textContent=`다시 확인: ${correct.ko} = ${correct.en}`;
-      }
-      rememberProgress();
-      render();
-    });
-  });
-}
-
-// Mobile swipe on the image stage
-const stage=$('#stage');
-let startX=0,startY=0,tracking=false;
-stage.addEventListener('pointerdown',e=>{
-  tracking=true; startX=e.clientX; startY=e.clientY;
-});
-stage.addEventListener('pointerup',e=>{
-  if(!tracking) return;
-  tracking=false;
-  const dx=e.clientX-startX, dy=e.clientY-startY;
-  if(Math.abs(dx)>55 && Math.abs(dx)>Math.abs(dy)*1.25){
-    dx<0 ? goNext() : goPrev();
-  }
-});
-stage.addEventListener('pointercancel',()=>tracking=false);
-
-if('serviceWorker' in navigator){
-  navigator.serviceWorker.register('./sw.js').catch(()=>{});
-}
-load();
+const parts=[{id:'hood',name:'Hood',official:'Engine hood',where:'Front upper body panel',look:'The large hinged panel covering the engine compartment.',pin:[56,39]},{id:'headlamp',name:'Headlamp',official:'Headlamp',where:'Front corners of the vehicle',look:'The forward-facing lamp assembly used to illuminate the road.',pin:[82,53]},{id:'wheel',name:'Wheel & Tire',official:'Tires and wheels',where:'Four lower corners of the vehicle',look:'The tire grips the road while the wheel connects it to the axle.',pin:[72,72]},{id:'mirror',name:'Side Mirror',official:'Outside rearview mirror',where:'Upper front edge of each front door',look:'The exterior mirror gives the driver a view beside and behind the car.',pin:[67,35]}];
+const mixedPrompts=[p=>({prompt:`Which part is described as “${p.look}”`,answer:p.name}),p=>({prompt:`Which part is located at the ${p.where.toLowerCase()}?`,answer:p.name}),p=>({prompt:`What is the common name for “${p.official}”?`,answer:p.name})];
+const app=document.querySelector('#app'),scoreEl=document.querySelector('#score'),tabs=[...document.querySelectorAll('.tab')];let mode='learn',learnIndex=Number(localStorage.getItem('cm03_learnIndex')||0),score=Number(localStorage.getItem('cm03_score')||0),testState=null;learnIndex=Math.min(Math.max(learnIndex,0),parts.length-1);
+function save(){localStorage.setItem('cm03_learnIndex',learnIndex);localStorage.setItem('cm03_score',score);scoreEl.textContent=score}
+function shuffle(items){const a=[...items];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function esc(v){return String(v).replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]))}
+function carSVG(){return `<svg class="car-image" viewBox="0 0 1000 560" role="img" aria-label="SUV side view illustration"><defs><linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3679c8"/><stop offset="1" stop-color="#154a82"/></linearGradient></defs><path d="M136 359l40-92 179-33 111-112h250l121 116 86 31 38 90-28 48H125z" fill="url(#body)" stroke="#102b4d" stroke-width="8"/><path d="M389 230l95-94h105v99zm216-94h102l94 98H605z" fill="#b8d4e8" stroke="#102b4d" stroke-width="7"/><path d="M590 137v217M352 235l-18 119M815 240l23 111" fill="none" stroke="#102b4d" stroke-width="6"/><path d="M861 282l56 17 16 42h-91z" fill="#e9f3ff"/><path d="M180 269l153-27-18 48-151 31z" fill="#dcecff" opacity=".7"/><path d="M518 260h42M690 260h42" stroke="#d9e8f5" stroke-width="8" stroke-linecap="round"/><circle cx="303" cy="396" r="82" fill="#172334" stroke="#f7f9fb" stroke-width="8"/><circle cx="303" cy="396" r="39" fill="#8799aa" stroke="#d8e0e8" stroke-width="9"/><circle cx="762" cy="396" r="82" fill="#172334" stroke="#f7f9fb" stroke-width="8"/><circle cx="762" cy="396" r="39" fill="#8799aa" stroke="#d8e0e8" stroke-width="9"/><path d="M642 208l42 5 22 31-65 3z" fill="#123555" stroke="#102b4d" stroke-width="5"/></svg>`}
+function setMode(next){mode=next;testState=null;tabs.forEach(t=>{const active=t.dataset.mode===mode;t.classList.toggle('active',active);t.setAttribute('aria-pressed',String(active))});render();app.focus({preventScroll:true})}tabs.forEach(t=>t.addEventListener('click',()=>setMode(t.dataset.mode)));
+function renderLearn(){const p=parts[learnIndex];app.innerHTML=`<section class="card learn-grid"><div class="visual"><span class="visual-label">SUV · EXTERIOR</span>${carSVG()}<span class="part-pin" style="left:${p.pin[0]}%;top:${p.pin[1]}%" aria-hidden="true"></span></div><div class="learn-copy"><div class="step-row"><span class="eyebrow">LEARN THE PART</span><span class="step">${learnIndex+1} / ${parts.length}</span></div><h1>${esc(p.name)}</h1><p class="official">Owner's manual term: <strong>${esc(p.official)}</strong></p><div class="facts"><div class="fact"><small>WHERE TO FIND IT</small><p>${esc(p.where)}</p></div><div class="fact"><small>WHAT TO LOOK FOR</small><p>${esc(p.look)}</p></div></div><div class="progress" aria-label="Learning progress"><span style="width:${(learnIndex+1)/parts.length*100}%"></span></div><div class="learn-actions"><button class="btn" id="prev" aria-label="Previous item" ${learnIndex===0?'disabled':''}>←</button><button class="btn primary" id="next">${learnIndex===parts.length-1?'Start 4-Choice Test':'Learned · Next →'}</button></div></div></section>`;document.querySelector('#prev').onclick=()=>{learnIndex--;save();renderLearn()};document.querySelector('#next').onclick=()=>{if(learnIndex===parts.length-1)setMode('test');else{learnIndex++;save();renderLearn()}}}
+function startTest(type){const source=type==='mixed'?shuffle([...parts,...parts]):shuffle(parts);testState={type,questions:source.map((p,i)=>{const mixed=type==='mixed'?mixedPrompts[i%mixedPrompts.length](p):{prompt:`Which part matches this owner's manual term: “${p.official}”?`,answer:p.name};return{...mixed,options:shuffle(parts.map(x=>x.name))}}),index:0,correct:0,answered:false};renderQuestion()}
+function renderTest(){if(!testState)return startTest(mode);renderQuestion()}
+function renderQuestion(){const s=testState;if(s.index>=s.questions.length)return renderResults();const q=s.questions[s.index];app.innerHTML=`<section class="card test-card"><div class="test-top"><div><span class="eyebrow">${s.type==='mixed'?'MIXED KNOWLEDGE':'4-CHOICE TEST'}</span><h1>${s.type==='mixed'?'Mixed Test':'Choose the Correct Part'}</h1></div><span class="question-count">${s.index+1} / ${s.questions.length}</span></div><div class="progress"><span style="width:${s.index/s.questions.length*100}%"></span></div><div class="question-box"><span class="prompt-label">QUESTION</span><h2>${esc(q.prompt)}</h2><div class="answers">${q.options.map(x=>`<button class="answer" data-answer="${esc(x)}">${esc(x)}</button>`).join('')}</div><div class="feedback" id="feedback" aria-live="polite">Select one answer.</div><div class="test-actions"><button class="btn primary" id="continue" hidden>${s.index===s.questions.length-1?'See My Rating':'Next Question →'}</button></div></div></section>`;document.querySelectorAll('.answer').forEach(b=>b.onclick=()=>answerQuestion(b,q));document.querySelector('#continue').onclick=()=>{s.index++;s.answered=false;renderQuestion()}}
+function answerQuestion(button,q){if(testState.answered)return;testState.answered=true;const correct=button.dataset.answer===q.answer;if(correct){testState.correct++;score+=100}else score=Math.max(0,score-25);save();document.querySelectorAll('.answer').forEach(b=>{b.disabled=true;if(b.dataset.answer===q.answer)b.classList.add('correct')});button.classList.add(correct?'correct':'wrong');const f=document.querySelector('#feedback');f.className=`feedback ${correct?'good':'bad'}`;f.textContent=correct?'Correct! +100 points':`Not quite. The correct answer is ${q.answer}. −25 points`;document.querySelector('#continue').hidden=false}
+function ratingFor(p){if(p===100)return['MASTER','Perfect identification. You know every part in this set.'];if(p>=75)return['EXPERT','Strong result. Review the missed item, then try the mixed test.'];if(p>=50)return['DRIVER','Good start. One more learning pass will sharpen your recognition.'];return['ROOKIE','Review the four learn cards and try again.']}
+function renderResults(){const s=testState,total=s.questions.length,percent=Math.round(s.correct/total*100),[rating,message]=ratingFor(percent);app.innerHTML=`<section class="card test-card results"><div class="rating-ring" style="--result-angle:${percent*3.6}deg"><strong>${percent}%</strong></div><span class="eyebrow">TEST COMPLETE</span><h1>${s.correct} of ${total} correct</h1><div class="rating">${rating} RATING</div><p>${message}</p><div class="result-stats"><div><strong>${s.correct}</strong><small>CORRECT</small></div><div><strong>${total-s.correct}</strong><small>MISSED</small></div><div><strong>${score}</strong><small>TOTAL SCORE</small></div></div><button class="btn primary" id="retry">Try Again</button></section>`;document.querySelector('#retry').onclick=()=>startTest(s.type)}
+function render(){save();mode==='learn'?renderLearn():renderTest()}save();render();if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));

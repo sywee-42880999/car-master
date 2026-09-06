@@ -1,9 +1,1 @@
-{
-  "name": "CAR MASTER — HMG Visual Literacy",
-  "short_name": "CAR MASTER",
-  "start_url": "./index.html",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#111111",
-  "icons": []
-}
+{"name":"CAR MASTER v0.3","short_name":"CAR MASTER","description":"Mobile-first vehicle parts trainer","start_url":"./","display":"standalone","background_color":"#eef2f6","theme_color":"#10233f","icons":[]}

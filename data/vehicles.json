@@ -5,8 +5,8 @@
     "model": "TUCSON",
     "body_type": "SUV",
     "market": "KR",
-    "image": "images/hyundai/tucson/exterior-side.jpg",
-    "fallback": "images/placeholder-suv.svg",
+    "image": "./images/hyundai/tucson/exterior-side.jpg",
+    "fallback": "./images/placeholder-suv.svg",
     "parts": [
       "hood",
       "front_lamp",

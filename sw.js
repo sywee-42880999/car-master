@@ -1,1 +1,44 @@
-const CACHE='car-master-v04';const ASSETS=['./','./index.html','./app.js','./style.css','./style-v04.css','./manifest.webmanifest','./images/venue/front.jpg','./images/venue/rear.jpg','./images/venue/side.jpg'];self.addEventListener('install',e=>{self.skipWaiting();e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)))});self.addEventListener('activate',e=>e.waitUntil(Promise.all([caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))),self.clients.claim()])));self.addEventListener('fetch',e=>{if(e.request.method!=='GET')return;e.respondWith(fetch(e.request).then(r=>{const copy=r.clone();caches.open(CACHE).then(c=>c.put(e.request,copy));return r}).catch(()=>caches.match(e.request)))});
+const CACHE = 'car-master-v05';
+const ASSETS = [
+  './',
+  './index.html',
+  './app.js?v=5',
+  './style.css?v=5',
+  './style-v04.css?v=5',
+  './manifest.webmanifest',
+  './data/parts.json',
+  './data/vehicles.json',
+  './images/venue/front.jpg',
+  './images/venue/rear.jpg',
+  './images/venue/side.jpg',
+  './images/placeholder-suv.svg'
+];
+
+self.addEventListener('install', event => {
+  self.skipWaiting();
+  event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)));
+});
+
+self.addEventListener('activate', event => {
+  event.waitUntil(
+    caches.keys()
+      .then(keys => Promise.all(keys.filter(key => key !== CACHE).map(key => caches.delete(key))))
+      .then(() => self.clients.claim())
+  );
+});
+
+self.addEventListener('fetch', event => {
+  if (event.request.method !== 'GET') return;
+
+  event.respondWith(
+    fetch(event.request)
+      .then(response => {
+        if (response.ok) {
+          const copy = response.clone();
+          caches.open(CACHE).then(cache => cache.put(event.request, copy));
+        }
+        return response;
+      })
+      .catch(() => caches.match(event.request).then(cached => cached || caches.match('./index.html')))
+  );
+});

@@ -1,8 +1,8 @@
 const parts=[
-  {id:'hood',term:'Hood',ko:'후드',image:'images/venue/front.jpg',where:'차량 앞쪽 상부에서 엔진룸을 덮는 큰 패널입니다.',look:'앞유리 아래에서 전면 조명부까지 이어지는 넓은 금속 패널을 찾으세요.',pins:[[49,32]]},
-  {id:'headlamps',term:'Headlamps',ko:'헤드램프',image:'images/venue/front.jpg',where:'차량 전면의 왼쪽과 오른쪽에 한 쌍으로 배치됩니다.',look:'야간에 전방을 비추는 주 조명입니다. 이 VENUE에는 세로형 Quad beam LED headlamps가 적용됩니다.',pins:[[37,46],[62,46]]},
-  {id:'tires_wheels',term:'Tires and wheels',ko:'타이어와 휠',image:'images/venue/side.jpg',where:'차량 하부 네 모서리에 장착되며 측면 이미지에서는 앞뒤 한 쌍이 보입니다.',look:'노면과 맞닿는 고무 부분이 타이어이고, 안쪽 금속 구조가 휠입니다.',pins:[[27,64],[72,64]]},
-  {id:'mirrors',term:'Outside rearview mirrors',ko:'실외 후방 미러',image:'images/venue/side.jpg',where:'앞문 위쪽, 운전석과 동승석 바깥에 한 쌍으로 장착됩니다.',look:'운전자가 차량 옆과 뒤를 확인하는 외부 미러입니다.',pins:[[43,32]]}
+  {id:'hood',term:'Hood',ko:'후드',image:'./images/venue/front.jpg',where:'차량 앞쪽 상부에서 엔진룸을 덮는 큰 패널입니다.',look:'앞유리 아래에서 전면 조명부까지 이어지는 넓은 금속 패널을 찾으세요.',pins:[[49,32]]},
+  {id:'headlamps',term:'Headlamps',ko:'헤드램프',image:'./images/venue/front.jpg',where:'차량 전면의 왼쪽과 오른쪽에 한 쌍으로 배치됩니다.',look:'야간에 전방을 비추는 주 조명입니다. 이 VENUE에는 세로형 Quad beam LED headlamps가 적용됩니다.',pins:[[37,46],[62,46]]},
+  {id:'tires_wheels',term:'Tires and wheels',ko:'타이어와 휠',image:'./images/venue/side.jpg',where:'차량 하부 네 모서리에 장착되며 측면 이미지에서는 앞뒤 한 쌍이 보입니다.',look:'노면과 맞닿는 고무 부분이 타이어이고, 안쪽 금속 구조가 휠입니다.',pins:[[27,64],[72,64]]},
+  {id:'mirrors',term:'Outside rearview mirrors',ko:'실외 후방 미러',image:'./images/venue/side.jpg',where:'앞문 위쪽, 운전석과 동승석 바깥에 한 쌍으로 장착됩니다.',look:'운전자가 차량 옆과 뒤를 확인하는 외부 미러입니다.',pins:[[43,32]]}
 ];
 const app=document.querySelector('#app'),scoreEl=document.querySelector('#score'),tabs=[...document.querySelectorAll('.tab')];
 let mode='learn',learnIndex=Math.min(Number(localStorage.getItem('cm04_learnIndex')||0),3),score=Number(localStorage.getItem('cm04_score')||0),testState=null;
@@ -21,4 +21,4 @@ function answer(button,q){if(testState.answered)return;testState.answered=true;c
 function rating(p){if(p===100)return['MASTER','모든 파트를 정확히 구분했습니다.'];if(p>=75)return['EXPERT','한 번만 더 복습하면 완벽합니다.'];if(p>=50)return['DRIVER','좋은 시작입니다. 틀린 파트를 다시 확인하세요.'];return['ROOKIE','파트 학습 4개를 다시 본 뒤 재도전하세요.']}
 function renderResults(){const s=testState,total=s.questions.length,pct=Math.round(s.correct/total*100),r=rating(pct);app.innerHTML=`<section class="card test-card results"><div class="rating-ring" style="--result-angle:${pct*3.6}deg"><strong>${pct}%</strong></div><span class="eyebrow">테스트 완료</span><h1>${total}문제 중 ${s.correct}문제 정답</h1><div class="rating">${r[0]} 등급</div><p>${r[1]}</p><div class="result-stats"><div><strong>${s.correct}</strong><small>정답</small></div><div><strong>${total-s.correct}</strong><small>오답</small></div><div><strong>${score}</strong><small>누적 점수</small></div></div><button class="btn primary" id="retry">다시 도전</button></section>`;document.querySelector('#retry').onclick=()=>startTest(s.type)}
 function render(){save();mode==='learn'?renderLearn():testState?renderQuestion():startTest(mode)}
-save();render();if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
+save();render();if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js',{scope:'./'}).catch(()=>{}));

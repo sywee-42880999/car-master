@@ -1,107 +1,37 @@
 {
   "project": "AUTOMOTIVE VISUAL VOCABULARY",
-  "version": "1.0",
-  "rule": "Permanent IDs must never be renumbered.",
+  "version": "1.1",
+  "rule": "Permanent IDs must never be renumbered. Full ID allocation is in data/id_registry.json. Shared source details are in data/source_registry.json.",
   "items": [
-    {
-      "id": "0001",
-      "en": "HOOD",
-      "ko": "후드"
-    },
-    {
-      "id": "0002",
-      "en": "HEADLIGHTS",
-      "ko": "헤드램프"
-    },
-    {
-      "id": "0003",
-      "en": "FRONT WIPER BLADES",
-      "ko": "앞유리 와이퍼 블레이드"
-    },
-    {
-      "id": "0004",
-      "en": "SIDE VIEW MIRRORS",
-      "ko": "실외 미러"
-    },
-    {
-      "id": "0005",
-      "en": "WINDOWS",
-      "ko": "유리창"
-    },
-    {
-      "id": "0006",
-      "en": "SUNROOF",
-      "ko": "선루프"
-    },
-    {
-      "id": "0007",
-      "en": "TIRES",
-      "ko": "타이어"
-    },
-    {
-      "id": "0008",
-      "en": "WHEELS",
-      "ko": "휠"
-    },
-    {
-      "id": "0009",
-      "en": "FRONT RADAR",
-      "ko": "전방 레이더"
-    },
-    {
-      "id": "0010",
-      "en": "FRONT VIEW CAMERA",
-      "ko": "전방 카메라"
-    },
-    {
-      "id": "0011",
-      "en": "DOORS",
-      "ko": "도어"
-    },
-    {
-      "id": "0012",
-      "en": "FUEL FILLER DOOR",
-      "ko": "연료 주입구 도어"
-    },
-    {
-      "id": "0013",
-      "en": "ELECTRIC CHARGING DOOR",
-      "ko": "충전구 도어"
-    },
-    {
-      "id": "0014",
-      "en": "REAR COMBINATION LIGHTS",
-      "ko": "리어 콤비네이션 램프"
-    },
-    {
-      "id": "0015",
-      "en": "REVERSE LIGHTS",
-      "ko": "후진등"
-    },
-    {
-      "id": "0016",
-      "en": "LIFTGATE",
-      "ko": "리프트게이트"
-    },
-    {
-      "id": "0017",
-      "en": "WIDE-REAR VIEW CAMERA",
-      "ko": "광각 후방 카메라"
-    },
-    {
-      "id": "0018",
-      "en": "ANTENNA",
-      "ko": "안테나"
-    },
-    {
-      "id": "0019",
-      "en": "REAR WINDOW WIPER BLADE",
-      "ko": "후면 와이퍼 블레이드"
-    },
-    {
-      "id": "0020",
-      "en": "HIGH MOUNTED STOP LIGHT",
-      "ko": "보조 제동등"
-    }
+    {"id":"0001","en":"HOOD","ko":"후드"},
+    {"id":"0002","en":"HEADLIGHTS","ko":"헤드램프"},
+    {"id":"0003","en":"FRONT WIPER BLADES","ko":"앞유리 와이퍼 블레이드"},
+    {"id":"0004","en":"SIDE VIEW MIRRORS","ko":"실외 미러"},
+    {"id":"0005","en":"WINDOWS","ko":"유리창"},
+    {"id":"0006","en":"SUNROOF","ko":"선루프"},
+    {"id":"0007","en":"TIRES","ko":"타이어"},
+    {"id":"0008","en":"WHEELS","ko":"휠"},
+    {"id":"0009","en":"FRONT RADAR","ko":"전방 레이더"},
+    {"id":"0010","en":"FRONT VIEW CAMERA","ko":"전방 카메라"},
+    {"id":"0011","en":"DOORS","ko":"도어","source_refs":["HY_LX3_2026_REAR_OVERVIEW"]},
+    {"id":"0012","en":"FUEL FILLER DOOR","ko":"연료 주입구 도어","source_refs":["HY_LX3_2026_FUEL_DOOR","HY_LX3_2026_REAR_OVERVIEW"]},
+    {"id":"0013","en":"ELECTRIC CHARGING DOOR","ko":"충전구 도어","source_refs":["HY_IONIQ5_IN_OFFICIAL_PDF"]},
+    {"id":"0014","en":"REAR COMBINATION LIGHTS","ko":"리어 콤비네이션 램프","source_refs":["HY_NX4A_2026_REAR_LAMP","HY_LX3_2026_REAR_OVERVIEW"]},
+    {"id":"0015","en":"REVERSE LIGHTS","ko":"후진등","source_refs":["HY_MX5A_2024_REVERSE","HY_LX3_2026_REAR_OVERVIEW"]},
+    {"id":"0016","en":"LIFTGATE","ko":"리프트게이트","source_refs":["HY_LX3_2026_REAR_OVERVIEW"]},
+    {"id":"0017","en":"WIDE-REAR VIEW CAMERA","ko":"광각 후방 카메라","source_refs":["HY_AXEV_2025_WIDE_REAR_CAMERA","HY_LX3_2026_REAR_OVERVIEW"]},
+    {"id":"0018","en":"ANTENNA","ko":"안테나","source_refs":["HY_LX3_2026_ANTENNA","HY_LX3_2026_REAR_OVERVIEW"]},
+    {"id":"0019","en":"REAR WINDOW WIPER BLADE","ko":"후면 와이퍼 블레이드","source_refs":["HY_LX2_2025_REAR_WIPER","HY_LX3_2026_REAR_OVERVIEW"]},
+    {"id":"0020","en":"HIGH MOUNTED STOP LIGHT","ko":"보조 제동등","source_refs":["HY_NX4_2025_HIGH_STOP","HY_LX3_2026_REAR_OVERVIEW"]},
+    {"id":"0021","en":"FRONT BUMPER","ko":"프론트 범퍼","status":"RESEARCH"},
+    {"id":"0022","en":"REAR BUMPER","ko":"리어 범퍼","status":"RESEARCH"},
+    {"id":"0023","en":"FRONT GRILLE","ko":"프론트 그릴","status":"RESEARCH"},
+    {"id":"0024","en":"WINDSHIELD","ko":"앞유리","status":"RESEARCH"},
+    {"id":"0025","en":"REAR WINDOW","ko":"뒷유리","status":"RESEARCH"},
+    {"id":"0026","en":"OUTSIDE DOOR HANDLE","ko":"실외 도어 핸들","status":"RESEARCH"},
+    {"id":"0027","en":"PARKING DISTANCE WARNING SENSOR","ko":"주차 거리 경고 센서","status":"RESEARCH"},
+    {"id":"0028","en":"TURN SIGNAL LIGHT","ko":"방향지시등","status":"RESEARCH"},
+    {"id":"0029","en":"REAR SPOILER","ko":"리어 스포일러","status":"RESEARCH"},
+    {"id":"0030","en":"ROOF RACK","ko":"루프랙","status":"RESEARCH"}
   ]
 }

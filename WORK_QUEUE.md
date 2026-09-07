@@ -1,156 +1,118 @@
 # CAR MASTER — SHARED WORK QUEUE
 
-This file is the single handoff board between ordinary ChatGPT and ChatGPT Work.
+This file is the single source of truth and handoff board for ordinary ChatGPT and ChatGPT Work.
 
 ## Current status
-
 - Progress: **2%** (10/500)
 - Completed: 0001–0010
-- Current batch: 0011–0020
+- Current production batch: 0011–0020
 - Repository: `sywee-42880999/car-master`
 - Branch: `main`
 
+## NEW FIXED OPERATING RULE — 2026-09-07
+1. **Every project change must be written to GitHub so Chat and Work can both see it.** Do not keep project decisions only in conversation memory.
+2. Before either Chat or Work starts a batch, read `WORK_QUEUE.md`, `data/master.json`, `data/progress.json`, and `data/source_registry.json` from `main`.
+3. After either agent changes terminology, source, image, UI rule, status, or workflow, write the change back to the repository before handing off.
+4. Repository state overrides conversational memory when they conflict.
+5. `https://sywee-42880999.github.io/car-master/` is always the user-facing CAR MASTER learning/review app. Never replace the root with an admin registry.
+6. Registry/source/queue pages are internal support pages only.
+7. **UI DESIGN LOCK: use yesterday's BLACK version as the production design baseline.** Do not redesign the application while content production is underway. White version is a later derivative after Black is complete.
+8. User review happens in the actual learning UI, not a registry/contact sheet. Permanent ID is shown so revisions can be requested by number.
+9. A task is not COMPLETE merely because JSON/Markdown was committed. COMPLETE means the user-facing app actually displays the intended result.
+
+## Fixed product structure
+- BLACK learning UI is the main app.
+- Modes remain: Part Learning / 4-choice / Mixed Test.
+- Preserve the existing mobile-first interaction and learned/next flow from the approved Black prototype.
+- Content source is the permanent-ID master, not hardcoded temporary four-item demo data.
+- Each learning item should include: permanent ID, Korean name, official English term, useful short explanation/recognition cue, image, and learning progress.
+- Do not expose production/admin clutter in the main learning flow.
+
 ## Fixed objective
+Produce a 500-entry **Automotive Visual Vocabulary / Wordbook** using Hyundai official Owner's Manual material as the terminology/source baseline.
 
-Produce a 500-entry **Automotive Visual Vocabulary / Wordbook** using Hyundai official Owner's Manual PDFs as the primary source. This is not a game.
+## Permanent content rules
+1. Every term has a permanent four-digit ID. Never renumber, delete, or reuse an ID.
+2. Search manuals and compare candidates instead of accepting the first image found.
+3. Prefer original embedded PDF images/drawings or existing official assets. Do not rerender PDF pages when extraction is possible.
+4. Final vocabulary image target: clean 4:3 crop. Do not upscale weak sources just to fill the frame.
+5. Prefer a close-up where the part is self-evident. If the part fills the crop, **no marker**.
+6. If context is necessary, markers are HTML overlays only: precise part = red dot; multiple precise parts = multiple red dots; broad surface = isolated soft red oval.
+7. Never bake markers into JPG.
+8. Ambiguous items are REVIEW, never guessed.
+9. Reverse QA: English term → actual physical part → image → marker/crop.
+10. Hyundai global Owner's Manual terminology is the baseline. Regional aliases may be recorded without changing the permanent ID.
+11. When the same physical part exists multiple times on a vehicle, use plural English wording where appropriate for the vocabulary category.
 
-## Permanent rules
+## Low-cost division of labor
+### Ordinary ChatGPT
+- Own permanent ID/term master.
+- Research Hyundai official terminology and candidate sources.
+- Check duplicates and aliases.
+- Write explanations/recognition cues.
+- Prepare exact image extraction/crop instructions.
+- Maintain source registry, queue, progress logic, and lightweight GitHub/HTML/data changes.
 
-1. Every term has a permanent four-digit ID. Never renumber an ID.
-2. Search the full manuals and compare candidates instead of using the first image found.
-3. Prefer the original embedded PDF image/drawing. Do not render pages when extraction is possible.
-4. Use a clean 4:3 JPG. Do not enlarge weak sources.
-5. Prefer a clear close-up. If the part fills the crop, no marker is required.
-6. If context is necessary, use HTML overlays only:
-   - precise small part: red dot;
-   - multiple clearly visible parts: multiple red dots;
-   - broad surface: isolated soft red oval blur.
-7. Never bake markers into the JPG.
-8. Verify manual numbering/description before locating a part.
-9. Ambiguous items must be `REVIEW`, never guessed.
-10. Automatic reverse QA: English term → actual part → image → marker.
-11. Directly update CAR MASTER. Do not post contact sheets or request routine approval.
-12. In chat, report only the overall progress, e.g. `30%`.
+### ChatGPT Work
+- Do expensive browser/file manipulation only when needed.
+- Extract original embedded PDF/web-manual images.
+- Produce final 4:3 crops.
+- Save assets to repository and update their repo paths.
+- Perform repetitive asset/data/UI integration in batches.
+- Do not spend Work time rediscovering terminology/source research already recorded here.
 
-## Low-cost workflow
+### User
+- Reviews only the live BLACK learning app.
+- Reports exceptions by permanent ID, e.g. `0017 이미지 수정`.
+- Routine approval is not required for production to continue.
 
-- Ordinary ChatGPT: terminology, candidate-page research, duplicate review, ID-safe work instructions.
-- ChatGPT Work: embedded-image extraction, 4:3 crops, HTML/data updates, GitHub writes.
-- Batch GitHub writes in groups of 50–100 where practical.
-- Use `data/master.json` as the ID authority and `data/progress.json` as the status authority.
+## Shared source rule
+`data/source_registry.json` is the shared map for PDF URL, official web URL, image key, and final repo asset path. If one agent cannot render one surface, use another recorded surface or repo asset; do not stop at “cannot see it.”
 
-## Ordinary ChatGPT research — IDs 0011–0020
+## Current batch research — IDs 0011–0020
+Terminology checked, duplicate relationships reviewed, and official Hyundai candidates are recorded in `data/master.json` and `data/source_registry.json`.
 
-Status: terminology checked, duplicate relationships reviewed, Hyundai official manual candidates identified, extraction/crop instructions prepared. Permanent IDs unchanged.
+### 0011 DOORS
+Use LX3 rear exterior overview `1C_OutsideVehicleRearOverview`. Prefer a clear passenger-door crop; broad-area overlay only if needed.
 
-### Best primary candidate set
+### 0012 FUEL FILLER DOOR
+Use LX3 dedicated `2C_FuelInletDoor`; prefer closed exterior door, tight crop, no marker if obvious.
 
-Use **2026 Hyundai Palisade (LX3) US Owner's Manual / official Hyundai web manual** rear exterior overview as the first consolidated source for 0011, 0012, 0014–0020. It explicitly labels:
-- Door
-- Fuel filler door
-- Rear combination light
-- Reverse light
-- Liftgate
-- Wide-rear view camera
-- Antenna
-- Rear window wiper blade
-- High mounted stop light
+### 0013 ELECTRIC CHARGING DOOR
+Use official IONIQ 5 source / `2C_HowToUseChargingDoor`; prefer exterior charging-door view, not connector-only detail.
 
-Official page: `https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/idc96f2f531d7.html`
-Image key: `1C_OutsideVehicleRearOverview`
+### 0014 REAR COMBINATION LIGHTS
+Use NX4a `2C_RearLampOverview` or `_2`; show complete lamp assembly.
 
-For individual close-ups / stronger source drawings, prefer the following official Hyundai pages before falling back to the consolidated overview.
+### 0015 REVERSE LIGHTS
+Use LX3 overview or MX5a rear-lamp source; distinguish reverse lamp from full combination lamp. Precise overlay only when context requires it.
 
-### 0011 — DOORS / 도어
-- Terminology: PASS. Broad plural category; Hyundai overview labels singular `Door`, but master plural `DOORS` is acceptable as vocabulary category.
-- Duplicate check: no duplicate in 0001–0020.
-- Candidate: LX3 rear exterior overview, image `1C_OutsideVehicleRearOverview`.
-- Work spec: crop a clearly identifiable side/rear passenger door area. Because `DOORS` is a broad surface category, use a soft red oval HTML overlay only if the crop still contains competing body panels. No baked marker.
+### 0016 LIFTGATE
+Use LX3 rear overview. `Tailgate` may be a regional alias; master stays LIFTGATE. Show the liftgate panel clearly.
 
-### 0012 — FUEL FILLER DOOR / 연료 주입구 도어
-- Terminology: PASS; exact Hyundai term.
-- Duplicate check: distinct from 0011 DOORS.
-- Best close-up candidate: `https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/topic_wwh_zrb_5cc.html`
-- Image key: `2C_FuelInletDoor` (closed exterior door), with opening sequence available on same topic.
-- Alternate: 2025 Tucson official manual, `2C_FuelInletDoor` / `2C_FuelInletDoorOpen`.
-- Work spec: use closed-door exterior image if possible; tight crop, no marker if panel fills crop. If overview is used, soft red oval HTML overlay.
+### 0017 WIDE-REAR VIEW CAMERA
+Use AXEV `2C_WideRearViewCamera`; confirm actual lens/module, not handle or plate lamp.
 
-### 0013 — ELECTRIC CHARGING DOOR / 충전구 도어
-- Terminology: PASS; exact official Hyundai heading `Electric Charging Door`.
-- Duplicate check: related to 0012 but NOT duplicate; ICE fuel door vs EV charging door must remain separate IDs.
-- Primary PDF candidate: Hyundai India IONIQ 5 official Owner's Manual: `https://www.hyundai.com/content/dam/hyundai/in/en/data/connect-to-service/owners-manual/new/ioniq5oct2022-present.pdf`
-- Official web candidate: `https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/topic_myd_hwf_hcc.html`
-- Image key shown by official web manual: `2C_HowToUseChargingDoor`.
-- Work spec: prefer exterior/door panel view over connector-only view. Tight crop, no marker when charging door fills crop; otherwise soft red oval HTML overlay.
+### 0018 ANTENNA
+Use LX3 `2C_Antenna`; exterior roof/shark-fin antenna only.
 
-### 0014 — REAR COMBINATION LIGHTS / 리어 콤비네이션 램프
-- Terminology: PASS. Hyundai pages commonly use singular heading `Rear combination light`; master plural is acceptable for paired exterior lamps.
-- Duplicate check: 0015 REVERSE LIGHTS is a subcomponent/function of rear lamp assembly on many models, but is NOT a duplicate.
-- Candidate: `https://ownersmanual.hyundai.com/full_webhelp/NX4a/2026/en_US/idd90d669cdbf.html`
-- Best overview image key: `2C_RearLampOverview` / `2C_RearLampOverview_2` depending type.
-- Work spec: select an image where the complete lamp assembly is visually obvious, not a bulb-removal detail. Tight crop; no marker if assembly fills crop.
+### 0019 REAR WINDOW WIPER BLADE
+Use LX2 `B0452KO05/B0452KO06` or LX3 overview; prefer intact blade on rear glass.
 
-### 0015 — REVERSE LIGHTS / 후진등
-- Terminology: PASS with note. Official Hyundai wording is usually singular `Reverse light` or `Back up light`; keep permanent master wording unchanged unless a later editorial normalization pass explicitly changes text without changing ID.
-- Duplicate check: not duplicate of 0014; treat as specific lamp within/near rear combination lighting.
-- Strong candidate: LX3 2026 rear exterior overview explicitly labels `Reverse light` separately.
-- Alternate detailed candidate: MX5a 2024 official page `https://ownersmanual.hyundai.com/full_webhelp/MX5a/2024/en_US/idd90d669cdbf.html`, image `2C_RearLampOverview`, with reverse-light replacement images `2C_BackupLampChange1` and `2C_BackupLampChange2`.
-- Work spec: avoid replacement/socket-only crop for vocabulary if exterior lamp location is available. If overview retained, use precise red dot HTML overlay on the reverse lamp.
+### 0020 HIGH MOUNTED STOP LIGHT
+Use NX4 `2C_HighMountedStopLamp`; crop upper rear lamp/spoiler area so it is unmistakable.
 
-### 0016 — LIFTGATE / 리프트게이트
-- Terminology: PASS for US Hyundai wording. Some global manuals use `Tailgate`; do not rename ID based on regional wording.
-- Duplicate check: none.
-- Candidate: LX3 2026 rear exterior overview, image `1C_OutsideVehicleRearOverview`, explicitly labels `Liftgate`.
-- Work spec: broad panel. Prefer crop where the entire liftgate outline is obvious; soft red oval HTML overlay only if needed to distinguish from rear glass/lamps.
+## Current Work execution order
+1. Restore/retain the approved **BLACK learning UI** as the root application.
+2. Connect the Black UI to permanent-ID content instead of the temporary hardcoded 4-item demo.
+3. Preserve 0001–0010; do not substitute generic VENUE overview images when a proper close-up is required.
+4. Produce/extract final assets for 0011–0020 from the recorded official sources.
+5. Update `data/source_registry.json` with each final repo asset path.
+6. Verify the live root app displays each finished item correctly on mobile.
+7. Only then update `data/progress.json` from 10/500 to 20/500 = 4%.
 
-### 0017 — WIDE-REAR VIEW CAMERA / 광각 후방 카메라
-- Terminology: PASS; exact official Hyundai wording includes hyphenated `Wide-rear view camera`.
-- Duplicate check: distinct from 0010 FRONT VIEW CAMERA.
-- Best dedicated candidate: `https://ownersmanual.hyundai.com/full_webhelp/AXEV/2025/en_GN/id2c732e6188a.html`
-- Image key: `2C_WideRearViewCamera`.
-- Alternate: Surround View Monitor pages with `2C_WideRearCamera`.
-- Work spec: this is a precise small part. Use close-up with no marker if camera itself is unmistakable; otherwise single red dot HTML overlay exactly on lens/module.
+## Definition of DONE
+An item is DONE only when: terminology is verified + source recorded + final image/crop exists + correct live Black UI item displays + reverse QA passes. GitHub data without live display is not DONE.
 
-### 0018 — ANTENNA / 안테나
-- Terminology: PASS.
-- Duplicate check: none.
-- Best dedicated candidate: `https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/id4d018a844fc.html`
-- Image key: `2C_Antenna`.
-- Work spec: prefer exterior roof antenna/shark-fin portion, not hidden dashboard antenna. Tight 4:3 crop, no marker if isolated.
-
-### 0019 — REAR WINDOW WIPER BLADE / 후면 와이퍼 블레이드
-- Terminology: PASS. Official manuals use both plural in overview and singular in replacement heading; permanent master singular is clear.
-- Duplicate check: distinct from 0003 FRONT WIPER BLADES.
-- Dedicated close-up candidate: `https://ownersmanual.hyundai.com/full_webhelp/LX2/2025/en_US/id018ad5fe2f4.html`
-- Image keys: `B0452KO05`, `B0452KO06`.
-- Alternate overview: LX3 2026 `1C_OutsideVehicleRearOverview`.
-- Work spec: prefer intact rear wiper blade on rear glass rather than detached replacement step if both are available. Tight crop, no marker if obvious.
-
-### 0020 — HIGH MOUNTED STOP LIGHT / 보조 제동등
-- Terminology: PASS; exact Hyundai term.
-- Duplicate check: distinct from 0014 rear combination lamps.
-- Dedicated candidate: `https://ownersmanual.hyundai.com/full_webhelp/NX4/2025/en_US/idce7496c4cd1.html`
-- Image key: `2C_HighMountedStopLamp`.
-- Alternate: NE1a 2025 same image key.
-- Work spec: crop rear spoiler/upper rear-glass lamp so the stop light is unmistakable. No marker if isolated; otherwise one precise red dot/short-area overlay in HTML only.
-
-### Batch QA / handoff rules for Work
-
-1. Preserve IDs 0011–0020 exactly; never renumber.
-2. Prefer official Hyundai PDF embedded assets when a downloadable PDF counterpart is available; use web-manual image keys above to locate the correct drawing before extraction.
-3. For 0014 vs 0015, verify the full assembly vs reverse-light subcomponent visually; do not reuse the same crop unless the overlays make the distinction unambiguous.
-4. For 0012 vs 0013, never substitute fuel filler door for EV charging door or vice versa.
-5. For 0016, regional `Tailgate` wording is an alias only; master remains `LIFTGATE`.
-6. For 0017, confirm camera lens/module rather than license-plate lamp or handle button.
-7. For 0018, use the exterior antenna, not the hidden crash-pad antenna.
-8. Run reverse QA English term → physical part → crop → HTML marker before PASS.
-9. If source geometry or labeling is ambiguous, set `REVIEW`; do not guess.
-10. After Work creates/extracts the final 0011–0020 assets and updates CAR MASTER, update `data/progress.json` to 20/500 = 4% only when all ten are actually complete.
-
-## Next queue
-
-Work should now execute permanent IDs 0011–0020 using the research/spec above. Preserve 0001–0010. Update `data/progress.json` only after asset/data completion.
-
-## Instruction for any new chat
-
-Read this file plus `data/master.json` and `data/progress.json` before continuing. Do not rely on conversational memory when repository state is available.
+## Instruction for every new Chat or Work session
+Read `WORK_QUEUE.md`, `data/master.json`, `data/progress.json`, and `data/source_registry.json` first. Continue from repository state. Write all material decisions/changes back to GitHub before handoff.

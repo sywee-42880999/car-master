@@ -1,0 +1,107 @@
+{
+  "project": "AUTOMOTIVE VISUAL VOCABULARY",
+  "version": "1.0",
+  "rule": "Permanent IDs must never be renumbered.",
+  "items": [
+    {
+      "id": "0001",
+      "en": "HOOD",
+      "ko": "후드"
+    },
+    {
+      "id": "0002",
+      "en": "HEADLIGHTS",
+      "ko": "헤드램프"
+    },
+    {
+      "id": "0003",
+      "en": "FRONT WIPER BLADES",
+      "ko": "앞유리 와이퍼 블레이드"
+    },
+    {
+      "id": "0004",
+      "en": "SIDE VIEW MIRRORS",
+      "ko": "실외 미러"
+    },
+    {
+      "id": "0005",
+      "en": "WINDOWS",
+      "ko": "유리창"
+    },
+    {
+      "id": "0006",
+      "en": "SUNROOF",
+      "ko": "선루프"
+    },
+    {
+      "id": "0007",
+      "en": "TIRES",
+      "ko": "타이어"
+    },
+    {
+      "id": "0008",
+      "en": "WHEELS",
+      "ko": "휠"
+    },
+    {
+      "id": "0009",
+      "en": "FRONT RADAR",
+      "ko": "전방 레이더"
+    },
+    {
+      "id": "0010",
+      "en": "FRONT VIEW CAMERA",
+      "ko": "전방 카메라"
+    },
+    {
+      "id": "0011",
+      "en": "DOORS",
+      "ko": "도어"
+    },
+    {
+      "id": "0012",
+      "en": "FUEL FILLER DOOR",
+      "ko": "연료 주입구 도어"
+    },
+    {
+      "id": "0013",
+      "en": "ELECTRIC CHARGING DOOR",
+      "ko": "충전구 도어"
+    },
+    {
+      "id": "0014",
+      "en": "REAR COMBINATION LIGHTS",
+      "ko": "리어 콤비네이션 램프"
+    },
+    {
+      "id": "0015",
+      "en": "REVERSE LIGHTS",
+      "ko": "후진등"
+    },
+    {
+      "id": "0016",
+      "en": "LIFTGATE",
+      "ko": "리프트게이트"
+    },
+    {
+      "id": "0017",
+      "en": "WIDE-REAR VIEW CAMERA",
+      "ko": "광각 후방 카메라"
+    },
+    {
+      "id": "0018",
+      "en": "ANTENNA",
+      "ko": "안테나"
+    },
+    {
+      "id": "0019",
+      "en": "REAR WINDOW WIPER BLADE",
+      "ko": "후면 와이퍼 블레이드"
+    },
+    {
+      "id": "0020",
+      "en": "HIGH MOUNTED STOP LIGHT",
+      "ko": "보조 제동등"
+    }
+  ]
+}

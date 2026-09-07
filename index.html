@@ -4,29 +4,33 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#10233f">
-  <meta name="description" content="현대자동차 공식 영문 용어로 배우는 자동차 파트 트레이너">
-  <title>CAR MASTER v0.3</title>
-  <link rel="manifest" href="./manifest.webmanifest">
-  <link rel="stylesheet" href="./style.css?v=5">
-  <link rel="stylesheet" href="./style-v04.css?v=5">
+  <meta name="description" content="CAR MASTER shared automotive visual vocabulary registry">
+  <title>CAR MASTER · Shared Registry</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#f5f7fa;color:#142033;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR",sans-serif}.wrap{max-width:980px;margin:0 auto;padding:20px}.head{display:flex;justify-content:space-between;gap:16px;align-items:flex-end;margin-bottom:18px}.head h1{margin:0;font-size:28px}.head p{margin:5px 0 0;color:#667085}.badge{background:#10233f;color:#fff;border-radius:999px;padding:8px 12px;font-weight:700}.card{background:#fff;border:1px solid #e4e8ee;border-radius:18px;overflow:hidden}.toolbar{padding:14px 16px;border-bottom:1px solid #e4e8ee;display:flex;gap:10px;flex-wrap:wrap;align-items:center}.toolbar input{flex:1;min-width:220px;border:1px solid #ccd3dd;border-radius:10px;padding:10px 12px;font-size:15px}.toolbar a{color:#10233f;font-weight:700;text-decoration:none}.row{display:grid;grid-template-columns:70px minmax(180px,1fr) minmax(140px,.7fr) 110px;gap:12px;padding:13px 16px;border-top:1px solid #eef1f5;align-items:center}.row:first-child{border-top:0}.id{font-variant-numeric:tabular-nums;font-weight:800;color:#667085}.en{font-weight:800}.ko{color:#475467}.status{font-size:12px;font-weight:800;text-align:center;border-radius:999px;padding:6px 8px;background:#eef2f6;color:#475467}.status.named{background:#e8f5ee;color:#17633a}.empty{color:#98a2b3}.note{margin-top:14px;color:#667085;font-size:13px;line-height:1.55}@media(max-width:650px){.wrap{padding:12px}.head{align-items:flex-start;flex-direction:column}.row{grid-template-columns:58px 1fr;gap:6px 10px}.ko,.status{grid-column:2}.status{text-align:left;width:max-content}.head h1{font-size:23px}}
+  </style>
 </head>
 <body>
-  <div class="app-shell">
-    <header class="app-header">
-      <button class="brand" id="home" aria-label="처음으로">
-        <span class="brand-mark" aria-hidden="true">CM</span>
-        <span><strong>CAR MASTER</strong><small>HYUNDAI VEHICLE PARTS</small></span>
-      </button>
-      <div class="header-score" aria-label="누적 점수"><small>누적 점수</small><strong id="score">0</strong></div>
-    </header>
-    <nav class="mode-tabs" aria-label="학습 모드">
-      <button class="tab active" data-mode="learn" aria-pressed="true">파트 학습</button>
-      <button class="tab" data-mode="test" aria-pressed="false">4지선다</button>
-      <button class="tab" data-mode="mixed" aria-pressed="false">혼합 테스트</button>
-    </nav>
-    <main id="app" tabindex="-1"></main>
-    <footer>용어 기준: Hyundai Owner’s Manual · Exterior Overview / Hyundai Global Product Information</footer>
+<div class="wrap">
+  <div class="head"><div><h1>CAR MASTER · SHARED REGISTRY</h1><p>Chat + Work 공용 마스터 · 영구 ID 0001–0500</p></div><div class="badge" id="count">loading</div></div>
+  <div class="card">
+    <div class="toolbar"><input id="q" placeholder="ID · English · 한글 검색"><a href="./legacy.html">기존 학습 앱 ↗</a><a href="./data/source_registry.json">SOURCE ↗</a><a href="./WORK_QUEUE.md">QUEUE ↗</a></div>
+    <div id="list"></div>
   </div>
-  <script src="./app.js?v=5"></script>
+  <div class="note">이 루트 페이지가 앞으로 작업 결과 확인용 기본 화면입니다. 영구 ID는 변경하지 않으며, PDF·공식 웹·이미지 키는 SOURCE REGISTRY에서 Chat과 Work가 같이 참조합니다.</div>
+</div>
+<script>
+Promise.all([
+ fetch('./data/id_registry.json?v=20260907-1352').then(r=>r.json()),
+ fetch('./data/master.json?v=20260907-1352').then(r=>r.json())
+]).then(([registry,master])=>{
+ const named=new Map((master.items||[]).map(x=>[x.id,x]));
+ const slots=(registry.ids||registry.items||[]).map(x=>typeof x==='string'?{id:x}:x);
+ const rows=slots.map(s=>({...s,...(named.get(s.id)||{})}));
+ const list=document.querySelector('#list'),q=document.querySelector('#q'),count=document.querySelector('#count');
+ function draw(){const term=q.value.trim().toLowerCase();const filtered=rows.filter(x=>!term||[x.id,x.en,x.ko].filter(Boolean).some(v=>String(v).toLowerCase().includes(term)));count.textContent=`${named.size} NAMED / ${rows.length} IDs`;list.innerHTML=filtered.map(x=>`<div class="row"><div class="id">${x.id}</div><div class="en ${x.en?'':'empty'}">${x.en||'UNASSIGNED'}</div><div class="ko ${x.ko?'':'empty'}">${x.ko||'용어 미확정'}</div><div class="status ${x.en?'named':''}">${x.en?'NAMED':'RESERVED'}</div></div>`).join('')}
+ q.addEventListener('input',draw);draw();
+}).catch(err=>{document.querySelector('#count').textContent='LOAD ERROR';document.querySelector('#list').innerHTML=`<div style="padding:20px">${err}</div>`});
+</script>
 </body>
 </html>

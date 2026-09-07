@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#10233f">
+  <meta name="description" content="현대자동차 공식 영문 용어로 배우는 자동차 파트 트레이너">
+  <title>CAR MASTER v0.3 · Legacy</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./style.css?v=5">
+  <link rel="stylesheet" href="./style-v04.css?v=5">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <button class="brand" id="home" aria-label="처음으로">
+        <span class="brand-mark" aria-hidden="true">CM</span>
+        <span><strong>CAR MASTER</strong><small>HYUNDAI VEHICLE PARTS</small></span>
+      </button>
+      <div class="header-score" aria-label="누적 점수"><small>누적 점수</small><strong id="score">0</strong></div>
+    </header>
+    <nav class="mode-tabs" aria-label="학습 모드">
+      <button class="tab active" data-mode="learn" aria-pressed="true">파트 학습</button>
+      <button class="tab" data-mode="test" aria-pressed="false">4지선다</button>
+      <button class="tab" data-mode="mixed" aria-pressed="false">혼합 테스트</button>
+    </nav>
+    <main id="app" tabindex="-1"></main>
+    <footer>용어 기준: Hyundai Owner’s Manual · Exterior Overview / Hyundai Global Product Information</footer>
+  </div>
+  <script src="./app.js?v=5"></script>
+</body>
+</html>

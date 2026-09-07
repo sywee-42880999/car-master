@@ -1,0 +1,112 @@
+{
+  "version": "1.0",
+  "purpose": "Single shared source map for ordinary ChatGPT and ChatGPT Work. Both must read this before claiming a source is unavailable.",
+  "rules": [
+    "Prefer official Hyundai PDF or official Hyundai web manual.",
+    "Store public PDF URL, public web page URL, image key/name, and eventual repo-local extracted asset path together.",
+    "If one surface cannot open a PDF/image directly, use the other URL or repo-local asset path. Do not stop the workflow only because one surface cannot render a source.",
+    "When Work extracts an embedded image, save it under images/source/ or the final item folder and write the repo path back here.",
+    "Never replace a verified source silently; append alternates and keep provenance."
+  ],
+  "sources": {
+    "HY_LX3_2026_REAR_OVERVIEW": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/idc96f2f531d7.html",
+      "pdf_url": null,
+      "image_keys": ["1C_OutsideVehicleRearOverview"],
+      "repo_asset": null,
+      "used_by": ["0011","0012","0014","0015","0016","0017","0018","0019","0020"]
+    },
+    "HY_LX3_2026_FUEL_DOOR": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/topic_wwh_zrb_5cc.html",
+      "pdf_url": null,
+      "image_keys": ["2C_FuelInletDoor"],
+      "repo_asset": null,
+      "used_by": ["0012"]
+    },
+    "HY_IONIQ5_IN_OFFICIAL_PDF": {
+      "maker": "Hyundai",
+      "model": "IONIQ 5",
+      "year": "2022-present manual",
+      "type": "official_pdf",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/topic_myd_hwf_hcc.html",
+      "pdf_url": "https://www.hyundai.com/content/dam/hyundai/in/en/data/connect-to-service/owners-manual/new/ioniq5oct2022-present.pdf",
+      "image_keys": ["2C_HowToUseChargingDoor"],
+      "repo_asset": null,
+      "used_by": ["0013"]
+    },
+    "HY_NX4A_2026_REAR_LAMP": {
+      "maker": "Hyundai",
+      "model": "Tucson NX4a",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NX4a/2026/en_US/idd90d669cdbf.html",
+      "pdf_url": null,
+      "image_keys": ["2C_RearLampOverview","2C_RearLampOverview_2"],
+      "repo_asset": null,
+      "used_by": ["0014"]
+    },
+    "HY_MX5A_2024_REVERSE": {
+      "maker": "Hyundai",
+      "model": "Santa Fe MX5a",
+      "year": "2024",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/MX5a/2024/en_US/idd90d669cdbf.html",
+      "pdf_url": null,
+      "image_keys": ["2C_RearLampOverview","2C_BackupLampChange1","2C_BackupLampChange2"],
+      "repo_asset": null,
+      "used_by": ["0015"]
+    },
+    "HY_AXEV_2025_WIDE_REAR_CAMERA": {
+      "maker": "Hyundai",
+      "model": "AXEV",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/AXEV/2025/en_GN/id2c732e6188a.html",
+      "pdf_url": null,
+      "image_keys": ["2C_WideRearViewCamera","2C_WideRearCamera"],
+      "repo_asset": null,
+      "used_by": ["0017"]
+    },
+    "HY_LX3_2026_ANTENNA": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/id4d018a844fc.html",
+      "pdf_url": null,
+      "image_keys": ["2C_Antenna"],
+      "repo_asset": null,
+      "used_by": ["0018"]
+    },
+    "HY_LX2_2025_REAR_WIPER": {
+      "maker": "Hyundai",
+      "model": "Palisade LX2",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX2/2025/en_US/id018ad5fe2f4.html",
+      "pdf_url": null,
+      "image_keys": ["B0452KO05","B0452KO06"],
+      "repo_asset": null,
+      "used_by": ["0019"]
+    },
+    "HY_NX4_2025_HIGH_STOP": {
+      "maker": "Hyundai",
+      "model": "Tucson NX4",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NX4/2025/en_US/idce7496c4cd1.html",
+      "pdf_url": null,
+      "image_keys": ["2C_HighMountedStopLamp"],
+      "repo_asset": null,
+      "used_by": ["0020"]
+    }
+  }
+}

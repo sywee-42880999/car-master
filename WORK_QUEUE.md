@@ -116,3 +116,13 @@ An item is DONE only when: terminology is verified + source recorded + final ima
 
 ## Instruction for every new Chat or Work session
 Read `WORK_QUEUE.md`, `data/master.json`, `data/progress.json`, and `data/source_registry.json` first. Continue from repository state. Write all material decisions/changes back to GitHub before handoff.
+
+## Execution handoff — 2026-09-07 (official source extraction)
+- Read queue, master, progress, source registry and ID registry on main. No AGENTS.md exists in the checkout.
+- Verified all 9 registered official web pages and downloaded 13 original candidate images under `images/source/`. Exact URLs, local paths and SHA-256 hashes are appended as `extracted_assets` in the source registry. Original URLs and final `repo_asset: null` fields are preserved.
+- These are SOURCE_ONLY candidates, not final learning images. Original illustrations may contain manual callouts; final crops and reverse visual QA remain required.
+- Corrected source discovery for 0019: official filenames are `B0452KO05.eps.png` and `B0452KO06.eps.png`, not `.jpg.png`.
+- Validation passed: all 13 files have JPEG/PNG signatures, readable dimensions and matching hashes; all 500 allocated IDs are unique; master IDs and source references resolve. Official filenames ending in .png may contain JPEG bytes; originals are intentionally unchanged.
+- UI prerequisite unresolved: all 18 commits reachable from main were inspected; initial `33af1fa` and later legacy trainer use light backgrounds. The approved BLACK prototype is not present in this history. Requested its URL/branch/file from user; do not invent a replacement design under the UI lock.
+- Next: obtain approved BLACK baseline, restore root learning UI and permanent-ID data binding; select/crop candidates, preserve/recover proper 0001–0010 assets, then verify live mobile display and reverse QA.
+- Production completion remains 2%. No new item is marked DONE and no live display validation is claimed.

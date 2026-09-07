@@ -16,9 +16,30 @@
       "type": "official_web_manual",
       "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/idc96f2f531d7.html",
       "pdf_url": null,
-      "image_keys": ["1C_OutsideVehicleRearOverview"],
+      "image_keys": [
+        "1C_OutsideVehicleRearOverview"
+      ],
       "repo_asset": null,
-      "used_by": ["0011","0012","0014","0015","0016","0017","0018","0019","0020"]
+      "used_by": [
+        "0011",
+        "0012",
+        "0014",
+        "0015",
+        "0016",
+        "0017",
+        "0018",
+        "0019",
+        "0020"
+      ],
+      "extracted_assets": [
+        {
+          "image_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/1C_OutsideVehicleRearOverview.jpg.png",
+          "repo_asset": "images/source/HY_LX3_2026_REAR_OVERVIEW/1C_OutsideVehicleRearOverview.jpg.png",
+          "sha256": "a0557c07b1a0d2750b92d6edecf3f39a436e4e4e4a23528b3f88e79a96d4401b",
+          "status": "SOURCE_ONLY"
+        }
+      ],
+      "source_verified_at": "2026-09-07"
     },
     "HY_LX3_2026_FUEL_DOOR": {
       "maker": "Hyundai",
@@ -27,9 +48,22 @@
       "type": "official_web_manual",
       "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/topic_wwh_zrb_5cc.html",
       "pdf_url": null,
-      "image_keys": ["2C_FuelInletDoor"],
+      "image_keys": [
+        "2C_FuelInletDoor"
+      ],
       "repo_asset": null,
-      "used_by": ["0012"]
+      "used_by": [
+        "0012"
+      ],
+      "extracted_assets": [
+        {
+          "image_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_FuelInletDoor.jpg.png",
+          "repo_asset": "images/source/HY_LX3_2026_FUEL_DOOR/2C_FuelInletDoor.jpg.png",
+          "sha256": "4ca6ef2872066d177b2abed331f04866c14b14c92723bee6e7080a97c71215af",
+          "status": "SOURCE_ONLY"
+        }
+      ],
+      "source_verified_at": "2026-09-07"
     },
     "HY_IONIQ5_IN_OFFICIAL_PDF": {
       "maker": "Hyundai",
@@ -38,9 +72,22 @@
       "type": "official_pdf",
       "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/topic_myd_hwf_hcc.html",
       "pdf_url": "https://www.hyundai.com/content/dam/hyundai/in/en/data/connect-to-service/owners-manual/new/ioniq5oct2022-present.pdf",
-      "image_keys": ["2C_HowToUseChargingDoor"],
+      "image_keys": [
+        "2C_HowToUseChargingDoor"
+      ],
       "repo_asset": null,
-      "used_by": ["0013"]
+      "used_by": [
+        "0013"
+      ],
+      "extracted_assets": [
+        {
+          "image_url": "https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/images/2C_HowToUseChargingDoor.jpg.png",
+          "repo_asset": "images/source/HY_IONIQ5_IN_OFFICIAL_PDF/2C_HowToUseChargingDoor.jpg.png",
+          "sha256": "935f347b50e2a8022c0691c602d41610ab7cb883c4bff110fcdadb5cbf633de4",
+          "status": "SOURCE_ONLY"
+        }
+      ],
+      "source_verified_at": "2026-09-07"
     },
     "HY_NX4A_2026_REAR_LAMP": {
       "maker": "Hyundai",
@@ -49,9 +96,29 @@
       "type": "official_web_manual",
       "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NX4a/2026/en_US/idd90d669cdbf.html",
       "pdf_url": null,
-      "image_keys": ["2C_RearLampOverview","2C_RearLampOverview_2"],
+      "image_keys": [
+        "2C_RearLampOverview",
+        "2C_RearLampOverview_2"
+      ],
       "repo_asset": null,
-      "used_by": ["0014"]
+      "used_by": [
+        "0014"
+      ],
+      "extracted_assets": [
+        {
+          "image_url": "https://ownersmanual.hyundai.com/full_webhelp/NX4a/2026/en_US/images/2C_RearLampOverview.jpg.png",
+          "repo_asset": "images/source/HY_NX4A_2026_REAR_LAMP/2C_RearLampOverview.jpg.png",
+          "sha256": "bf68890482e79babe4c725f357ea72013465e0740a51a2bc115dfc8e512924e6",
+          "status": "SOURCE_ONLY"
+        },
+        {
+          "image_url": "https://ownersmanual.hyundai.com/full_webhelp/NX4a/2026/en_US/images/2C_RearLampOverview_2.jpg.png",
+          "repo_asset": "images/source/HY_NX4A_2026_REAR_LAMP/2C_RearLampOverview_2.jpg.png",
+          "sha256": "4d0452664be065fc52146ad060293c9213fe92e087039aca585edb26fa51641e",
+          "status": "SOURCE_ONLY"
+        }
+      ],
+      "source_verified_at": "2026-09-07"
     },
     "HY_MX5A_2024_REVERSE": {
       "maker": "Hyundai",
@@ -60,9 +127,36 @@
       "type": "official_web_manual",
       "web_url": "https://ownersmanual.hyundai.com/full_webhelp/MX5a/2024/en_US/idd90d669cdbf.html",
       "pdf_url": null,
-      "image_keys": ["2C_RearLampOverview","2C_BackupLampChange1","2C_BackupLampChange2"],
+      "image_keys": [
+        "2C_RearLampOverview",
+        "2C_BackupLampChange1",
+        "2C_BackupLampChange2"
+      ],
       "repo_asset": null,
-      "used_by": ["0015"]
+      "used_by": [
+        "0015"
+      ],
+      "extracted_assets": [
+        {
+          "image_url": "https://ownersmanual.hyundai.com/full_webhelp/MX5a/2024/en_US/images/2C_RearLampOverview.jpg.png",
+          "repo_asset": "images/source/HY_MX5A_2024_REVERSE/2C_RearLampOverview.jpg.png",
+          "sha256": "2309a1c92cea3ef05147c2e197326038a620d71ebf60f167e25f5ece64333f16",
+          "status": "SOURCE_ONLY"
+        },
+        {
+          "image_url": "https://ownersmanual.hyundai.com/full_webhelp/MX5a/2024/en_US/images/2C_BackupLampChange1.jpg.png",
+          "repo_asset": "images/source/HY_MX5A_2024_REVERSE/2C_BackupLampChange1.jpg.png",
+          "sha256": "52cb91c0c22cd99222d4dbb2b97a43b35903dafae8bb1add05e13ba3fa60299b",
+          "status": "SOURCE_ONLY"
+        },
+        {
+          "image_url": "https://ownersmanual.hyundai.com/full_webhelp/MX5a/2024/en_US/images/2C_BackupLampChange2.jpg.png",
+          "repo_asset": "images/source/HY_MX5A_2024_REVERSE/2C_BackupLampChange2.jpg.png",
+          "sha256": "965eca98180a0f96f4767d71d2fa42e2626719059febc3a1ac506135c32f6a83",
+          "status": "SOURCE_ONLY"
+        }
+      ],
+      "source_verified_at": "2026-09-07"
     },
     "HY_AXEV_2025_WIDE_REAR_CAMERA": {
       "maker": "Hyundai",
@@ -71,9 +165,23 @@
       "type": "official_web_manual",
       "web_url": "https://ownersmanual.hyundai.com/full_webhelp/AXEV/2025/en_GN/id2c732e6188a.html",
       "pdf_url": null,
-      "image_keys": ["2C_WideRearViewCamera","2C_WideRearCamera"],
+      "image_keys": [
+        "2C_WideRearViewCamera",
+        "2C_WideRearCamera"
+      ],
       "repo_asset": null,
-      "used_by": ["0017"]
+      "used_by": [
+        "0017"
+      ],
+      "extracted_assets": [
+        {
+          "image_url": "https://ownersmanual.hyundai.com/full_webhelp/AXEV/2025/en_GN/images/2C_WideRearViewCamera.jpg.png",
+          "repo_asset": "images/source/HY_AXEV_2025_WIDE_REAR_CAMERA/2C_WideRearViewCamera.jpg.png",
+          "sha256": "dc8cf561f294691ebc6f60bb68217a85e653ef0be5258f8b4d17d7df451c10e2",
+          "status": "SOURCE_ONLY"
+        }
+      ],
+      "source_verified_at": "2026-09-07"
     },
     "HY_LX3_2026_ANTENNA": {
       "maker": "Hyundai",
@@ -82,9 +190,22 @@
       "type": "official_web_manual",
       "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/id4d018a844fc.html",
       "pdf_url": null,
-      "image_keys": ["2C_Antenna"],
+      "image_keys": [
+        "2C_Antenna"
+      ],
       "repo_asset": null,
-      "used_by": ["0018"]
+      "used_by": [
+        "0018"
+      ],
+      "extracted_assets": [
+        {
+          "image_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_Antenna.jpg.png",
+          "repo_asset": "images/source/HY_LX3_2026_ANTENNA/2C_Antenna.jpg.png",
+          "sha256": "1c9084a04ec3d4abc1b0c6eeb140b81295e1094ebf8df2ef2977a85385889509",
+          "status": "SOURCE_ONLY"
+        }
+      ],
+      "source_verified_at": "2026-09-07"
     },
     "HY_LX2_2025_REAR_WIPER": {
       "maker": "Hyundai",
@@ -93,9 +214,29 @@
       "type": "official_web_manual",
       "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX2/2025/en_US/id018ad5fe2f4.html",
       "pdf_url": null,
-      "image_keys": ["B0452KO05","B0452KO06"],
+      "image_keys": [
+        "B0452KO05",
+        "B0452KO06"
+      ],
       "repo_asset": null,
-      "used_by": ["0019"]
+      "used_by": [
+        "0019"
+      ],
+      "extracted_assets": [
+        {
+          "image_url": "https://ownersmanual.hyundai.com/full_webhelp/LX2/2025/en_US/images/B0452KO05.eps.png",
+          "repo_asset": "images/source/HY_LX2_2025_REAR_WIPER/B0452KO05.eps.png",
+          "sha256": "569447facf71aa8862de1ff5e59aefc6d501fd6a2e064a1274dce027460a5e2f",
+          "status": "SOURCE_ONLY"
+        },
+        {
+          "image_url": "https://ownersmanual.hyundai.com/full_webhelp/LX2/2025/en_US/images/B0452KO06.eps.png",
+          "repo_asset": "images/source/HY_LX2_2025_REAR_WIPER/B0452KO06.eps.png",
+          "sha256": "4292f5cc1c43efaa9aa9c132ebbe598228115cde30872ceec1f4fd86a00591d4",
+          "status": "SOURCE_ONLY"
+        }
+      ],
+      "source_verified_at": "2026-09-07"
     },
     "HY_NX4_2025_HIGH_STOP": {
       "maker": "Hyundai",
@@ -104,9 +245,22 @@
       "type": "official_web_manual",
       "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NX4/2025/en_US/idce7496c4cd1.html",
       "pdf_url": null,
-      "image_keys": ["2C_HighMountedStopLamp"],
+      "image_keys": [
+        "2C_HighMountedStopLamp"
+      ],
       "repo_asset": null,
-      "used_by": ["0020"]
+      "used_by": [
+        "0020"
+      ],
+      "extracted_assets": [
+        {
+          "image_url": "https://ownersmanual.hyundai.com/full_webhelp/NX4/2025/en_US/images/2C_HighMountedStopLamp.jpg.png",
+          "repo_asset": "images/source/HY_NX4_2025_HIGH_STOP/2C_HighMountedStopLamp.jpg.png",
+          "sha256": "dbe13af83cb0431e4590fba15c6888275d2a2e93fbf7a0c556ef6143b7b1266b",
+          "status": "SOURCE_ONLY"
+        }
+      ],
+      "source_verified_at": "2026-09-07"
     }
   }
 }

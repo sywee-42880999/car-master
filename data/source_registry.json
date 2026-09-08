@@ -154,7 +154,10 @@
     "0291": "images/parts/0291.jpg",
     "0292": "images/parts/0292.jpg",
     "0293": "images/parts/0293.jpg",
-    "0295": "images/parts/0295.jpg"
+    "0295": "images/parts/0295.jpg",
+    "0346": "images/parts/0346.jpg",
+    "0347": "images/parts/0347.jpg",
+    "0360": "images/parts/0360.jpg"
   },
   "rules": [
     "Prefer official Hyundai PDF or official Hyundai web manual.",
@@ -1451,6 +1454,40 @@
         "0292",
         "0293",
         "0295"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_MIRROR_SENSORS": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_InsideRearViewMirrorECM",
+        "2C_RainSensor"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0346",
+        "0347"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_OVERHEAD_CONSOLE": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/id6e5ca4a1362.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_MultiConsole"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0360"
       ],
       "source_verified_at": "2026-09-08"
     }

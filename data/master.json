@@ -3759,6 +3759,506 @@
       "source_refs": [
         "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
       ]
+    },
+    {
+      "id": "0371",
+      "en": "SRS CONTROL MODULE",
+      "ko": "SRS 제어 모듈",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_LX3_2026_SRS_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0372",
+      "en": "ROLLOVER SENSOR",
+      "ko": "전복 감지 센서",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_LX3_2026_SRS_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0373",
+      "en": "SEAT BELT BUCKLE SENSOR",
+      "ko": "시트벨트 버클 센서",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_LX3_2026_SRS_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0374",
+      "en": "SIDE IMPACT PRESSURE SENSOR",
+      "ko": "측면 충돌 압력 센서",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_LX3_2026_SRS_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0375",
+      "en": "SIDE IMPACT ACCELERATION SENSOR",
+      "ko": "측면 충돌 가속도 센서",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_LX3_2026_SRS_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0376",
+      "en": "DRIVER'S KNEE AIRBAG",
+      "ko": "운전석 무릎 에어백",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_LX3_2026_AIRBAG_LOCATION"
+      ]
+    },
+    {
+      "id": "0377",
+      "en": "FRONT CENTER SIDE AIRBAG",
+      "ko": "앞좌석 중앙 사이드 에어백",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_LX3_2026_AIRBAG_LOCATION"
+      ]
+    },
+    {
+      "id": "0378",
+      "en": "FRONT CORNER RADAR",
+      "ko": "전방 코너 레이더",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_LX3_2026_ADAS_SENSORS"
+      ]
+    },
+    {
+      "id": "0379",
+      "en": "REAR CORNER RADAR",
+      "ko": "후방 코너 레이더",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_LX3_2026_ADAS_SENSORS"
+      ]
+    },
+    {
+      "id": "0380",
+      "en": "WIDE-FRONT VIEW CAMERA",
+      "ko": "광각 전방 카메라",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_LX3_2026_ADAS_SENSORS"
+      ]
+    },
+    {
+      "id": "0381",
+      "en": "WIDE-SIDE VIEW CAMERA",
+      "ko": "광각 측면 카메라",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_LX3_2026_ADAS_SENSORS"
+      ]
+    },
+    {
+      "id": "0382",
+      "en": "FRONT ULTRASONIC SENSOR",
+      "ko": "전방 초음파 센서",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_LX3_2026_ADAS_SENSORS"
+      ]
+    },
+    {
+      "id": "0383",
+      "en": "FRONT SIDE ULTRASONIC SENSOR",
+      "ko": "전측방 초음파 센서",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_LX3_2026_ADAS_SENSORS"
+      ]
+    },
+    {
+      "id": "0384",
+      "en": "REAR ULTRASONIC SENSOR",
+      "ko": "후방 초음파 센서",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_LX3_2026_ADAS_SENSORS"
+      ]
+    },
+    {
+      "id": "0385",
+      "en": "REAR SIDE ULTRASONIC SENSOR",
+      "ko": "후측방 초음파 센서",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_LX3_2026_ADAS_SENSORS"
+      ]
+    },
+    {
+      "id": "0386",
+      "en": "ENGINE COOLANT TEMPERATURE GAUGE",
+      "ko": "엔진 냉각수 온도 게이지",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_LX3_2026_CLUSTER_GAUGES_WARNINGS"
+      ]
+    },
+    {
+      "id": "0387",
+      "en": "CLUSTER DISPLAY",
+      "ko": "클러스터 디스플레이",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_LX3_2026_CLUSTER_GAUGES_WARNINGS"
+      ]
+    },
+    {
+      "id": "0388",
+      "en": "DISTANCE TO EMPTY",
+      "ko": "주행 가능 거리 표시",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_LX3_2026_CLUSTER_GAUGES_WARNINGS"
+      ]
+    },
+    {
+      "id": "0389",
+      "en": "OUTSIDE TEMPERATURE GAUGE",
+      "ko": "외기 온도 게이지",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_LX3_2026_CLUSTER_GAUGES_WARNINGS"
+      ]
+    },
+    {
+      "id": "0390",
+      "en": "AIRBAG WARNING LIGHT",
+      "ko": "에어백 경고등",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_LX3_2026_CLUSTER_GAUGES_WARNINGS"
+      ]
+    },
+    {
+      "id": "0391",
+      "en": "SEAT BELT WARNING LIGHT",
+      "ko": "시트벨트 경고등",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_LX3_2026_CLUSTER_GAUGES_WARNINGS"
+      ]
+    },
+    {
+      "id": "0392",
+      "en": "PARKING BRAKE & BRAKE FLUID WARNING LIGHT",
+      "ko": "주차 브레이크·브레이크액 경고등",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_LX3_2026_CLUSTER_GAUGES_WARNINGS"
+      ]
+    },
+    {
+      "id": "0393",
+      "en": "ABS WARNING LIGHT",
+      "ko": "ABS 경고등",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_LX3_2026_CLUSTER_GAUGES_WARNINGS"
+      ]
+    },
+    {
+      "id": "0394",
+      "en": "ESC WARNING LIGHT",
+      "ko": "ESC 경고등",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_LX3_2026_CLUSTER_GAUGES_WARNINGS"
+      ]
+    },
+    {
+      "id": "0395",
+      "en": "MASTER WARNING LIGHT",
+      "ko": "마스터 경고등",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_LX3_2026_CLUSTER_GAUGES_WARNINGS"
+      ]
+    },
+    {
+      "id": "0396",
+      "en": "CCS ADAPTER",
+      "ko": "CCS 어댑터",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_NE1A_2025_EV_CHARGING"
+      ]
+    },
+    {
+      "id": "0397",
+      "en": "CHARGING INLET",
+      "ko": "충전 인렛",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_NE1A_2025_EV_CHARGING"
+      ]
+    },
+    {
+      "id": "0398",
+      "en": "CHARGE INDICATOR LIGHT",
+      "ko": "충전 상태 표시등",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_NE1A_2025_EV_CHARGING"
+      ]
+    },
+    {
+      "id": "0399",
+      "en": "CHARGING LABEL",
+      "ko": "충전 라벨",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_NE1A_2025_EV_CHARGING"
+      ]
+    },
+    {
+      "id": "0400",
+      "en": "CHARGING CONNECTOR",
+      "ko": "충전 커넥터",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_NE1A_2025_EV_CHARGING"
+      ]
+    },
+    {
+      "id": "0401",
+      "en": "CHARGING CONNECTOR UNLOCK BUTTON",
+      "ko": "충전 커넥터 잠금 해제 버튼",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_NE1A_2025_EV_CHARGING"
+      ]
+    },
+    {
+      "id": "0402",
+      "en": "EMERGENCY CHARGING CABLE",
+      "ko": "비상 충전 커넥터 해제 케이블",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_NE1A_2025_EV_CHARGING"
+      ]
+    },
+    {
+      "id": "0403",
+      "en": "PORTABLE CHARGER CONTROL BOX",
+      "ko": "휴대용 충전기 제어 박스",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_NE1A_2025_PORTABLE_CHARGER"
+      ]
+    },
+    {
+      "id": "0404",
+      "en": "PORTABLE CHARGER POWER PLUG",
+      "ko": "휴대용 충전기 전원 플러그",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_NE1A_2025_PORTABLE_CHARGER"
+      ]
+    },
+    {
+      "id": "0405",
+      "en": "PORTABLE CHARGER CHARGING CONNECTOR",
+      "ko": "휴대용 충전기 충전 커넥터",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_NE1A_2025_PORTABLE_CHARGER"
+      ]
+    },
+    {
+      "id": "0406",
+      "en": "V2L CONNECTOR",
+      "ko": "V2L 커넥터",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_NE1A_2025_V2L"
+      ]
+    },
+    {
+      "id": "0407",
+      "en": "V2L POWER OUTLET",
+      "ko": "V2L 전원 콘센트",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_NE1A_2025_V2L"
+      ]
+    },
+    {
+      "id": "0408",
+      "en": "HYBRID POWER CONTROL UNIT",
+      "ko": "하이브리드 파워 컨트롤 유닛",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_NX4PHEV_2026_HYBRID_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0409",
+      "en": "HIGH VOLTAGE BATTERY",
+      "ko": "고전압 배터리",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_NX4PHEV_2026_HYBRID_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0410",
+      "en": "PLUG-IN HYBRID HIGH VOLTAGE BATTERY",
+      "ko": "플러그인 하이브리드 고전압 배터리",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_NX4PHEV_2026_HYBRID_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0411",
+      "en": "DRIVE MOTOR HIGH VOLTAGE CONNECTOR",
+      "ko": "구동 모터 고전압 커넥터",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_NX4PHEV_2026_HYBRID_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0412",
+      "en": "HIGH VOLTAGE CUT-OFF SWITCH",
+      "ko": "고전압 차단 스위치",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_NX4PHEV_2026_HYBRID_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0413",
+      "en": "HYBRID BATTERY COOLING DUCT",
+      "ko": "하이브리드 배터리 냉각 덕트",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_NX4PHEV_2026_HYBRID_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0414",
+      "en": "INVERTER COOLANT RESERVOIR",
+      "ko": "인버터 냉각수 리저버",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_NX4PHEV_2026_ENGINE_ROOM_HEV"
+      ]
+    },
+    {
+      "id": "0415",
+      "en": "INVERTER COOLANT RESERVOIR CAP",
+      "ko": "인버터 냉각수 리저버 캡",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_NX4PHEV_2026_ENGINE_ROOM_HEV"
+      ]
+    },
+    {
+      "id": "0416",
+      "en": "ECU",
+      "ko": "전자 제어 유닛(ECU)",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_NX4PHEV_2026_ENGINE_ROOM_HEV"
+      ]
+    },
+    {
+      "id": "0417",
+      "en": "FRONT TRUNK",
+      "ko": "프론트 트렁크",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_NE1A_2025_MOTOR_ROOM"
+      ]
+    },
+    {
+      "id": "0418",
+      "en": "CHARGE/POWER GAUGE",
+      "ko": "충전·출력 게이지",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_NE1A_2025_EV_GAUGES"
+      ]
+    },
+    {
+      "id": "0419",
+      "en": "HIGH VOLTAGE BATTERY SOC GAUGE",
+      "ko": "고전압 배터리 충전량 게이지",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_NE1A_2025_EV_GAUGES"
+      ]
+    },
+    {
+      "id": "0420",
+      "en": "READY INDICATOR LIGHT",
+      "ko": "주행 준비 표시등",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_NE1A_2025_EV_GAUGES"
+      ]
     }
   ]
 }

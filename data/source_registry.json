@@ -19,7 +19,16 @@
     "0025": "images/parts/0025.jpg",
     "0026": "images/parts/0026.jpg",
     "0027": "images/parts/0027.jpg",
-    "0030": "images/parts/0030.jpg"
+    "0030": "images/parts/0030.jpg",
+    "0031": "images/parts/0031.jpg",
+    "0032": "images/parts/0032.jpg",
+    "0033": "images/parts/0033.jpg",
+    "0034": "images/parts/0034.jpg",
+    "0035": "images/parts/0035.jpg",
+    "0036": "images/parts/0036.jpg",
+    "0037": "images/parts/0037.jpg",
+    "0038": "images/parts/0038.jpg",
+    "0039": "images/parts/0039.jpg"
   },
   "rules": [
     "Prefer official Hyundai PDF or official Hyundai web manual.",
@@ -375,6 +384,38 @@
       "extracted_assets": [
         {
           "image_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_RoofRack.jpg.png",
+          "repo_asset": null,
+          "status": "REMOTE_OFFICIAL_SOURCE"
+        }
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_INTERIOR_OVERVIEW": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/picture_index_interior_overview.html",
+      "pdf_url": null,
+      "image_keys": [
+        "1C_SideInsideVehicleOverview"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0031",
+        "0032",
+        "0033",
+        "0034",
+        "0035",
+        "0036",
+        "0037",
+        "0038",
+        "0039",
+        "0040"
+      ],
+      "extracted_assets": [
+        {
+          "image_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/1C_SideInsideVehicleOverview.jpg.png",
           "repo_asset": null,
           "status": "REMOTE_OFFICIAL_SOURCE"
         }

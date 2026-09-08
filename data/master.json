@@ -1705,6 +1705,106 @@
       "source_refs": [
         "HY_LX3_2026_SEVERE_MAINTENANCE"
       ]
+    },
+    {
+      "id": "0171",
+      "en": "FRONT DIFFERENTIAL",
+      "ko": "프론트 디퍼렌셜",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
+      ]
+    },
+    {
+      "id": "0172",
+      "en": "TRANSFER CASE",
+      "ko": "트랜스퍼 케이스",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
+      ]
+    },
+    {
+      "id": "0173",
+      "en": "FRONT SUSPENSION",
+      "ko": "프론트 서스펜션",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
+      ]
+    },
+    {
+      "id": "0174",
+      "en": "REAR SUSPENSION",
+      "ko": "리어 서스펜션",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
+      ]
+    },
+    {
+      "id": "0175",
+      "en": "SHOCK ABSORBER",
+      "ko": "쇼크 업소버",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
+      ]
+    },
+    {
+      "id": "0176",
+      "en": "COIL SPRING",
+      "ko": "코일 스프링",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
+      ]
+    },
+    {
+      "id": "0177",
+      "en": "STABILIZER BAR",
+      "ko": "스태빌라이저 바",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
+      ]
+    },
+    {
+      "id": "0178",
+      "en": "LOWER CONTROL ARM",
+      "ko": "로어 컨트롤 암",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
+      ]
+    },
+    {
+      "id": "0179",
+      "en": "TIE ROD END",
+      "ko": "타이로드 엔드",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
+      ]
+    },
+    {
+      "id": "0180",
+      "en": "WHEEL HUB",
+      "ko": "휠 허브",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
+      ]
     }
   ]
 }

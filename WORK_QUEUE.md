@@ -392,3 +392,27 @@ Detailed QA: `research/0091-0100-production-result.md`.
 3. Do not redo crops or source research.
 4. Deploy and mobile-check; report mismatches by permanent ID.
 5. Production % changes only after live BLACK UI + reverse QA.
+
+
+## CODEX HANDOFF READY — 2026-09-08 — IDs 0101–0110
+Chat Production has completed and committed final assets for:
+- **0101 BLUETOOTH® HANDS-FREE PHONE BUTTON**
+- **0102 IN-CABIN CAMERA**
+- **0103 DRIVE MODE BUTTON**
+- **0104 TERRAIN MODE BUTTON**
+- **0105 N1/N2 BUTTON**
+- **0106 NGB BUTTON**
+- **0107 SUNVISOR**
+- **0108 VANITY MIRROR**
+- **0109 TICKET HOLDER**
+- **0110 SUNROOF SWITCH**
+
+Final assets: `images/parts/0101.jpg`–`images/parts/0110.jpg`.
+Detailed QA: `research/0101-0110-production-result.md`.
+
+### Codex action now
+1. Pull latest `main`.
+2. Bind/display 0101–0110 in the existing BLACK UI without redesign.
+3. Do not redo crops or source research.
+4. Deploy and mobile-check; report mismatches by permanent ID.
+5. Production % changes only after live BLACK UI + reverse QA.

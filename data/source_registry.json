@@ -46,7 +46,16 @@
     "0057": "images/parts/0057.jpg",
     "0058": "images/parts/0058.jpg",
     "0059": "images/parts/0059.jpg",
-    "0060": "images/parts/0060.jpg"
+    "0060": "images/parts/0060.jpg",
+    "0061": "images/parts/0061.jpg",
+    "0062": "images/parts/0062.jpg",
+    "0063": "images/parts/0063.jpg",
+    "0064": "images/parts/0064.jpg",
+    "0065": "images/parts/0065.jpg",
+    "0066": "images/parts/0066.jpg",
+    "0067": "images/parts/0067.jpg",
+    "0068": "images/parts/0068.jpg",
+    "0069": "images/parts/0069.jpg"
   },
   "rules": [
     "Prefer official Hyundai PDF or official Hyundai web manual.",
@@ -503,6 +512,50 @@
           "repo_asset": null,
           "status": "REMOTE_OFFICIAL_SOURCE"
         }
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_NE1A_2025_SEATS_HEADREST": {
+      "maker": "Hyundai",
+      "model": "IONIQ 5 NE1a",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/ideb1b81596dd.html",
+      "pdf_url": null,
+      "image_keys": [
+        "1C_FrontSeatOverview",
+        "2C_HeadrestOverview"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0061",
+        "0062",
+        "0063",
+        "0064",
+        "0065"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_CHILD_RESTRAINT": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/idb1e7bfb1b98.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_ALRSeatBelt",
+        "2C_ALRSeatBeltInstall_4",
+        "2C_ALRSeatBeltTetherAnchor",
+        "2C_ALRSeatBeltLowerAnchor"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0066",
+        "0067",
+        "0068",
+        "0069",
+        "0070"
       ],
       "source_verified_at": "2026-09-08"
     }

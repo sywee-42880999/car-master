@@ -1408,6 +1408,109 @@
         "HY_LX3_2026_SPARE_TIRE"
       ],
       "image": "images/parts/0140.jpg"
+    },
+    {
+      "id": "0141",
+      "en": "ENGINE COOLANT RESERVOIR",
+      "ko": "엔진 냉각수 리저버",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_ENGINE_ROOM"
+      ],
+      "image": "images/parts/0141.jpg"
+    },
+    {
+      "id": "0142",
+      "en": "ENGINE OIL FILLER CAP",
+      "ko": "엔진 오일 주입구 캡",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_ENGINE_ROOM"
+      ],
+      "image": "images/parts/0142.jpg"
+    },
+    {
+      "id": "0143",
+      "en": "BRAKE FLUID RESERVOIR",
+      "ko": "브레이크액 리저버",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_ENGINE_ROOM"
+      ],
+      "image": "images/parts/0143.jpg"
+    },
+    {
+      "id": "0144",
+      "en": "BATTERY",
+      "ko": "배터리",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX3_2026_ENGINE_ROOM"
+      ],
+      "aliases": [
+        "12V BATTERY",
+        "BATTERY (12 V)"
+      ]
+    },
+    {
+      "id": "0145",
+      "en": "FUSE BOX",
+      "ko": "퓨즈 박스",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX3_2026_ENGINE_ROOM"
+      ],
+      "aliases": [
+        "ENGINE COMPARTMENT FUSE BOX",
+        "FUSE/RELAY BOX"
+      ]
+    },
+    {
+      "id": "0146",
+      "en": "WINDSHIELD WASHER FLUID RESERVOIR",
+      "ko": "앞유리 워셔액 리저버",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_ENGINE_ROOM"
+      ],
+      "image": "images/parts/0146.jpg"
+    },
+    {
+      "id": "0147",
+      "en": "ENGINE OIL DIPSTICK",
+      "ko": "엔진 오일 딥스틱",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX3_2026_ENGINE_ROOM"
+      ]
+    },
+    {
+      "id": "0148",
+      "en": "AIR CLEANER",
+      "ko": "에어 클리너",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_ENGINE_ROOM"
+      ],
+      "image": "images/parts/0148.jpg"
+    },
+    {
+      "id": "0149",
+      "en": "RADIATOR CAP",
+      "ko": "라디에이터 캡",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX2_2025_ENGINE_ROOM"
+      ]
+    },
+    {
+      "id": "0150",
+      "en": "CABIN AIR FILTER",
+      "ko": "캐빈 에어 필터",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_NE1N_2026_MOTOR_ROOM"
+      ]
     }
   ]
 }

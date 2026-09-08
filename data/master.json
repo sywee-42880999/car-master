@@ -991,6 +991,109 @@
       "source_refs": [
         "HY_LX3_2026_STEERING_CONTROL_OVERVIEW"
       ]
+    },
+    {
+      "id": "0101",
+      "en": "BLUETOOTH® HANDS-FREE PHONE BUTTON",
+      "ko": "블루투스 핸즈프리 전화 버튼",
+      "status": "PASS",
+      "image": "images/parts/0101.jpg",
+      "source_refs": [
+        "HY_NE1N_2026_STEERING_CONTROL"
+      ],
+      "aliases": [
+        "BLUETOOTH WIRELESS TECHNOLOGY HANDS-FREE BUTTON"
+      ]
+    },
+    {
+      "id": "0102",
+      "en": "IN-CABIN CAMERA",
+      "ko": "실내 카메라",
+      "status": "PASS",
+      "image": "images/parts/0102.jpg",
+      "source_refs": [
+        "HY_NE1N_2026_STEERING_CONTROL"
+      ]
+    },
+    {
+      "id": "0103",
+      "en": "DRIVE MODE BUTTON",
+      "ko": "드라이브 모드 버튼",
+      "status": "PASS",
+      "image": "images/parts/0103.jpg",
+      "source_refs": [
+        "HY_NE1A_2025_STEERING_CONTROL"
+      ]
+    },
+    {
+      "id": "0104",
+      "en": "TERRAIN MODE BUTTON",
+      "ko": "터레인 모드 버튼",
+      "status": "PASS",
+      "image": "images/parts/0104.jpg",
+      "source_refs": [
+        "HY_NE1A_2025_STEERING_CONTROL"
+      ]
+    },
+    {
+      "id": "0105",
+      "en": "N1/N2 BUTTON",
+      "ko": "N1/N2 버튼",
+      "status": "PASS",
+      "image": "images/parts/0105.jpg",
+      "source_refs": [
+        "HY_NE1N_2026_STEERING_CONTROL"
+      ]
+    },
+    {
+      "id": "0106",
+      "en": "NGB BUTTON",
+      "ko": "NGB 버튼",
+      "status": "PASS",
+      "image": "images/parts/0106.jpg",
+      "source_refs": [
+        "HY_NE1N_2026_STEERING_CONTROL"
+      ]
+    },
+    {
+      "id": "0107",
+      "en": "SUNVISOR",
+      "ko": "선바이저",
+      "status": "PASS",
+      "image": "images/parts/0107.jpg",
+      "source_refs": [
+        "HY_LX3_2026_SUNVISOR"
+      ]
+    },
+    {
+      "id": "0108",
+      "en": "VANITY MIRROR",
+      "ko": "화장 거울",
+      "status": "PASS",
+      "image": "images/parts/0108.jpg",
+      "source_refs": [
+        "HY_LX3_2026_SUNVISOR"
+      ]
+    },
+    {
+      "id": "0109",
+      "en": "TICKET HOLDER",
+      "ko": "티켓 홀더",
+      "status": "PASS",
+      "image": "images/parts/0109.jpg",
+      "source_refs": [
+        "HY_LX3_2026_SUNVISOR"
+      ]
+    },
+    {
+      "id": "0110",
+      "en": "SUNROOF SWITCH",
+      "ko": "선루프 스위치",
+      "status": "PASS",
+      "image": "images/parts/0110.jpg",
+      "source_refs": [
+        "HY_LX3_2026_SUNROOF_SWITCH"
+      ]
     }
   ]
 }

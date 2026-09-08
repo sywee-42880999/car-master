@@ -1020,3 +1020,49 @@ All remaining **39 IDs** in 0421–0470 remain REVIEW + Production Backlog and m
 3. Keep all other 0421–0470 items hidden as REVIEW/backlog.
 4. Continue later PASS items even when IDs are non-contiguous.
 5. Mobile-check + reverse-QA before counting Production progress.
+
+
+## CODEX HANDOFF READY — 2026-09-08 — IDs 0471–0500 (FINAL 30-ID BATCH)
+The previously empty 0471–0500 range was validated and mapped from Hyundai official Owner's Manual terminology. Direct-image production then ran through GitHub Actions.
+
+PASS:
+- **0476 BLADE TYPE FUSE**
+- **0477 CARTRIDGE TYPE FUSE**
+- **0478 MULTI FUSE**
+- **0480 AIR CLEANER FILTER**
+- **0481 CABIN AIR FILTER COVER**
+- **0482 FRONT WIPER BLADE**
+- **0485 TOWING EYE**
+
+Final assets:
+- `images/parts/0476.jpg`
+- `images/parts/0477.jpg`
+- `images/parts/0478.jpg`
+- `images/parts/0480.jpg`
+- `images/parts/0481.jpg`
+- `images/parts/0482.jpg`
+- `images/parts/0485.jpg`
+
+Detailed QA:
+- `research/0471-0480-production-result.md`
+- `research/0481-0490-production-result.md`
+- `research/0491-0500-production-result.md`
+- `research/0471-0500-production-pass2.md`
+
+All remaining **23 IDs** in 0471–0500 remain REVIEW + Production Backlog and must stay hidden from the learning deck.
+
+### Final 30-ID validation result
+- GitHub Actions production workflow: **SUCCESS** (run #75)
+- PASS source download failures: **0**
+- PASS image readability: **SUCCESS**
+- 4:3 aspect validation: **SUCCESS**
+- suspicious-small-file guard: **PASS**
+- BLACK UI design unchanged.
+- Production % only after live BLACK UI deploy/mobile reverse-QA.
+
+### Codex action
+1. Pull latest `main`.
+2. Bind/display the seven PASS items above in the existing BLACK UI without redesign.
+3. Keep all other 0471–0500 items hidden as REVIEW/backlog.
+4. Mobile-check + reverse-QA before counting Production progress.
+5. After this handoff, the full permanent-ID range **0001–0500 has a term mapping**; remaining work is backlog recovery / visual strengthening / live QA, not forward ID allocation.

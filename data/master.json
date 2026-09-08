@@ -4658,21 +4658,23 @@
       "id": "0447",
       "en": "DOOR LOCK BUTTON",
       "ko": "도어 잠금 버튼",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_SMART_KEY"
-      ]
+      ],
+      "image": "images/parts/0447.jpg"
     },
     {
       "id": "0448",
       "en": "DOOR UNLOCK BUTTON",
       "ko": "도어 잠금 해제 버튼",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_SMART_KEY"
-      ]
+      ],
+      "image": "images/parts/0448.jpg"
     },
     {
       "id": "0449",
@@ -4689,21 +4691,23 @@
       "id": "0450",
       "en": "PANIC BUTTON",
       "ko": "비상 경보 버튼",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_SMART_KEY"
-      ]
+      ],
+      "image": "images/parts/0450.jpg"
     },
     {
       "id": "0451",
       "en": "LIFTGATE OPEN/CLOSE BUTTON",
       "ko": "리프트게이트 열림·닫힘 버튼",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_SMART_KEY"
-      ]
+      ],
+      "image": "images/parts/0451.jpg"
     },
     {
       "id": "0452",

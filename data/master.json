@@ -3080,21 +3080,23 @@
       "id": "0302",
       "en": "REAR CUP HOLDER",
       "ko": "뒷좌석 컵홀더",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_CUP_HOLDER"
+      ],
+      "image": "images/parts/0302.jpg"
     },
     {
       "id": "0303",
       "en": "SEATBACK POCKET",
       "ko": "시트백 포켓",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_POWER_SEAT_DETAIL"
+      ],
+      "image": "images/parts/0303.jpg"
     },
     {
       "id": "0304",
@@ -3210,41 +3212,45 @@
       "id": "0315",
       "en": "SEATBACK ANGLE CONTROL SWITCH",
       "ko": "등받이 각도 조절 스위치",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_POWER_SEAT_DETAIL"
+      ],
+      "image": "images/parts/0315.jpg"
     },
     {
       "id": "0316",
       "en": "LUMBAR SUPPORT SWITCH",
       "ko": "요추 지지대 조절 스위치",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_POWER_SEAT_DETAIL"
+      ],
+      "image": "images/parts/0316.jpg"
     },
     {
       "id": "0317",
       "en": "LEG SUPPORT SWITCH",
       "ko": "레그 서포트 조절 스위치",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_POWER_SEAT_DETAIL"
+      ],
+      "image": "images/parts/0317.jpg"
     },
     {
       "id": "0318",
       "en": "WALK-IN SWITCH",
       "ko": "워크인 스위치",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_POWER_SEAT_DETAIL"
+      ],
+      "image": "images/parts/0318.jpg"
     },
     {
       "id": "0319",
@@ -3270,11 +3276,12 @@
       "id": "0321",
       "en": "SEAT BELT HEIGHT ADJUSTER",
       "ko": "시트벨트 높이 조절장치",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_NX4_2025_SEATBELT_HEIGHT"
+      ],
+      "image": "images/parts/0321.jpg"
     },
     {
       "id": "0322",

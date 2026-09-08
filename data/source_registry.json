@@ -55,7 +55,15 @@
     "0066": "images/parts/0066.jpg",
     "0067": "images/parts/0067.jpg",
     "0068": "images/parts/0068.jpg",
-    "0069": "images/parts/0069.jpg"
+    "0069": "images/parts/0069.jpg",
+    "0071": "images/parts/0071.jpg",
+    "0072": "images/parts/0072.jpg",
+    "0073": "images/parts/0073.jpg",
+    "0074": "images/parts/0074.jpg",
+    "0075": "images/parts/0075.jpg",
+    "0076": "images/parts/0076.jpg",
+    "0077": "images/parts/0077.jpg",
+    "0078": "images/parts/0078.jpg"
   },
   "rules": [
     "Prefer official Hyundai PDF or official Hyundai web manual.",
@@ -556,6 +564,77 @@
         "0068",
         "0069",
         "0070"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_NX4A_2026_AIRBAG_OVERVIEW": {
+      "maker": "Hyundai",
+      "model": "Tucson NX4a",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NX4a/2026/en_US/idc15db94866e.html",
+      "pdf_url": null,
+      "image_keys": [
+        "1C_AirbagOverview"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0071",
+        "0072",
+        "0073",
+        "0074",
+        "0075"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_NE1N_2026_AIRBAG_RHD": {
+      "maker": "Hyundai",
+      "model": "IONIQ 5 N NE1N",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NE1N/2026/en_UK/idf1bcef18ad3.html",
+      "pdf_url": null,
+      "image_keys": [
+        "1C_AirbagOverviewRHD"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0076"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_DN8_2025_SEAT_WARMER_VENT": {
+      "maker": "Hyundai",
+      "model": "Sonata DN8",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/DN8/2025/en_AU/id30e04e60e53a.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_FrontSeatWarmerSwitchTypea",
+        "2C_RearSeatVentilationSwitchTypeb"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0077",
+        "0078"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_NE1N_2026_SEAT_OVERVIEW": {
+      "maker": "Hyundai",
+      "model": "IONIQ 5 N NE1N",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/ne1n/2026/en_uk/id30e04e60e53.html",
+      "pdf_url": null,
+      "image_keys": [
+        "1C_FrontSeatOverview"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0079",
+        "0080"
       ],
       "source_verified_at": "2026-09-08"
     }

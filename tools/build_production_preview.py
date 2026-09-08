@@ -3,41 +3,23 @@ from PIL import Image
 import urllib.request, json
 
 ROOT=Path(__file__).resolve().parents[1]
-PARTS=ROOT/"images"/"parts"; OUT=ROOT/"production-preview"; DL=OUT/"backlog-recovery-13"
+PARTS=ROOT/"images"/"parts"; OUT=ROOT/"production-preview"; DL=OUT/"backlog-recovery-14"
 PARTS.mkdir(parents=True,exist_ok=True); DL.mkdir(parents=True,exist_ok=True)
 
-REAR="https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/1C_OutsideVehicleRearOverview.jpg.png"
 jobs={
- "0233":([REAR],"ROOF SPOILER GARNISH","HY_LX3_2026_REAR_OVERVIEW",(0.18,0.00,0.83,0.25)),
- "0234":([REAR],"LIFTGATE GARNISH","HY_LX3_2026_REAR_OVERVIEW",(0.25,0.34,0.84,0.68)),
- "0236":([REAR],"LICENSE PLATE GARNISH","HY_LX3_2026_REAR_OVERVIEW",(0.27,0.52,0.75,0.76)),
- "0240":([REAR],"BUMPER MOLDING","HY_LX3_2026_REAR_OVERVIEW",(0.12,0.61,0.88,0.94)),
- "0307":(["https://ownersmanual.hyundai.com/full_webhelp/AXEV/2026/en_AU/images/2C_CargoCompartmentStorageOrganizationBox.jpg.png"],"CARGO FLOOR BOARD","HY_AXEV_2026_CARGO_FLOOR",(0.00,0.00,1.00,0.72)),
- "0359":([
-   "https://ownersmanual.kia.com/full_webhelp/ON/2024/en_US/images/OON042021.jpg",
-   "https://ownersmanual.kia.com/full_webhelp/ON/2024/en_US/images/OON042021.png",
-   "https://ownersmanual.kia.com/full_webhelp/ON/2024/en_US/images/OON042021.jpg.png"
- ],"SUNGLASSES HOLDER","KIA_ON_2024_SUNGLASS_HOLDER",(0.00,0.00,1.00,1.00)),
+ "0261":("https://ownersmanual.hyundai.com/full_webhelp/NX4a/2026/en_US/images/2C_AdjustSteeringWheelManual.jpg.png","STEERING WHEEL TILT/TELESCOPIC LEVER","HY_NX4A_2026_STEERING_LEVER"),
+ "0264":("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_ESCOffButtion.jpg.png","ESC OFF BUTTON","HY_LX3_2026_ESC_OFF"),
+ "0267":("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_CrashPadTailgateOpenButton.jpg.png","POWER LIFTGATE BUTTON","HY_LX3_2026_POWER_LIFTGATE_BUTTON"),
+ "0268":("https://ownersmanual.hyundai.com/full_webhelp/LX3HEV/2026/en_US/images/2C_HEVFuelDoorOpenButton.jpg.png","FUEL FILLER DOOR RELEASE BUTTON","HY_LX3HEV_2026_FUEL_DOOR_BUTTON"),
+ "0269":("https://ownersmanual.hyundai.com/full_webhelp/NE1N/2026/en_US/images/2C_ChargingDoorOpenCloseButton.jpg.png","CHARGING DOOR OPEN/CLOSE BUTTON","HY_NE1N_2026_CHARGING_DOOR_BUTTON"),
 }
 
-_cache={}
-def fetch_first(urls,id_):
-    errs=[]
-    for i,url in enumerate(urls):
-        try:
-            if url in _cache: return _cache[url].copy()
-            p=DL/f"{id_}-{i}.src"
-            req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0"})
-            with urllib.request.urlopen(req,timeout=30) as r: p.write_bytes(r.read())
-            im=Image.open(p); im.verify()
-            im=Image.open(p).convert("RGB"); _cache[url]=im
-            return im.copy()
-        except Exception as e: errs.append(str(e))
-    raise RuntimeError(" | ".join(errs))
-
-def relcrop(im,b):
-    w,h=im.size; x1,y1,x2,y2=b
-    return im.crop((int(x1*w),int(y1*h),int(x2*w),int(y2*h)))
+def fetch(url,id_):
+    p=DL/f"{id_}.src"
+    req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0"})
+    with urllib.request.urlopen(req,timeout=30) as r: p.write_bytes(r.read())
+    im=Image.open(p); im.verify()
+    return Image.open(p).convert("RGB")
 
 def fit4(im):
     w,h=im.size
@@ -46,9 +28,9 @@ def fit4(im):
     nh=max(1,int(w*3/4)); y=(h-nh)//2; return im.crop((0,y,w,y+nh))
 
 passed=[]; failures=[]
-for id_,(urls,term,src,box) in jobs.items():
+for id_,(url,term,src) in jobs.items():
     try:
-        im=fit4(relcrop(fetch_first(urls,id_),box))
+        im=fit4(fetch(url,id_))
         if im.width<480:
             sc=480/im.width
             im=im.resize((int(im.width*sc),int(im.height*sc)),Image.Resampling.LANCZOS)
@@ -67,15 +49,15 @@ for id_,term,src,w,h,size in passed:
     x=byid[id_]; x["status"]="PASS"; x["production_backlog"]=False; x["image"]=f"images/parts/{id_}.jpg"; x["source_refs"]=[src]
 mf.write_text(json.dumps(master,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 
-rf=ROOT/"research"/"backlog-recovery-13.md"
-lines=["# CAR MASTER — Backlog Recovery 13","","## PASS"]
+rf=ROOT/"research"/"backlog-recovery-14.md"
+lines=["# CAR MASTER — Backlog Recovery 14","","Dedicated Hyundai official control images only.","","## PASS"]
 lines += [f"- **{id_} {term}** — {w}x{h}, {size} bytes, {src}" for id_,term,src,w,h,size in passed] or ["- None"]
 lines += ["","## Failures"]
 lines += [f"- **{id_} {term}** — {err}" for id_,term,err in failures] or ["- None"]
 lines += ["","## Reverse-QA",
-"- 0233/0234/0236/0240 are distinct rear-body crops; do not substitute the uncropped rear overview.",
-"- 0307 must show the physical cargo floor board/cover being lifted, not only the storage tray beneath.",
-"- 0359 uses Kia official Owner’s Manual under the approved manufacturer-manual fallback policy and must visibly show the sunglass holder.",
+"- Each card uses a dedicated button/lever image rather than a shared cabin overview.",
+"- 0261 must visibly show the lock-release lever and steering adjustment context.",
+"- 0264/0267/0268/0269 must each show the correct button icon/physical switch.",
 "- Count live Production only after Codex bind + mobile + reverse-QA."]
 rf.write_text("\n".join(lines)+"\n",encoding="utf-8")
 print("PASS",[x[0] for x in passed]); print("FAILURES",failures)

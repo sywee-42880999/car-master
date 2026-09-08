@@ -11,7 +11,15 @@
     "0017": "images/parts/0017.jpg",
     "0018": "images/parts/0018.jpg",
     "0019": "images/parts/0019.jpg",
-    "0020": "images/parts/0020.jpg"
+    "0020": "images/parts/0020.jpg",
+    "0021": "images/parts/0021.jpg",
+    "0022": "images/parts/0022.jpg",
+    "0023": "images/parts/0023.jpg",
+    "0024": "images/parts/0024.jpg",
+    "0025": "images/parts/0025.jpg",
+    "0026": "images/parts/0026.jpg",
+    "0027": "images/parts/0027.jpg",
+    "0030": "images/parts/0030.jpg"
   },
   "rules": [
     "Prefer official Hyundai PDF or official Hyundai web manual.",
@@ -41,7 +49,9 @@
         "0017",
         "0018",
         "0019",
-        "0020"
+        "0020",
+        "0022",
+        "0025"
       ],
       "extracted_assets": [
         {
@@ -273,6 +283,103 @@
         }
       ],
       "source_verified_at": "2026-09-07"
+    },
+    "HY_LX3_2026_FRONT_OVERVIEW": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/picture_index_exterior_overview.html",
+      "pdf_url": null,
+      "image_keys": [
+        "1C_OutsideVehicleFrontOverview"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0021",
+        "0023",
+        "0024"
+      ],
+      "extracted_assets": [
+        {
+          "image_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/1C_OutsideVehicleFrontOverview.jpg.png",
+          "repo_asset": null,
+          "status": "REMOTE_OFFICIAL_SOURCE"
+        }
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_OUTSIDE_DOOR_HANDLE": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/id621fa3af9b1.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_OutsideDoorHandle_3",
+        "2C_OutsideDoorHandle_2",
+        "2C_OutsideDoorHandle_1"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0026"
+      ],
+      "extracted_assets": [
+        {
+          "image_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_OutsideDoorHandle_3.jpg.png",
+          "repo_asset": null,
+          "status": "REMOTE_OFFICIAL_SOURCE"
+        }
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_NX4_2025_ULTRASONIC_SENSOR": {
+      "maker": "Hyundai",
+      "model": "Tucson NX4",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NX4/2025/en_GN/id266893e0e60.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_FrontUltrasonicSensor",
+        "2C_RearUltrasonicSensor"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0027"
+      ],
+      "extracted_assets": [
+        {
+          "image_url": "https://ownersmanual.hyundai.com/full_webhelp/NX4/2025/en_GN/images/2C_FrontUltrasonicSensor.jpg.png",
+          "repo_asset": null,
+          "status": "REMOTE_OFFICIAL_SOURCE"
+        }
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_ROOF_SIDE_RAILS": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/id589653d85f0.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_RoofRack"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0030"
+      ],
+      "extracted_assets": [
+        {
+          "image_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_RoofRack.jpg.png",
+          "repo_asset": null,
+          "status": "REMOTE_OFFICIAL_SOURCE"
+        }
+      ],
+      "source_verified_at": "2026-09-08"
     }
   }
 }

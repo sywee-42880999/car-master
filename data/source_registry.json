@@ -123,7 +123,8 @@
     "0142": "images/parts/0142.jpg",
     "0143": "images/parts/0143.jpg",
     "0146": "images/parts/0146.jpg",
-    "0148": "images/parts/0148.jpg"
+    "0148": "images/parts/0148.jpg",
+    "0154": "images/parts/0154.jpg"
   },
   "rules": [
     "Prefer official Hyundai PDF or official Hyundai web manual.",
@@ -1121,6 +1122,45 @@
       ],
       "source_verified_at": "2026-09-08",
       "status": "REVIEW_IMAGE"
+    },
+    "HY_LX3_2026_FUEL_FILLER_CAP": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/topic_wwh_zrb_5cc.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_FuelInletDoorOpen"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0154"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_MAINTENANCE_ITEMS": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/idf65ecf8f9d3.html",
+      "pdf_url": null,
+      "image_keys": [],
+      "repo_asset": null,
+      "used_by": [
+        "0151",
+        "0152",
+        "0153",
+        "0155",
+        "0156",
+        "0157",
+        "0158",
+        "0159",
+        "0160"
+      ],
+      "source_verified_at": "2026-09-08",
+      "status": "TERMINOLOGY_ONLY_REVIEW_IMAGE"
     }
   }
 }

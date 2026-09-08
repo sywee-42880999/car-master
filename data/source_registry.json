@@ -1161,6 +1161,46 @@
       ],
       "source_verified_at": "2026-09-08",
       "status": "TERMINOLOGY_ONLY_REVIEW_IMAGE"
+    },
+    "HY_LX3_2026_SEVERE_MAINTENANCE": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/topic_kwy_byh_lwb.html",
+      "pdf_url": null,
+      "image_keys": [],
+      "repo_asset": null,
+      "used_by": [
+        "0161",
+        "0162",
+        "0163",
+        "0164",
+        "0165",
+        "0166",
+        "0167",
+        "0168",
+        "0169",
+        "0170"
+      ],
+      "source_verified_at": "2026-09-08",
+      "status": "TERMINOLOGY_ONLY_REVIEW_IMAGE"
+    },
+    "HY_NX4PHEV_2026_BRAKE_MAINTENANCE": {
+      "maker": "Hyundai",
+      "model": "Tucson PHEV NX4PHEV",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NX4PHEV/2026/en_US/id0724fa73ac6.html",
+      "pdf_url": null,
+      "image_keys": [],
+      "repo_asset": null,
+      "used_by": [
+        "0161",
+        "0162"
+      ],
+      "source_verified_at": "2026-09-08",
+      "status": "TERMINOLOGY_ONLY_REVIEW_IMAGE"
     }
   }
 }

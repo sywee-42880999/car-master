@@ -918,3 +918,49 @@ Applied to 0371–0420:
 - Dedicated/direct-image candidates exist especially in airbag, EV charging and hybrid high-voltage sections; resume from the registered exact image keys rather than redoing taxonomy research.
 - Previous "missing term mapping blocker" is superseded by this section.
 - BLACK UI unchanged. Production % unchanged.
+
+
+## CODEX HANDOFF READY — 2026-09-08 — IDs 0371–0420 (SECOND 50-ID BATCH)
+Large missing range was validated and rebuilt from Hyundai official Owner's Manual terminology, then direct-image production was run through GitHub Actions.
+
+PASS:
+- **0376 DRIVER'S KNEE AIRBAG**
+- **0398 CHARGE INDICATOR LIGHT**
+- **0399 CHARGING LABEL**
+- **0408 HYBRID POWER CONTROL UNIT**
+- **0409 HIGH VOLTAGE BATTERY**
+- **0413 HYBRID BATTERY COOLING DUCT**
+
+Final assets:
+- `images/parts/0376.jpg`
+- `images/parts/0398.jpg`
+- `images/parts/0399.jpg`
+- `images/parts/0408.jpg`
+- `images/parts/0409.jpg`
+- `images/parts/0413.jpg`
+
+Detailed QA:
+- `research/0371-0380-production-result.md`
+- `research/0381-0390-production-result.md`
+- `research/0391-0400-production-result.md`
+- `research/0401-0410-production-result.md`
+- `research/0411-0420-production-result.md`
+- `research/0371-0420-production-pass2.md`
+
+All remaining **44 IDs** in 0371–0420 are REVIEW + Production Backlog and must not block forward production.
+
+### 50-ID validation result
+- GitHub Actions production workflow: **SUCCESS** (run #71)
+- PASS source download failures: **0**
+- PASS image readability: **SUCCESS**
+- 4:3 aspect validation: **SUCCESS**
+- suspicious-small-file guard: **PASS**
+- BLACK UI design unchanged.
+- Production % only after live BLACK UI deploy/mobile reverse-QA.
+
+### Codex action
+1. Pull latest `main`.
+2. Bind/display the six PASS items above in existing BLACK UI without redesign.
+3. Skip all REVIEW/backlog IDs.
+4. Continue later PASS items even when IDs are non-contiguous.
+5. Mobile-check + reverse-QA before counting Production progress.

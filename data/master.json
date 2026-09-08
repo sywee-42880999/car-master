@@ -4550,11 +4550,12 @@
       "id": "0449",
       "en": "REMOTE START BUTTON",
       "ko": "원격 시동 버튼",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_SMART_KEY"
-      ]
+      ],
+      "image": "images/parts/0449.jpg"
     },
     {
       "id": "0450",
@@ -4590,11 +4591,12 @@
       "id": "0453",
       "en": "SMART KEY REAR COVER",
       "ko": "스마트 키 후면 커버",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_SMART_KEY"
-      ]
+      ],
+      "image": "images/parts/0453.jpg"
     },
     {
       "id": "0454",
@@ -4610,21 +4612,23 @@
       "id": "0455",
       "en": "EMERGENCY DOOR LOCK HOLE",
       "ko": "비상 도어 잠금 홀",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_MECHANICAL_KEY"
-      ]
+      ],
+      "image": "images/parts/0455.jpg"
     },
     {
       "id": "0456",
       "en": "KEY CYLINDER COVER",
       "ko": "키 실린더 커버",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_MECHANICAL_KEY"
-      ]
+      ],
+      "image": "images/parts/0456.jpg"
     },
     {
       "id": "0457",
@@ -4650,11 +4654,12 @@
       "id": "0459",
       "en": "LOW TIRE PRESSURE POSITION TELLTALE",
       "ko": "저압 타이어 위치 표시",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_TPMS"
-      ]
+      ],
+      "image": "images/parts/0459.jpg"
     },
     {
       "id": "0460",
@@ -4670,41 +4675,45 @@
       "id": "0461",
       "en": "TIRE PRESSURE DISPLAY",
       "ko": "타이어 공기압 표시",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_TPMS"
-      ]
+      ],
+      "image": "images/parts/0461.jpg"
     },
     {
       "id": "0462",
       "en": "REGENERATIVE BRAKING PADDLE SHIFTER",
       "ko": "회생 제동 패들 시프터",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_NE1A_2025_REGEN_BRAKING"
-      ]
+      ],
+      "image": "images/parts/0462.jpg"
     },
     {
       "id": "0463",
       "en": "REGENERATIVE BRAKING LEVEL INDICATOR",
       "ko": "회생 제동 단계 표시",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_NE1A_2025_REGEN_BRAKING"
-      ]
+      ],
+      "image": "images/parts/0463.jpg"
     },
     {
       "id": "0464",
       "en": "SMART REGENERATION INDICATOR",
       "ko": "스마트 회생 제동 표시",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_NE1A_2025_REGEN_BRAKING"
-      ]
+      ],
+      "image": "images/parts/0464.jpg"
     },
     {
       "id": "0465",
@@ -4730,21 +4739,23 @@
       "id": "0467",
       "en": "POWER/CHARGE GAUGE",
       "ko": "출력·충전 게이지",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_NE1A_2025_EV_GAUGES_2"
-      ]
+      ],
+      "image": "images/parts/0467.jpg"
     },
     {
       "id": "0468",
       "en": "STATE OF CHARGE (SOC) GAUGE",
       "ko": "고전압 배터리 충전량(SOC) 게이지",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_NE1A_2025_EV_GAUGES_2"
-      ]
+      ],
+      "image": "images/parts/0468.jpg"
     },
     {
       "id": "0469",

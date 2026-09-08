@@ -1490,6 +1490,241 @@
         "0360"
       ],
       "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_SRS_COMPONENTS": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/idf9051d97631.html",
+      "pdf_url": null,
+      "image_keys": [
+        "1C_AirbagPartsOverview",
+        "2C_AirbagSensorOverview"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0371",
+        "0372",
+        "0373",
+        "0374",
+        "0375"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_AIRBAG_LOCATION": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/id31670302378.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_KneeAirbag",
+        "2C_SideAirbagLabel_3"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0376",
+        "0377"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_ADAS_SENSORS": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/topic_qkn_gyg_kcc.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_ADASSensor",
+        "2C_ADASSensor_1",
+        "2C_IndoorCamera"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0378",
+        "0379",
+        "0380",
+        "0381",
+        "0382",
+        "0383",
+        "0384",
+        "0385"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_CLUSTER_GAUGES_WARNINGS": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/topic_cbv_c1y_xcc.html",
+      "alternate_web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/warning_indicator_lights.html",
+      "pdf_url": null,
+      "image_keys": [
+        "1C_ClusterOverview_1",
+        "1C_ClusterOverview_3"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0386",
+        "0387",
+        "0388",
+        "0389",
+        "0390",
+        "0391",
+        "0392",
+        "0393",
+        "0394",
+        "0395"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_NE1A_2025_EV_CHARGING": {
+      "maker": "Hyundai",
+      "model": "IONIQ 5 NE1a",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/id0708eab9269.html",
+      "alternate_web_urls": [
+        "https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/topic_y3h_21h_mcc.html",
+        "https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/id8ca6367ceb4.html",
+        "https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/id86853d711d6.html"
+      ],
+      "pdf_url": null,
+      "image_keys": [
+        "2C_DCAdapter",
+        "2C_ChargingDoorIndicator",
+        "2C_ChargingLabel",
+        "2C_EmergencyChargingCable"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0396",
+        "0397",
+        "0398",
+        "0399",
+        "0400",
+        "0401",
+        "0402"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_NE1A_2025_PORTABLE_CHARGER": {
+      "maker": "Hyundai",
+      "model": "IONIQ 5 NE1a",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/id12191ce1c7a.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_ICCBCharger"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0403",
+        "0404",
+        "0405"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_NE1A_2025_V2L": {
+      "maker": "Hyundai",
+      "model": "IONIQ 5 NE1a",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/id23BMH500L5Z.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_V2LPosition",
+        "2C_V2LInsideIndicator"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0406",
+        "0407"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_NX4PHEV_2026_HYBRID_COMPONENTS": {
+      "maker": "Hyundai",
+      "model": "Tucson PHEV NX4PHEV",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NX4PHEV/2026/en_US/topic_cpz_qsz_rvb.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_HPCU",
+        "2C_HybridBattery",
+        "2C_PluginHybridBattery",
+        "2C_HighVoltageMotorConnector_2",
+        "2C_InterlockConnector",
+        "2C_BatteryAirVent"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0408",
+        "0409",
+        "0410",
+        "0411",
+        "0412",
+        "0413"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_NX4PHEV_2026_ENGINE_ROOM_HEV": {
+      "maker": "Hyundai",
+      "model": "Tucson PHEV NX4PHEV",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NX4PHEV/2026/en_US/topic_cpt_43d_q2c.html",
+      "pdf_url": null,
+      "image_keys": [
+        "1C_EngineRoom"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0414",
+        "0415",
+        "0416"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_NE1A_2025_MOTOR_ROOM": {
+      "maker": "Hyundai",
+      "model": "IONIQ 5 NE1a",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/idee82b27cba2.html",
+      "pdf_url": null,
+      "image_keys": [
+        "1C_MotorRoomOverview"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0417"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_NE1A_2025_EV_GAUGES": {
+      "maker": "Hyundai",
+      "model": "IONIQ 5 NE1a",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/topic_kx2_55q_t5b.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_OutsideTemp"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0418",
+        "0419",
+        "0420"
+      ],
+      "source_verified_at": "2026-09-08"
     }
   }
 }

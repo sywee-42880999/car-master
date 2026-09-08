@@ -368,3 +368,27 @@ Detailed QA: `research/0081-0090-production-result.md`.
 3. Do not redo crops or source research.
 4. Deploy and mobile-check; report mismatches by permanent ID.
 5. Production % changes only after live BLACK UI + reverse QA.
+
+
+## CODEX HANDOFF READY — 2026-09-08 — IDs 0091–0100
+Chat Production has completed and committed final assets for:
+- **0091 LIGHTING CONTROL LEVER**
+- **0092 WIPER AND WASHER CONTROL LEVER**
+- **0093 PADDLE SHIFTERS**
+- **0094 DRIVING ASSIST BUTTON**
+- **0095 CLUSTER DISPLAY CONTROL BUTTON**
+- **0096 VEHICLE DISTANCE BUTTON**
+- **0097 LANE DRIVING ASSIST BUTTON**
+- **0098 ROTARY GEAR SHIFT DIAL**
+- **0099 STEERING WHEEL AUDIO CONTROLS**
+- **0100 VOICE RECOGNITION BUTTON**
+
+Final assets: `images/parts/0091.jpg`–`images/parts/0100.jpg`.
+Detailed QA: `research/0091-0100-production-result.md`.
+
+### Codex action now
+1. Pull latest `main`.
+2. Bind/display 0091–0100 in the existing BLACK UI without redesign.
+3. Do not redo crops or source research.
+4. Deploy and mobile-check; report mismatches by permanent ID.
+5. Production % changes only after live BLACK UI + reverse QA.

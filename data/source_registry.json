@@ -2330,6 +2330,40 @@
         "0357"
       ],
       "source_verified_at": "2026-09-08"
+    },
+    "HY_MX5_2026_ENGINE_ROOM_RECOVERY": {
+      "maker": "Hyundai",
+      "model": "Santa Fe MX5",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/MX5/2026/ko_KR/id0ba2badac1e.html",
+      "pdf_url": null,
+      "image_keys": [
+        "1C_EngineRoom"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0144",
+        "0145",
+        "0147"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_NX4_2025_OVERHEAD_CONSOLE_RECOVERY": {
+      "maker": "Hyundai",
+      "model": "Tucson NX4",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NX4/2025/en_GN/id431570352ba.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_MapLamp"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0360"
+      ],
+      "source_verified_at": "2026-09-08"
     }
   }
 }

@@ -32,11 +32,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add images/parts/0081.jpg images/parts/0082.jpg images/parts/0083.jpg images/parts/0084.jpg images/parts/0085.jpg images/parts/0086.jpg images/parts/0087.jpg images/parts/0088.jpg images/parts/0089.jpg images/parts/0090.jpg research/0081-0090-production-result.md
+          git add images/parts/0091.jpg images/parts/0092.jpg images/parts/0093.jpg images/parts/0094.jpg images/parts/0095.jpg images/parts/0096.jpg images/parts/0097.jpg images/parts/0098.jpg images/parts/0099.jpg images/parts/0100.jpg research/0091-0100-production-result.md
           if git diff --cached --quiet; then
             echo "No production crop changes to commit."
           else
-            git commit -m "Produce 0081-0090 Chat production assets"
+            git commit -m "Produce 0091-0100 Chat production assets"
             git pull --rebase origin main
             git push origin HEAD:main
           fi

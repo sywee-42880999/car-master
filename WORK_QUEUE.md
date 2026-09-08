@@ -207,3 +207,31 @@ Still REVIEW — do not bind/promote:
 5. Deploy GitHub Pages and verify on mobile.
 6. Report any mismatch by permanent ID into Repo/queue.
 7. Do not increment Production % merely from this handoff; update only after correct live display + reverse QA.
+
+
+## CODEX HANDOFF READY — 2026-09-08 — IDs 0031–0040
+Chat Production has completed and committed final 4:3 assets for:
+- **0031 INSIDE DOOR HANDLE**
+- **0032 POWER WINDOW SWITCHES**
+- **0033 POWER WINDOW LOCK BUTTON**
+- **0034 CENTRAL DOOR LOCK SWITCH**
+- **0035 SIDE VIEW MIRROR CONTROL SWITCH**
+- **0036 SIDE VIEW MIRROR FOLDING BUTTON**
+- **0037 EPB (ELECTRONIC PARKING BRAKE) SWITCH**
+- **0038 HOOD RELEASE LEVER**
+- **0039 STEERING WHEEL**
+
+Final assets: `images/parts/0031.jpg`–`images/parts/0039.jpg`.
+Source: Hyundai 2026 Palisade LX3 Interior Overview, `1C_SideInsideVehicleOverview`.
+Detailed QA: `research/0031-0040-production-result.md`.
+
+Still REVIEW — do not bind/promote:
+- **0040 FUSE BOX** — overview identifies location, but the actual fuse box/cover is not visually unmistakable enough for a learning card. Use a dedicated Hyundai fuse-panel/fuse-box illustration next.
+
+### Codex action now
+1. Pull latest `main`.
+2. Bind/display 0031–0039 in the existing BLACK UI without redesign.
+3. Do not redo the crops/source research.
+4. Do not promote 0040.
+5. Deploy and mobile-check; report mismatches by permanent ID.
+6. Production % changes only after live BLACK UI + reverse QA.

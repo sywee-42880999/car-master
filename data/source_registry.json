@@ -93,7 +93,16 @@
     "0107": "images/parts/0107.jpg",
     "0108": "images/parts/0108.jpg",
     "0109": "images/parts/0109.jpg",
-    "0110": "images/parts/0110.jpg"
+    "0110": "images/parts/0110.jpg",
+    "0111": "images/parts/0111.jpg",
+    "0112": "images/parts/0112.jpg",
+    "0113": "images/parts/0113.jpg",
+    "0114": "images/parts/0114.jpg",
+    "0115": "images/parts/0115.jpg",
+    "0116": "images/parts/0116.jpg",
+    "0117": "images/parts/0117.jpg",
+    "0118": "images/parts/0118.jpg",
+    "0120": "images/parts/0120.jpg"
   },
   "rules": [
     "Prefer official Hyundai PDF or official Hyundai web manual.",
@@ -809,6 +818,127 @@
       "repo_asset": null,
       "used_by": [
         "0110"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_STORAGE": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/id70d45014823.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_CenterConsoleBox",
+        "2C_OpenTray",
+        "2C_InteractiveMulticonsoleBottomStorageBox",
+        "2C_CargoCompartmentStorageOrganizationBox"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0111",
+        "0112",
+        "0113",
+        "0114"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_NX4A_2026_COAT_HOOK": {
+      "maker": "Hyundai",
+      "model": "Tucson NX4a",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NX4a/2026/en_US/id0b45359e08a.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_CoatHook"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0115"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_REAR_SIDE_SUNSHADE": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/id0ffd950ffb8.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_RearSeatSideCurtain"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0116"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_CARGO_NET": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/id235HA0AH02L.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_CargoNet",
+        "2C_CargoNet_2"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0117"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_CARGO_SCREEN": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/topic_vsw_rdw_nvb.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_LuggageScreen",
+        "2C_UsingLuggageScreen"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0118"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX2_2025_FLOOR_MAT_ANCHOR": {
+      "maker": "Hyundai",
+      "model": "Palisade LX2",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX2/2025/en_US/idc7a3a49fead.html",
+      "pdf_url": null,
+      "image_keys": [],
+      "repo_asset": null,
+      "used_by": [
+        "0119"
+      ],
+      "source_verified_at": "2026-09-08",
+      "status": "REVIEW_IMAGE"
+    },
+    "HY_LX3_2026_POWER_SUNSHADE": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/idcaab9d43c10.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_DualSunroofButton",
+        "2C_SunroofSunblind",
+        "2C_DualSunroofSunblindOpen"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0120"
       ],
       "source_verified_at": "2026-09-08"
     }

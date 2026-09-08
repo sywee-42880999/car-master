@@ -1,0 +1,17 @@
+# CAR MASTER — Backlog Recovery 06
+
+## PASS
+- **0325 CHILD RESTRAINT ANCHORAGE** — 582x437, 56471 bytes, HY_LX3_2026_LATCH_ANCHORS
+- **0326 TOP TETHER ANCHORAGE** — 582x437, 65156 bytes, HY_LX3_2026_LATCH_ANCHORS
+- **0327 LOWER ANCHORAGE** — 582x437, 63430 bytes, HY_LX3_2026_LATCH_ANCHORS
+- **0357 CENTER CONSOLE CUP HOLDER** — 584x438, 40104 bytes, HY_NX4_2025_CUP_HOLDER
+- **0365 CHILD RESTRAINT TOP TETHER ANCHOR** — 582x437, 65156 bytes, HY_LX3_2026_LATCH_ANCHORS
+- **0366 CHILD RESTRAINT LOWER ANCHOR** — 582x437, 63430 bytes, HY_LX3_2026_LATCH_ANCHORS
+
+## Failures
+- None
+
+## Rule
+- Unresolved items remain hidden/backlog.
+- Official Hyundai imagery preferred; manufacturer/general web fallback remains allowed.
+- BLACK UI unchanged.

@@ -1341,3 +1341,31 @@ Codex action:
 Current master after Batch 10:
 - PASS candidates: **229 / 500**
 - REVIEW/backlog: **271**
+
+
+## BACKLOG RECOVERY RESULTS — BATCH 11 — 2026-09-08
+Batch 11 PASS candidates:
+- 0334 DOOR POCKET
+- 0335 DOOR ARMREST
+- 0336 DOOR TRIM
+
+Sources:
+- 0334: Hyundai XCIENT QZ 2026 official Door Pocket manual image.
+- 0335: Hyundai INSTER AXEV 2026 official passenger-door armrest image.
+- 0336: Hyundai Palisade LX3 2026 official mood-lighting image identifying door trim.
+
+Validation:
+- Actions run #100: SUCCESS.
+- Source download failures: 0.
+- Image readability / 4:3 / minimum-size guards: PASS.
+- BLACK UI unchanged.
+
+Codex action:
+1. Pull latest `main`.
+2. Bind 0334 / 0335 / 0336 with the new image blobs.
+3. Reverse-QA each card individually; these are separate official images, not one shared overview.
+4. Count live Production only after mobile + reverse-QA.
+
+Current master:
+- PASS candidates: **232 / 500**
+- REVIEW/backlog: **268**

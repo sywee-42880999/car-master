@@ -357,6 +357,108 @@
       "source_refs": [
         "HY_LX3_2026_INTERIOR_OVERVIEW"
       ]
+    },
+    {
+      "id": "0041",
+      "en": "GLOVE BOX",
+      "ko": "글로브 박스",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_0041_0050"
+      ],
+      "image": "images/parts/0041.jpg"
+    },
+    {
+      "id": "0042",
+      "en": "CENTER CONSOLE",
+      "ko": "센터 콘솔",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX3_2026_0041_0050"
+      ]
+    },
+    {
+      "id": "0043",
+      "en": "CUP HOLDER",
+      "ko": "컵 홀더",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_0041_0050"
+      ],
+      "image": "images/parts/0043.jpg"
+    },
+    {
+      "id": "0044",
+      "en": "USB PORT",
+      "ko": "USB 단자",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_0041_0050"
+      ],
+      "image": "images/parts/0044.jpg"
+    },
+    {
+      "id": "0045",
+      "en": "USB CHARGER",
+      "ko": "USB 충전 단자",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_0041_0050"
+      ],
+      "image": "images/parts/0045.jpg"
+    },
+    {
+      "id": "0046",
+      "en": "POWER OUTLET",
+      "ko": "다용도 소켓",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_0041_0050"
+      ],
+      "image": "images/parts/0046.jpg"
+    },
+    {
+      "id": "0047",
+      "en": "WIRELESS SMARTPHONE CHARGING SYSTEM",
+      "ko": "스마트폰 무선 충전 시스템",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_0041_0050"
+      ],
+      "image": "images/parts/0047.jpg"
+    },
+    {
+      "id": "0048",
+      "en": "HAZARD WARNING FLASHER BUTTON",
+      "ko": "비상경고등 버튼",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_0041_0050"
+      ],
+      "image": "images/parts/0048.jpg"
+    },
+    {
+      "id": "0049",
+      "en": "ENGINE START/STOP BUTTON",
+      "ko": "시동 버튼",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_0041_0050"
+      ],
+      "image": "images/parts/0049.jpg",
+      "aliases": [
+        "START/STOP BUTTON"
+      ]
+    },
+    {
+      "id": "0050",
+      "en": "INSTRUMENT CLUSTER",
+      "ko": "계기판",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_0041_0050"
+      ],
+      "image": "images/parts/0050.jpg"
     }
   ]
 }

@@ -1469,3 +1469,7 @@ Codex action:
 Current master:
 - PASS candidates: **254 / 500**
 - REVIEW/backlog: **246**
+
+## BLACK UI HIDDEN-CARD RESTORE FIX — 2026-09-09
+- Changed the restore control from temporary display mode to actual hidden-state reset.
+- Mobile QA: hidden count changed 1/254 → 0/254 and the full deck returned at position 1/254.

@@ -887,3 +887,12 @@ All remaining IDs in 0321–0370 are REVIEW + Production Backlog and must not bl
 - iPhone 13 QA: swipe advanced 0011 → 0012; card counter showed 2 / 147; viewport width and document width were both 390 px.
 - REVIEW and production backlog items are excluded from the learning deck.
 - Live URL: https://sywee-42880999.github.io/car-master/
+
+
+## NEXT BATCH BLOCKER — 2026-09-08 — IDs 0371–0420
+- Requested next production range: **0371–0420**.
+- Verified latest `main`, `data/master.json`, `data/id_registry.json`, `data/source_registry.json`, WORK_QUEUE handoff history, repository code search, commit search, and branch list.
+- Permanent IDs **0371–0420 are reserved in `data/id_registry.json`**, but there is **no existing English/Korean term mapping for those IDs** in `data/master.json`, repository history, branches, or recovered prior project context.
+- Do **not** invent new terms or attach arbitrary parts to these IDs. This would violate the permanent-ID rule.
+- No image Production, PASS promotion, Backlog promotion, UI redesign, or Production % change was made for 0371–0420.
+- Resume only from the authoritative 0371–0420 term mapping if/when it is recovered or explicitly established.

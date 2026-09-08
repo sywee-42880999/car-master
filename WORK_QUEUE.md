@@ -1163,3 +1163,26 @@ Current master after batch 05:
 - **0360** remains excluded: the image depicts center-console storage rather than the overhead console.
 - Moved these nine IDs to REVIEW + Production Backlog while retaining their source references and files for recropping.
 - Verified data deck after exclusions: **195 PASS cards (39.0%)**.
+
+
+## BACKLOG RECOVERY RESULTS — BATCH 06 + PASS REGRESSION FIX — 2026-09-08
+Batch 06 PASS:
+- 0325 CHILD RESTRAINT ANCHORAGE
+- 0326 TOP TETHER ANCHORAGE
+- 0327 LOWER ANCHORAGE
+- 0357 CENTER CONSOLE CUP HOLDER
+- 0365 CHILD RESTRAINT TOP TETHER ANCHOR
+- 0366 CHILD RESTRAINT LOWER ANCHOR
+
+Batch 06 Actions run #87: SUCCESS.
+No promoted source download failure; image readability / 4:3 / minimum-size guards passed.
+
+Regression detected immediately after batch 06:
+- A concurrent commit (`Reverse QA recovered PASS image bindings`) had reverted nine previously validated PASS entries to REVIEW.
+- Restored exact validated PASS states for: **0131, 0132, 0133, 0134, 0135, 0144, 0145, 0147, 0360**.
+- Restoration commit: `0d2c167`.
+- Do not downgrade an existing PASS during reverse-QA unless a concrete image/term mismatch is recorded by exact ID.
+
+Current master after recovery/fix:
+- PASS: **210 / 500**
+- Remaining REVIEW/backlog: **290**

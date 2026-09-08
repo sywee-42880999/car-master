@@ -286,13 +286,23 @@
       "id": "0028",
       "en": "TURN SIGNAL LIGHT",
       "ko": "방향지시등",
-      "status": "REVIEW"
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0028.jpg",
+      "source_refs": [
+        "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ]
     },
     {
       "id": "0029",
       "en": "REAR SPOILER",
       "ko": "리어 스포일러",
-      "status": "REVIEW"
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0029.jpg",
+      "source_refs": [
+        "HY_LX3_2026_REAR_OVERVIEW"
+      ]
     },
     {
       "id": "0030",
@@ -2208,31 +2218,34 @@
       "id": "0211",
       "en": "FRONT DOOR GLASS",
       "ko": "앞도어 유리",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ],
+      "image": "images/parts/0211.jpg"
     },
     {
       "id": "0212",
       "en": "REAR DOOR GLASS",
       "ko": "뒷도어 유리",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ],
+      "image": "images/parts/0212.jpg"
     },
     {
       "id": "0213",
       "en": "QUARTER GLASS",
       "ko": "쿼터 글라스",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ],
+      "image": "images/parts/0213.jpg"
     },
     {
       "id": "0214",
@@ -2451,11 +2464,12 @@
       "id": "0235",
       "en": "TAILGATE GLASS",
       "ko": "테일게이트 글라스",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_REAR_OVERVIEW"
+      ],
+      "image": "images/parts/0235.jpg"
     },
     {
       "id": "0236",
@@ -2471,21 +2485,23 @@
       "id": "0237",
       "en": "FRONT SKID PLATE",
       "ko": "프론트 스키드 플레이트",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ],
+      "image": "images/parts/0237.jpg"
     },
     {
       "id": "0238",
       "en": "REAR SKID PLATE",
       "ko": "리어 스키드 플레이트",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_REAR_OVERVIEW"
+      ],
+      "image": "images/parts/0238.jpg"
     },
     {
       "id": "0239",

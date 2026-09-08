@@ -695,3 +695,46 @@ Production Backlog — continue forward, do not block:
 3. Skip backlog items.
 4. Continue with later PASS items even when IDs are non-contiguous.
 5. Production % only after live BLACK UI + reverse QA.
+
+
+## CODEX HANDOFF READY — 2026-09-08 — IDs 0231–0260 (30-ID TRIAL)
+Chat Production completed a 30-ID trial batch with machine validation and GitHub Actions verification.
+
+PASS:
+- **0239 TOWING EYE COVER**
+- **0241 SUNROOF GLASS**
+- **0255 CLIMATE CONTROL PANEL**
+- **0258 AIR INTAKE CONTROL BUTTON**
+- **0259 FRONT WINDSHIELD DEFROSTER BUTTON**
+- **0260 REAR WINDOW DEFROSTER BUTTON**
+
+Final assets:
+- `images/parts/0239.jpg`
+- `images/parts/0241.jpg`
+- `images/parts/0255.jpg`
+- `images/parts/0258.jpg`
+- `images/parts/0259.jpg`
+- `images/parts/0260.jpg`
+
+Detailed QA:
+- `research/0231-0240-production-result.md`
+- `research/0241-0250-production-result.md`
+- `research/0251-0260-production-result.md`
+
+All remaining IDs in 0231–0260 are REVIEW + Production Backlog and must not block forward production.
+
+### 30-ID validation result
+- GitHub Actions workflow: **SUCCESS**
+- PASS asset file generation: **SUCCESS**
+- PASS image readability check: **SUCCESS**
+- 4:3 aspect validation: **SUCCESS**
+- suspicious-small-file guard: **PASS**
+- source download failures for promoted PASS assets: **0**
+- No Production % increment from this handoff alone.
+
+### Codex action
+1. Pull latest `main`.
+2. Bind/display the six PASS items above in BLACK UI without redesign.
+3. Skip all REVIEW/backlog IDs.
+4. Continue later PASS items even when IDs are non-contiguous.
+5. Mobile-check + reverse-QA before counting Production progress.

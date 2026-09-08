@@ -3,18 +3,14 @@ from PIL import Image, ImageOps, ImageDraw
 import urllib.request, json, math
 
 ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT/"production-preview"; PARTS=ROOT/"images"/"parts"; DL=OUT/"backlog-recovery-02"
+OUT=ROOT/"production-preview"; PARTS=ROOT/"images"/"parts"; DL=OUT/"backlog-recovery-03"
 OUT.mkdir(exist_ok=True); PARTS.mkdir(parents=True,exist_ok=True); DL.mkdir(parents=True,exist_ok=True)
 
 sources={
- "0302":(["https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_CupHolder.jpg.png"],"REAR CUP HOLDER","HY_LX3_2026_CUP_HOLDER"),
- "0303":(["https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_SeatBackPocket.jpg.png"],"SEATBACK POCKET","HY_LX3_2026_POWER_SEAT_DETAIL"),
- "0315":(["https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_AdjustSeatBackAuto.jpg.png"],"SEATBACK ANGLE CONTROL SWITCH","HY_LX3_2026_POWER_SEAT_DETAIL"),
- "0316":(["https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_AdjustSeatBackCushionAuto.jpg.png"],"LUMBAR SUPPORT SWITCH","HY_LX3_2026_POWER_SEAT_DETAIL"),
- "0317":(["https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_AdjustSeatlegAuto.jpg.png"],"LEG SUPPORT SWITCH","HY_LX3_2026_POWER_SEAT_DETAIL"),
- "0318":(["https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_WorkinSwitch.jpg.png"],"WALK-IN SWITCH","HY_LX3_2026_POWER_SEAT_DETAIL"),
- "0320":(["https://ownersmanual.hyundai.com/full_webhelp/LX2/2025/en_US/images/B0052KO18.jpg.png","https://ownersmanual.hyundai.com/full_webhelp/LX2/2025/en_US/images/B0701EU05.jpg.png"],"HEAD RESTRAINT RELEASE BUTTON","HY_LX2_2025_HEAD_RESTRAINT"),
- "0321":(["https://ownersmanual.hyundai.com/full_webhelp/NX4/2025/en_GN/images/2C_AdjustSeatBeltHeight.jpg.png"],"SEAT BELT HEIGHT ADJUSTER","HY_NX4_2025_SEATBELT_HEIGHT"),
+ "0017":(["https://ownersmanual.hyundai.com/full_webhelp/AXEV/2025/en_GN/images/2C_WideRearViewCamera.jpg.png"],"WIDE-REAR VIEW CAMERA","HY_AXEV_2025_WIDE_REAR_CAMERA"),
+ "0040":(["https://ownersmanual.hyundai.com/full_webhelp/QT/2026/ko_KR/images/2C_OQT075011.jpg.png"],"FUSE BOX","HY_QT_2026_FUSE_BOX"),
+ "0055":(["https://ownersmanual.hyundai.com/full_webhelp/DN8/2026/ko_KR/images/2C_DriveModeButton.jpg.png"],"DRIVE MODE CONTROL","HY_DN8_2026_DRIVE_MODE"),
+ "0059":(["https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_UV_Coverview.jpg.png","https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_UV_Coverview_2.jpg.png"],"UV-C STERILIZER SYSTEM","HY_LX3_2026_UVC"),
 }
 
 def fetch_first(urls,id_):
@@ -52,16 +48,16 @@ for id_,term,src,w,h,size in passed:
     x=byid[id_]; x["status"]="PASS"; x["production_backlog"]=False; x["image"]=f"images/parts/{id_}.jpg"; x["source_refs"]=[src]
 mf.write_text(json.dumps(master,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 
-rf=ROOT/"research"/"backlog-recovery-02.md"
-lines=["# CAR MASTER — Backlog Recovery 02","","## PASS"]
+rf=ROOT/"research"/"backlog-recovery-03.md"
+lines=["# CAR MASTER — Backlog Recovery 03","","## PASS"]
 lines += [f"- **{id_} {term}** — {w}x{h}, {size} bytes, {src}" for id_,term,src,w,h,size in passed] or ["- None"]
 lines += ["","## Failures"]
 lines += [f"- **{id_} {term}** — {err}" for id_,term,err in failures] or ["- None"]
-lines += ["","## Rule","- Unresolved items remain hidden/backlog.","- Manufacturer media/general automotive web images may be used in later recovery passes if official manual imagery is insufficient and the part is unmistakable.","- Source must be recorded.","- BLACK UI unchanged."]
+lines += ["","## Rule","- Unresolved items remain hidden/backlog.","- Source hierarchy: Hyundai official > manufacturer media/press > reliable general automotive web.","- Physical part must be unmistakable.","- BLACK UI unchanged."]
 rf.write_text("\n".join(lines)+"\n",encoding="utf-8")
 
 if cards:
     cols=2; rows=math.ceil(len(cards)/cols); sheet=Image.new("RGB",(cols*600,rows*470),"white")
     for i,c in enumerate(cards): sheet.paste(c,((i%cols)*600,(i//cols)*470))
-    sheet.save(OUT/"backlog-recovery-02-qa.jpg",quality=92)
+    sheet.save(OUT/"backlog-recovery-03-qa.jpg",quality=92)
 print("PASS",[x[0] for x in passed]); print("FAILURES",failures); print("VALIDATION_OK",True)

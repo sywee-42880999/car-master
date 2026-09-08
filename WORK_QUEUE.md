@@ -564,3 +564,32 @@ These terms are verified in Hyundai maintenance text, but stronger directly labe
 4. Do not promote the REVIEW items above.
 5. Deploy and mobile-check; report mismatches by permanent ID.
 6. Production % changes only after live BLACK UI + reverse QA.
+
+
+## CODEX HANDOFF — 2026-09-08 — IDs 0161–0170
+Chat Production review is complete for this batch.
+
+No item is promoted to PASS in this pass because Hyundai Owner's Manual evidence currently verifies terminology but does not provide an unmistakable directly labeled physical-part learning image for these underbody components.
+
+REVIEW:
+- **0161 BRAKE DISC**
+- **0162 BRAKE CALIPER**
+- **0163 STEERING GEAR RACK**
+- **0164 STEERING LINKAGE**
+- **0165 STEERING GEAR BOOT**
+- **0166 DRIVESHAFT**
+- **0167 DRIVESHAFT BOOT**
+- **0168 SUSPENSION BALL JOINT**
+- **0169 PROPELLER SHAFT**
+- **0170 REAR DIFFERENTIAL**
+
+Source records are in `data/source_registry.json`:
+- `HY_LX3_2026_SEVERE_MAINTENANCE`
+- `HY_NX4PHEV_2026_BRAKE_MAINTENANCE`
+
+### Codex action
+1. Pull latest `main`.
+2. Do not fabricate/guess crops from generic underbody imagery.
+3. Do not promote these IDs until a direct Hyundai official physical-part image is found.
+4. Continue BLACK UI deployment for earlier PASS assets.
+5. Production % remains unchanged for this batch.

@@ -83,7 +83,17 @@
     "0097": "images/parts/0097.jpg",
     "0098": "images/parts/0098.jpg",
     "0099": "images/parts/0099.jpg",
-    "0100": "images/parts/0100.jpg"
+    "0100": "images/parts/0100.jpg",
+    "0101": "images/parts/0101.jpg",
+    "0102": "images/parts/0102.jpg",
+    "0103": "images/parts/0103.jpg",
+    "0104": "images/parts/0104.jpg",
+    "0105": "images/parts/0105.jpg",
+    "0106": "images/parts/0106.jpg",
+    "0107": "images/parts/0107.jpg",
+    "0108": "images/parts/0108.jpg",
+    "0109": "images/parts/0109.jpg",
+    "0110": "images/parts/0110.jpg"
   },
   "rules": [
     "Prefer official Hyundai PDF or official Hyundai web manual.",
@@ -729,6 +739,76 @@
       "repo_asset": null,
       "used_by": [
         "0093"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_NE1N_2026_STEERING_CONTROL": {
+      "maker": "Hyundai",
+      "model": "IONIQ 5 N NE1N",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NE1N/2026/en_US/id77e2cf92467.html",
+      "pdf_url": null,
+      "image_keys": [
+        "1C_SteeringWheelControlOverview"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0101",
+        "0102",
+        "0105",
+        "0106"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_NE1A_2025_STEERING_CONTROL": {
+      "maker": "Hyundai",
+      "model": "IONIQ 5 NE1a",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/id77e2cf92467.html",
+      "pdf_url": null,
+      "image_keys": [
+        "1C_SteeringWheelControlOverview"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0103",
+        "0104"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_SUNVISOR": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/iddb2fb117831.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_Sunvisor"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0107",
+        "0108",
+        "0109"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_SUNROOF_SWITCH": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/idb1a4e91c6d3.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_SunroofButtonOverview"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0110"
       ],
       "source_verified_at": "2026-09-08"
     }

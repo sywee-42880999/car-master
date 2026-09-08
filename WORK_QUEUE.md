@@ -443,3 +443,30 @@ Still REVIEW — do not bind/promote:
 4. Do not promote 0119.
 5. Deploy and mobile-check; report mismatches by permanent ID.
 6. Production % changes only after live BLACK UI + reverse QA.
+
+
+## CODEX HANDOFF READY — 2026-09-08 — IDs 0121–0130
+Chat Production has completed and committed final assets for:
+- **0121 TIRE MOBILITY KIT**
+- **0122 COMPRESSOR**
+- **0123 SEALANT BOTTLE**
+- **0124 PRESSURE GAUGE**
+- **0126 TIRE VALVE**
+- **0127 SMART KEY**
+- **0128 MECHANICAL KEY**
+- **0129 KEY CYLINDER**
+- **0130 EMERGENCY LIFTGATE SAFETY RELEASE LATCH**
+
+Final assets: `images/parts/0121.jpg`–`images/parts/0124.jpg`, `images/parts/0126.jpg`–`images/parts/0130.jpg`.
+Detailed QA: `research/0121-0130-production-result.md`.
+
+Still REVIEW — do not bind/promote:
+- **0125 FILLING HOSE** — Hyundai's TMK diagram distinguishes two filling-hose roles; keep REVIEW until the physical taxonomy is resolved.
+
+### Codex action now
+1. Pull latest `main`.
+2. Bind/display the PASS items above in the existing BLACK UI without redesign.
+3. Do not redo crops or source research.
+4. Do not promote 0125.
+5. Deploy and mobile-check; report mismatches by permanent ID.
+6. Production % changes only after live BLACK UI + reverse QA.

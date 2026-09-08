@@ -4831,31 +4831,34 @@
       "id": "0476",
       "en": "BLADE TYPE FUSE",
       "ko": "블레이드 타입 퓨즈",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_FUSE_COMPONENTS"
-      ]
+      ],
+      "image": "images/parts/0476.jpg"
     },
     {
       "id": "0477",
       "en": "CARTRIDGE TYPE FUSE",
       "ko": "카트리지 타입 퓨즈",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_FUSE_COMPONENTS"
-      ]
+      ],
+      "image": "images/parts/0477.jpg"
     },
     {
       "id": "0478",
       "en": "MULTI FUSE",
       "ko": "멀티 퓨즈",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_FUSE_COMPONENTS"
-      ]
+      ],
+      "image": "images/parts/0478.jpg"
     },
     {
       "id": "0479",
@@ -4871,31 +4874,34 @@
       "id": "0480",
       "en": "AIR CLEANER FILTER",
       "ko": "에어 클리너 필터",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_AIR_FILTER_COMPONENTS"
-      ]
+      ],
+      "image": "images/parts/0480.jpg"
     },
     {
       "id": "0481",
       "en": "CABIN AIR FILTER COVER",
       "ko": "캐빈 에어 필터 커버",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_CABIN_FILTER_COMPONENTS"
-      ]
+      ],
+      "image": "images/parts/0481.jpg"
     },
     {
       "id": "0482",
       "en": "FRONT WIPER BLADE",
       "ko": "앞유리 와이퍼 블레이드",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_WIPER_COMPONENTS"
-      ]
+      ],
+      "image": "images/parts/0482.jpg"
     },
     {
       "id": "0483",
@@ -4921,11 +4927,12 @@
       "id": "0485",
       "en": "TOWING EYE",
       "ko": "견인 고리",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_TOWING_COMPONENTS"
-      ]
+      ],
+      "image": "images/parts/0485.jpg"
     },
     {
       "id": "0486",

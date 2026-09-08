@@ -1234,3 +1234,26 @@ Detailed QA:
 Current master after recovery assets:
 - PASS: **210 / 500**
 - REVIEW/backlog: **290**
+
+
+## BACKLOG RECOVERY RESULTS — BATCH 07 — 2026-09-08
+PASS candidates produced with card-specific crops:
+- 0297 CENTER CONSOLE ARMREST
+- 0298 CONSOLE STORAGE LID
+- 0320 HEAD RESTRAINT RELEASE BUTTON
+
+Validation:
+- Actions run #91: SUCCESS
+- Source download failures: 0
+- Image readability / 4:3 / minimum-size guards: PASS
+- BLACK UI unchanged.
+
+Codex reverse-QA requirements:
+- 0297 must visibly read as the armrest portion, not a generic center-console overview.
+- 0298 must visibly read as the storage lid/cover.
+- 0320 must clearly show the head-restraint release button/support area.
+- Count toward live Production only after bind + mobile + reverse-QA.
+
+Current master:
+- PASS: **213 / 500**
+- REVIEW/backlog: **287**

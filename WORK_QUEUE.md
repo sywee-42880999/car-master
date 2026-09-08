@@ -593,3 +593,19 @@ Source records are in `data/source_registry.json`:
 3. Do not promote these IDs until a direct Hyundai official physical-part image is found.
 4. Continue BLACK UI deployment for earlier PASS assets.
 5. Production % remains unchanged for this batch.
+
+
+## PRODUCTION BACKLOG RULE — 2026-09-08
+User instruction: if a batch requires hard-to-identify underbody/service imagery and no unmistakable direct Hyundai official visual is available, **defer it and continue forward immediately**.
+
+Operational rule:
+- Do not spend multiple passes blocking on one difficult part.
+- Mark unresolved items `REVIEW` + `production_backlog: true`.
+- Keep permanent IDs unchanged.
+- Record the missing visual/source requirement.
+- Continue to the next batch.
+- Return to backlog after the easy/direct-visual production pass is substantially complete.
+- Codex must not promote backlog items from generic/stock/guessed imagery.
+
+Deferred now:
+- **0171–0180** all moved to Production Backlog pending direct Hyundai underbody visuals.

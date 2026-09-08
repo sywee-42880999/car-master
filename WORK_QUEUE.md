@@ -738,3 +738,50 @@ All remaining IDs in 0231–0260 are REVIEW + Production Backlog and must not bl
 3. Skip all REVIEW/backlog IDs.
 4. Continue later PASS items even when IDs are non-contiguous.
 5. Mobile-check + reverse-QA before counting Production progress.
+
+
+## CODEX HANDOFF READY — 2026-09-08 — IDs 0261–0290 (30-ID BATCH)
+Chat Production completed the second 30-ID batch with machine validation and GitHub Actions verification.
+
+PASS:
+- **0271 SPEEDOMETER**
+- **0272 TACHOMETER**
+- **0273 FUEL GAUGE**
+- **0274 ODOMETER**
+- **0277 TURN SIGNAL INDICATOR**
+- **0278 GEAR POSITION INDICATOR**
+- **0280 DASHBOARD**
+- **0281 INFOTAINMENT DISPLAY**
+
+Final assets:
+- `images/parts/0271.jpg`
+- `images/parts/0272.jpg`
+- `images/parts/0273.jpg`
+- `images/parts/0274.jpg`
+- `images/parts/0277.jpg`
+- `images/parts/0278.jpg`
+- `images/parts/0280.jpg`
+- `images/parts/0281.jpg`
+
+Detailed QA:
+- `research/0261-0270-production-result.md`
+- `research/0271-0280-production-result.md`
+- `research/0281-0290-production-result.md`
+
+All remaining IDs in 0261–0290 are REVIEW + Production Backlog and must not block forward production.
+
+### 30-ID validation result
+- GitHub Actions workflow: **SUCCESS**
+- PASS asset file generation: **SUCCESS**
+- PASS image readability check: **SUCCESS**
+- 4:3 aspect validation: **SUCCESS**
+- suspicious-small-file guard: **PASS**
+- source download failures for promoted PASS assets: **0**
+- No Production % increment from this handoff alone.
+
+### Codex action
+1. Pull latest `main`.
+2. Bind/display the eight PASS items above in BLACK UI without redesign.
+3. Skip all REVIEW/backlog IDs.
+4. Continue later PASS items even when IDs are non-contiguous.
+5. Mobile-check + reverse-QA before counting Production progress.

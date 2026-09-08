@@ -1511,6 +1511,106 @@
       "source_refs": [
         "HY_NE1N_2026_MOTOR_ROOM"
       ]
+    },
+    {
+      "id": "0151",
+      "en": "ENGINE OIL FILTER",
+      "ko": "엔진 오일 필터",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX3_2026_MAINTENANCE_ITEMS"
+      ]
+    },
+    {
+      "id": "0152",
+      "en": "DRIVE BELT",
+      "ko": "구동 벨트",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX3_2026_MAINTENANCE_ITEMS"
+      ],
+      "aliases": [
+        "DRIVE BELTS"
+      ]
+    },
+    {
+      "id": "0153",
+      "en": "SPARK PLUG",
+      "ko": "점화 플러그",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX3_2026_MAINTENANCE_ITEMS"
+      ],
+      "aliases": [
+        "SPARK PLUGS"
+      ]
+    },
+    {
+      "id": "0154",
+      "en": "FUEL FILLER CAP",
+      "ko": "연료 주입구 캡",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_FUEL_FILLER_CAP"
+      ],
+      "image": "images/parts/0154.jpg"
+    },
+    {
+      "id": "0155",
+      "en": "FUEL TANK",
+      "ko": "연료 탱크",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX3_2026_MAINTENANCE_ITEMS"
+      ]
+    },
+    {
+      "id": "0156",
+      "en": "FUEL TANK AIR FILTER",
+      "ko": "연료 탱크 에어 필터",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX3_2026_MAINTENANCE_ITEMS"
+      ]
+    },
+    {
+      "id": "0157",
+      "en": "FUEL FILTER",
+      "ko": "연료 필터",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX3_2026_MAINTENANCE_ITEMS"
+      ]
+    },
+    {
+      "id": "0158",
+      "en": "BRAKE LINE",
+      "ko": "브레이크 라인",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX3_2026_MAINTENANCE_ITEMS"
+      ]
+    },
+    {
+      "id": "0159",
+      "en": "BRAKE HOSE",
+      "ko": "브레이크 호스",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX3_2026_MAINTENANCE_ITEMS"
+      ]
+    },
+    {
+      "id": "0160",
+      "en": "BRAKE PAD",
+      "ko": "브레이크 패드",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX3_2026_MAINTENANCE_ITEMS"
+      ],
+      "aliases": [
+        "BRAKE PADS"
+      ]
     }
   ]
 }

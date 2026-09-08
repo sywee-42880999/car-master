@@ -1880,6 +1880,239 @@
         "0470"
       ],
       "source_verified_at": "2026-09-08"
+    },
+    "HY_ENGINE_MAINTENANCE_COMPONENTS": {
+      "maker": "Hyundai",
+      "model": "Tucson PHEV NX4PHEV",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NX4PHEV/2026/en_US/id2e9f70af50d.html",
+      "pdf_url": null,
+      "image_keys": [
+        "1C_EngineRoom"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0471"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_BATTERY_COMPONENTS": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/topic_j4s_shb_rcc.html",
+      "pdf_url": null,
+      "image_keys": [],
+      "repo_asset": null,
+      "used_by": [
+        "0472",
+        "0473",
+        "0479"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_FUSE_COMPONENTS": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/id232eb18e456.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_EngineRoomFuseReplacement",
+        "2C_EngineRoomFuseReplacement_2",
+        "2C_EngineRoomFuseReplacement_3",
+        "2C_EngineRoomFuseReplacement_4"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0474",
+        "0475",
+        "0476",
+        "0477",
+        "0478"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_AIR_FILTER_COMPONENTS": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3 HEV",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3HEV/2026/en_US/topic_kxz_byd_qcc.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_AirCleanerReplacementProcedure",
+        "2C_AirCleanerReplacementProcedure_2"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0480"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_CABIN_FILTER_COMPONENTS": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/topic_cps_kyd_qcc.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_AirFilterReplacementProcedure_3"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0481"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_WIPER_COMPONENTS": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/topic_zgv_vyd_qcc.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_FrontWiperReplacementProcedure",
+        "2C_FrontWiperReplacementProcedure_1",
+        "2C_FrontWiperReplacementProcedure_2",
+        "2C_RearWiperReplacementProcedure_1"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0482",
+        "0483",
+        "0484"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_TOWING_COMPONENTS": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/id29684c9bcdf0.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_TowingHook"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0485"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_WHEEL_TIRE_COMPONENTS": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/topic_pqt_ksb_rcc.html",
+      "pdf_url": null,
+      "image_keys": [],
+      "repo_asset": null,
+      "used_by": [
+        "0486",
+        "0487",
+        "0488",
+        "0489"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_SPARE_TIRE_COMPONENTS": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/topic_wyh_21f_vdc.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_SpareTireReplacementOverview",
+        "2C_SpareTireReplacementPrecedure_1"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0490",
+        "0491",
+        "0492"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_EV_CHARGING_COMPONENTS": {
+      "maker": "Hyundai",
+      "model": "IONIQ 5 NE1a",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/id0708eab9269.html",
+      "alternate_web_url": "https://ownersmanual.hyundai.com/full_webhelp/SX2EV/2025/en_US/id8ca6367ceb4.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_ChargingDoorIndicator",
+        "2C_ChargingLabelLocation",
+        "2C_EmergencyChargingCable",
+        "2C_ACCharger"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0493",
+        "0494",
+        "0495",
+        "0496",
+        "0497"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_V2L_COMPONENTS": {
+      "maker": "Hyundai",
+      "model": "IONIQ 5 NE1a",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/id23BMH500L5Z.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_V2LPosition"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0498"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_FRONT_TRUNK_COMPONENTS": {
+      "maker": "Hyundai",
+      "model": "IONIQ 5 NE1a",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/ida453c8c47b3.html",
+      "pdf_url": null,
+      "image_keys": [
+        "1C_MotorRoomOverview"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0499"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_BATTERY_COOLING_COMPONENTS": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3 HEV",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3HEV/2026/en_US/topic_ygp_zcy_v5b.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_BatteryAirVent"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0500"
+      ],
+      "source_verified_at": "2026-09-08"
     }
   }
 }

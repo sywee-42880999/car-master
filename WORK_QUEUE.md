@@ -896,3 +896,25 @@ All remaining IDs in 0321–0370 are REVIEW + Production Backlog and must not bl
 - Do **not** invent new terms or attach arbitrary parts to these IDs. This would violate the permanent-ID rule.
 - No image Production, PASS promotion, Backlog promotion, UI redesign, or Production % change was made for 0371–0420.
 - Resume only from the authoritative 0371–0420 term mapping if/when it is recovered or explicitly established.
+
+
+## 0371–0420 TERM RECOVERY / VALIDATION — 2026-09-08
+User clarified the missing-ID rule:
+- If only one or two IDs are missing, hide/defer those IDs and continue.
+- If a large range is missing, validate the content and create the missing term mapping.
+
+Applied to 0371–0420:
+- All 50 permanent IDs remain unchanged.
+- Created validated English/Korean term mapping for **0371–0420** from Hyundai official Owner's Manual terminology.
+- Added official source families and image keys to `data/source_registry.json`.
+- Added detailed 10-ID production-result files:
+  - `research/0371-0380-production-result.md`
+  - `research/0381-0390-production-result.md`
+  - `research/0391-0400-production-result.md`
+  - `research/0401-0410-production-result.md`
+  - `research/0411-0420-production-result.md`
+- Current environment could verify official pages/image keys but could not fetch the image binaries (DNS/network failure in the binary execution environment).
+- Therefore **no item was falsely promoted to PASS**. All 0371–0420 are currently REVIEW + Production Backlog until exact official source binaries are fetched, cropped 4:3 and reverse-QA'd.
+- Dedicated/direct-image candidates exist especially in airbag, EV charging and hybrid high-voltage sections; resume from the registered exact image keys rather than redoing taxonomy research.
+- Previous "missing term mapping blocker" is superseded by this section.
+- BLACK UI unchanged. Production % unchanged.

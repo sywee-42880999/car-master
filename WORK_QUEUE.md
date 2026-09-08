@@ -1369,3 +1369,47 @@ Codex action:
 Current master:
 - PASS candidates: **232 / 500**
 - REVIEW/backlog: **268**
+
+
+## BACKLOG RECOVERY RESULTS — BATCH 12–13 — 2026-09-08
+Batch 12 PASS candidates:
+- 0214 WINDOW BELT MOLDING
+- 0215 A-PILLAR GARNISH
+- 0216 B-PILLAR GARNISH
+- 0217 C-PILLAR GARNISH
+- 0223 DOOR SILL
+- 0224 ROCKER PANEL
+- 0225 SIDE SILL GARNISH
+
+Batch 12 validation:
+- Actions run #102: SUCCESS.
+- Source download failures: 0.
+- Card-specific 4:3 crops from Hyundai Palisade LX3 2026 official exterior overview.
+- Codex must reverse-QA A/B/C-pillar separation and sill/rocker/side-sill separation.
+
+Batch 13 PASS candidates:
+- 0233 ROOF SPOILER GARNISH
+- 0234 LIFTGATE GARNISH
+- 0236 LICENSE PLATE GARNISH
+- 0240 BUMPER MOLDING
+- 0307 CARGO FLOOR BOARD
+- 0359 SUNGLASSES HOLDER
+
+Batch 13 validation:
+- Actions run #104: SUCCESS.
+- Source download failures: 0.
+- 0233/0234/0236/0240 use distinct rear-body crops from Hyundai Palisade LX3 2026 official rear overview.
+- 0307 uses Hyundai INSTER AXEV 2026 official cargo-floor/cargo-tray image.
+- 0359 uses Kia official Owner's Manual under the approved manufacturer-manual fallback rule.
+
+Codex action:
+1. Pull latest `main`.
+2. Bind these 13 new PASS candidates using current blobs.
+3. Reverse-QA each card individually; never replace with the uncropped overview.
+4. For 0307, verify the physical floor board/cover is visible, not only storage beneath.
+5. For 0359, verify the actual sunglass holder is visible.
+6. Count live Production only after mobile + reverse-QA.
+
+Current master after Batch 13:
+- PASS candidates: **245 / 500**
+- REVIEW/backlog: **255**

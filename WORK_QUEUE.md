@@ -535,3 +535,32 @@ Still REVIEW — do not bind/promote:
 4. Do not promote REVIEW items.
 5. Deploy and mobile-check; report mismatches by permanent ID.
 6. Production % changes only after live BLACK UI + reverse QA.
+
+
+## CODEX HANDOFF READY — 2026-09-08 — IDs 0151–0160
+Chat Production has completed and committed a final asset for:
+- **0154 FUEL FILLER CAP**
+
+Final asset: `images/parts/0154.jpg`.
+Detailed QA: `research/0151-0160-production-result.md`.
+
+Still REVIEW — do not bind/promote:
+- **0151 ENGINE OIL FILTER**
+- **0152 DRIVE BELT**
+- **0153 SPARK PLUG**
+- **0155 FUEL TANK**
+- **0156 FUEL TANK AIR FILTER**
+- **0157 FUEL FILTER**
+- **0158 BRAKE LINE**
+- **0159 BRAKE HOSE**
+- **0160 BRAKE PAD**
+
+These terms are verified in Hyundai maintenance text, but stronger directly labeled physical-part visuals are still required. Do not substitute generic web/stock/component imagery.
+
+### Codex action now
+1. Pull latest `main`.
+2. Bind/display **0154** in the existing BLACK UI without redesign.
+3. Do not redo the 0154 crop/source research.
+4. Do not promote the REVIEW items above.
+5. Deploy and mobile-check; report mismatches by permanent ID.
+6. Production % changes only after live BLACK UI + reverse QA.

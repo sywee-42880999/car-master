@@ -28,18 +28,18 @@ jobs:
         with:
           name: car-master-production-preview
           path: production-preview/
-      - name: Commit backlog recovery 02
+      - name: Commit backlog recovery 03
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/master.json research/backlog-recovery-02.md
-          for id in 0302 0303 0315 0316 0317 0318 0320 0321; do
+          git add data/master.json research/backlog-recovery-03.md
+          for id in 0017 0040 0055 0059; do
             if [ -f "images/parts/$id.jpg" ]; then git add "images/parts/$id.jpg"; fi
           done
           if git diff --cached --quiet; then
             echo "No validated backlog recovery changes."
           else
-            git commit -m "Recover validated backlog assets batch 02"
+            git commit -m "Recover validated backlog assets batch 03"
             git pull --rebase origin main
             git push origin HEAD:main
           fi

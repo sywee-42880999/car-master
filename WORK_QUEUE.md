@@ -470,3 +470,30 @@ Still REVIEW — do not bind/promote:
 4. Do not promote 0125.
 5. Deploy and mobile-check; report mismatches by permanent ID.
 6. Production % changes only after live BLACK UI + reverse QA.
+
+
+## CODEX HANDOFF READY — 2026-09-08 — IDs 0131–0140
+Chat Production has completed and committed final assets for:
+- **0131 JACK HANDLE**
+- **0132 JACK**
+- **0133 TOWING HOOK**
+- **0134 WHEEL LUG NUT WRENCH**
+- **0135 SOCKET**
+- **0136 SPARE TIRE**
+- **0140 JACKING POSITION**
+
+Final assets: `images/parts/0131.jpg`–`images/parts/0136.jpg`, `images/parts/0140.jpg`.
+Detailed QA: `research/0131-0140-production-result.md`.
+
+Still REVIEW — do not bind/promote:
+- **0137 SPARE TIRE CARRIER**
+- **0138 SPARE TIRE RETAINER GUIDE**
+- **0139 WHEEL STUDS**
+
+### Codex action now
+1. Pull latest `main`.
+2. Bind/display the PASS items above in the existing BLACK UI without redesign.
+3. Do not redo crops or source research.
+4. Do not promote 0137–0139.
+5. Deploy and mobile-check; report mismatches by permanent ID.
+6. Production % changes only after live BLACK UI + reverse QA.

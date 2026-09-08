@@ -1263,3 +1263,46 @@ Current master:
 - Added compact AUTO play/pause and SWIPE controls below the learning action.
 - iPhone 13 QA: 213/213 cards retained identical card/region heights; text overflow 0; horizontal overflow 0.
 - AUTO QA: advanced 0011 → 0012 after 3 seconds while card height remained unchanged.
+
+
+## BACKLOG RECOVERY RESULTS — BATCH 08–09 — 2026-09-08
+Batch 08:
+- 0330 SEAT BELT GUIDE — official candidate image URL 404
+- 0364 SEAT BELT GUIDE — official candidate image URL 404
+- No PASS promotion; both remain hidden/backlog and move to manufacturer-media/general-web fallback.
+
+Batch 09 PASS candidates:
+- 0001 HOOD
+- 0002 HEADLIGHTS
+- 0003 FRONT WIPER BLADES
+- 0004 SIDE VIEW MIRRORS
+- 0005 WINDOWS
+- 0006 SUNROOF
+- 0007 TIRES
+- 0008 WHEELS
+
+Source:
+- Hyundai Palisade LX3 2026 official Exterior Overview (Front View), image `1C_OutsideVehicleFrontOverview`.
+
+Production method:
+- The uncropped full-car overview is NOT used as a learning card.
+- Each ID received a distinct card-specific crop emphasizing only its requested visible part.
+- 0007 and 0008 use different wheel areas/crops so tire vs wheel can be reverse-QA'd separately.
+
+Validation:
+- Batch 08 Actions run #93: SUCCESS, no promotions due 404 source failure.
+- Batch 09 Actions run #95: SUCCESS.
+- Batch 09 source download failures: 0.
+- Image readability / 4:3 / minimum-size guards: PASS.
+- BLACK UI unchanged.
+
+Codex action for Batch 09:
+1. Pull latest `main`.
+2. Bind 0001–0008 using the new image blobs.
+3. Reverse-QA each card individually; do not substitute the uncropped overview.
+4. Specifically verify 0007 visually reads as TIRE and 0008 as WHEEL.
+5. Mobile-check before counting live Production.
+
+Current master after Batch 09:
+- PASS candidates: **221 / 500**
+- REVIEW/backlog: **279**

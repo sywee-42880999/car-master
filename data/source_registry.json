@@ -2364,6 +2364,42 @@
         "0360"
       ],
       "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_CENTER_CONSOLE_STORAGE_DETAIL": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/id4254ea949e7.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_CenterConsoleBox",
+        "2C_CenterConsoleBox_2"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0297",
+        "0298"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_HEAD_RESTRAINT_DETAIL": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/topic_sch_5pn_ccc.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_AdjustHeadrestUpDown",
+        "2C_RemoveHeadrestManual",
+        "2C_RemoveHeadrestAuto"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0320"
+      ],
+      "source_verified_at": "2026-09-08"
     }
   }
 }

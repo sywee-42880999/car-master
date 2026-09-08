@@ -73,7 +73,17 @@
     "0087": "images/parts/0087.jpg",
     "0088": "images/parts/0088.jpg",
     "0089": "images/parts/0089.jpg",
-    "0090": "images/parts/0090.jpg"
+    "0090": "images/parts/0090.jpg",
+    "0091": "images/parts/0091.jpg",
+    "0092": "images/parts/0092.jpg",
+    "0093": "images/parts/0093.jpg",
+    "0094": "images/parts/0094.jpg",
+    "0095": "images/parts/0095.jpg",
+    "0096": "images/parts/0096.jpg",
+    "0097": "images/parts/0097.jpg",
+    "0098": "images/parts/0098.jpg",
+    "0099": "images/parts/0099.jpg",
+    "0100": "images/parts/0100.jpg"
   },
   "rules": [
     "Prefer official Hyundai PDF or official Hyundai web manual.",
@@ -679,6 +689,46 @@
         "0088",
         "0089",
         "0090"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_STEERING_CONTROL_OVERVIEW": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/picture_index_steering_wheel_control_overview.html",
+      "pdf_url": null,
+      "image_keys": [
+        "1C_CenterInsideVehicleOverview_2"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0091",
+        "0092",
+        "0094",
+        "0095",
+        "0096",
+        "0097",
+        "0098",
+        "0099",
+        "0100"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_PADDLE_SHIFT": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/idd711287ece3.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_PaddleShift"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0093"
       ],
       "source_verified_at": "2026-09-08"
     }

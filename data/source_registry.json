@@ -2533,6 +2533,86 @@
         "0359"
       ],
       "source_verified_at": "2026-09-08"
+    },
+    "HY_NX4A_2026_STEERING_LEVER": {
+      "maker": "Hyundai",
+      "model": "Tucson NX4a",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NX4a/2026/en_US/id7b88a2f47c3.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_AdjustSteeringWheelManual"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0261"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_ESC_OFF": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/idde8129c14df.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_ESCOffButtion"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0264"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_POWER_LIFTGATE_BUTTON": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/id37fbd1619bd.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_CrashPadTailgateOpenButton"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0267"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3HEV_2026_FUEL_DOOR_BUTTON": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3 HEV",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3HEV/2026/en_US/topic_wwh_zrb_5cc.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_HEVFuelDoorOpenButton"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0268"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_NE1N_2026_CHARGING_DOOR_BUTTON": {
+      "maker": "Hyundai",
+      "model": "IONIQ 5 N NE1N",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NE1N/2026/en_US/id6ca54ba74f5.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_ChargingDoorOpenCloseButton"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0269"
+      ],
+      "source_verified_at": "2026-09-08"
     }
   }
 }

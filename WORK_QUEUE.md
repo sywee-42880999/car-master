@@ -497,3 +497,14 @@ Still REVIEW — do not bind/promote:
 4. Do not promote 0137–0139.
 5. Deploy and mobile-check; report mismatches by permanent ID.
 6. Production % changes only after live BLACK UI + reverse QA.
+
+
+## CODEX VERIFICATION NOTE — 2026-09-08 — 0121–0130 CORRECTED
+Second verification found the initial 0122/0123/0124 production JPGs were identical overview crops. Chat corrected and recommitted them as distinct physical-part images.
+
+Codex must pull latest `main` before deploy and use the current blobs:
+- **0122 COMPRESSOR** → `d3081bab72f48761c8c5e19ddc1348796e7460fb`
+- **0123 SEALANT BOTTLE** → `e7ada2d4c2389e0feabe3b58892aa50a9094dd1d`
+- **0124 PRESSURE GAUGE** → `399940057005b5271ec919f0b5b4dc9a639369e9`
+
+Do not use earlier identical 0122–0124 assets. 0125 remains REVIEW. Production % still changes only after live BLACK UI + reverse QA.

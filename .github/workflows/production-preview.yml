@@ -1,0 +1,25 @@
+name: CAR MASTER production preview
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "tools/build_production_preview.py"
+      - ".github/workflows/production-preview.yml"
+      - "images/source/**"
+  workflow_dispatch:
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install pillow
+      - run: python tools/build_production_preview.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: car-master-production-preview
+          path: production-preview/

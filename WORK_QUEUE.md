@@ -665,3 +665,33 @@ Production Backlog / taxonomy review — continue forward, do not block:
 3. Skip backlog/review items above.
 4. Continue deploying later PASS items even when IDs are non-contiguous.
 5. Production % only after live BLACK UI + reverse QA.
+
+
+## CODEX HANDOFF READY — 2026-09-08 — IDs 0221–0230
+Chat Production has completed and committed final assets for:
+- **0226 WHEEL ARCH CLADDING**
+- **0227 FENDER**
+- **0228 QUARTER PANEL**
+
+Final assets:
+- `images/parts/0226.jpg`
+- `images/parts/0227.jpg`
+- `images/parts/0228.jpg`
+
+Detailed QA: `research/0221-0230-production-result.md`.
+
+Production Backlog — continue forward, do not block:
+- **0221 DOOR WEATHERSTRIP**
+- **0222 WINDOW WEATHERSTRIP**
+- **0223 DOOR SILL**
+- **0224 ROCKER PANEL**
+- **0225 SIDE SILL GARNISH**
+- **0229 COWL TOP COVER**
+- **0230 WINDSHIELD MOLDING**
+
+### Codex action
+1. Pull latest `main`.
+2. Bind/display 0226–0228 in BLACK UI without redesign.
+3. Skip backlog items.
+4. Continue with later PASS items even when IDs are non-contiguous.
+5. Production % only after live BLACK UI + reverse QA.

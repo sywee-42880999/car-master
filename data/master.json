@@ -2117,21 +2117,23 @@
       "id": "0207",
       "en": "FRONT PARKING SENSOR",
       "ko": "전방 주차 센서",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_NE1N_2026_PDW"
+      ],
+      "image": "images/parts/0207.jpg"
     },
     {
       "id": "0208",
       "en": "REAR PARKING SENSOR",
       "ko": "후방 주차 센서",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_NE1N_2026_PDW"
+      ],
+      "image": "images/parts/0208.jpg"
     },
     {
       "id": "0209",
@@ -2563,21 +2565,23 @@
       "id": "0251",
       "en": "FRONT AIR VENT",
       "ko": "프론트 에어 벤트",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_MANUAL_CLIMATE_DETAIL"
+      ],
+      "image": "images/parts/0251.jpg"
     },
     {
       "id": "0252",
       "en": "REAR AIR VENT",
       "ko": "리어 에어 벤트",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_MANUAL_CLIMATE_DETAIL"
+      ],
+      "image": "images/parts/0252.jpg"
     },
     {
       "id": "0253",
@@ -2614,21 +2618,23 @@
       "id": "0256",
       "en": "TEMPERATURE CONTROL KNOB",
       "ko": "온도 조절 노브",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_MANUAL_CLIMATE_DETAIL"
+      ],
+      "image": "images/parts/0256.jpg"
     },
     {
       "id": "0257",
       "en": "FAN SPEED CONTROL",
       "ko": "풍량 조절부",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_NE1N_2026_MANUAL_CLIMATE_DETAIL"
+      ],
+      "image": "images/parts/0257.jpg"
     },
     {
       "id": "0258",

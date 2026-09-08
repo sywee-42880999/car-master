@@ -1354,11 +1354,26 @@
       ],
       "repo_asset": null,
       "used_by": [
+        "0001",
+        "0002",
+        "0003",
+        "0004",
+        "0005",
+        "0006",
+        "0007",
+        "0008",
         "0226",
         "0227",
         "0228"
       ],
-      "source_verified_at": "2026-09-08"
+      "source_verified_at": "2026-09-08",
+      "extracted_assets": [
+        {
+          "image_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/1C_OutsideVehicleFrontOverview.jpg.png",
+          "repo_asset": null,
+          "status": "REMOTE_OFFICIAL_SOURCE"
+        }
+      ]
     },
     "HY_LX3_2026_TOWING_HOOK": {
       "maker": "Hyundai",

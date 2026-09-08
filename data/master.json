@@ -1307,6 +1307,107 @@
       "source_refs": [
         "HY_LX3_2026_EMERGENCY_LIFTGATE_RELEASE"
       ]
+    },
+    {
+      "id": "0131",
+      "en": "JACK HANDLE",
+      "ko": "잭 핸들",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_SPARE_TIRE"
+      ],
+      "image": "images/parts/0131.jpg"
+    },
+    {
+      "id": "0132",
+      "en": "JACK",
+      "ko": "잭",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_SPARE_TIRE"
+      ],
+      "image": "images/parts/0132.jpg"
+    },
+    {
+      "id": "0133",
+      "en": "TOWING HOOK",
+      "ko": "견인 후크",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_SPARE_TIRE"
+      ],
+      "image": "images/parts/0133.jpg"
+    },
+    {
+      "id": "0134",
+      "en": "WHEEL LUG NUT WRENCH",
+      "ko": "휠 러그 너트 렌치",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_SPARE_TIRE"
+      ],
+      "image": "images/parts/0134.jpg",
+      "aliases": [
+        "WHEEL LUG WRENCH",
+        "WHEEL NUT WRENCH"
+      ]
+    },
+    {
+      "id": "0135",
+      "en": "SOCKET",
+      "ko": "소켓",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_SPARE_TIRE"
+      ],
+      "image": "images/parts/0135.jpg"
+    },
+    {
+      "id": "0136",
+      "en": "SPARE TIRE",
+      "ko": "스페어 타이어",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_SPARE_TIRE"
+      ],
+      "image": "images/parts/0136.jpg"
+    },
+    {
+      "id": "0137",
+      "en": "SPARE TIRE CARRIER",
+      "ko": "스페어 타이어 캐리어",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX3_2026_SPARE_TIRE"
+      ]
+    },
+    {
+      "id": "0138",
+      "en": "SPARE TIRE RETAINER GUIDE",
+      "ko": "스페어 타이어 리테이너 가이드",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX3_2026_SPARE_TIRE"
+      ]
+    },
+    {
+      "id": "0139",
+      "en": "WHEEL STUDS",
+      "ko": "휠 스터드",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX3_2026_SPARE_TIRE"
+      ]
+    },
+    {
+      "id": "0140",
+      "en": "JACKING POSITION",
+      "ko": "잭 포인트",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_SPARE_TIRE"
+      ],
+      "image": "images/parts/0140.jpg"
     }
   ]
 }

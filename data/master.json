@@ -1611,6 +1611,100 @@
       "aliases": [
         "BRAKE PADS"
       ]
+    },
+    {
+      "id": "0161",
+      "en": "BRAKE DISC",
+      "ko": "브레이크 디스크",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX3_2026_SEVERE_MAINTENANCE"
+      ],
+      "aliases": [
+        "BRAKE ROTOR",
+        "ROTOR"
+      ]
+    },
+    {
+      "id": "0162",
+      "en": "BRAKE CALIPER",
+      "ko": "브레이크 캘리퍼",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX3_2026_SEVERE_MAINTENANCE"
+      ]
+    },
+    {
+      "id": "0163",
+      "en": "STEERING GEAR RACK",
+      "ko": "스티어링 기어 랙",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX3_2026_SEVERE_MAINTENANCE"
+      ]
+    },
+    {
+      "id": "0164",
+      "en": "STEERING LINKAGE",
+      "ko": "스티어링 링키지",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX3_2026_SEVERE_MAINTENANCE"
+      ]
+    },
+    {
+      "id": "0165",
+      "en": "STEERING GEAR BOOT",
+      "ko": "스티어링 기어 부트",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX3_2026_SEVERE_MAINTENANCE"
+      ]
+    },
+    {
+      "id": "0166",
+      "en": "DRIVESHAFT",
+      "ko": "드라이브샤프트",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX3_2026_SEVERE_MAINTENANCE"
+      ]
+    },
+    {
+      "id": "0167",
+      "en": "DRIVESHAFT BOOT",
+      "ko": "드라이브샤프트 부트",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX3_2026_SEVERE_MAINTENANCE"
+      ]
+    },
+    {
+      "id": "0168",
+      "en": "SUSPENSION BALL JOINT",
+      "ko": "서스펜션 볼 조인트",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX3_2026_SEVERE_MAINTENANCE"
+      ]
+    },
+    {
+      "id": "0169",
+      "en": "PROPELLER SHAFT",
+      "ko": "프로펠러 샤프트",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX3_2026_SEVERE_MAINTENANCE"
+      ]
+    },
+    {
+      "id": "0170",
+      "en": "REAR DIFFERENTIAL",
+      "ko": "리어 디퍼렌셜",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX3_2026_SEVERE_MAINTENANCE"
+      ]
     }
   ]
 }

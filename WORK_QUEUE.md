@@ -635,3 +635,33 @@ Production Backlog — continue forward, do not block:
 3. Do not promote backlog items from generic imagery.
 4. Continue deploying earlier PASS assets.
 5. Production % only after live BLACK UI + reverse QA.
+
+
+## CODEX HANDOFF READY — 2026-09-08 — IDs 0201–0210
+Chat Production has completed and committed final assets for:
+- **0201 LICENSE PLATE LIGHT**
+- **0203 SIDE REPEATER LIGHT**
+- **0204 SIDE MARKER LIGHT**
+
+Final assets:
+- `images/parts/0201.jpg`
+- `images/parts/0203.jpg`
+- `images/parts/0204.jpg`
+
+Detailed QA: `research/0201-0210-production-result.md`.
+
+Production Backlog / taxonomy review — continue forward, do not block:
+- **0202 REFLECTOR**
+- **0205 DAYTIME RUNNING LIGHT**
+- **0206 POSITION LIGHT**
+- **0207 FRONT PARKING SENSOR**
+- **0208 REAR PARKING SENSOR**
+- **0209 SIDE VIEW MIRROR TURN SIGNAL**
+- **0210 DOOR SCUFF TRIM**
+
+### Codex action
+1. Pull latest `main`.
+2. Bind/display 0201, 0203, 0204 in BLACK UI without redesign.
+3. Skip backlog/review items above.
+4. Continue deploying later PASS items even when IDs are non-contiguous.
+5. Production % only after live BLACK UI + reverse QA.

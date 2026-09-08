@@ -2290,6 +2290,46 @@
         "0257"
       ],
       "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_LATCH_ANCHORS": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/idb1e7bfb1b98.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_ALRSeatBeltLowerAnchorOverview",
+        "2C_ALRSeatBeltLowerAnchor",
+        "2C_ALRSeatBeltTetherAnchor",
+        "2C_ALRSeatBeltTetherAnchorInstall"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0325",
+        "0326",
+        "0327",
+        "0365",
+        "0366"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_NX4_2025_CUP_HOLDER": {
+      "maker": "Hyundai",
+      "model": "Tucson NX4",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NX4/2025/en_US/id69bad0abc86.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_CupHolderCenterConsole",
+        "2C_RearSeatCupHolder"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0357"
+      ],
+      "source_verified_at": "2026-09-08"
     }
   }
 }

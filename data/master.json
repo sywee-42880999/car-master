@@ -2128,6 +2128,106 @@
       "source_refs": [
         "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
       ]
+    },
+    {
+      "id": "0211",
+      "en": "FRONT DOOR GLASS",
+      "ko": "앞도어 유리",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0212",
+      "en": "REAR DOOR GLASS",
+      "ko": "뒷도어 유리",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0213",
+      "en": "QUARTER GLASS",
+      "ko": "쿼터 글라스",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0214",
+      "en": "WINDOW BELT MOLDING",
+      "ko": "윈도우 벨트 몰딩",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0215",
+      "en": "A-PILLAR GARNISH",
+      "ko": "A필러 가니쉬",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0216",
+      "en": "B-PILLAR GARNISH",
+      "ko": "B필러 가니쉬",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0217",
+      "en": "C-PILLAR GARNISH",
+      "ko": "C필러 가니쉬",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0218",
+      "en": "FRONT CAMERA",
+      "ko": "전방 카메라",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0219",
+      "en": "SIDE CAMERA",
+      "ko": "측면 카메라",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0220",
+      "en": "REAR CAMERA",
+      "ko": "후방 카메라",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
     }
   ]
 }

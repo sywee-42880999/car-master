@@ -3814,11 +3814,12 @@
       "id": "0376",
       "en": "DRIVER'S KNEE AIRBAG",
       "ko": "운전석 무릎 에어백",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_AIRBAG_LOCATION"
-      ]
+      ],
+      "image": "images/parts/0376.jpg"
     },
     {
       "id": "0377",
@@ -4034,21 +4035,23 @@
       "id": "0398",
       "en": "CHARGE INDICATOR LIGHT",
       "ko": "충전 상태 표시등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_NE1A_2025_EV_CHARGING"
-      ]
+      ],
+      "image": "images/parts/0398.jpg"
     },
     {
       "id": "0399",
       "en": "CHARGING LABEL",
       "ko": "충전 라벨",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_NE1A_2025_EV_CHARGING"
-      ]
+      ],
+      "image": "images/parts/0399.jpg"
     },
     {
       "id": "0400",
@@ -4134,21 +4137,23 @@
       "id": "0408",
       "en": "HYBRID POWER CONTROL UNIT",
       "ko": "하이브리드 파워 컨트롤 유닛",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_NX4PHEV_2026_HYBRID_COMPONENTS"
-      ]
+        "HY_LX3HEV_2026_HYBRID_COMPONENTS"
+      ],
+      "image": "images/parts/0408.jpg"
     },
     {
       "id": "0409",
       "en": "HIGH VOLTAGE BATTERY",
       "ko": "고전압 배터리",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_NX4PHEV_2026_HYBRID_COMPONENTS"
-      ]
+        "HY_LX3HEV_2026_HYBRID_COMPONENTS"
+      ],
+      "image": "images/parts/0409.jpg"
     },
     {
       "id": "0410",
@@ -4184,11 +4189,12 @@
       "id": "0413",
       "en": "HYBRID BATTERY COOLING DUCT",
       "ko": "하이브리드 배터리 냉각 덕트",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_NX4PHEV_2026_HYBRID_COMPONENTS"
-      ]
+        "HY_LX3HEV_2026_BATTERY_AIR_VENT"
+      ],
+      "image": "images/parts/0413.jpg"
     },
     {
       "id": "0414",

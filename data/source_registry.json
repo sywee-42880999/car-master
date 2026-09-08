@@ -1725,6 +1725,40 @@
         "0420"
       ],
       "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3HEV_2026_HYBRID_COMPONENTS": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3 HEV",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3HEV/2026/en_US/topic_cpz_qsz_rvb.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_HPCU",
+        "2C_HybridBattery"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0408",
+        "0409"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3HEV_2026_BATTERY_AIR_VENT": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3 HEV",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3HEV/2026/en_US/topic_ygp_zcy_v5b.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_BatteryAirVent"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0413"
+      ],
+      "source_verified_at": "2026-09-08"
     }
   }
 }

@@ -3492,31 +3492,34 @@
       "id": "0334",
       "en": "DOOR POCKET",
       "ko": "도어 포켓",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_QZ_2026_DOOR_POCKET"
+      ],
+      "image": "images/parts/0334.jpg"
     },
     {
       "id": "0335",
       "en": "DOOR ARMREST",
       "ko": "도어 암레스트",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_AXEV_2026_DOOR_ARMREST"
+      ],
+      "image": "images/parts/0335.jpg"
     },
     {
       "id": "0336",
       "en": "DOOR TRIM",
       "ko": "도어 트림",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_DOOR_TRIM"
+      ],
+      "image": "images/parts/0336.jpg"
     },
     {
       "id": "0337",

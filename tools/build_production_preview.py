@@ -3,7 +3,7 @@ from PIL import Image,ImageOps,ImageDraw
 import urllib.request,math
 
 ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT/"production-preview";PARTS=ROOT/"images"/"parts";DL=OUT/"batch-0261-0290-source"
+OUT=ROOT/"production-preview";PARTS=ROOT/"images"/"parts";DL=OUT/"batch-0291-0320-source"
 OUT.mkdir(exist_ok=True);PARTS.mkdir(parents=True,exist_ok=True);DL.mkdir(parents=True,exist_ok=True)
 
 def get(url,name):
@@ -11,18 +11,22 @@ def get(url,name):
  if not p.exists(): urllib.request.urlretrieve(url,p)
  return Image.open(p).convert("RGB")
 
-cluster=get("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/1C_ClusterOverview_1.jpg.png","cluster.png")
-interior=get("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/1C_CenterInsideVehicleOverview.jpg.png","interior.png")
+usb_data=get("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_USBPort.jpg.png","usb_data.png")
+usb_charge=get("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_USBChargeOutlet.jpg.png","usb_charge.png")
+power12=get("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_PowerOutlet_1.jpg.png","power12.png")
+wireless=get("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_WirelessSmartPhoneChargingSystem.jpg.png","wireless.png")
+seat=get("https://ownersmanual.hyundai.com/full_webhelp/NE1N/2026/en_UK/images/1C_FrontSeatOverview.jpg.png","seat.png")
 
 specs={
-"0271":(cluster,(0.02,0.12,0.38,0.88),"SPEEDOMETER","speed readout/gauge region in official cluster overview"),
-"0272":(cluster,(0.62,0.12,0.98,0.88),"TACHOMETER","engine RPM gauge region in ICE cluster overview"),
-"0273":(cluster,(0.58,0.62,0.92,0.98),"FUEL GAUGE","fuel-level area in official cluster overview"),
-"0274":(cluster,(0.30,0.62,0.70,0.98),"ODOMETER","odometer/mileage display area in cluster overview"),
-"0277":(cluster,(0.20,0.02,0.80,0.35),"TURN SIGNAL INDICATOR","cluster turn-signal indicator area"),
-"0278":(cluster,(0.35,0.30,0.70,0.72),"GEAR POSITION INDICATOR","selected gear position shown in cluster display"),
-"0280":(interior,(0.00,0.00,1.00,0.70),"DASHBOARD","broad physical dashboard/instrument-panel overview"),
-"0281":(interior,(0.35,0.02,0.78,0.62),"INFOTAINMENT DISPLAY","center infotainment display is dominant in crop"),
+"0291":(usb_data,(0,0,1,1),"USB DATA PORT","dedicated Hyundai USB data-port image"),
+"0292":(usb_charge,(0,0,1,1),"USB CHARGING PORT","dedicated Hyundai USB charging-outlet image"),
+"0293":(power12,(0,0,1,1),"12 V POWER OUTLET","dedicated Hyundai 12 V power-outlet image"),
+"0295":(wireless,(0,0,1,1),"WIRELESS CHARGING PAD","dedicated wireless smartphone charging-pad image"),
+"0311":(seat,(0.00,0.48,0.28,0.98),"SEAT FORWARD/BACKWARD ADJUSTMENT LEVER","manual seat slide lever identified in Hyundai seat overview"),
+"0312":(seat,(0.18,0.45,0.42,0.96),"SEATBACK ANGLE ADJUSTMENT LEVER","manual seatback-angle lever identified in Hyundai seat overview"),
+"0313":(seat,(0.28,0.45,0.50,0.96),"SEAT HEIGHT ADJUSTMENT LEVER","manual seat-height lever identified in Hyundai seat overview"),
+"0314":(seat,(0.48,0.42,0.78,0.94),"POWER SEAT CONTROL SWITCH","power-seat control switch group identified in Hyundai seat overview"),
+"0316":(seat,(0.66,0.42,0.94,0.92),"LUMBAR SUPPORT SWITCH","lumbar-support switch identified in Hyundai seat overview"),
 }
 
 def crop4(im,b):
@@ -46,60 +50,56 @@ for id_,(im,box,term,note) in specs.items():
 
 def write(path,title,passrows,reviewrows):
  lines=[f"# CAR MASTER — {title} Chat Production Result","",
- "30-ID batch 0261–0290. Production progress remains unchanged until BLACK UI bind/deploy/mobile reverse-QA is confirmed.","",
+ "30-ID batch 0291–0320. Production progress remains unchanged until BLACK UI bind/deploy/mobile reverse-QA is confirmed.","",
  "| ID | Status | Term | QA |","|---|---|---|---|"]
- for id_,term,note in passrows:
-  lines.append(f"| {id_} | PASS | {term} | {note} |")
- for id_,term,note in reviewrows:
-  lines.append(f"| {id_} | REVIEW | {term} | {note} |")
+ for id_,term,note in passrows: lines.append(f"| {id_} | PASS | {term} | {note} |")
+ for id_,term,note in reviewrows: lines.append(f"| {id_} | REVIEW | {term} | {note} |")
  lines += ["","## Handoff","- REVIEW items move to Production Backlog and do not block forward production.","- Do not increment Production progress from this handoff alone."]
  (ROOT/"research"/path).write_text("\n".join(lines)+"\n",encoding="utf-8")
 
-write("0261-0270-production-result.md","0261–0270",[],
-[("0261","STEERING WHEEL TILT/TELESCOPIC LEVER","direct unmistakable Hyundai control close-up not secured"),
-("0262","POWER STEERING WHEEL ADJUSTMENT SWITCH","trim/model-specific control"),
-("0263","INSTRUMENT PANEL ILLUMINATION CONTROL","dedicated control crop not secured"),
-("0264","ESC OFF BUTTON","dedicated button source not secured"),
-("0265","IDLE STOP AND GO OFF BUTTON","ICE/model-specific; exact source needed"),
-("0266","LANE SAFETY BUTTON","overlap with 0097 LANE DRIVING ASSIST BUTTON"),
-("0267","POWER LIFTGATE BUTTON","multiple physical locations; source must identify one"),
-("0268","FUEL FILLER DOOR RELEASE BUTTON","not present on many modern Hyundai models"),
-("0269","CHARGING DOOR OPEN/CLOSE BUTTON","EV/model-specific implementation"),
-("0270","HEAD-UP DISPLAY","feature/display source not isolated strongly enough")])
+write("0291-0300-production-result.md","0291–0300",
+[("0291","USB DATA PORT","dedicated Hyundai USB data-port image"),
+("0292","USB CHARGING PORT","dedicated Hyundai USB charging-outlet image"),
+("0293","12 V POWER OUTLET","dedicated Hyundai 12 V power-outlet image"),
+("0295","WIRELESS CHARGING PAD","dedicated Hyundai wireless charging-pad image")],
+[("0294","AC POWER OUTLET","equipment/location-specific; direct outlet image not secured"),
+("0296","CUP HOLDER INSERT","removable insert terminology unresolved"),
+("0297","CENTER CONSOLE ARMREST","direct isolated armrest source not secured"),
+("0298","CONSOLE STORAGE LID","overlap with armrest/storage lid"),
+("0299","PARKING BRAKE PEDAL","model-specific foot-brake hardware"),
+("0300","BRAKE PEDAL","direct isolated Hyundai pedal image not secured")])
 
-write("0271-0280-production-result.md","0271–0280",
-[("0271","SPEEDOMETER","official cluster overview crop"),
-("0272","TACHOMETER","official ICE cluster overview crop"),
-("0273","FUEL GAUGE","official cluster overview crop"),
-("0274","ODOMETER","official cluster overview crop"),
-("0277","TURN SIGNAL INDICATOR","official cluster indicator crop"),
-("0278","GEAR POSITION INDICATOR","official cluster display crop"),
-("0280","DASHBOARD","official interior overview crop")],
-[("0275","TRIP COMPUTER","information-page concept rather than physical part"),
-("0276","WARNING LIGHT","umbrella term too broad"),
-("0279","DRIVER INFORMATION DISPLAY","overlap with instrument cluster/display taxonomy")])
+write("0301-0310-production-result.md","0301–0310",[],
+[("0301","REAR CENTER ARMREST","direct model-specific source not secured"),
+("0302","REAR CUP HOLDER","location-specific duplicate risk with 0043"),
+("0303","SEATBACK POCKET","direct close-up not secured"),
+("0304","REAR USB CHARGER","location-specific duplicate risk"),
+("0305","REAR POWER OUTLET","location-specific duplicate risk"),
+("0306","CARGO FLOOR","direct labeled cargo-floor source not secured"),
+("0307","CARGO FLOOR BOARD","overlap with cargo floor"),
+("0308","CARGO SIDE TRIM","direct labeled trim source not secured"),
+("0309","CARGO HOOK","direct dedicated Hyundai hook source not secured"),
+("0310","CARGO POWER OUTLET","location-specific outlet source not secured")])
 
-write("0281-0290-production-result.md","0281–0290",
-[("0281","INFOTAINMENT DISPLAY","official interior overview crop")],
-[("0282","AUDIO CONTROL PANEL","model-specific hardware layout"),
-("0283","VOLUME KNOB","physical knob not isolated in verified source"),
-("0284","TUNE KNOB","physical knob not isolated in verified source"),
-("0285","HOME BUTTON","may be physical/capacitive/software"),
-("0286","MEDIA BUTTON","model-specific physical shortcut"),
-("0287","SETUP BUTTON","model-specific physical shortcut"),
-("0288","SEEK/TRACK BUTTON","dedicated hardware source not secured"),
-("0289","PASSENGER AIRBAG INDICATOR","dedicated indicator-module source not secured"),
-("0290","DIGITAL KEY PAD","physical interface taxonomy unresolved")])
+write("0311-0320-production-result.md","0311–0320",
+[("0311","SEAT FORWARD/BACKWARD ADJUSTMENT LEVER","Hyundai seat overview"),
+("0312","SEATBACK ANGLE ADJUSTMENT LEVER","Hyundai seat overview"),
+("0313","SEAT HEIGHT ADJUSTMENT LEVER","Hyundai seat overview"),
+("0314","POWER SEAT CONTROL SWITCH","Hyundai seat overview"),
+("0316","LUMBAR SUPPORT SWITCH","Hyundai seat overview")],
+[("0315","SEATBACK ANGLE CONTROL SWITCH","subfunction of power-seat switch; separate-card value unresolved"),
+("0317","LEG SUPPORT SWITCH","premium/model-specific"),
+("0318","WALK-IN SWITCH","model-specific convenience control"),
+("0319","RELAXATION COMFORT SEAT SWITCH","feature/model-specific"),
+("0320","HEAD RESTRAINT RELEASE BUTTON","direct dedicated release-button source not secured")])
 
 if cards:
  cols=2;rows=math.ceil(len(cards)/cols);sheet=Image.new("RGB",(cols*600,rows*490),"white")
  for i,c in enumerate(cards):sheet.paste(c,((i%cols)*600,(i//cols)*490))
- sheet.save(OUT/"0261-0290-final-qa.jpg",quality=92)
+ sheet.save(OUT/"0291-0320-final-qa.jpg",quality=92)
 
-# validation
 for id_ in passed:
- p=PARTS/f"{id_}.jpg"
- im=Image.open(p); im.verify()
+ p=PARTS/f"{id_}.jpg"; im=Image.open(p); im.verify()
  im=Image.open(p); w,h=im.size
  if abs((w/h)-(4/3))>0.02: raise RuntimeError(f"{id_} aspect error {w}x{h}")
  if p.stat().st_size<5000: raise RuntimeError(f"{id_} suspiciously small")

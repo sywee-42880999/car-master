@@ -12,21 +12,21 @@ alt_dir = OUT / "downloaded"
 alt_dir.mkdir(exist_ok=True)
 alt_0017 = alt_dir / "2C_WideRearCamera.jpg.png"
 if not alt_0017.exists():
-    url = "https://ownersmanual.hyundai.com/full_webhelp/AXEV/2025/en_GN/images/2C_WideRearCamera.jpg.png"
+    url = "https://ownersmanual.hyundai.com/full_webhelp/NX4/2025/en_US/images/2C_WideRearViewCamera.jpg.png"
     try:
         urllib.request.urlretrieve(url, alt_0017)
     except Exception as e:
         print("0017 alternate unavailable:", e)
 
 specs = {
-    "0011": (SRC/"HY_LX3_2026_REAR_OVERVIEW/1C_OutsideVehicleRearOverview.jpg.png", (0.08,0.30,0.48,0.72), "door panel + seams + handle"),
+    "0011": (SRC/"HY_LX3_2026_REAR_OVERVIEW/1C_OutsideVehicleRearOverview.jpg.png", (0.12,0.27,0.55,0.72), "door panel + seams + handle"),
     "0012": (SRC/"HY_LX3_2026_FUEL_DOOR/2C_FuelInletDoor.jpg.png", (0.20,0.06,0.92,0.94), "fuel filler door"),
     "0013": (SRC/"HY_IONIQ5_IN_OFFICIAL_PDF/2C_HowToUseChargingDoor.jpg.png", (0.00,0.02,0.66,0.88), "charging door/flap"),
     "0014": (SRC/"HY_NX4A_2026_REAR_LAMP/2C_RearLampOverview.jpg.png", (0.12,0.00,0.88,0.72), "complete rear lamp housing"),
     "0015": (SRC/"HY_MX5A_2024_REVERSE/2C_BackupLampChange2.jpg.png", (0.08,0.05,0.90,0.92), "backup lamp unit + connector"),
     "0016": (SRC/"HY_LX3_2026_REAR_OVERVIEW/1C_OutsideVehicleRearOverview.jpg.png", (0.43,0.22,0.94,0.80), "liftgate perimeter + rear glass + lower edge"),
     "0017": ((alt_0017 if alt_0017.exists() else SRC/"HY_AXEV_2025_WIDE_REAR_CAMERA/2C_WideRearViewCamera.jpg.png"), (0.30,0.00,0.70,0.52), "rear camera lens/module"),
-    "0018": (SRC/"HY_LX3_2026_ANTENNA/2C_Antenna.jpg.png", (0.42,0.08,0.93,0.78), "roof shark-fin antenna"),
+    "0018": (SRC/"HY_LX3_2026_ANTENNA/2C_Antenna.jpg.png", (0.57,0.18,0.95,0.72), "roof shark-fin antenna"),
     "0019": (SRC/"HY_LX2_2025_REAR_WIPER/B0452KO05.eps.png", (0.00,0.02,0.72,0.92), "rear wiper blade + arm"),
     "0020": (SRC/"HY_NX4_2025_HIGH_STOP/2C_HighMountedStopLamp.jpg.png", (0.12,0.00,0.88,0.74), "high mounted stop lamp + spoiler context"),
 }

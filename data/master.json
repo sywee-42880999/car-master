@@ -2251,41 +2251,45 @@
       "id": "0214",
       "en": "WINDOW BELT MOLDING",
       "ko": "윈도우 벨트 몰딩",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ],
+      "image": "images/parts/0214.jpg"
     },
     {
       "id": "0215",
       "en": "A-PILLAR GARNISH",
       "ko": "A필러 가니쉬",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ],
+      "image": "images/parts/0215.jpg"
     },
     {
       "id": "0216",
       "en": "B-PILLAR GARNISH",
       "ko": "B필러 가니쉬",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ],
+      "image": "images/parts/0216.jpg"
     },
     {
       "id": "0217",
       "en": "C-PILLAR GARNISH",
       "ko": "C필러 가니쉬",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ],
+      "image": "images/parts/0217.jpg"
     },
     {
       "id": "0218",
@@ -2341,31 +2345,34 @@
       "id": "0223",
       "en": "DOOR SILL",
       "ko": "도어 실",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ],
+      "image": "images/parts/0223.jpg"
     },
     {
       "id": "0224",
       "en": "ROCKER PANEL",
       "ko": "로커 패널",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ],
+      "image": "images/parts/0224.jpg"
     },
     {
       "id": "0225",
       "en": "SIDE SILL GARNISH",
       "ko": "사이드 실 가니쉬",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ],
+      "image": "images/parts/0225.jpg"
     },
     {
       "id": "0226",

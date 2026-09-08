@@ -1,0 +1,25 @@
+# CAR MASTER — 0421–0470 Production Pass 2
+
+Only dedicated/direct Hyundai Owner's Manual images are eligible for PASS.
+
+## PASS
+- **0449 REMOTE START BUTTON** — 582x437, 21199 bytes, source HY_LX3_2026_SMART_KEY
+- **0453 SMART KEY REAR COVER** — 582x437, 53206 bytes, source HY_LX3_2026_SMART_KEY
+- **0455 EMERGENCY DOOR LOCK HOLE** — 582x437, 68689 bytes, source HY_LX3_2026_MECHANICAL_KEY
+- **0456 KEY CYLINDER COVER** — 582x437, 44490 bytes, source HY_LX3_2026_MECHANICAL_KEY
+- **0459 LOW TIRE PRESSURE POSITION TELLTALE** — 582x437, 52872 bytes, source HY_LX3_2026_TPMS
+- **0461 TIRE PRESSURE DISPLAY** — 582x437, 23310 bytes, source HY_LX3_2026_TPMS
+- **0462 REGENERATIVE BRAKING PADDLE SHIFTER** — 582x437, 49041 bytes, source HY_NE1A_2025_REGEN_BRAKING
+- **0463 REGENERATIVE BRAKING LEVEL INDICATOR** — 582x437, 13080 bytes, source HY_NE1A_2025_REGEN_BRAKING
+- **0464 SMART REGENERATION INDICATOR** — 582x437, 16535 bytes, source HY_NE1A_2025_REGEN_BRAKING
+- **0467 POWER/CHARGE GAUGE** — 584x438, 25800 bytes, source HY_NE1A_2025_EV_GAUGES_2
+- **0468 STATE OF CHARGE (SOC) GAUGE** — 582x437, 14182 bytes, source HY_NE1A_2025_EV_GAUGES_2
+
+## Fetch/validation failures
+- None
+
+## Rule
+- All other IDs 0421–0470 remain REVIEW + Production Backlog.
+- No generic/stock substitution.
+- BLACK UI unchanged.
+- Production % only after live UI deploy/mobile reverse-QA.

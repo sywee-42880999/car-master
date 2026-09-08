@@ -877,6 +877,120 @@
       "aliases": [
         "LUGGAGE ROOM LAMP"
       ]
+    },
+    {
+      "id": "0091",
+      "en": "LIGHTING CONTROL LEVER",
+      "ko": "조명 조절 레버",
+      "status": "PASS",
+      "image": "images/parts/0091.jpg",
+      "source_refs": [
+        "HY_LX3_2026_STEERING_CONTROL_OVERVIEW"
+      ]
+    },
+    {
+      "id": "0092",
+      "en": "WIPER AND WASHER CONTROL LEVER",
+      "ko": "와이퍼 및 워셔 조절 레버",
+      "status": "PASS",
+      "image": "images/parts/0092.jpg",
+      "source_refs": [
+        "HY_LX3_2026_STEERING_CONTROL_OVERVIEW"
+      ]
+    },
+    {
+      "id": "0093",
+      "en": "PADDLE SHIFTERS",
+      "ko": "패들 시프터",
+      "status": "PASS",
+      "image": "images/parts/0093.jpg",
+      "source_refs": [
+        "HY_LX3_2026_PADDLE_SHIFT"
+      ],
+      "aliases": [
+        "PADDLE SHIFTER"
+      ]
+    },
+    {
+      "id": "0094",
+      "en": "DRIVING ASSIST BUTTON",
+      "ko": "주행 보조 버튼",
+      "status": "PASS",
+      "image": "images/parts/0094.jpg",
+      "source_refs": [
+        "HY_LX3_2026_STEERING_CONTROL_OVERVIEW"
+      ]
+    },
+    {
+      "id": "0095",
+      "en": "CLUSTER DISPLAY CONTROL BUTTON",
+      "ko": "클러스터 디스플레이 조작 버튼",
+      "status": "PASS",
+      "image": "images/parts/0095.jpg",
+      "source_refs": [
+        "HY_LX3_2026_STEERING_CONTROL_OVERVIEW"
+      ],
+      "aliases": [
+        "CLUSTER DISPLAY CONTROLS BUTTON",
+        "CLUSTER DISPLAY CONTROLS",
+        "LCD DISPLAY CONTROL"
+      ]
+    },
+    {
+      "id": "0096",
+      "en": "VEHICLE DISTANCE BUTTON",
+      "ko": "차간 거리 버튼",
+      "status": "PASS",
+      "image": "images/parts/0096.jpg",
+      "source_refs": [
+        "HY_LX3_2026_STEERING_CONTROL_OVERVIEW"
+      ]
+    },
+    {
+      "id": "0097",
+      "en": "LANE DRIVING ASSIST BUTTON",
+      "ko": "차로 주행 보조 버튼",
+      "status": "PASS",
+      "image": "images/parts/0097.jpg",
+      "source_refs": [
+        "HY_LX3_2026_STEERING_CONTROL_OVERVIEW"
+      ]
+    },
+    {
+      "id": "0098",
+      "en": "ROTARY GEAR SHIFT DIAL",
+      "ko": "회전식 변속 다이얼",
+      "status": "PASS",
+      "image": "images/parts/0098.jpg",
+      "source_refs": [
+        "HY_LX3_2026_STEERING_CONTROL_OVERVIEW"
+      ],
+      "aliases": [
+        "ROTARY SHIFTER"
+      ]
+    },
+    {
+      "id": "0099",
+      "en": "STEERING WHEEL AUDIO CONTROLS",
+      "ko": "스티어링 휠 오디오 조작 버튼",
+      "status": "PASS",
+      "image": "images/parts/0099.jpg",
+      "source_refs": [
+        "HY_LX3_2026_STEERING_CONTROL_OVERVIEW"
+      ],
+      "aliases": [
+        "AUDIO REMOTE CONTROL BUTTONS"
+      ]
+    },
+    {
+      "id": "0100",
+      "en": "VOICE RECOGNITION BUTTON",
+      "ko": "음성 인식 버튼",
+      "status": "PASS",
+      "image": "images/parts/0100.jpg",
+      "source_refs": [
+        "HY_LX3_2026_STEERING_CONTROL_OVERVIEW"
+      ]
     }
   ]
 }

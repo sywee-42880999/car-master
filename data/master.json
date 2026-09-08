@@ -1905,6 +1905,123 @@
       "source_refs": [
         "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
       ]
+    },
+    {
+      "id": "0191",
+      "en": "WINDSHIELD WASHER NOZZLE",
+      "ko": "앞유리 워셔 노즐",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_REQUIRED"
+      ]
+    },
+    {
+      "id": "0192",
+      "en": "REAR WINDOW WASHER NOZZLE",
+      "ko": "뒷유리 워셔 노즐",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_REQUIRED"
+      ]
+    },
+    {
+      "id": "0193",
+      "en": "WIPER ARM",
+      "ko": "와이퍼 암",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0193.jpg",
+      "source_refs": [
+        "HY_LX3_2026_WIPER_BLADE_REPLACEMENT"
+      ]
+    },
+    {
+      "id": "0194",
+      "en": "REAR WIPER ARM",
+      "ko": "후면 와이퍼 암",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0194.jpg",
+      "source_refs": [
+        "HY_LX3_2026_WIPER_BLADE_REPLACEMENT"
+      ]
+    },
+    {
+      "id": "0195",
+      "en": "HOOD LATCH",
+      "ko": "후드 래치",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0195.jpg",
+      "source_refs": [
+        "HY_DN8_2026_HOOD_OPEN"
+      ]
+    },
+    {
+      "id": "0196",
+      "en": "SECONDARY HOOD RELEASE LEVER",
+      "ko": "후드 2차 열림 레버",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0196.jpg",
+      "source_refs": [
+        "HY_DN8_2026_HOOD_OPEN"
+      ],
+      "aliases": [
+        "HOOD SAFETY LATCH"
+      ]
+    },
+    {
+      "id": "0197",
+      "en": "LIFTGATE HANDLE BUTTON",
+      "ko": "리프트게이트 핸들 버튼",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0197.jpg",
+      "source_refs": [
+        "HY_LX3_2026_LIFTGATE_OPEN"
+      ],
+      "aliases": [
+        "LIFTGATE HANDLE",
+        "LIFTGATE HANDLE RELEASE SWITCH"
+      ]
+    },
+    {
+      "id": "0198",
+      "en": "LIFTGATE SUPPORT STRUTS",
+      "ko": "리프트게이트 지지 스트럿",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0198.jpg",
+      "source_refs": [
+        "HY_LX3_2026_LIFTGATE_SUPPORT_STRUTS"
+      ],
+      "aliases": [
+        "LIFTGATE STRUT",
+        "LIFTGATE SUPPORT STRUT"
+      ]
+    },
+    {
+      "id": "0199",
+      "en": "DOOR HINGE",
+      "ko": "도어 힌지",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_REQUIRED"
+      ]
+    },
+    {
+      "id": "0200",
+      "en": "DOOR CHECKER",
+      "ko": "도어 체커",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_REQUIRED"
+      ]
     }
   ]
 }

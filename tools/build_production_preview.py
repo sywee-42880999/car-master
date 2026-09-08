@@ -3,16 +3,16 @@ from PIL import Image, ImageOps, ImageDraw
 import urllib.request, json, math
 
 ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT/"production-preview"; PARTS=ROOT/"images"/"parts"; DL=OUT/"backlog-recovery-05"
+OUT=ROOT/"production-preview"; PARTS=ROOT/"images"/"parts"; DL=OUT/"backlog-recovery-06"
 OUT.mkdir(exist_ok=True); PARTS.mkdir(parents=True,exist_ok=True); DL.mkdir(parents=True,exist_ok=True)
 
 sources={
- "0207":(["https://ownersmanual.hyundai.com/full_webhelp/ne1n/2026/en_us/images/2C_FrontUltrasonicSensor.jpg.png"],"FRONT PARKING SENSOR","HY_NE1N_2026_PDW"),
- "0208":(["https://ownersmanual.hyundai.com/full_webhelp/ne1n/2026/en_us/images/2C_RearUltrasonicSensor.jpg.png"],"REAR PARKING SENSOR","HY_NE1N_2026_PDW"),
- "0251":(["https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_FrontVent.jpg.png"],"FRONT AIR VENT","HY_LX3_2026_MANUAL_CLIMATE_DETAIL"),
- "0252":(["https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_RearVent.jpg.png"],"REAR AIR VENT","HY_LX3_2026_MANUAL_CLIMATE_DETAIL"),
- "0256":(["https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_AirconTempButton.jpg.png"],"TEMPERATURE CONTROL KNOB","HY_LX3_2026_MANUAL_CLIMATE_DETAIL"),
- "0257":(["https://ownersmanual.hyundai.com/full_webhelp/NE1N/2026/en_US/images/2C_AirconFanSpeed.jpg.png","https://ownersmanual.hyundai.com/full_webhelp/NE1N/2026/en_US/images/2C_AirconFanSpeed_2.jpg.png"],"FAN SPEED CONTROL","HY_NE1N_2026_MANUAL_CLIMATE_DETAIL"),
+ "0325":(["https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_ALRSeatBeltLowerAnchorOverview.jpg.png"],"CHILD RESTRAINT ANCHORAGE","HY_LX3_2026_LATCH_ANCHORS"),
+ "0326":(["https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_ALRSeatBeltTetherAnchor.jpg.png"],"TOP TETHER ANCHORAGE","HY_LX3_2026_LATCH_ANCHORS"),
+ "0327":(["https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_ALRSeatBeltLowerAnchor.jpg.png"],"LOWER ANCHORAGE","HY_LX3_2026_LATCH_ANCHORS"),
+ "0357":(["https://ownersmanual.hyundai.com/full_webhelp/NX4/2025/en_US/images/2C_CupHolderCenterConsole.jpg.png"],"CENTER CONSOLE CUP HOLDER","HY_NX4_2025_CUP_HOLDER"),
+ "0365":(["https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_ALRSeatBeltTetherAnchor.jpg.png"],"CHILD RESTRAINT TOP TETHER ANCHOR","HY_LX3_2026_LATCH_ANCHORS"),
+ "0366":(["https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_ALRSeatBeltLowerAnchor.jpg.png"],"CHILD RESTRAINT LOWER ANCHOR","HY_LX3_2026_LATCH_ANCHORS"),
 }
 
 def fetch_first(urls,id_):
@@ -50,16 +50,16 @@ for id_,term,src,w,h,size in passed:
     x=byid[id_]; x["status"]="PASS"; x["production_backlog"]=False; x["image"]=f"images/parts/{id_}.jpg"; x["source_refs"]=[src]
 mf.write_text(json.dumps(master,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 
-rf=ROOT/"research"/"backlog-recovery-05.md"
-lines=["# CAR MASTER — Backlog Recovery 05","","## PASS"]
+rf=ROOT/"research"/"backlog-recovery-06.md"
+lines=["# CAR MASTER — Backlog Recovery 06","","## PASS"]
 lines += [f"- **{id_} {term}** — {w}x{h}, {size} bytes, {src}" for id_,term,src,w,h,size in passed] or ["- None"]
 lines += ["","## Failures"]
 lines += [f"- **{id_} {term}** — {err}" for id_,term,err in failures] or ["- None"]
-lines += ["","## Rule","- Unresolved items remain hidden/backlog.","- Official manual imagery first; manufacturer/general web fallback only when needed.","- BLACK UI unchanged."]
+lines += ["","## Rule","- Unresolved items remain hidden/backlog.","- Official Hyundai imagery preferred; manufacturer/general web fallback remains allowed.","- BLACK UI unchanged."]
 rf.write_text("\n".join(lines)+"\n",encoding="utf-8")
 
 if cards:
     cols=2; rows=math.ceil(len(cards)/cols); sheet=Image.new("RGB",(cols*600,rows*470),"white")
     for i,c in enumerate(cards): sheet.paste(c,((i%cols)*600,(i//cols)*470))
-    sheet.save(OUT/"backlog-recovery-05-qa.jpg",quality=92)
+    sheet.save(OUT/"backlog-recovery-06-qa.jpg",quality=92)
 print("PASS",[x[0] for x in passed]); print("FAILURES",failures); print("VALIDATION_OK",True)

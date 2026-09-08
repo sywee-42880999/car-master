@@ -2637,6 +2637,314 @@
       "source_refs": [
         "HY_NE1A_2025_AUTO_CLIMATE_CONTROL"
       ]
+    },
+    {
+      "id": "0261",
+      "en": "STEERING WHEEL TILT/TELESCOPIC LEVER",
+      "ko": "스티어링 휠 틸트·텔레스코픽 레버",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0262",
+      "en": "POWER STEERING WHEEL ADJUSTMENT SWITCH",
+      "ko": "전동 스티어링 휠 조절 스위치",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0263",
+      "en": "INSTRUMENT PANEL ILLUMINATION CONTROL",
+      "ko": "계기판 조명 밝기 조절부",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0264",
+      "en": "ESC OFF BUTTON",
+      "ko": "ESC OFF 버튼",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0265",
+      "en": "IDLE STOP AND GO OFF BUTTON",
+      "ko": "ISG OFF 버튼",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0266",
+      "en": "LANE SAFETY BUTTON",
+      "ko": "차로 안전 버튼",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0267",
+      "en": "POWER LIFTGATE BUTTON",
+      "ko": "파워 리프트게이트 버튼",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0268",
+      "en": "FUEL FILLER DOOR RELEASE BUTTON",
+      "ko": "연료 주입구 도어 열림 버튼",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0269",
+      "en": "CHARGING DOOR OPEN/CLOSE BUTTON",
+      "ko": "충전구 도어 열림·닫힘 버튼",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0270",
+      "en": "HEAD-UP DISPLAY",
+      "ko": "헤드업 디스플레이",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0271",
+      "en": "SPEEDOMETER",
+      "ko": "속도계",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0271.jpg",
+      "source_refs": [
+        "HY_LX3_2026_CLUSTER_OVERVIEW"
+      ]
+    },
+    {
+      "id": "0272",
+      "en": "TACHOMETER",
+      "ko": "타코미터",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0272.jpg",
+      "source_refs": [
+        "HY_LX3_2026_CLUSTER_OVERVIEW"
+      ]
+    },
+    {
+      "id": "0273",
+      "en": "FUEL GAUGE",
+      "ko": "연료 게이지",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0273.jpg",
+      "source_refs": [
+        "HY_LX3_2026_CLUSTER_OVERVIEW"
+      ]
+    },
+    {
+      "id": "0274",
+      "en": "ODOMETER",
+      "ko": "적산거리계",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0274.jpg",
+      "source_refs": [
+        "HY_LX3_2026_CLUSTER_OVERVIEW"
+      ]
+    },
+    {
+      "id": "0275",
+      "en": "TRIP COMPUTER",
+      "ko": "트립 컴퓨터",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0276",
+      "en": "WARNING LIGHT",
+      "ko": "경고등",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0277",
+      "en": "TURN SIGNAL INDICATOR",
+      "ko": "방향지시 표시등",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0277.jpg",
+      "source_refs": [
+        "HY_LX3_2026_CLUSTER_OVERVIEW"
+      ]
+    },
+    {
+      "id": "0278",
+      "en": "GEAR POSITION INDICATOR",
+      "ko": "변속 위치 표시",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0278.jpg",
+      "source_refs": [
+        "HY_LX3_2026_CLUSTER_OVERVIEW"
+      ]
+    },
+    {
+      "id": "0279",
+      "en": "DRIVER INFORMATION DISPLAY",
+      "ko": "운전자 정보 디스플레이",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0280",
+      "en": "DASHBOARD",
+      "ko": "대시보드",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0280.jpg",
+      "source_refs": [
+        "HY_LX3_2026_CENTER_INTERIOR_OVERVIEW"
+      ]
+    },
+    {
+      "id": "0281",
+      "en": "INFOTAINMENT DISPLAY",
+      "ko": "인포테인먼트 디스플레이",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0281.jpg",
+      "source_refs": [
+        "HY_LX3_2026_CENTER_INTERIOR_OVERVIEW"
+      ]
+    },
+    {
+      "id": "0282",
+      "en": "AUDIO CONTROL PANEL",
+      "ko": "오디오 조작 패널",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0283",
+      "en": "VOLUME KNOB",
+      "ko": "볼륨 노브",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0284",
+      "en": "TUNE KNOB",
+      "ko": "튠 노브",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0285",
+      "en": "HOME BUTTON",
+      "ko": "홈 버튼",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0286",
+      "en": "MEDIA BUTTON",
+      "ko": "미디어 버튼",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0287",
+      "en": "SETUP BUTTON",
+      "ko": "설정 버튼",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0288",
+      "en": "SEEK/TRACK BUTTON",
+      "ko": "탐색·트랙 버튼",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0289",
+      "en": "PASSENGER AIRBAG INDICATOR",
+      "ko": "동승석 에어백 표시등",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0290",
+      "en": "DIGITAL KEY PAD",
+      "ko": "디지털 키 패드",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
     }
   ]
 }

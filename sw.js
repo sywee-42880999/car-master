@@ -1,4 +1,4 @@
-const CACHE = 'car-master-black-v07';
+const CACHE = 'car-master-black-v08';
 const ASSETS = [
   './',
   './index.html',

@@ -636,6 +636,12 @@ Production Backlog — continue forward, do not block:
 4. Continue deploying earlier PASS assets.
 5. Production % only after live BLACK UI + reverse QA.
 
+## CODEX REVERSE QA — 2026-09-08
+- Checked every PASS `image` path against the actual file before binding. No PASS image file is missing.
+- BLACK UI binds only `status: PASS` items and skips `REVIEW` and `production_backlog: true` items.
+- Reverse visual QA moved these ambiguous cards to REVIEW/backlog without replacing Chat assets: **0017, 0059, 0131, 0132, 0133, 0134, 0135, 0195, 0196**.
+- All remaining PASS items continue through BLACK UI deploy and mobile verification.
+
 
 ## CODEX HANDOFF READY — 2026-09-08 — IDs 0201–0210
 Chat Production has completed and committed final assets for:

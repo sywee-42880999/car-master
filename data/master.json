@@ -121,11 +121,12 @@
       "en": "WIDE-REAR VIEW CAMERA",
       "ko": "광각 후방 카메라",
       "image": "images/parts/0017.jpg",
-      "status": "PASS",
+      "status": "REVIEW",
       "source_refs": [
         "HY_AXEV_2025_WIDE_REAR_CAMERA",
         "HY_LX3_2026_REAR_OVERVIEW"
-      ]
+      ],
+      "production_backlog": true
     },
     {
       "id": "0018",
@@ -543,11 +544,12 @@
       "id": "0059",
       "en": "UV-C STERILIZER SYSTEM",
       "ko": "UV-C 살균 시스템",
-      "status": "PASS",
+      "status": "REVIEW",
       "source_refs": [
         "HY_LX3_2026_CENTER_CONSOLE_OVERVIEW"
       ],
-      "image": "images/parts/0059.jpg"
+      "image": "images/parts/0059.jpg",
+      "production_backlog": true
     },
     {
       "id": "0060",
@@ -1312,37 +1314,40 @@
       "id": "0131",
       "en": "JACK HANDLE",
       "ko": "잭 핸들",
-      "status": "PASS",
+      "status": "REVIEW",
       "source_refs": [
         "HY_LX3_2026_SPARE_TIRE"
       ],
-      "image": "images/parts/0131.jpg"
+      "image": "images/parts/0131.jpg",
+      "production_backlog": true
     },
     {
       "id": "0132",
       "en": "JACK",
       "ko": "잭",
-      "status": "PASS",
+      "status": "REVIEW",
       "source_refs": [
         "HY_LX3_2026_SPARE_TIRE"
       ],
-      "image": "images/parts/0132.jpg"
+      "image": "images/parts/0132.jpg",
+      "production_backlog": true
     },
     {
       "id": "0133",
       "en": "TOWING HOOK",
       "ko": "견인 후크",
-      "status": "PASS",
+      "status": "REVIEW",
       "source_refs": [
         "HY_LX3_2026_SPARE_TIRE"
       ],
-      "image": "images/parts/0133.jpg"
+      "image": "images/parts/0133.jpg",
+      "production_backlog": true
     },
     {
       "id": "0134",
       "en": "WHEEL LUG NUT WRENCH",
       "ko": "휠 러그 너트 렌치",
-      "status": "PASS",
+      "status": "REVIEW",
       "source_refs": [
         "HY_LX3_2026_SPARE_TIRE"
       ],
@@ -1350,17 +1355,19 @@
       "aliases": [
         "WHEEL LUG WRENCH",
         "WHEEL NUT WRENCH"
-      ]
+      ],
+      "production_backlog": true
     },
     {
       "id": "0135",
       "en": "SOCKET",
       "ko": "소켓",
-      "status": "PASS",
+      "status": "REVIEW",
       "source_refs": [
         "HY_LX3_2026_SPARE_TIRE"
       ],
-      "image": "images/parts/0135.jpg"
+      "image": "images/parts/0135.jpg",
+      "production_backlog": true
     },
     {
       "id": "0136",
@@ -1952,8 +1959,8 @@
       "id": "0195",
       "en": "HOOD LATCH",
       "ko": "후드 래치",
-      "status": "PASS",
-      "production_backlog": false,
+      "status": "REVIEW",
+      "production_backlog": true,
       "image": "images/parts/0195.jpg",
       "source_refs": [
         "HY_DN8_2026_HOOD_OPEN"
@@ -1963,8 +1970,8 @@
       "id": "0196",
       "en": "SECONDARY HOOD RELEASE LEVER",
       "ko": "후드 2차 열림 레버",
-      "status": "PASS",
-      "production_backlog": false,
+      "status": "REVIEW",
+      "production_backlog": true,
       "image": "images/parts/0196.jpg",
       "source_refs": [
         "HY_DN8_2026_HOOD_OPEN"

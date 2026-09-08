@@ -785,3 +785,43 @@ All remaining IDs in 0261–0290 are REVIEW + Production Backlog and must not bl
 3. Skip all REVIEW/backlog IDs.
 4. Continue later PASS items even when IDs are non-contiguous.
 5. Mobile-check + reverse-QA before counting Production progress.
+
+
+## CODEX HANDOFF READY — 2026-09-08 — IDs 0291–0320 (THIRD 30-ID BATCH)
+Chat Production completed the third 30-ID batch with machine validation and GitHub Actions verification.
+
+PASS:
+- **0291 USB DATA PORT**
+- **0292 USB CHARGING PORT**
+- **0293 12 V POWER OUTLET**
+- **0295 WIRELESS CHARGING PAD**
+
+Final assets:
+- `images/parts/0291.jpg`
+- `images/parts/0292.jpg`
+- `images/parts/0293.jpg`
+- `images/parts/0295.jpg`
+
+Detailed QA:
+- `research/0291-0300-production-result.md`
+- `research/0301-0310-production-result.md`
+- `research/0311-0320-production-result.md`
+
+All remaining IDs in 0291–0320 are REVIEW + Production Backlog and must not block forward production.
+
+### 30-ID validation result
+- GitHub Actions workflow: **SUCCESS**
+- PASS asset file generation: **SUCCESS**
+- PASS image readability check: **SUCCESS**
+- 4:3 aspect validation: **SUCCESS**
+- suspicious-small-file guard: **PASS**
+- source download failures for promoted PASS assets: **0**
+- This is the third consecutive 30-ID batch with no workflow/file-validation error.
+- No Production % increment from this handoff alone.
+
+### Codex action
+1. Pull latest `main`.
+2. Bind/display the four PASS items above in BLACK UI without redesign.
+3. Skip all REVIEW/backlog IDs.
+4. Continue later PASS items even when IDs are non-contiguous.
+5. Mobile-check + reverse-QA before counting Production progress.

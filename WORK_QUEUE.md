@@ -262,3 +262,30 @@ Still REVIEW — do not bind/promote:
 4. Do not promote 0042.
 5. Deploy and mobile-check; report mismatches by permanent ID.
 6. Production % changes only after live BLACK UI + reverse QA.
+
+
+## CODEX HANDOFF READY — 2026-09-08 — IDs 0051–0060
+Chat Production has completed and committed final assets for:
+- **0051 HORN**
+- **0052 INFOTAINMENT SYSTEM**
+- **0053 CLIMATE CONTROL SYSTEM**
+- **0054 AUTO HOLD BUTTON**
+- **0056 DOWNHILL BRAKE CONTROL BUTTON**
+- **0057 PARKING SAFETY BUTTON**
+- **0058 PARKING/VIEW BUTTON**
+- **0059 UV-C STERILIZER SYSTEM**
+- **0060 AC INVERTER**
+
+Final assets: `images/parts/0051.jpg`–`0054.jpg`, `0056.jpg`–`0060.jpg`.
+Detailed QA: `research/0051-0060-production-result.md`.
+
+Still REVIEW — do not bind/promote:
+- **0055 DRIVE MODE CONTROL** — Hyundai overview shows DRIVE/TERRAIN integrated-control hardware, but canonical physical-part wording remains unresolved across models.
+
+### Codex action now
+1. Pull latest `main`.
+2. Bind/display the PASS items above in the existing BLACK UI without redesign.
+3. Do not redo crops or source research.
+4. Do not promote 0055.
+5. Deploy and mobile-check; report mismatches by permanent ID.
+6. Production % changes only after live BLACK UI + reverse QA.

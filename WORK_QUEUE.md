@@ -1306,3 +1306,38 @@ Codex action for Batch 09:
 Current master after Batch 09:
 - PASS candidates: **221 / 500**
 - REVIEW/backlog: **279**
+
+
+## BACKLOG RECOVERY RESULTS — BATCH 10 — 2026-09-08
+Initial Actions run #97 produced all eight images successfully but failed at the final push because `main` was updated concurrently by another recovery/Codex process. No image-production failure occurred.
+- Retry on latest main: Actions run **#98 — SUCCESS**
+
+Batch 10 PASS candidates:
+- 0028 TURN SIGNAL LIGHT
+- 0029 REAR SPOILER
+- 0211 FRONT DOOR GLASS
+- 0212 REAR DOOR GLASS
+- 0213 QUARTER GLASS
+- 0235 TAILGATE GLASS
+- 0237 FRONT SKID PLATE
+- 0238 REAR SKID PLATE
+
+Source:
+- Hyundai Palisade LX3 2026 official Front/Rear Exterior Overview.
+
+Production method:
+- Each ID uses a distinct card-specific crop.
+- 0211/0212/0213 are separated into front door glass / rear door glass / quarter glass.
+- 0237/0238 are separated into front/rear lower skid-plate areas.
+- Do not replace these with uncropped overview images.
+
+Codex action:
+1. Pull latest `main`.
+2. Bind the eight IDs above using the new blobs.
+3. Reverse-QA each card individually.
+4. Specifically confirm glass-part separation and front/rear skid-plate separation.
+5. Count live Production only after mobile + reverse-QA.
+
+Current master after Batch 10:
+- PASS candidates: **229 / 500**
+- REVIEW/backlog: **271**

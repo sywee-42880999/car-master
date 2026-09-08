@@ -316,3 +316,31 @@ Still REVIEW — do not bind/promote:
 4. Do not promote 0070.
 5. Deploy and mobile-check; report mismatches by permanent ID.
 6. Production % changes only after live BLACK UI + reverse QA.
+
+
+## CODEX HANDOFF READY — 2026-09-08 — IDs 0071–0080
+Chat Production has completed and committed final assets for:
+- **0071 DRIVER'S FRONT AIRBAG**
+- **0072 PASSENGER'S FRONT AIRBAG**
+- **0073 FRONT SIDE AIRBAG**
+- **0074 REAR SIDE AIRBAG**
+- **0075 CURTAIN AIRBAG**
+- **0076 FRONT PASSENGER AIRBAG ON/OFF SWITCH**
+- **0077 SEAT WARMER SWITCH**
+- **0078 AIR VENTILATION SEAT SWITCH** — corrected from feature-level AIR VENTILATION SEAT so the permanent card matches the visible physical control.
+
+Final assets: `images/parts/0071.jpg`–`images/parts/0078.jpg`.
+Detailed QA: `research/0071-0080-production-result.md`.
+
+Still REVIEW — do not bind/promote:
+- **0079 SEATBACK FOLDING LEVER**
+- **0080 REMOTE FOLDING BUTTON**
+Current Hyundai seat overview does not isolate these physical controls clearly enough for a learning card.
+
+### Codex action now
+1. Pull latest `main`.
+2. Bind/display 0071–0078 in the existing BLACK UI without redesign.
+3. Do not redo crops or source research.
+4. Do not promote 0079/0080.
+5. Deploy and mobile-check; report mismatches by permanent ID.
+6. Production % changes only after live BLACK UI + reverse QA.

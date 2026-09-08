@@ -142,7 +142,15 @@
     "0255": "images/parts/0255.jpg",
     "0258": "images/parts/0258.jpg",
     "0259": "images/parts/0259.jpg",
-    "0260": "images/parts/0260.jpg"
+    "0260": "images/parts/0260.jpg",
+    "0271": "images/parts/0271.jpg",
+    "0272": "images/parts/0272.jpg",
+    "0273": "images/parts/0273.jpg",
+    "0274": "images/parts/0274.jpg",
+    "0277": "images/parts/0277.jpg",
+    "0278": "images/parts/0278.jpg",
+    "0280": "images/parts/0280.jpg",
+    "0281": "images/parts/0281.jpg"
   },
   "rules": [
     "Prefer official Hyundai PDF or official Hyundai web manual.",
@@ -1379,6 +1387,44 @@
         "0258",
         "0259",
         "0260"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_CLUSTER_OVERVIEW": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/1C_ClusterOverview_1.jpg.png",
+      "pdf_url": null,
+      "image_keys": [
+        "1C_ClusterOverview_1"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0271",
+        "0272",
+        "0273",
+        "0274",
+        "0277",
+        "0278"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_CENTER_INTERIOR_OVERVIEW": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/1C_CenterInsideVehicleOverview.jpg.png",
+      "pdf_url": null,
+      "image_keys": [
+        "1C_CenterInsideVehicleOverview"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0280",
+        "0281"
       ],
       "source_verified_at": "2026-09-08"
     }

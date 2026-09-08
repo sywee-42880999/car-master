@@ -289,3 +289,30 @@ Still REVIEW — do not bind/promote:
 4. Do not promote 0055.
 5. Deploy and mobile-check; report mismatches by permanent ID.
 6. Production % changes only after live BLACK UI + reverse QA.
+
+
+## CODEX HANDOFF READY — 2026-09-08 — IDs 0061–0070
+Chat Production has completed and committed final assets for:
+- **0061 FRONT SEAT**
+- **0062 REAR SEAT**
+- **0063 HEAD RESTRAINT**
+- **0064 SEATBACK**
+- **0065 SEAT CUSHION**
+- **0066 SEAT BELT**
+- **0067 SEAT BELT BUCKLE**
+- **0068 TETHER ANCHOR**
+- **0069 LATCH LOWER ANCHOR**
+
+Final assets: `images/parts/0061.jpg`–`images/parts/0069.jpg`.
+Detailed QA: `research/0061-0070-production-result.md`.
+
+Still REVIEW — do not bind/promote:
+- **0070 SEAT BELT PRETENSIONER** — no dedicated unmistakable official Hyundai pretensioner illustration verified in this pass.
+
+### Codex action now
+1. Pull latest `main`.
+2. Bind/display 0061–0069 in the existing BLACK UI without redesign.
+3. Do not redo crops or source research.
+4. Do not promote 0070.
+5. Deploy and mobile-check; report mismatches by permanent ID.
+6. Production % changes only after live BLACK UI + reverse QA.

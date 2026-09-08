@@ -68,3 +68,30 @@ for i,c in enumerate(cards):
     sheet.paste(c,((i%cols)*560,(i//cols)*460))
 sheet.save(OUT/"0011-0020-candidates.jpg",quality=91)
 print("generated",len(cards),"production candidates")
+
+
+report = ROOT / "research" / "0011-0020-production-result.md"
+lines = [
+    "# CAR MASTER — 0011–0020 Re-crop Production Result",
+    "",
+    "This is the Chat-owned re-crop handoff. Production percentage is **not** changed here.",
+    "",
+    "PASS means the new 4:3 crop was promoted to `images/parts/<ID>.jpg`. REVIEW means the previous deployed asset must not be trusted and no new crop is promoted yet.",
+    "",
+    "| ID | Result | Source key | Crop decision |",
+    "|---|---|---|---|",
+]
+for id_ in sorted(specs):
+    decision = specs[id_][2]
+    lines.append(f"| {id_} | {status[id_]} | {source_keys[id_]} | {decision} |")
+lines += [
+    "",
+    "## REVIEW blockers",
+    "- **0017 WIDE-REAR VIEW CAMERA** — current official candidate identifies location, but the physical camera lens/module is still too small/ambiguous for the user's 'unmistakable part' rule. Keep REVIEW; Codex must not mark PASS merely because the page has a callout.",
+    "- **0018 ANTENNA** — current 2C_Antenna crop still reads mainly as a roof overview/callout. Find a stronger official Hyundai antenna close-up before replacing the deployed image.",
+    "",
+    "## Codex handoff",
+    "Pull latest main. Verify permanent-ID binding for PASS crops, add HTML overlay only if genuinely needed, keep 0017/0018 in correction state, then perform BLACK UI swipe/mobile QA and Pages deploy. Do not increment Production percentage from this crop commit alone.",
+]
+report.write_text("\n".join(lines)+"\n", encoding="utf-8")
+print("wrote", report)

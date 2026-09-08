@@ -4202,31 +4202,34 @@
       "id": "0402",
       "en": "EMERGENCY CHARGING CABLE",
       "ko": "비상 충전 커넥터 해제 케이블",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_NE1A_2025_EV_CHARGING"
-      ]
+      ],
+      "image": "images/parts/0402.jpg"
     },
     {
       "id": "0403",
       "en": "PORTABLE CHARGER CONTROL BOX",
       "ko": "휴대용 충전기 제어 박스",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_NE1A_2025_PORTABLE_CHARGER"
-      ]
+      ],
+      "image": "images/parts/0403.jpg"
     },
     {
       "id": "0404",
       "en": "PORTABLE CHARGER POWER PLUG",
       "ko": "휴대용 충전기 전원 플러그",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_NE1A_2025_PORTABLE_CHARGER"
-      ]
+      ],
+      "image": "images/parts/0404.jpg"
     },
     {
       "id": "0405",
@@ -4727,11 +4730,12 @@
       "id": "0454",
       "en": "SMART KEY BATTERY",
       "ko": "스마트 키 배터리",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_SMART_KEY"
-      ]
+      ],
+      "image": "images/parts/0454.jpg"
     },
     {
       "id": "0455",

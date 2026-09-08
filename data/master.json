@@ -258,6 +258,105 @@
       "source_refs": [
         "HY_LX3_2026_ROOF_SIDE_RAILS"
       ]
+    },
+    {
+      "id": "0031",
+      "en": "INSIDE DOOR HANDLE",
+      "ko": "실내 도어 핸들",
+      "status": "PASS",
+      "image": "images/parts/0031.jpg",
+      "source_refs": [
+        "HY_LX3_2026_INTERIOR_OVERVIEW"
+      ]
+    },
+    {
+      "id": "0032",
+      "en": "POWER WINDOW SWITCHES",
+      "ko": "파워 윈도우 스위치",
+      "status": "PASS",
+      "image": "images/parts/0032.jpg",
+      "source_refs": [
+        "HY_LX3_2026_INTERIOR_OVERVIEW"
+      ]
+    },
+    {
+      "id": "0033",
+      "en": "POWER WINDOW LOCK BUTTON",
+      "ko": "파워 윈도우 잠금 버튼",
+      "status": "PASS",
+      "image": "images/parts/0033.jpg",
+      "source_refs": [
+        "HY_LX3_2026_INTERIOR_OVERVIEW"
+      ]
+    },
+    {
+      "id": "0034",
+      "en": "CENTRAL DOOR LOCK SWITCH",
+      "ko": "중앙 도어 잠금 스위치",
+      "status": "PASS",
+      "image": "images/parts/0034.jpg",
+      "source_refs": [
+        "HY_LX3_2026_INTERIOR_OVERVIEW"
+      ]
+    },
+    {
+      "id": "0035",
+      "en": "SIDE VIEW MIRROR CONTROL SWITCH",
+      "ko": "실외 미러 조절 스위치",
+      "status": "PASS",
+      "image": "images/parts/0035.jpg",
+      "source_refs": [
+        "HY_LX3_2026_INTERIOR_OVERVIEW"
+      ]
+    },
+    {
+      "id": "0036",
+      "en": "SIDE VIEW MIRROR FOLDING BUTTON",
+      "ko": "실외 미러 접이 버튼",
+      "status": "PASS",
+      "image": "images/parts/0036.jpg",
+      "source_refs": [
+        "HY_LX3_2026_INTERIOR_OVERVIEW"
+      ]
+    },
+    {
+      "id": "0037",
+      "en": "EPB (ELECTRONIC PARKING BRAKE) SWITCH",
+      "ko": "전자식 파킹 브레이크 스위치",
+      "status": "PASS",
+      "image": "images/parts/0037.jpg",
+      "source_refs": [
+        "HY_LX3_2026_INTERIOR_OVERVIEW"
+      ]
+    },
+    {
+      "id": "0038",
+      "en": "HOOD RELEASE LEVER",
+      "ko": "후드 열림 레버",
+      "status": "PASS",
+      "image": "images/parts/0038.jpg",
+      "source_refs": [
+        "HY_LX3_2026_INTERIOR_OVERVIEW"
+      ]
+    },
+    {
+      "id": "0039",
+      "en": "STEERING WHEEL",
+      "ko": "스티어링 휠",
+      "status": "PASS",
+      "image": "images/parts/0039.jpg",
+      "source_refs": [
+        "HY_LX3_2026_INTERIOR_OVERVIEW"
+      ]
+    },
+    {
+      "id": "0040",
+      "en": "FUSE BOX",
+      "ko": "퓨즈 박스",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX3_2026_INTERIOR_OVERVIEW"
+      ]
     }
   ]
 }

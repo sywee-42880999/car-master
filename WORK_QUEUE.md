@@ -1109,3 +1109,44 @@ Validation:
 Current master after batch 02:
 - PASS: **186 / 500**
 - Remaining REVIEW/backlog: **314**
+
+
+## BACKLOG RECOVERY RESULTS — BATCHES 03–05 — 2026-09-08
+Batch 03 PASS:
+- 0017 WIDE-REAR VIEW CAMERA
+- 0040 FUSE BOX
+- 0055 DRIVE MODE CONTROL
+- 0059 UV-C STERILIZER SYSTEM
+
+Batch 04 PASS:
+- 0131 JACK HANDLE
+- 0132 JACK
+- 0133 TOWING HOOK
+- 0134 WHEEL LUG NUT WRENCH
+- 0135 SOCKET
+- 0144 BATTERY
+- 0145 FUSE BOX
+- 0147 ENGINE OIL DIPSTICK
+
+Batch 04 unresolved:
+- 0149 RADIATOR CAP — official direct image candidate returned 404; keep hidden for manufacturer/general-web fallback.
+
+Batch 05 PASS:
+- 0207 FRONT PARKING SENSOR
+- 0208 REAR PARKING SENSOR
+- 0251 FRONT AIR VENT
+- 0252 REAR AIR VENT
+- 0256 TEMPERATURE CONTROL KNOB
+- 0257 FAN SPEED CONTROL
+
+Validation:
+- Batch 03 Actions run #81: SUCCESS
+- Batch 04 Actions run #83: SUCCESS
+- Batch 05 Actions run #85: SUCCESS
+- Promoted PASS source download failures: 0
+- Image readability / 4:3 / minimum-size guards: PASS
+- BLACK UI unchanged.
+
+Current master after batch 05:
+- PASS: **204 / 500**
+- Remaining REVIEW/backlog: **296**

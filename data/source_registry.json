@@ -118,7 +118,12 @@
     "0134": "images/parts/0134.jpg",
     "0135": "images/parts/0135.jpg",
     "0136": "images/parts/0136.jpg",
-    "0140": "images/parts/0140.jpg"
+    "0140": "images/parts/0140.jpg",
+    "0141": "images/parts/0141.jpg",
+    "0142": "images/parts/0142.jpg",
+    "0143": "images/parts/0143.jpg",
+    "0146": "images/parts/0146.jpg",
+    "0148": "images/parts/0148.jpg"
   },
   "rules": [
     "Prefer official Hyundai PDF or official Hyundai web manual.",
@@ -1059,6 +1064,63 @@
         "0140"
       ],
       "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_ENGINE_ROOM": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/id2e9f70af50d.html",
+      "pdf_url": null,
+      "image_keys": [
+        "1C_EngineRoom"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0141",
+        "0142",
+        "0143",
+        "0144",
+        "0145",
+        "0146",
+        "0147",
+        "0148"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX2_2025_ENGINE_ROOM": {
+      "maker": "Hyundai",
+      "model": "Palisade LX2",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX2/2025/en_US/id30f0892e957.html",
+      "pdf_url": null,
+      "image_keys": [
+        "A0419KO02"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0149"
+      ],
+      "source_verified_at": "2026-09-08",
+      "status": "REVIEW_IMAGE"
+    },
+    "HY_NE1N_2026_MOTOR_ROOM": {
+      "maker": "Hyundai",
+      "model": "IONIQ 5 N NE1N",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NE1N/2026/en_US/ida453c8c47b3.html",
+      "pdf_url": null,
+      "image_keys": [
+        "1C_MotorRoomOverview"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0150"
+      ],
+      "source_verified_at": "2026-09-08",
+      "status": "REVIEW_IMAGE"
     }
   }
 }

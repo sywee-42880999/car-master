@@ -70,6 +70,20 @@ sheet.save(OUT/"0011-0020-candidates.jpg",quality=91)
 print("generated",len(cards),"production candidates")
 
 
+status = {id_: ("REVIEW" if id_ in {"0017","0018"} else "PASS") for id_ in specs}
+source_keys = {
+    "0011":"1C_OutsideVehicleRearOverview",
+    "0012":"2C_FuelInletDoor",
+    "0013":"2C_HowToUseChargingDoor",
+    "0014":"2C_RearLampOverview",
+    "0015":"2C_BackupLampChange2",
+    "0016":"1C_OutsideVehicleRearOverview",
+    "0017":"2C_WideRearViewCamera (NX4 dedicated)",
+    "0018":"2C_Antenna",
+    "0019":"B0452KO05",
+    "0020":"2C_HighMountedStopLamp",
+}
+
 report = ROOT / "research" / "0011-0020-production-result.md"
 lines = [
     "# CAR MASTER — 0011–0020 Re-crop Production Result",

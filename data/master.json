@@ -2228,6 +2228,109 @@
       "source_refs": [
         "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
       ]
+    },
+    {
+      "id": "0221",
+      "en": "DOOR WEATHERSTRIP",
+      "ko": "도어 웨더스트립",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0222",
+      "en": "WINDOW WEATHERSTRIP",
+      "ko": "윈도우 웨더스트립",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0223",
+      "en": "DOOR SILL",
+      "ko": "도어 실",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0224",
+      "en": "ROCKER PANEL",
+      "ko": "로커 패널",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0225",
+      "en": "SIDE SILL GARNISH",
+      "ko": "사이드 실 가니쉬",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0226",
+      "en": "WHEEL ARCH CLADDING",
+      "ko": "휠 아치 클래딩",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0226.jpg",
+      "source_refs": [
+        "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ]
+    },
+    {
+      "id": "0227",
+      "en": "FENDER",
+      "ko": "펜더",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0227.jpg",
+      "source_refs": [
+        "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ]
+    },
+    {
+      "id": "0228",
+      "en": "QUARTER PANEL",
+      "ko": "쿼터 패널",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0228.jpg",
+      "source_refs": [
+        "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ]
+    },
+    {
+      "id": "0229",
+      "en": "COWL TOP COVER",
+      "ko": "카울 탑 커버",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0230",
+      "en": "WINDSHIELD MOLDING",
+      "ko": "앞유리 몰딩",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
     }
   ]
 }

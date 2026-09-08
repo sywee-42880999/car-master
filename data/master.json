@@ -459,6 +459,108 @@
         "HY_LX3_2026_0041_0050"
       ],
       "image": "images/parts/0050.jpg"
+    },
+    {
+      "id": "0051",
+      "en": "HORN",
+      "ko": "혼",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_CENTER_CONSOLE_OVERVIEW"
+      ],
+      "image": "images/parts/0051.jpg"
+    },
+    {
+      "id": "0052",
+      "en": "INFOTAINMENT SYSTEM",
+      "ko": "인포테인먼트 시스템",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_CENTER_CONSOLE_OVERVIEW"
+      ],
+      "image": "images/parts/0052.jpg"
+    },
+    {
+      "id": "0053",
+      "en": "CLIMATE CONTROL SYSTEM",
+      "ko": "공조 시스템",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_CENTER_CONSOLE_OVERVIEW"
+      ],
+      "image": "images/parts/0053.jpg"
+    },
+    {
+      "id": "0054",
+      "en": "AUTO HOLD BUTTON",
+      "ko": "오토 홀드 버튼",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_CENTER_CONSOLE_OVERVIEW"
+      ],
+      "image": "images/parts/0054.jpg"
+    },
+    {
+      "id": "0055",
+      "en": "DRIVE MODE CONTROL",
+      "ko": "드라이브 모드 조작부",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX3_2026_CENTER_CONSOLE_OVERVIEW"
+      ]
+    },
+    {
+      "id": "0056",
+      "en": "DOWNHILL BRAKE CONTROL BUTTON",
+      "ko": "경사로 저속 주행 버튼",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_CENTER_CONSOLE_OVERVIEW"
+      ],
+      "image": "images/parts/0056.jpg"
+    },
+    {
+      "id": "0057",
+      "en": "PARKING SAFETY BUTTON",
+      "ko": "주차 안전 버튼",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_CENTER_CONSOLE_OVERVIEW"
+      ],
+      "image": "images/parts/0057.jpg"
+    },
+    {
+      "id": "0058",
+      "en": "PARKING/VIEW BUTTON",
+      "ko": "주차/뷰 버튼",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_CENTER_CONSOLE_OVERVIEW"
+      ],
+      "image": "images/parts/0058.jpg"
+    },
+    {
+      "id": "0059",
+      "en": "UV-C STERILIZER SYSTEM",
+      "ko": "UV-C 살균 시스템",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_CENTER_CONSOLE_OVERVIEW"
+      ],
+      "image": "images/parts/0059.jpg"
+    },
+    {
+      "id": "0060",
+      "en": "AC INVERTER",
+      "ko": "AC 인버터",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_CENTER_CONSOLE_OVERVIEW"
+      ],
+      "image": "images/parts/0060.jpg",
+      "aliases": [
+        "AC 115V INVERTER"
+      ]
     }
   ]
 }

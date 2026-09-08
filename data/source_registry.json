@@ -2186,6 +2186,55 @@
         "0302"
       ],
       "source_verified_at": "2026-09-08"
+    },
+    "HY_QT_2026_FUSE_BOX": {
+      "maker": "Hyundai",
+      "model": "Staria QT",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/QT/2026/ko_KR/topic_vnl_4vq_t3c.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_OQT075011"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0040"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_DN8_2026_DRIVE_MODE": {
+      "maker": "Hyundai",
+      "model": "Sonata DN8",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/DN8/2026/ko_KR/id2581f1d0ebba.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_DriveModeButton"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0055"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_UVC": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/topic_bn2_fgp_kdc.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_UV_Coverview",
+        "2C_UV_Coverview_2"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0059"
+      ],
+      "source_verified_at": "2026-09-08"
     }
   }
 }

@@ -6,42 +6,90 @@
     {
       "id": "0001",
       "en": "HOOD",
-      "ko": "후드"
+      "ko": "후드",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0001.jpg",
+      "source_refs": [
+        "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ]
     },
     {
       "id": "0002",
       "en": "HEADLIGHTS",
-      "ko": "헤드램프"
+      "ko": "헤드램프",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0002.jpg",
+      "source_refs": [
+        "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ]
     },
     {
       "id": "0003",
       "en": "FRONT WIPER BLADES",
-      "ko": "앞유리 와이퍼 블레이드"
+      "ko": "앞유리 와이퍼 블레이드",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0003.jpg",
+      "source_refs": [
+        "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ]
     },
     {
       "id": "0004",
       "en": "SIDE VIEW MIRRORS",
-      "ko": "실외 미러"
+      "ko": "실외 미러",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0004.jpg",
+      "source_refs": [
+        "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ]
     },
     {
       "id": "0005",
       "en": "WINDOWS",
-      "ko": "유리창"
+      "ko": "유리창",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0005.jpg",
+      "source_refs": [
+        "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ]
     },
     {
       "id": "0006",
       "en": "SUNROOF",
-      "ko": "선루프"
+      "ko": "선루프",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0006.jpg",
+      "source_refs": [
+        "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ]
     },
     {
       "id": "0007",
       "en": "TIRES",
-      "ko": "타이어"
+      "ko": "타이어",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0007.jpg",
+      "source_refs": [
+        "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ]
     },
     {
       "id": "0008",
       "en": "WHEELS",
-      "ko": "휠"
+      "ko": "휠",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0008.jpg",
+      "source_refs": [
+        "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ]
     },
     {
       "id": "0009",

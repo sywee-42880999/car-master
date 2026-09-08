@@ -1,122 +1,111 @@
 from pathlib import Path
-from PIL import Image,ImageOps,ImageDraw
-import urllib.request,math
+from PIL import Image, ImageOps, ImageDraw
+import urllib.request, json, math
 
 ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT/"production-preview";PARTS=ROOT/"images"/"parts";DL=OUT/"batch-0321-0370-source"
-OUT.mkdir(exist_ok=True);PARTS.mkdir(parents=True,exist_ok=True);DL.mkdir(parents=True,exist_ok=True)
+OUT=ROOT/"production-preview"
+PARTS=ROOT/"images"/"parts"
+DL=OUT/"batch-0371-0420-source"
+OUT.mkdir(exist_ok=True); PARTS.mkdir(parents=True,exist_ok=True); DL.mkdir(parents=True,exist_ok=True)
 
+# Only dedicated/direct Hyundai Owner's Manual visuals are eligible for auto-promotion.
 sources={
-"0346":("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_InsideRearViewMirrorECM.jpg.png","AUTO-DIMMING INSIDE REARVIEW MIRROR","dedicated Hyundai ECM inside-mirror image"),
-"0347":("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_RainSensor.jpg.png","RAIN SENSOR","dedicated Hyundai rain-sensor illustration"),
-"0360":("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_MultiConsole.jpg.png","OVERHEAD CONSOLE","Hyundai multi/overhead-console module image"),
+ "0376":("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_KneeAirbag.jpg.png","DRIVER'S KNEE AIRBAG","dedicated Hyundai knee-airbag location image","HY_LX3_2026_AIRBAG_LOCATION"),
+ "0398":("https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/images/2C_ChargingDoorIndicator.jpg.png","CHARGE INDICATOR LIGHT","dedicated Hyundai charge-indicator image","HY_NE1A_2025_EV_CHARGING"),
+ "0399":("https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/images/2C_ChargingLabel.jpg.png","CHARGING LABEL","dedicated Hyundai charging-label image","HY_NE1A_2025_EV_CHARGING"),
+ "0408":("https://ownersmanual.hyundai.com/full_webhelp/LX3HEV/2026/en_US/images/2C_HPCU.jpg.png","HYBRID POWER CONTROL UNIT","dedicated Hyundai HPCU image","HY_LX3HEV_2026_HYBRID_COMPONENTS"),
+ "0409":("https://ownersmanual.hyundai.com/full_webhelp/LX3HEV/2026/en_US/images/2C_HybridBattery.jpg.png","HIGH VOLTAGE BATTERY","dedicated Hyundai high-voltage battery image","HY_LX3HEV_2026_HYBRID_COMPONENTS"),
+ "0413":("https://ownersmanual.hyundai.com/full_webhelp/LX3HEV/2026/en_US/images/2C_BatteryAirVent.jpg.png","HYBRID BATTERY COOLING DUCT","dedicated Hyundai battery cooling air-vent image","HY_LX3HEV_2026_BATTERY_AIR_VENT"),
 }
 
 def fetch(url,id_):
- p=DL/f"{id_}.png"
- if not p.exists(): urllib.request.urlretrieve(url,p)
- return Image.open(p).convert("RGB")
+    p=DL/f"{id_}.src"
+    req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0"})
+    with urllib.request.urlopen(req,timeout=30) as r:
+        p.write_bytes(r.read())
+    im=Image.open(p)
+    im.verify()
+    return Image.open(p).convert("RGB"),p
+
 def crop4(im):
- w,h=im.size
- if w/h>4/3:
-  nw=int(h*4/3);x=(w-nw)//2;return im.crop((x,0,x+nw,h))
- nh=int(w*3/4);y=(h-nh)//2;return im.crop((0,y,w,y+nh))
+    w,h=im.size
+    target=4/3
+    if w/h > target:
+        nw=max(1,int(h*target)); x=(w-nw)//2
+        return im.crop((x,0,x+nw,h))
+    nh=max(1,int(w/target)); y=(h-nh)//2
+    return im.crop((0,y,w,y+nh))
 
-passed=[];cards=[];failures=[]
-for id_,(url,term,note) in sources.items():
- try:
-  c=crop4(fetch(url,id_))
-  c.save(OUT/f"{id_}.jpg",quality=94,subsampling=0)
-  c.save(PARTS/f"{id_}.jpg",quality=94,subsampling=0)
-  passed.append(id_)
-  t=ImageOps.contain(c,(560,420));card=Image.new("RGB",(600,490),"white");card.paste(t,((600-t.width)//2,10))
-  d=ImageDraw.Draw(card);d.text((12,440),f"{id_} PASS — {term}",fill="black");d.text((12,462),note,fill="black");cards.append(card)
- except Exception as e:
-  failures.append((id_,str(e)))
+passed=[]; failures=[]; cards=[]
+for id_,(url,term,note,src) in sources.items():
+    try:
+        im,p=fetch(url,id_)
+        c=crop4(im)
+        out=PARTS/f"{id_}.jpg"
+        c.save(out,quality=94,subsampling=0)
+        # validation
+        v=Image.open(out); v.verify()
+        v=Image.open(out); w,h=v.size
+        if abs((w/h)-(4/3))>0.02: raise RuntimeError(f"aspect error {w}x{h}")
+        if out.stat().st_size<5000: raise RuntimeError(f"suspiciously small {out.stat().st_size}")
+        passed.append((id_,term,note,src,url,w,h,out.stat().st_size))
+        thumb=ImageOps.contain(c,(560,400))
+        card=Image.new("RGB",(600,470),"white"); card.paste(thumb,((600-thumb.width)//2,10))
+        d=ImageDraw.Draw(card); d.text((12,420),f"{id_} PASS — {term}",fill="black"); d.text((12,442),note,fill="black")
+        cards.append(card)
+    except Exception as e:
+        failures.append((id_,term,str(e)))
 
-def write_result(path,title,passrows,reviewrows):
- lines=[f"# CAR MASTER — {title} Chat Production Result","",
- "First 50-ID validation batch (0321–0370). Production progress remains unchanged until BLACK UI bind/deploy/mobile reverse-QA is confirmed.","",
- "| ID | Status | Term | QA |","|---|---|---|---|"]
- for id_,term,note in passrows:
-  st="PASS" if id_ in passed else "REVIEW"
-  qa=note if st=="PASS" else "source fetch/validation failed"
-  lines.append(f"| {id_} | {st} | {term} | {qa} |")
- for id_,term,note in reviewrows:
-  lines.append(f"| {id_} | REVIEW | {term} | {note} |")
- lines += ["","## Handoff","- REVIEW items move to Production Backlog and do not block forward production.","- Do not increment Production progress from this handoff alone."]
- (ROOT/"research"/path).write_text("\n".join(lines)+"\n",encoding="utf-8")
+# Update master only for successfully downloaded/validated direct visuals.
+mf=ROOT/"data"/"master.json"
+master=json.loads(mf.read_text(encoding="utf-8"))
+items=master.get("items",master.get("entries",master if isinstance(master,list) else []))
+byid={x["id"]:x for x in items}
+for id_,term,note,src,url,w,h,size in passed:
+    x=byid[id_]
+    x["status"]="PASS"; x["production_backlog"]=False; x["image"]=f"images/parts/{id_}.jpg"
+    x["source_refs"]=[src]
+mf.write_text(json.dumps(master,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 
-write_result("0321-0330-production-result.md","0321–0330",[],
-[("0321","SEAT BELT HEIGHT ADJUSTER","direct labeled close-up not secured"),
-("0322","SEAT BELT ANCHOR","anchor hardware not isolated"),
-("0323","SEAT BELT TONGUE","direct Hyundai source URL probe failed; defer"),
-("0324","SEAT BELT RETRACTOR","hidden mechanism; diagram required"),
-("0325","CHILD RESTRAINT ANCHORAGE","umbrella term overlaps existing anchors"),
-("0326","TOP TETHER ANCHORAGE","overlap with 0068 TETHER ANCHOR"),
-("0327","LOWER ANCHORAGE","overlap with 0069 LATCH LOWER ANCHOR"),
-("0328","CHILD RESTRAINT ANCHOR COVER","model-specific trim subcomponent"),
-("0329","SEAT BELT BUCKLE RELEASE BUTTON","subcomponent of 0067 buckle"),
-("0330","SEAT BELT GUIDE","form/wording varies by seat design")])
+# Register source families actually used by this production pass.
+sf=ROOT/"data"/"source_registry.json"
+reg=json.loads(sf.read_text(encoding="utf-8")); S=reg["sources"]
+S["HY_LX3HEV_2026_HYBRID_COMPONENTS"]={
+ "maker":"Hyundai","model":"Palisade LX3 HEV","year":"2026","type":"official_web_manual",
+ "web_url":"https://ownersmanual.hyundai.com/full_webhelp/LX3HEV/2026/en_US/topic_cpz_qsz_rvb.html",
+ "pdf_url":None,"image_keys":["2C_HPCU","2C_HybridBattery"],"repo_asset":None,
+ "used_by":["0408","0409"],"source_verified_at":"2026-09-08"}
+S["HY_LX3HEV_2026_BATTERY_AIR_VENT"]={
+ "maker":"Hyundai","model":"Palisade LX3 HEV","year":"2026","type":"official_web_manual",
+ "web_url":"https://ownersmanual.hyundai.com/full_webhelp/LX3HEV/2026/en_US/topic_ygp_zcy_v5b.html",
+ "pdf_url":None,"image_keys":["2C_BatteryAirVent"],"repo_asset":None,
+ "used_by":["0413"],"source_verified_at":"2026-09-08"}
+sf.write_text(json.dumps(reg,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 
-write_result("0331-0340-production-result.md","0331–0340",[],
-[("0331","DOOR LOCK KNOB","direct labeled close-up not secured"),
-("0332","CHILD-PROTECTOR REAR DOOR LOCK","candidate source probe failed; defer"),
-("0333","DOOR COURTESY LIGHT","model-specific lamp source required"),
-("0334","DOOR POCKET","broad door-trim crop not strong enough"),
-("0335","DOOR ARMREST","broad door-trim crop not strong enough"),
-("0336","DOOR TRIM","whole trim boundary ambiguous"),
-("0337","DOOR SEAL","overlap with 0221 DOOR WEATHERSTRIP"),
-("0338","DOOR STRIKER","direct hardware close-up required"),
-("0339","DOOR LATCH","direct hardware close-up required"),
-("0340","DOOR LOCK ACTUATOR","hidden service component")])
-
-write_result("0341-0350-production-result.md","0341–0350",
-[("0346","AUTO-DIMMING INSIDE REARVIEW MIRROR","dedicated Hyundai ECM mirror image"),
-("0347","RAIN SENSOR","dedicated Hyundai rain-sensor illustration")],
-[("0341","WINDSHIELD WASHER","system/nozzle ambiguity"),
-("0342","REAR WINDOW WASHER","system/nozzle ambiguity"),
-("0343","WINDSHIELD DEFROSTER","function/system term rather than discrete physical part"),
-("0344","REAR WINDOW DEFROSTER","heating element/function source not isolated"),
-("0345","HEATED SIDE VIEW MIRROR","heated function not visually separable from mirror"),
-("0348","AUTO LIGHT SENSOR","direct verified source not secured"),
-("0349","WINDSHIELD CAMERA COVER","camera-cover taxonomy unresolved"),
-("0350","MIRROR BASE","subcomponent source not secured")])
-
-write_result("0351-0360-production-result.md","0351–0360",
-[("0360","OVERHEAD CONSOLE","Hyundai multi/overhead-console module image")],
-[("0351","FRONT USB CHARGER","overlaps existing USB charger entries"),
-("0352","12V POWER OUTLET","duplicates 0293/0046 scope"),
-("0353","AC POWER OUTLET","equipment-specific"),
-("0354","WIRELESS CHARGING PAD","duplicates 0295 physical pad"),
-("0355","CENTER CONSOLE USB PORT","location-specific duplicate risk"),
-("0356","REAR CONSOLE USB PORT","location-specific duplicate risk"),
-("0357","CENTER CONSOLE CUP HOLDER","location-specific duplicate risk"),
-("0358","REAR ARMREST CUP HOLDER","location-specific duplicate risk"),
-("0359","SUNGLASSES HOLDER","candidate source probe failed; defer")])
-
-write_result("0361-0370-production-result.md","0361–0370",[],
-[("0361","SEAT BELT HEIGHT ADJUSTER","duplicate concept with 0321"),
-("0362","SEAT BELT ANCHOR","duplicate concept with 0322"),
-("0363","SEAT BELT RETRACTOR","hidden mechanism; diagram required"),
-("0364","SEAT BELT GUIDE","duplicate concept with 0330"),
-("0365","CHILD RESTRAINT TOP TETHER ANCHOR","overlaps 0068/0326"),
-("0366","CHILD RESTRAINT LOWER ANCHOR","overlaps 0069/0327"),
-("0367","PASSENGER OCCUPANT SENSOR","hidden seat sensor"),
-("0368","AIRBAG WARNING LABEL","label taxonomy low priority / source required"),
-("0369","FRONT IMPACT SENSOR","hidden crash sensor; technical diagram required"),
-("0370","SIDE IMPACT SENSOR","hidden crash sensor; technical diagram required")])
+# Append exact production result. Non-candidates remain REVIEW/backlog from taxonomy pass.
+rf=ROOT/"research"/"0371-0420-production-pass2.md"
+lines=["# CAR MASTER — 0371–0420 Production Pass 2","",
+"GitHub Actions binary-fetch pass. Only dedicated/direct Hyundai Owner's Manual images are eligible for PASS.","",
+"## PASS"]
+if passed:
+    for id_,term,note,src,url,w,h,size in passed:
+        lines.append(f"- **{id_} {term}** — {w}x{h}, {size} bytes, source {src}")
+else:
+    lines.append("- None")
+lines += ["","## Fetch/validation failures"]
+if failures:
+    for id_,term,err in failures: lines.append(f"- **{id_} {term}** — {err}")
+else:
+    lines.append("- None")
+lines += ["","## Rule","- All other IDs 0371–0420 remain REVIEW + Production Backlog.","- No generic/stock substitution.","- BLACK UI design unchanged.","- Production percentage changes only after live UI deploy/mobile reverse-QA."]
+rf.write_text("\n".join(lines)+"\n",encoding="utf-8")
 
 if cards:
- cols=2;rows=math.ceil(len(cards)/cols);sheet=Image.new("RGB",(cols*600,rows*490),"white")
- for i,c in enumerate(cards):sheet.paste(c,((i%cols)*600,(i//cols)*490))
- sheet.save(OUT/"0321-0370-final-qa.jpg",quality=92)
+    cols=2; rows=math.ceil(len(cards)/cols)
+    sheet=Image.new("RGB",(cols*600,rows*470),"white")
+    for i,c in enumerate(cards): sheet.paste(c,((i%cols)*600,(i//cols)*470))
+    sheet.save(OUT/"0371-0420-pass2-qa.jpg",quality=92)
 
-for id_ in passed:
- p=PARTS/f"{id_}.jpg"; im=Image.open(p); im.verify()
- im=Image.open(p); w,h=im.size
- if abs((w/h)-(4/3))>0.02: raise RuntimeError(f"{id_} aspect error {w}x{h}")
- if p.stat().st_size<5000: raise RuntimeError(f"{id_} suspiciously small")
-if failures: raise RuntimeError("PASS source failures: "+repr(failures))
-print("PASS",passed)
+print("PASS",[x[0] for x in passed])
+print("FAILURES",failures)
 print("VALIDATION_OK",True)

@@ -9,6 +9,9 @@ on:
       - "images/source/**"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   preview:
     runs-on: ubuntu-latest
@@ -23,3 +26,16 @@ jobs:
         with:
           name: car-master-production-preview
           path: production-preview/
+      - name: Publish corrected 0011-0020 crops
+        run: |
+          mkdir -p images/parts
+          cp production-preview/00{11..20}.jpg images/parts/
+          git config user.name "car-master-production"
+          git config user.email "actions@users.noreply.github.com"
+          git add images/parts/0011.jpg images/parts/0012.jpg images/parts/0013.jpg images/parts/0014.jpg images/parts/0015.jpg images/parts/0016.jpg images/parts/0017.jpg images/parts/0018.jpg images/parts/0019.jpg images/parts/0020.jpg
+          if git diff --cached --quiet; then
+            echo "No crop changes to commit"
+          else
+            git commit -m "Correct production crops for IDs 0011-0020"
+            git push
+          fi

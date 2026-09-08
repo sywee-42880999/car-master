@@ -3332,31 +3332,34 @@
       "id": "0325",
       "en": "CHILD RESTRAINT ANCHORAGE",
       "ko": "어린이 보호장치 앵커리지",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_LATCH_ANCHORS"
+      ],
+      "image": "images/parts/0325.jpg"
     },
     {
       "id": "0326",
       "en": "TOP TETHER ANCHORAGE",
       "ko": "탑 테더 앵커리지",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_LATCH_ANCHORS"
+      ],
+      "image": "images/parts/0326.jpg"
     },
     {
       "id": "0327",
       "en": "LOWER ANCHORAGE",
       "ko": "하부 앵커리지",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_LATCH_ANCHORS"
+      ],
+      "image": "images/parts/0327.jpg"
     },
     {
       "id": "0328",
@@ -3654,11 +3657,12 @@
       "id": "0357",
       "en": "CENTER CONSOLE CUP HOLDER",
       "ko": "센터 콘솔 컵홀더",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_NX4_2025_CUP_HOLDER"
+      ],
+      "image": "images/parts/0357.jpg"
     },
     {
       "id": "0358",
@@ -3735,21 +3739,23 @@
       "id": "0365",
       "en": "CHILD RESTRAINT TOP TETHER ANCHOR",
       "ko": "유아용 시트 상부 테더 앵커",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_LATCH_ANCHORS"
+      ],
+      "image": "images/parts/0365.jpg"
     },
     {
       "id": "0366",
       "en": "CHILD RESTRAINT LOWER ANCHOR",
       "ko": "유아용 시트 하부 앵커",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_LATCH_ANCHORS"
+      ],
+      "image": "images/parts/0366.jpg"
     },
     {
       "id": "0367",

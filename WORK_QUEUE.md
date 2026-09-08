@@ -1413,3 +1413,33 @@ Codex action:
 Current master after Batch 13:
 - PASS candidates: **245 / 500**
 - REVIEW/backlog: **255**
+
+
+## BACKLOG RECOVERY RESULTS — BATCH 14 — 2026-09-08
+Batch 14 PASS candidates:
+- 0261 STEERING WHEEL TILT/TELESCOPIC LEVER
+- 0264 ESC OFF BUTTON
+- 0267 POWER LIFTGATE BUTTON
+- 0268 FUEL FILLER DOOR RELEASE BUTTON
+- 0269 CHARGING DOOR OPEN/CLOSE BUTTON
+
+Sources:
+- Dedicated Hyundai official Owner's Manual images only; no shared cabin overview.
+
+Validation:
+- Actions run #106: SUCCESS.
+- Source download failures: 0.
+- Image readability / 4:3 / minimum-size guards: PASS.
+- BLACK UI unchanged.
+
+Codex action:
+1. Pull latest `main`.
+2. Bind these five IDs with current image blobs.
+3. Reverse-QA each physical control/icon individually.
+4. 0261 must show the lock-release lever in steering adjustment context.
+5. 0264/0267/0268/0269 must each show the correct button.
+6. Count live Production only after mobile + reverse-QA.
+
+Current master after Batch 14:
+- PASS candidates: **250 / 500**
+- REVIEW/backlog: **250**

@@ -1805,6 +1805,106 @@
       "source_refs": [
         "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
       ]
+    },
+    {
+      "id": "0181",
+      "en": "WHEEL BEARING",
+      "ko": "휠 베어링",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
+      ]
+    },
+    {
+      "id": "0182",
+      "en": "STRUT",
+      "ko": "스트럿",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
+      ]
+    },
+    {
+      "id": "0183",
+      "en": "STRUT MOUNT",
+      "ko": "스트럿 마운트",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
+      ]
+    },
+    {
+      "id": "0184",
+      "en": "UPPER CONTROL ARM",
+      "ko": "어퍼 컨트롤 암",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
+      ]
+    },
+    {
+      "id": "0185",
+      "en": "STABILIZER LINK",
+      "ko": "스태빌라이저 링크",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
+      ]
+    },
+    {
+      "id": "0186",
+      "en": "STEERING KNUCKLE",
+      "ko": "스티어링 너클",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
+      ]
+    },
+    {
+      "id": "0187",
+      "en": "SUBFRAME",
+      "ko": "서브프레임",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
+      ]
+    },
+    {
+      "id": "0188",
+      "en": "CROSSMEMBER",
+      "ko": "크로스멤버",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
+      ]
+    },
+    {
+      "id": "0189",
+      "en": "UNDER COVER",
+      "ko": "언더 커버",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
+      ]
+    },
+    {
+      "id": "0190",
+      "en": "MUD GUARD",
+      "ko": "머드 가드",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
+      ]
     }
   ]
 }

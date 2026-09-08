@@ -28,18 +28,18 @@ jobs:
         with:
           name: car-master-production-preview
           path: production-preview/
-      - name: Commit validated 0371-0420 direct production assets
+      - name: Commit validated 0421-0470 direct production assets
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/master.json data/source_registry.json research/0371-0420-production-pass2.md
-          for id in 0376 0398 0399 0408 0409 0413; do
+          git add data/master.json research/0421-0470-production-pass2.md
+          for id in 0449 0453 0455 0456 0459 0461 0462 0463 0464 0467 0468; do
             if [ -f "images/parts/$id.jpg" ]; then git add "images/parts/$id.jpg"; fi
           done
           if git diff --cached --quiet; then
             echo "No validated production changes to commit."
           else
-            git commit -m "Produce validated 0371-0420 direct Hyundai assets"
+            git commit -m "Produce validated 0421-0470 direct Hyundai assets"
             git pull --rebase origin main
             git push origin HEAD:main
           fi

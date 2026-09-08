@@ -964,3 +964,59 @@ All remaining **44 IDs** in 0371–0420 are REVIEW + Production Backlog and must
 3. Skip all REVIEW/backlog IDs.
 4. Continue later PASS items even when IDs are non-contiguous.
 5. Mobile-check + reverse-QA before counting Production progress.
+
+
+## CODEX HANDOFF READY — 2026-09-08 — IDs 0421–0470 (THIRD 50-ID BATCH)
+The previously empty 0421–0470 range was validated and mapped from Hyundai official Owner's Manual terminology. Direct-image production then ran through GitHub Actions.
+
+PASS:
+- **0449 REMOTE START BUTTON**
+- **0453 SMART KEY REAR COVER**
+- **0455 EMERGENCY DOOR LOCK HOLE**
+- **0456 KEY CYLINDER COVER**
+- **0459 LOW TIRE PRESSURE POSITION TELLTALE**
+- **0461 TIRE PRESSURE DISPLAY**
+- **0462 REGENERATIVE BRAKING PADDLE SHIFTER**
+- **0463 REGENERATIVE BRAKING LEVEL INDICATOR**
+- **0464 SMART REGENERATION INDICATOR**
+- **0467 POWER/CHARGE GAUGE**
+- **0468 STATE OF CHARGE (SOC) GAUGE**
+
+Final assets:
+- `images/parts/0449.jpg`
+- `images/parts/0453.jpg`
+- `images/parts/0455.jpg`
+- `images/parts/0456.jpg`
+- `images/parts/0459.jpg`
+- `images/parts/0461.jpg`
+- `images/parts/0462.jpg`
+- `images/parts/0463.jpg`
+- `images/parts/0464.jpg`
+- `images/parts/0467.jpg`
+- `images/parts/0468.jpg`
+
+Detailed QA:
+- `research/0421-0430-production-result.md`
+- `research/0431-0440-production-result.md`
+- `research/0441-0450-production-result.md`
+- `research/0451-0460-production-result.md`
+- `research/0461-0470-production-result.md`
+- `research/0421-0470-production-pass2.md`
+
+All remaining **39 IDs** in 0421–0470 remain REVIEW + Production Backlog and must stay hidden from the learning deck.
+
+### 50-ID validation result
+- GitHub Actions production workflow: **SUCCESS** (run #73)
+- PASS source download failures: **0**
+- PASS image readability: **SUCCESS**
+- 4:3 aspect validation: **SUCCESS**
+- suspicious-small-file guard: **PASS**
+- BLACK UI design unchanged.
+- Production % only after live BLACK UI deploy/mobile reverse-QA.
+
+### Codex action
+1. Pull latest `main`.
+2. Bind/display the eleven PASS items above in the existing BLACK UI without redesign.
+3. Keep all other 0421–0470 items hidden as REVIEW/backlog.
+4. Continue later PASS items even when IDs are non-contiguous.
+5. Mobile-check + reverse-QA before counting Production progress.

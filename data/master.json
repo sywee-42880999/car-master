@@ -1205,6 +1205,108 @@
       "source_refs": [
         "HY_LX3_2026_POWER_SUNSHADE"
       ]
+    },
+    {
+      "id": "0121",
+      "en": "TIRE MOBILITY KIT",
+      "ko": "타이어 모빌리티 키트",
+      "status": "PASS",
+      "image": "images/parts/0121.jpg",
+      "source_refs": [
+        "HY_LX3_2026_TMK"
+      ]
+    },
+    {
+      "id": "0122",
+      "en": "COMPRESSOR",
+      "ko": "컴프레서",
+      "status": "PASS",
+      "image": "images/parts/0122.jpg",
+      "source_refs": [
+        "HY_LX3_2026_TMK"
+      ]
+    },
+    {
+      "id": "0123",
+      "en": "SEALANT BOTTLE",
+      "ko": "실런트 보틀",
+      "status": "PASS",
+      "image": "images/parts/0123.jpg",
+      "source_refs": [
+        "HY_LX3_2026_TMK"
+      ]
+    },
+    {
+      "id": "0124",
+      "en": "PRESSURE GAUGE",
+      "ko": "압력 게이지",
+      "status": "PASS",
+      "image": "images/parts/0124.jpg",
+      "source_refs": [
+        "HY_LX3_2026_TMK"
+      ],
+      "aliases": [
+        "PRESSURE GAUGE FOR DISPLAYING THE TIRE INFLATION PRESSURE"
+      ]
+    },
+    {
+      "id": "0125",
+      "en": "FILLING HOSE",
+      "ko": "주입 호스",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX3_2026_TMK"
+      ]
+    },
+    {
+      "id": "0126",
+      "en": "TIRE VALVE",
+      "ko": "타이어 밸브",
+      "status": "PASS",
+      "image": "images/parts/0126.jpg",
+      "source_refs": [
+        "HY_LX3_2026_TMK"
+      ]
+    },
+    {
+      "id": "0127",
+      "en": "SMART KEY",
+      "ko": "스마트 키",
+      "status": "PASS",
+      "image": "images/parts/0127.jpg",
+      "source_refs": [
+        "HY_LX3_2026_SMART_KEY"
+      ]
+    },
+    {
+      "id": "0128",
+      "en": "MECHANICAL KEY",
+      "ko": "기계식 키",
+      "status": "PASS",
+      "image": "images/parts/0128.jpg",
+      "source_refs": [
+        "HY_LX3_2026_MECHANICAL_KEY"
+      ]
+    },
+    {
+      "id": "0129",
+      "en": "KEY CYLINDER",
+      "ko": "키 실린더",
+      "status": "PASS",
+      "image": "images/parts/0129.jpg",
+      "source_refs": [
+        "HY_LX3_2026_MECHANICAL_KEY"
+      ]
+    },
+    {
+      "id": "0130",
+      "en": "EMERGENCY LIFTGATE SAFETY RELEASE LATCH",
+      "ko": "비상 리프트게이트 안전 해제 래치",
+      "status": "PASS",
+      "image": "images/parts/0130.jpg",
+      "source_refs": [
+        "HY_LX3_2026_EMERGENCY_LIFTGATE_RELEASE"
+      ]
     }
   ]
 }

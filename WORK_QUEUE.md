@@ -416,3 +416,30 @@ Detailed QA: `research/0101-0110-production-result.md`.
 3. Do not redo crops or source research.
 4. Deploy and mobile-check; report mismatches by permanent ID.
 5. Production % changes only after live BLACK UI + reverse QA.
+
+
+## CODEX HANDOFF READY — 2026-09-08 — IDs 0111–0120
+Chat Production has completed and committed final assets for:
+- **0111 CENTER CONSOLE STORAGE**
+- **0112 OPEN TRAY**
+- **0113 SLIDING TRAY**
+- **0114 CARGO TRAY**
+- **0115 COAT HOOK**
+- **0116 REAR SIDE SUNSHADE**
+- **0117 CARGO NET HOLDER**
+- **0118 CARGO SECURITY SCREEN**
+- **0120 POWER SUNSHADE SWITCH**
+
+Final assets: `images/parts/0111.jpg`–`images/parts/0118.jpg`, `images/parts/0120.jpg`.
+Detailed QA: `research/0111-0120-production-result.md`.
+
+Still REVIEW — do not bind/promote:
+- **0119 FLOOR MAT ANCHORS** — official terminology is verified, but no unmistakable dedicated Hyundai anchor image was verified in this pass.
+
+### Codex action now
+1. Pull latest `main`.
+2. Bind/display the PASS items above in the existing BLACK UI without redesign.
+3. Do not redo crops or source research.
+4. Do not promote 0119.
+5. Deploy and mobile-check; report mismatches by permanent ID.
+6. Production % changes only after live BLACK UI + reverse QA.

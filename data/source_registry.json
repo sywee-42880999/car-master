@@ -63,7 +63,17 @@
     "0075": "images/parts/0075.jpg",
     "0076": "images/parts/0076.jpg",
     "0077": "images/parts/0077.jpg",
-    "0078": "images/parts/0078.jpg"
+    "0078": "images/parts/0078.jpg",
+    "0081": "images/parts/0081.jpg",
+    "0082": "images/parts/0082.jpg",
+    "0083": "images/parts/0083.jpg",
+    "0084": "images/parts/0084.jpg",
+    "0085": "images/parts/0085.jpg",
+    "0086": "images/parts/0086.jpg",
+    "0087": "images/parts/0087.jpg",
+    "0088": "images/parts/0088.jpg",
+    "0089": "images/parts/0089.jpg",
+    "0090": "images/parts/0090.jpg"
   },
   "rules": [
     "Prefer official Hyundai PDF or official Hyundai web manual.",
@@ -635,6 +645,40 @@
       "used_by": [
         "0079",
         "0080"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_INTERIOR_LIGHTS_MIRRORS": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/id6e5ca4a1362.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_InsideRearViewMirrorDayNight",
+        "2C_DCMInsidemirrorOverview",
+        "2C_MapLampLED",
+        "2C_RoomLamp",
+        "2C_PersonalLamp",
+        "2C_MultiConsole",
+        "2C_MoodLampLED",
+        "2C_SunvisorLampLED",
+        "2C_GloveBoxLamp",
+        "2C_LuggageRoomLamp"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0081",
+        "0082",
+        "0083",
+        "0084",
+        "0085",
+        "0086",
+        "0087",
+        "0088",
+        "0089",
+        "0090"
       ],
       "source_verified_at": "2026-09-08"
     }

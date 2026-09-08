@@ -28,7 +28,16 @@
     "0036": "images/parts/0036.jpg",
     "0037": "images/parts/0037.jpg",
     "0038": "images/parts/0038.jpg",
-    "0039": "images/parts/0039.jpg"
+    "0039": "images/parts/0039.jpg",
+    "0041": "images/parts/0041.jpg",
+    "0043": "images/parts/0043.jpg",
+    "0044": "images/parts/0044.jpg",
+    "0045": "images/parts/0045.jpg",
+    "0046": "images/parts/0046.jpg",
+    "0047": "images/parts/0047.jpg",
+    "0048": "images/parts/0048.jpg",
+    "0049": "images/parts/0049.jpg",
+    "0050": "images/parts/0050.jpg"
   },
   "rules": [
     "Prefer official Hyundai PDF or official Hyundai web manual.",
@@ -419,6 +428,40 @@
           "repo_asset": null,
           "status": "REMOTE_OFFICIAL_SOURCE"
         }
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_0041_0050": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/picture_index_center_console_overview.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_GloveBox",
+        "2C_CenterConsoleBox",
+        "2C_CupHolder",
+        "2C_USBPort",
+        "2C_USBChargeOutlet",
+        "2C_PowerOutlet_1",
+        "2C_WirelessSmartPhoneChargingSystem",
+        "2C_HazardWarningLamp",
+        "2C_StartButton",
+        "1C_ClusterOverview_1"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0041",
+        "0042",
+        "0043",
+        "0044",
+        "0045",
+        "0046",
+        "0047",
+        "0048",
+        "0049",
+        "0050"
       ],
       "source_verified_at": "2026-09-08"
     }

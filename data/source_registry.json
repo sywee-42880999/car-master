@@ -2113,6 +2113,79 @@
         "0500"
       ],
       "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_POWER_SEAT_DETAIL": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/topic_qnb_ngn_ccc.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_AdjustSeatBackAuto",
+        "2C_AdjustSeatBackCushionAuto",
+        "2C_AdjustSeatlegAuto",
+        "2C_WorkinSwitch",
+        "2C_SeatBackPocket"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0303",
+        "0315",
+        "0316",
+        "0317",
+        "0318"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_NX4_2025_SEATBELT_HEIGHT": {
+      "maker": "Hyundai",
+      "model": "Tucson NX4",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NX4/2025/en_GN/id6a717b82c6a.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_AdjustSeatBeltHeight"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0321"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX2_2025_HEAD_RESTRAINT": {
+      "maker": "Hyundai",
+      "model": "Palisade LX2",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX2/2025/en_US/idd99ecb7f071.html",
+      "pdf_url": null,
+      "image_keys": [
+        "B0052KO18",
+        "B0701EU05"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0320"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_CUP_HOLDER": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/id69bad0abc86.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_CupHolder"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0302"
+      ],
+      "source_verified_at": "2026-09-08"
     }
   }
 }

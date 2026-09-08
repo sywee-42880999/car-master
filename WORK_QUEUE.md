@@ -825,3 +825,43 @@ All remaining IDs in 0291–0320 are REVIEW + Production Backlog and must not bl
 3. Skip all REVIEW/backlog IDs.
 4. Continue later PASS items even when IDs are non-contiguous.
 5. Mobile-check + reverse-QA before counting Production progress.
+
+
+## CODEX HANDOFF READY — 2026-09-08 — IDs 0321–0370 (FIRST 50-ID BATCH)
+Chat Production completed the first 50-ID batch with source probing, machine validation and GitHub Actions verification.
+
+PASS:
+- **0346 AUTO-DIMMING INSIDE REARVIEW MIRROR**
+- **0347 RAIN SENSOR**
+- **0360 OVERHEAD CONSOLE**
+
+Final assets:
+- `images/parts/0346.jpg`
+- `images/parts/0347.jpg`
+- `images/parts/0360.jpg`
+
+Detailed QA:
+- `research/0321-0330-production-result.md`
+- `research/0331-0340-production-result.md`
+- `research/0341-0350-production-result.md`
+- `research/0351-0360-production-result.md`
+- `research/0361-0370-production-result.md`
+
+All remaining IDs in 0321–0370 are REVIEW + Production Backlog and must not block forward production.
+
+### 50-ID validation result
+- GitHub Actions workflow: **SUCCESS**
+- PASS asset file generation: **SUCCESS**
+- PASS image readability check: **SUCCESS**
+- 4:3 aspect validation: **SUCCESS**
+- suspicious-small-file guard: **PASS**
+- promoted PASS source failures: **0**
+- Source probe additionally caught invalid candidate URLs before promotion; failed probes were moved to Backlog rather than promoted.
+- No Production % increment from this handoff alone.
+
+### Codex action
+1. Pull latest `main`.
+2. Bind/display 0346, 0347 and 0360 in BLACK UI without redesign.
+3. Skip all REVIEW/backlog IDs.
+4. Continue later PASS items even when IDs are non-contiguous.
+5. Mobile-check + reverse-QA before counting Production progress.

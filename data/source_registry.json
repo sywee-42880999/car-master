@@ -102,7 +102,16 @@
     "0116": "images/parts/0116.jpg",
     "0117": "images/parts/0117.jpg",
     "0118": "images/parts/0118.jpg",
-    "0120": "images/parts/0120.jpg"
+    "0120": "images/parts/0120.jpg",
+    "0121": "images/parts/0121.jpg",
+    "0122": "images/parts/0122.jpg",
+    "0123": "images/parts/0123.jpg",
+    "0124": "images/parts/0124.jpg",
+    "0126": "images/parts/0126.jpg",
+    "0127": "images/parts/0127.jpg",
+    "0128": "images/parts/0128.jpg",
+    "0129": "images/parts/0129.jpg",
+    "0130": "images/parts/0130.jpg"
   },
   "rules": [
     "Prefer official Hyundai PDF or official Hyundai web manual.",
@@ -939,6 +948,79 @@
       "repo_asset": null,
       "used_by": [
         "0120"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_TMK": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/id_wss_gdv_wcc.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_TMKOverview",
+        "1C_TMKPartsOverview",
+        "2C_TMKProcedure_3"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0121",
+        "0122",
+        "0123",
+        "0124",
+        "0125",
+        "0126"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_SMART_KEY": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/idd74c840ed3c.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_SmartKeyOverview"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0127"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_MECHANICAL_KEY": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/id_bsg_jtt_jcc.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_UsingEmerengcyKey_A1",
+        "2C_UsingEmerengcyKey_A4"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0128",
+        "0129"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_EMERGENCY_LIFTGATE_RELEASE": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/id9d39fad4cb3.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_EmergencyTrunkOpen"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0130"
       ],
       "source_verified_at": "2026-09-08"
     }

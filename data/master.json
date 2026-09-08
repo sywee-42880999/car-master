@@ -3045,21 +3045,23 @@
       "id": "0297",
       "en": "CENTER CONSOLE ARMREST",
       "ko": "센터 콘솔 암레스트",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_CENTER_CONSOLE_STORAGE_DETAIL"
+      ],
+      "image": "images/parts/0297.jpg"
     },
     {
       "id": "0298",
       "en": "CONSOLE STORAGE LID",
       "ko": "콘솔 수납함 덮개",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_CENTER_CONSOLE_STORAGE_DETAIL"
+      ],
+      "image": "images/parts/0298.jpg"
     },
     {
       "id": "0299",
@@ -3281,11 +3283,12 @@
       "id": "0320",
       "en": "HEAD RESTRAINT RELEASE BUTTON",
       "ko": "헤드레스트 해제 버튼",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_HEAD_RESTRAINT_DETAIL"
+      ],
+      "image": "images/parts/0320.jpg"
     },
     {
       "id": "0321",

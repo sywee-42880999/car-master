@@ -2235,6 +2235,61 @@
         "0059"
       ],
       "source_verified_at": "2026-09-08"
+    },
+    "HY_NE1N_2026_PDW": {
+      "maker": "Hyundai",
+      "model": "IONIQ 5 N NE1N",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/ne1n/2026/en_us/topic_xjg_cyl_w5b.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_FrontUltrasonicSensor",
+        "2C_RearUltrasonicSensor"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0207",
+        "0208"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_MANUAL_CLIMATE_DETAIL": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/id672e96ab07e.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_FrontVent",
+        "2C_RearVent",
+        "2C_AirconTempButton"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0251",
+        "0252",
+        "0256"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_NE1N_2026_MANUAL_CLIMATE_DETAIL": {
+      "maker": "Hyundai",
+      "model": "IONIQ 5 N NE1N",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NE1N/2026/en_US/id042e6950a36.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_AirconFanSpeed",
+        "2C_AirconFanSpeed_2"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0257"
+      ],
+      "source_verified_at": "2026-09-08"
     }
   }
 }

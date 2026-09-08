@@ -2451,21 +2451,23 @@
       "id": "0233",
       "en": "ROOF SPOILER GARNISH",
       "ko": "루프 스포일러 가니쉬",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_REAR_OVERVIEW"
+      ],
+      "image": "images/parts/0233.jpg"
     },
     {
       "id": "0234",
       "en": "LIFTGATE GARNISH",
       "ko": "리프트게이트 가니쉬",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_REAR_OVERVIEW"
+      ],
+      "image": "images/parts/0234.jpg"
     },
     {
       "id": "0235",
@@ -2482,11 +2484,12 @@
       "id": "0236",
       "en": "LICENSE PLATE GARNISH",
       "ko": "번호판 가니쉬",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_REAR_OVERVIEW"
+      ],
+      "image": "images/parts/0236.jpg"
     },
     {
       "id": "0237",
@@ -2525,11 +2528,12 @@
       "id": "0240",
       "en": "BUMPER MOLDING",
       "ko": "범퍼 몰딩",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_REAR_OVERVIEW"
+      ],
+      "image": "images/parts/0240.jpg"
     },
     {
       "id": "0241",
@@ -3220,11 +3224,12 @@
       "id": "0307",
       "en": "CARGO FLOOR BOARD",
       "ko": "러기지 플로어 보드",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_AXEV_2026_CARGO_FLOOR"
+      ],
+      "image": "images/parts/0307.jpg"
     },
     {
       "id": "0308",
@@ -3755,11 +3760,12 @@
       "id": "0359",
       "en": "SUNGLASSES HOLDER",
       "ko": "선글라스 보관함",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "KIA_ON_2024_SUNGLASS_HOLDER"
+      ],
+      "image": "images/parts/0359.jpg"
     },
     {
       "id": "0360",

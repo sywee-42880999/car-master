@@ -179,3 +179,31 @@ Chat-generated correction crops were visually reviewed from Hyundai official sou
 - Codex must not silently promote 0017/0018 merely because an official overview contains a callout.
 - No Production percentage increment from this correction cycle.
 - GitHub main remains the Chat↔Codex handoff channel; Codex should pull latest main before continuing UI bind/deploy work.
+
+
+## CODEX HANDOFF READY — 2026-09-08 — IDs 0021–0030
+Chat Production has completed and committed usable final 4:3 assets for:
+- **0021 FRONT BUMPER**
+- **0022 REAR BUMPER**
+- **0023 FRONT GRILLE**
+- **0024 WINDSHIELD**
+- **0025 REAR WINDOW**
+- **0026 OUTSIDE DOOR HANDLE**
+- **0027 ULTRASONIC SENSORS** — physical-term correction from prior PARKING DISTANCE WARNING SENSOR; old wording retained as alias/system relation.
+- **0030 ROOF SIDE RAILS** — physical-term correction from prior ROOF RACK; old wording retained as alias/accessory relation.
+
+Final assets are at `images/parts/0021.jpg`–`0027.jpg` and `images/parts/0030.jpg`.
+Detailed QA: `research/0021-0030-production-result.md`.
+
+Still REVIEW — do not bind/promote:
+- **0028 TURN SIGNAL LIGHT** — current official overview combines DRL/position/turn-signal area; stronger visually isolated source needed.
+- **0029 REAR SPOILER** — current official high-mounted-stop-lamp source shows the spoiler structure but is not a dedicated spoiler source.
+
+### Codex action now
+1. Pull latest `main`.
+2. Bind/display 0021–0027 and 0030 in the existing BLACK learning UI without redesign.
+3. Do not redo crops or source research for those PASS items.
+4. Do not promote 0028/0029.
+5. Deploy GitHub Pages and verify on mobile.
+6. Report any mismatch by permanent ID into Repo/queue.
+7. Do not increment Production % merely from this handoff; update only after correct live display + reverse QA.

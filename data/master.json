@@ -1094,6 +1094,117 @@
       "source_refs": [
         "HY_LX3_2026_SUNROOF_SWITCH"
       ]
+    },
+    {
+      "id": "0111",
+      "en": "CENTER CONSOLE STORAGE",
+      "ko": "센터 콘솔 수납함",
+      "status": "PASS",
+      "image": "images/parts/0111.jpg",
+      "source_refs": [
+        "HY_LX3_2026_STORAGE"
+      ]
+    },
+    {
+      "id": "0112",
+      "en": "OPEN TRAY",
+      "ko": "오픈 트레이",
+      "status": "PASS",
+      "image": "images/parts/0112.jpg",
+      "source_refs": [
+        "HY_LX3_2026_STORAGE"
+      ]
+    },
+    {
+      "id": "0113",
+      "en": "SLIDING TRAY",
+      "ko": "슬라이딩 트레이",
+      "status": "PASS",
+      "image": "images/parts/0113.jpg",
+      "source_refs": [
+        "HY_LX3_2026_STORAGE"
+      ]
+    },
+    {
+      "id": "0114",
+      "en": "CARGO TRAY",
+      "ko": "카고 트레이",
+      "status": "PASS",
+      "image": "images/parts/0114.jpg",
+      "source_refs": [
+        "HY_LX3_2026_STORAGE"
+      ]
+    },
+    {
+      "id": "0115",
+      "en": "COAT HOOK",
+      "ko": "코트 후크",
+      "status": "PASS",
+      "image": "images/parts/0115.jpg",
+      "source_refs": [
+        "HY_NX4A_2026_COAT_HOOK"
+      ]
+    },
+    {
+      "id": "0116",
+      "en": "REAR SIDE SUNSHADE",
+      "ko": "뒷좌석 측면 선쉐이드",
+      "status": "PASS",
+      "image": "images/parts/0116.jpg",
+      "source_refs": [
+        "HY_LX3_2026_REAR_SIDE_SUNSHADE"
+      ],
+      "aliases": [
+        "REAR SIDE WINDOW SUNSHADE",
+        "REAR SIDE WINDOW SUNSHADES"
+      ]
+    },
+    {
+      "id": "0117",
+      "en": "CARGO NET HOLDER",
+      "ko": "카고 네트 홀더",
+      "status": "PASS",
+      "image": "images/parts/0117.jpg",
+      "source_refs": [
+        "HY_LX3_2026_CARGO_NET"
+      ]
+    },
+    {
+      "id": "0118",
+      "en": "CARGO SECURITY SCREEN",
+      "ko": "카고 스크린",
+      "status": "PASS",
+      "image": "images/parts/0118.jpg",
+      "source_refs": [
+        "HY_LX3_2026_CARGO_SCREEN"
+      ],
+      "aliases": [
+        "LUGGAGE SCREEN",
+        "LUGGAGE COMPARTMENT COVER"
+      ]
+    },
+    {
+      "id": "0119",
+      "en": "FLOOR MAT ANCHORS",
+      "ko": "플로어 매트 고정 앵커",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX2_2025_FLOOR_MAT_ANCHOR"
+      ],
+      "aliases": [
+        "FLOOR MAT ANCHOR",
+        "FLOOR MAT ANCHOR(S)"
+      ]
+    },
+    {
+      "id": "0120",
+      "en": "POWER SUNSHADE SWITCH",
+      "ko": "파워 선쉐이드 스위치",
+      "status": "PASS",
+      "image": "images/parts/0120.jpg",
+      "source_refs": [
+        "HY_LX3_2026_POWER_SUNSHADE"
+      ]
     }
   ]
 }

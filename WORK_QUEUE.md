@@ -133,3 +133,35 @@ Read `WORK_QUEUE.md`, `data/master.json`, `data/progress.json`, and `data/source
 - UI prerequisite unresolved: all 18 commits reachable from main were inspected; initial `33af1fa` and later legacy trainer use light backgrounds. The approved BLACK prototype is not present in this history. Requested its URL/branch/file from user; do not invent a replacement design under the UI lock.
 - Next: obtain approved BLACK baseline, restore root learning UI and permanent-ID data binding; select/crop candidates, preserve/recover proper 0001–0010 assets, then verify live mobile display and reverse QA.
 - Production completion remains 2%. No new item is marked DONE and no live display validation is claimed.
+
+## PRODUCTION OWNERSHIP CHANGE — 2026-09-08
+User requested a token-saving workflow change.
+
+### ChatGPT (this chat) now owns image Production where possible
+- Work in **10-ID batches** for quality.
+- Read official Hyundai source assets already stored in the Repo.
+- Select the clearest official Source Asset for each permanent ID.
+- Create the final **4:3 crop** so the physical part itself is unmistakable.
+- Prefer tight close-up; no marker when the part is self-evident.
+- If context is required, do not bake markers into JPG. Record marker guidance for HTML overlay.
+- Perform reverse QA before handoff.
+- Commit crop/source/QA handoff results to main whenever the available tool path allows it.
+- First correction batch: **0011–0020**, using `research/0011-0020-production.md`.
+
+### Codex / Work role is reduced
+Codex should **not redo source research or crop work that Chat has already completed**.
+After each Chat production batch appears on `main`, Codex should:
+1. Pull latest `main`.
+2. Read this queue and the batch handoff.
+3. Bind final part assets to the permanent IDs/data only where Chat has not already done so.
+4. Preserve BLACK UI design.
+5. Add HTML marker overlays only when handoff explicitly requests one.
+6. Deploy GitHub Pages and verify the live mobile BLACK UI.
+7. Report any visual mismatch back into the Repo/queue by permanent ID instead of silently substituting another image.
+
+### Shared communication protocol
+- GitHub `main` is the communication channel between Chat and Codex.
+- Before starting work, each side must pull/read the latest queue and relevant research/handoff file.
+- Do not overwrite the other side's active batch.
+- If a batch file or target asset already exists, inspect it first and continue from Repo state.
+- Production progress must not be incremented merely because a crop or research file was committed. Increment only after correct live BLACK UI display + reverse QA.

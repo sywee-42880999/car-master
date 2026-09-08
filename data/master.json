@@ -121,12 +121,11 @@
       "en": "WIDE-REAR VIEW CAMERA",
       "ko": "광각 후방 카메라",
       "image": "images/parts/0017.jpg",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
-        "HY_AXEV_2025_WIDE_REAR_CAMERA",
-        "HY_LX3_2026_REAR_OVERVIEW"
+        "HY_AXEV_2025_WIDE_REAR_CAMERA"
       ],
-      "production_backlog": true
+      "production_backlog": false
     },
     {
       "id": "0018",
@@ -354,10 +353,12 @@
       "id": "0040",
       "en": "FUSE BOX",
       "ko": "퓨즈 박스",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
-        "HY_LX3_2026_INTERIOR_OVERVIEW"
-      ]
+        "HY_QT_2026_FUSE_BOX"
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0040.jpg"
     },
     {
       "id": "0041",
@@ -507,10 +508,12 @@
       "id": "0055",
       "en": "DRIVE MODE CONTROL",
       "ko": "드라이브 모드 조작부",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
-        "HY_LX3_2026_CENTER_CONSOLE_OVERVIEW"
-      ]
+        "HY_DN8_2026_DRIVE_MODE"
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0055.jpg"
     },
     {
       "id": "0056",
@@ -546,12 +549,12 @@
       "id": "0059",
       "en": "UV-C STERILIZER SYSTEM",
       "ko": "UV-C 살균 시스템",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
-        "HY_LX3_2026_CENTER_CONSOLE_OVERVIEW"
+        "HY_LX3_2026_UVC"
       ],
       "image": "images/parts/0059.jpg",
-      "production_backlog": true
+      "production_backlog": false
     },
     {
       "id": "0060",

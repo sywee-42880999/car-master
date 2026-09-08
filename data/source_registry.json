@@ -1,6 +1,18 @@
 {
   "version": "1.0",
   "purpose": "Single shared source map for ordinary ChatGPT and ChatGPT Work. Both must read this before claiming a source is unavailable.",
+  "final_assets": {
+    "0011": "images/parts/0011.jpg",
+    "0012": "images/parts/0012.jpg",
+    "0013": "images/parts/0013.jpg",
+    "0014": "images/parts/0014.jpg",
+    "0015": "images/parts/0015.jpg",
+    "0016": "images/parts/0016.jpg",
+    "0017": "images/parts/0017.jpg",
+    "0018": "images/parts/0018.jpg",
+    "0019": "images/parts/0019.jpg",
+    "0020": "images/parts/0020.jpg"
+  },
   "rules": [
     "Prefer official Hyundai PDF or official Hyundai web manual.",
     "Store public PDF URL, public web page URL, image key/name, and eventual repo-local extracted asset path together.",

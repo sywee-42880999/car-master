@@ -1,4 +1,4 @@
-const CACHE = 'car-master-black-v06';
+const CACHE = 'car-master-black-v07';
 const ASSETS = [
   './',
   './index.html',
@@ -17,6 +17,16 @@ const ASSETS = [
   './images/venue/rear.jpg',
   './images/venue/side.jpg',
   './images/placeholder-suv.svg'
+  ,'./images/parts/0011.jpg'
+  ,'./images/parts/0012.jpg'
+  ,'./images/parts/0013.jpg'
+  ,'./images/parts/0014.jpg'
+  ,'./images/parts/0015.jpg'
+  ,'./images/parts/0016.jpg'
+  ,'./images/parts/0017.jpg'
+  ,'./images/parts/0018.jpg'
+  ,'./images/parts/0019.jpg'
+  ,'./images/parts/0020.jpg'
 ];
 
 self.addEventListener('install', event => {

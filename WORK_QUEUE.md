@@ -3,9 +3,9 @@
 This file is the single source of truth and handoff board for ordinary ChatGPT and ChatGPT Work.
 
 ## Current status
-- Progress: **2%** (10/500)
-- Completed: 0001–0010
-- Current production batch: 0011–0020
+- Progress: **4%** (20/500)
+- Completed: 0001–0020
+- Current production batch: 0021–0030
 - Repository: `sywee-42880999/car-master`
 - Branch: `main`
 
@@ -110,6 +110,13 @@ Use NX4 `2C_HighMountedStopLamp`; crop upper rear lamp/spoiler area so it is unm
 5. Update `data/source_registry.json` with each final repo asset path.
 6. Verify the live root app displays each finished item correctly on mobile.
 7. Only then update `data/progress.json` from 10/500 to 20/500 = 4%.
+
+## Production result — 2026-09-08 (IDs 0011–0020)
+- Produced ten 4:3 learning crops at `images/parts/0011.jpg` through `images/parts/0020.jpg` from the registered Hyundai Owner's Manual originals. No new marker was baked into a JPG.
+- Bound every final path to its permanent ID in `data/master.json` and `data/source_registry.json`; the BLACK UI now prefers the permanent-ID final image over source candidates.
+- Reverse image QA passed for IDs 0011–0020. Original manual callouts remain only where they are part of Hyundai's embedded source illustration.
+- Updated the offline cache manifest for all ten production assets.
+- Next production batch: 0021–0030, using `research/0021-0030.md` and the shared source registry.
 
 ## Definition of DONE
 An item is DONE only when: terminology is verified + source recorded + final image/crop exists + correct live Black UI item displays + reverse QA passes. GitHub data without live display is not DONE.

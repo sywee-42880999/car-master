@@ -1473,3 +1473,35 @@ Current master:
 ## BLACK UI HIDDEN-CARD RESTORE FIX — 2026-09-09
 - Changed the restore control from temporary display mode to actual hidden-state reset.
 - Mobile QA: hidden count changed 1/254 → 0/254 and the full deck returned at position 1/254.
+
+
+## BACKLOG RECOVERY RESULTS — BATCH 16 — 2026-09-09
+Batch 16 PASS candidates:
+- 0447 DOOR LOCK BUTTON
+- 0448 DOOR UNLOCK BUTTON
+- 0450 PANIC BUTTON
+- 0451 LIFTGATE OPEN/CLOSE BUTTON
+
+Source:
+- Hyundai Palisade LX3 2026 official Smart Key Overview.
+
+Production method:
+- Each smart-key card uses a distinct crop isolating its requested button/icon.
+- Do not substitute the uncropped full smart-key overview.
+
+Validation:
+- Actions run #110: SUCCESS.
+- Source download failures: 0.
+- Image readability / 4:3 / minimum-size guards: PASS.
+- BLACK UI hidden-card restore fix remains intact.
+
+Codex action:
+1. Pull latest `main`.
+2. Bind 0447 / 0448 / 0450 / 0451 using current blobs.
+3. Reverse-QA each smart-key icon/button separately.
+4. If one crop is unclear, hold only that exact ID; do not downgrade unrelated cards.
+5. Count live Production only after mobile + reverse-QA.
+
+Current master:
+- PASS candidates: **258 / 500**
+- REVIEW/backlog: **242**

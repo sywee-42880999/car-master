@@ -770,6 +770,113 @@
       "source_refs": [
         "HY_NE1N_2026_SEAT_OVERVIEW"
       ]
+    },
+    {
+      "id": "0081",
+      "en": "INSIDE REARVIEW MIRROR",
+      "ko": "실내 룸미러",
+      "status": "PASS",
+      "image": "images/parts/0081.jpg",
+      "source_refs": [
+        "HY_LX3_2026_INTERIOR_LIGHTS_MIRRORS"
+      ]
+    },
+    {
+      "id": "0082",
+      "en": "DIGITAL CENTER MIRROR",
+      "ko": "디지털 센터 미러",
+      "status": "PASS",
+      "image": "images/parts/0082.jpg",
+      "source_refs": [
+        "HY_LX3_2026_INTERIOR_LIGHTS_MIRRORS"
+      ]
+    },
+    {
+      "id": "0083",
+      "en": "MAP LAMP",
+      "ko": "맵 램프",
+      "status": "PASS",
+      "image": "images/parts/0083.jpg",
+      "source_refs": [
+        "HY_LX3_2026_INTERIOR_LIGHTS_MIRRORS"
+      ]
+    },
+    {
+      "id": "0084",
+      "en": "ROOM LAMP",
+      "ko": "룸 램프",
+      "status": "PASS",
+      "image": "images/parts/0084.jpg",
+      "source_refs": [
+        "HY_LX3_2026_INTERIOR_LIGHTS_MIRRORS"
+      ]
+    },
+    {
+      "id": "0085",
+      "en": "REAR PERSONAL LAMP",
+      "ko": "뒷좌석 퍼스널 램프",
+      "status": "PASS",
+      "image": "images/parts/0085.jpg",
+      "source_refs": [
+        "HY_LX3_2026_INTERIOR_LIGHTS_MIRRORS"
+      ]
+    },
+    {
+      "id": "0086",
+      "en": "CENTER CONSOLE LAMP",
+      "ko": "센터 콘솔 램프",
+      "status": "PASS",
+      "image": "images/parts/0086.jpg",
+      "source_refs": [
+        "HY_LX3_2026_INTERIOR_LIGHTS_MIRRORS"
+      ]
+    },
+    {
+      "id": "0087",
+      "en": "MOOD LAMP",
+      "ko": "무드 램프",
+      "status": "PASS",
+      "image": "images/parts/0087.jpg",
+      "source_refs": [
+        "HY_LX3_2026_INTERIOR_LIGHTS_MIRRORS"
+      ],
+      "aliases": [
+        "AMBIENT LIGHT",
+        "AMBIENT LIGHTING"
+      ]
+    },
+    {
+      "id": "0088",
+      "en": "VANITY MIRROR LAMP",
+      "ko": "선바이저 화장거울 램프",
+      "status": "PASS",
+      "image": "images/parts/0088.jpg",
+      "source_refs": [
+        "HY_LX3_2026_INTERIOR_LIGHTS_MIRRORS"
+      ]
+    },
+    {
+      "id": "0089",
+      "en": "GLOVE BOX LAMP",
+      "ko": "글로브 박스 램프",
+      "status": "PASS",
+      "image": "images/parts/0089.jpg",
+      "source_refs": [
+        "HY_LX3_2026_INTERIOR_LIGHTS_MIRRORS"
+      ]
+    },
+    {
+      "id": "0090",
+      "en": "CARGO AREA LAMP",
+      "ko": "적재공간 램프",
+      "status": "PASS",
+      "image": "images/parts/0090.jpg",
+      "source_refs": [
+        "HY_LX3_2026_INTERIOR_LIGHTS_MIRRORS"
+      ],
+      "aliases": [
+        "LUGGAGE ROOM LAMP"
+      ]
     }
   ]
 }

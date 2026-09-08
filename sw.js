@@ -1,10 +1,10 @@
-const CACHE = 'car-master-black-v08';
+const CACHE = 'car-master-black-v09';
 const ASSETS = [
   './',
   './index.html',
   './black-preview.html',
-  './black-preview.css?v=1',
-  './black-preview.js?v=1',
+  './black-preview.css?v=2',
+  './black-preview.js?v=2',
   './app.js?v=5',
   './style.css?v=5',
   './style-v04.css?v=5',

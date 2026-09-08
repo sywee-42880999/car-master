@@ -1257,3 +1257,9 @@ Codex reverse-QA requirements:
 Current master:
 - PASS: **213 / 500**
 - REVIEW/backlog: **287**
+## BLACK UI FIXED-HEIGHT / AUTO PLAY — 2026-09-08
+- Locked the mobile card image, term, and explanation regions so card changes do not move surrounding controls.
+- Long terms and descriptions shrink within their fixed regions instead of increasing card height.
+- Added compact AUTO play/pause and SWIPE controls below the learning action.
+- iPhone 13 QA: 213/213 cards retained identical card/region heights; text overflow 0; horizontal overflow 0.
+- AUTO QA: advanced 0011 → 0012 after 3 seconds while card height remained unchanged.

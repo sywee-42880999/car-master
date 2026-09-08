@@ -1150,3 +1150,16 @@ Validation:
 Current master after batch 05:
 - PASS: **204 / 500**
 - Remaining REVIEW/backlog: **296**
+
+## CODEX REVERSE QA CORRECTION — 2026-09-08
+- **0360 OVERHEAD CONSOLE** failed reverse QA: the bound image depicts center-console storage, not the overhead console.
+- Moved 0360 to REVIEW + Production Backlog without replacing the Chat asset.
+- Verified deck after correction: **203 PASS cards (40.6%)**.
+
+## CODEX REVERSE QA — CHAT RECOVERY BATCHES 03–05 — 2026-09-08
+- Confirmed valid and retained in BLACK UI: 0017, 0040, 0055, 0059, 0207, 0208, 0251, 0252, 0256, 0257.
+- **0131–0135** failed reverse QA: five different tool cards bind the exact same uncropped five-tool overview JPG; the requested part cannot be identified from an individual card.
+- **0144, 0145, 0147** failed reverse QA: battery, fuse box, and engine-oil-dipstick cards bind the exact same full engine-room overview JPG without a card-specific close-up.
+- **0360** remains excluded: the image depicts center-console storage rather than the overhead console.
+- Moved these nine IDs to REVIEW + Production Backlog while retaining their source references and files for recropping.
+- Verified data deck after exclusions: **195 PASS cards (39.0%)**.

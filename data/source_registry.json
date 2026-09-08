@@ -1028,11 +1028,22 @@
       "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/idd74c840ed3c.html",
       "pdf_url": null,
       "image_keys": [
-        "2C_SmartKeyOverview"
+        "2C_SmartKeyOverview",
+        "2C_SmartKeyRemoteStartButton",
+        "2C_StartVehicleWithPushingSmartKey",
+        "2C_RemovingModifierKey"
       ],
       "repo_asset": null,
       "used_by": [
-        "0127"
+        "0446",
+        "0447",
+        "0448",
+        "0449",
+        "0450",
+        "0451",
+        "0452",
+        "0453",
+        "0454"
       ],
       "source_verified_at": "2026-09-08"
     },
@@ -1045,12 +1056,15 @@
       "pdf_url": null,
       "image_keys": [
         "2C_UsingEmerengcyKey_A1",
-        "2C_UsingEmerengcyKey_A4"
+        "2C_UsingEmerengcyKey_A2",
+        "2C_UsingEmerengcyKey_A3",
+        "2C_UsingEmerengcyKey_A4",
+        "2C_HowToLockDoorInEmergency"
       ],
       "repo_asset": null,
       "used_by": [
-        "0128",
-        "0129"
+        "0455",
+        "0456"
       ],
       "source_verified_at": "2026-09-08"
     },
@@ -1757,6 +1771,113 @@
       "repo_asset": null,
       "used_by": [
         "0413"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_WARNING_INDICATORS": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/warning_indicator_lights.html",
+      "pdf_url": null,
+      "image_keys": [],
+      "repo_asset": null,
+      "used_by": [
+        "0421",
+        "0422",
+        "0423",
+        "0424",
+        "0425",
+        "0426",
+        "0427",
+        "0428",
+        "0429",
+        "0430",
+        "0431",
+        "0432",
+        "0433",
+        "0434",
+        "0435",
+        "0436",
+        "0437",
+        "0438",
+        "0439",
+        "0440",
+        "0441",
+        "0442",
+        "0443",
+        "0444",
+        "0445"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_TPMS": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/topic_ywq_nwc_qcc.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_TPMSInfo",
+        "2C_TireLowPressureInfo",
+        "2C_TPMSWaringLampOverView_2"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0457",
+        "0458",
+        "0459",
+        "0460",
+        "0461"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_NE1A_2025_REGEN_BRAKING": {
+      "maker": "Hyundai",
+      "model": "IONIQ 5 NE1a",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/topic_zdn_2w2_mvb.html",
+      "alternate_web_urls": [
+        "https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/id1b0734b22bc.html",
+        "https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/topic_qmg_j3t_t5b.html"
+      ],
+      "pdf_url": null,
+      "image_keys": [
+        "2C_PaddleShift",
+        "2C_RegenerationBrakeLevelInfo",
+        "2C_SmartRegenerationBrakeIconInfo"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0462",
+        "0463",
+        "0464",
+        "0465"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_NE1A_2025_EV_GAUGES_2": {
+      "maker": "Hyundai",
+      "model": "IONIQ 5 NE1a",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/id953fd54c4bd.html",
+      "alternate_web_url": "https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/topic_kx2_55q_t5b.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_PowerChargeGauge",
+        "2C_BatteryLevelGauge"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0466",
+        "0467",
+        "0468",
+        "0469",
+        "0470"
       ],
       "source_verified_at": "2026-09-08"
     }

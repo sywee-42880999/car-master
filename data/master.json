@@ -561,6 +561,111 @@
       "aliases": [
         "AC 115V INVERTER"
       ]
+    },
+    {
+      "id": "0061",
+      "en": "FRONT SEAT",
+      "ko": "앞좌석",
+      "status": "PASS",
+      "source_refs": [
+        "HY_NE1A_2025_SEATS_HEADREST"
+      ],
+      "image": "images/parts/0061.jpg"
+    },
+    {
+      "id": "0062",
+      "en": "REAR SEAT",
+      "ko": "뒷좌석",
+      "status": "PASS",
+      "source_refs": [
+        "HY_NE1A_2025_SEATS_HEADREST"
+      ],
+      "image": "images/parts/0062.jpg"
+    },
+    {
+      "id": "0063",
+      "en": "HEAD RESTRAINT",
+      "ko": "헤드레스트",
+      "status": "PASS",
+      "source_refs": [
+        "HY_NE1A_2025_SEATS_HEADREST"
+      ],
+      "image": "images/parts/0063.jpg",
+      "aliases": [
+        "HEADREST"
+      ]
+    },
+    {
+      "id": "0064",
+      "en": "SEATBACK",
+      "ko": "시트백",
+      "status": "PASS",
+      "source_refs": [
+        "HY_NE1A_2025_SEATS_HEADREST"
+      ],
+      "image": "images/parts/0064.jpg"
+    },
+    {
+      "id": "0065",
+      "en": "SEAT CUSHION",
+      "ko": "시트 쿠션",
+      "status": "PASS",
+      "source_refs": [
+        "HY_NE1A_2025_SEATS_HEADREST"
+      ],
+      "image": "images/parts/0065.jpg"
+    },
+    {
+      "id": "0066",
+      "en": "SEAT BELT",
+      "ko": "안전벨트",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_CHILD_RESTRAINT"
+      ],
+      "image": "images/parts/0066.jpg"
+    },
+    {
+      "id": "0067",
+      "en": "SEAT BELT BUCKLE",
+      "ko": "안전벨트 버클",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_CHILD_RESTRAINT"
+      ],
+      "image": "images/parts/0067.jpg"
+    },
+    {
+      "id": "0068",
+      "en": "TETHER ANCHOR",
+      "ko": "테더 앵커",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_CHILD_RESTRAINT"
+      ],
+      "image": "images/parts/0068.jpg"
+    },
+    {
+      "id": "0069",
+      "en": "LATCH LOWER ANCHOR",
+      "ko": "LATCH 하부 앵커",
+      "status": "PASS",
+      "source_refs": [
+        "HY_LX3_2026_CHILD_RESTRAINT"
+      ],
+      "image": "images/parts/0069.jpg",
+      "aliases": [
+        "ISOFIX LOWER ANCHOR"
+      ]
+    },
+    {
+      "id": "0070",
+      "en": "SEAT BELT PRETENSIONER",
+      "ko": "안전벨트 프리텐셔너",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_LX3_2026_CHILD_RESTRAINT"
+      ]
     }
   ]
 }

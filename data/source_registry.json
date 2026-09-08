@@ -124,7 +124,13 @@
     "0143": "images/parts/0143.jpg",
     "0146": "images/parts/0146.jpg",
     "0148": "images/parts/0148.jpg",
-    "0154": "images/parts/0154.jpg"
+    "0154": "images/parts/0154.jpg",
+    "0193": "images/parts/0193.jpg",
+    "0194": "images/parts/0194.jpg",
+    "0195": "images/parts/0195.jpg",
+    "0196": "images/parts/0196.jpg",
+    "0197": "images/parts/0197.jpg",
+    "0198": "images/parts/0198.jpg"
   },
   "rules": [
     "Prefer official Hyundai PDF or official Hyundai web manual.",
@@ -1201,6 +1207,73 @@
       ],
       "source_verified_at": "2026-09-08",
       "status": "TERMINOLOGY_ONLY_REVIEW_IMAGE"
+    },
+    "HY_LX3_2026_WIPER_BLADE_REPLACEMENT": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/topic_zgv_vyd_qcc.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_FrontWiperReplacementProcedure_2",
+        "2C_RearWiperReplacementProcedure_1"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0193",
+        "0194"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_DN8_2026_HOOD_OPEN": {
+      "maker": "Hyundai",
+      "model": "Sonata DN8",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/DN8/2026/ko_KR/idb9f35a6ce00.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_HoodOpen"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0195",
+        "0196"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_LIFTGATE_OPEN": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/ide1e1ea3d096.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_OutsideTailgateOpenButton"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0197"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_LIFTGATE_SUPPORT_STRUTS": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/id67c49b22024.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_GasLift"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0198"
+      ],
+      "source_verified_at": "2026-09-08"
     }
   }
 }

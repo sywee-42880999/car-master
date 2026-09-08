@@ -133,7 +133,10 @@
     "0198": "images/parts/0198.jpg",
     "0201": "images/parts/0201.jpg",
     "0203": "images/parts/0203.jpg",
-    "0204": "images/parts/0204.jpg"
+    "0204": "images/parts/0204.jpg",
+    "0226": "images/parts/0226.jpg",
+    "0227": "images/parts/0227.jpg",
+    "0228": "images/parts/0228.jpg"
   },
   "rules": [
     "Prefer official Hyundai PDF or official Hyundai web manual.",
@@ -1300,6 +1303,25 @@
         "0205",
         "0206",
         "0209"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_EXTERIOR_OVERVIEWS": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/picture_index.html",
+      "pdf_url": null,
+      "image_keys": [
+        "1C_OutsideVehicleFrontOverview",
+        "1C_OutsideVehicleRearOverview"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0226",
+        "0227",
+        "0228"
       ],
       "source_verified_at": "2026-09-08"
     }

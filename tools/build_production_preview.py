@@ -3,61 +3,38 @@ from PIL import Image, ImageOps, ImageDraw
 import urllib.request, math
 
 ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT/"production-preview"; PARTS=ROOT/"images"/"parts"
-OUT.mkdir(exist_ok=True); PARTS.mkdir(parents=True,exist_ok=True)
-url="https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/1C_SideInsideVehicleOverview.jpg.png"
-src=OUT/"0031-0040-overview.png"
-if not src.exists(): urllib.request.urlretrieve(url,src)
-im=Image.open(src).convert("RGB")
+OUT=ROOT/"production-preview"; DL=OUT/"batch-0041-0050-source"
+OUT.mkdir(exist_ok=True); DL.mkdir(parents=True,exist_ok=True)
 
-# pixel-space crops selected from visual QA of the official LX3 interior overview.
-specs={
-"0031":((0,430,360,790),"PASS","INSIDE DOOR HANDLE","inside handle + door-trim context"),
-"0032":((130,720,420,1050),"PASS","POWER WINDOW SWITCHES","driver window switch bank"),
-"0033":((145,875,390,1080),"PASS","POWER WINDOW LOCK BUTTON","bottom lock button region"),
-"0034":((210,750,400,900),"PASS","CENTRAL DOOR LOCK SWITCH","door lock/unlock switch"),
-"0035":((220,680,405,825),"PASS","SIDE VIEW MIRROR CONTROL SWITCH","mirror direction/control pad"),
-"0036":((180,690,355,825),"PASS","SIDE VIEW MIRROR FOLDING BUTTON","mirror folding control area"),
-"0037":((230,165,380,365),"PASS","EPB (ELECTRONIC PARKING BRAKE) SWITCH","dedicated EPB switch in inset"),
-"0038":((410,650,550,930),"PASS","HOOD RELEASE LEVER","lower dash hood release lever"),
-"0039":((500,90,1190,790),"PASS","STEERING WHEEL","complete steering wheel"),
-"0040":((455,600,625,900),"REVIEW","FUSE BOX","overview indicates location but cover/box is not unmistakable enough"),
+sources={
+"0041":("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_GloveBox.jpg.png","GLOVE BOX"),
+"0042":("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_CenterConsoleBox.jpg.png","CENTER CONSOLE"),
+"0043":("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_CupHolder.jpg.png","CUP HOLDER"),
+"0044":("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_USBPort.jpg.png","USB PORT"),
+"0045":("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_USBChargeOutlet.jpg.png","USB CHARGER"),
+"0046":("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_PowerOutlet_1.jpg.png","POWER OUTLET"),
+"0047":("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_WirelessSmartPhoneChargingSystem.jpg.png","WIRELESS SMARTPHONE CHARGING SYSTEM"),
+"0048":("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_HazardWarningLamp.jpg.png","HAZARD WARNING FLASHER BUTTON"),
+"0049":("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_StartButton.jpg.png","ENGINE START/STOP BUTTON"),
+"0050":("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/1C_ClusterOverview_1.jpg.png","INSTRUMENT CLUSTER"),
 }
-
-def crop4(im,box):
-    c=im.crop(box)
-    w,h=c.size
-    if w/h>4/3:
-        nw=int(h*4/3); x=(w-nw)//2; c=c.crop((x,0,x+nw,h))
-    else:
-        nh=int(w*3/4); y=(h-nh)//2; c=c.crop((0,y,w,y+nh))
-    return c
-
-report=["# CAR MASTER — 0031–0040 Chat Production Result","",
-"Source: Hyundai 2026 Palisade LX3 Owner's Manual Interior Overview, image key `1C_SideInsideVehicleOverview`.","",
-"Production progress remains unchanged until BLACK UI bind/deploy/mobile reverse-QA is confirmed.","",
-"| ID | Status | Term | QA |","|---|---|---|---|"]
 cards=[]
-for id_,(box,status,term,note) in specs.items():
-    c=crop4(im,box)
-    c.save(OUT/f"{id_}.jpg",quality=94,subsampling=0)
-    if status=="PASS": c.save(PARTS/f"{id_}.jpg",quality=94,subsampling=0)
-    report.append(f"| {id_} | {status} | {term} | {note} |")
-    t=ImageOps.contain(c,(560,420))
-    card=Image.new("RGB",(600,490),"white"); card.paste(t,((600-t.width)//2,10))
-    d=ImageDraw.Draw(card); d.text((12,440),f"{id_} {status} — {term}",fill="black"); d.text((12,462),note,fill="black")
+for id_,(url,term) in sources.items():
+    p=DL/f"{id_}.png"
+    try:
+        urllib.request.urlretrieve(url,p)
+        im=Image.open(p).convert("RGB")
+    except Exception as e:
+        print("FAIL",id_,e); continue
+    t=ImageOps.contain(im,(720,500))
+    card=Image.new("RGB",(760,570),"white")
+    card.paste(t,((760-t.width)//2,10))
+    d=ImageDraw.Draw(card)
+    d.text((12,520),f"{id_} — {term}",fill="black")
+    d.text((12,542),f"{im.width}x{im.height} | {p.name}",fill="black")
     cards.append(card)
-
-report += ["",
-"## Handoff",
-"- Codex handoff ready for: **0031–0039**.",
-"- **0040 FUSE BOX remains REVIEW**. The overview is adequate for terminology/location but not for a self-evident fuse-box learning image. Find a dedicated official Hyundai fuse-box/fuse-panel illustration before promotion.",
-"- No new HTML marker requested for PASS crops; original Hyundai callouts remain part of the embedded source artwork.",
-"- Do not increment Production progress from this handoff alone."
-]
-(ROOT/"research"/"0031-0040-production-result.md").write_text("\n".join(report)+"\n",encoding="utf-8")
 cols=2; rows=math.ceil(len(cards)/cols)
-sheet=Image.new("RGB",(cols*600,rows*490),"white")
-for i,c in enumerate(cards): sheet.paste(c,((i%cols)*600,(i//cols)*490))
-sheet.save(OUT/"0031-0040-final-qa.jpg",quality=92)
-print("PASS assets: 0031-0039; 0040 REVIEW")
+sheet=Image.new("RGB",(cols*760,rows*570),"white")
+for i,c in enumerate(cards): sheet.paste(c,((i%cols)*760,(i//cols)*570))
+sheet.save(OUT/"0041-0050-source-contact.jpg",quality=92)
+print("downloaded",len(cards),"sources")

@@ -666,6 +666,110 @@
       "source_refs": [
         "HY_LX3_2026_CHILD_RESTRAINT"
       ]
+    },
+    {
+      "id": "0071",
+      "en": "DRIVER'S FRONT AIRBAG",
+      "ko": "운전석 전방 에어백",
+      "status": "PASS",
+      "source_refs": [
+        "HY_NX4A_2026_AIRBAG_OVERVIEW"
+      ],
+      "image": "images/parts/0071.jpg"
+    },
+    {
+      "id": "0072",
+      "en": "PASSENGER'S FRONT AIRBAG",
+      "ko": "동승석 전방 에어백",
+      "status": "PASS",
+      "source_refs": [
+        "HY_NX4A_2026_AIRBAG_OVERVIEW"
+      ],
+      "image": "images/parts/0072.jpg"
+    },
+    {
+      "id": "0073",
+      "en": "FRONT SIDE AIRBAG",
+      "ko": "앞좌석 사이드 에어백",
+      "status": "PASS",
+      "source_refs": [
+        "HY_NX4A_2026_AIRBAG_OVERVIEW"
+      ],
+      "image": "images/parts/0073.jpg",
+      "aliases": [
+        "SIDE AIRBAG"
+      ]
+    },
+    {
+      "id": "0074",
+      "en": "REAR SIDE AIRBAG",
+      "ko": "뒷좌석 사이드 에어백",
+      "status": "PASS",
+      "source_refs": [
+        "HY_NX4A_2026_AIRBAG_OVERVIEW"
+      ],
+      "image": "images/parts/0074.jpg"
+    },
+    {
+      "id": "0075",
+      "en": "CURTAIN AIRBAG",
+      "ko": "커튼 에어백",
+      "status": "PASS",
+      "source_refs": [
+        "HY_NX4A_2026_AIRBAG_OVERVIEW"
+      ],
+      "image": "images/parts/0075.jpg"
+    },
+    {
+      "id": "0076",
+      "en": "FRONT PASSENGER AIRBAG ON/OFF SWITCH",
+      "ko": "동승석 에어백 ON/OFF 스위치",
+      "status": "PASS",
+      "source_refs": [
+        "HY_NE1N_2026_AIRBAG_RHD"
+      ],
+      "image": "images/parts/0076.jpg"
+    },
+    {
+      "id": "0077",
+      "en": "SEAT WARMER SWITCH",
+      "ko": "시트 워머 스위치",
+      "status": "PASS",
+      "source_refs": [
+        "HY_DN8_2025_SEAT_WARMER_VENT"
+      ],
+      "image": "images/parts/0077.jpg"
+    },
+    {
+      "id": "0078",
+      "en": "AIR VENTILATION SEAT SWITCH",
+      "ko": "통풍 시트 스위치",
+      "status": "PASS",
+      "source_refs": [
+        "HY_DN8_2025_SEAT_WARMER_VENT"
+      ],
+      "image": "images/parts/0078.jpg",
+      "aliases": [
+        "AIR VENTILATION SEAT"
+      ]
+    },
+    {
+      "id": "0079",
+      "en": "SEATBACK FOLDING LEVER",
+      "ko": "시트백 폴딩 레버",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_NE1N_2026_SEAT_OVERVIEW"
+      ]
+    },
+    {
+      "id": "0080",
+      "en": "REMOTE FOLDING BUTTON",
+      "ko": "원격 폴딩 버튼",
+      "status": "REVIEW",
+      "source_refs": [
+        "HY_NE1N_2026_SEAT_OVERVIEW"
+      ]
     }
   ]
 }

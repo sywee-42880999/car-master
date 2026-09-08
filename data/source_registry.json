@@ -2400,6 +2400,25 @@
         "0320"
       ],
       "source_verified_at": "2026-09-08"
+    },
+    "HY_LX2_2025_REAR_SEATBELT_GUIDE": {
+      "maker": "Hyundai",
+      "model": "Palisade LX2",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX2/2025/en_US/id886c008e6a3.html",
+      "pdf_url": null,
+      "image_keys": [
+        "B0053KO11",
+        "B0053EU07",
+        "B0053EU08"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0330",
+        "0364"
+      ],
+      "source_verified_at": "2026-09-08"
     }
   }
 }

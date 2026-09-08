@@ -508,3 +508,30 @@ Codex must pull latest `main` before deploy and use the current blobs:
 - **0124 PRESSURE GAUGE** → `399940057005b5271ec919f0b5b4dc9a639369e9`
 
 Do not use earlier identical 0122–0124 assets. 0125 remains REVIEW. Production % still changes only after live BLACK UI + reverse QA.
+
+
+## CODEX HANDOFF READY — 2026-09-08 — IDs 0141–0150
+Chat Production has completed and committed final assets for:
+- **0141 ENGINE COOLANT RESERVOIR**
+- **0142 ENGINE OIL FILLER CAP**
+- **0143 BRAKE FLUID RESERVOIR**
+- **0146 WINDSHIELD WASHER FLUID RESERVOIR**
+- **0148 AIR CLEANER**
+
+Final assets: `images/parts/0141.jpg`, `0142.jpg`, `0143.jpg`, `0146.jpg`, `0148.jpg`.
+Detailed QA: `research/0141-0150-production-result.md`.
+
+Still REVIEW — do not bind/promote:
+- **0144 BATTERY** — resolve BATTERY vs 12V BATTERY naming.
+- **0145 FUSE BOX** — conflicts with existing 0040 generic FUSE BOX; requires location-qualified taxonomy.
+- **0147 ENGINE OIL DIPSTICK** — current overview callout is too small for a strong learning card.
+- **0149 RADIATOR CAP** — official terminology verified, stronger source image still required.
+- **0150 CABIN AIR FILTER** — motor-room overview shows location/cover rather than the filter element itself.
+
+### Codex action now
+1. Pull latest `main`.
+2. Bind/display the PASS items above in the existing BLACK UI without redesign.
+3. Do not redo crops or source research.
+4. Do not promote REVIEW items.
+5. Deploy and mobile-check; report mismatches by permanent ID.
+6. Production % changes only after live BLACK UI + reverse QA.

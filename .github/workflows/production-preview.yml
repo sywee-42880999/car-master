@@ -28,14 +28,15 @@ jobs:
         with:
           name: car-master-production-preview
           path: production-preview/
-      - name: Commit approved production crops and QA handoff
+      - name: Commit Chat-approved production crops and QA handoff
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add images/parts/0011.jpg images/parts/0012.jpg images/parts/0013.jpg images/parts/0014.jpg images/parts/0015.jpg images/parts/0016.jpg images/parts/0019.jpg images/parts/0020.jpg research/0011-0020-production-result.md
+          git add images/parts/0011.jpg images/parts/0012.jpg images/parts/0013.jpg images/parts/0014.jpg images/parts/0015.jpg images/parts/0016.jpg images/parts/0018.jpg images/parts/0019.jpg images/parts/0020.jpg research/0011-0020-chat-crop-qa.md
           if git diff --cached --quiet; then
             echo "No production crop changes to commit."
           else
-            git commit -m "Re-crop 0011-0020 approved production assets"
+            git commit -m "Re-crop 0011-0020 Chat production assets"
+            git pull --rebase origin main
             git push origin HEAD:main
           fi

@@ -344,3 +344,27 @@ Current Hyundai seat overview does not isolate these physical controls clearly e
 4. Do not promote 0079/0080.
 5. Deploy and mobile-check; report mismatches by permanent ID.
 6. Production % changes only after live BLACK UI + reverse QA.
+
+
+## CODEX HANDOFF READY — 2026-09-08 — IDs 0081–0090
+Chat Production has completed and committed final assets for:
+- **0081 INSIDE REARVIEW MIRROR**
+- **0082 DIGITAL CENTER MIRROR**
+- **0083 MAP LAMP**
+- **0084 ROOM LAMP**
+- **0085 REAR PERSONAL LAMP**
+- **0086 CENTER CONSOLE LAMP**
+- **0087 MOOD LAMP**
+- **0088 VANITY MIRROR LAMP**
+- **0089 GLOVE BOX LAMP**
+- **0090 CARGO AREA LAMP**
+
+Final assets: `images/parts/0081.jpg`–`images/parts/0090.jpg`.
+Detailed QA: `research/0081-0090-production-result.md`.
+
+### Codex action now
+1. Pull latest `main`.
+2. Bind/display 0081–0090 in the existing BLACK UI without redesign.
+3. Do not redo crops or source research.
+4. Deploy and mobile-check; report mismatches by permanent ID.
+5. Production % changes only after live BLACK UI + reverse QA.

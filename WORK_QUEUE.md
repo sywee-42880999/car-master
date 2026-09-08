@@ -1443,3 +1443,29 @@ Codex action:
 Current master after Batch 14:
 - PASS candidates: **250 / 500**
 - REVIEW/backlog: **250**
+
+
+## BACKLOG RECOVERY RESULTS — BATCH 15 — 2026-09-09
+Batch 15 PASS candidates:
+- 0402 EMERGENCY CHARGING CABLE
+- 0403 PORTABLE CHARGER CONTROL BOX
+- 0404 PORTABLE CHARGER POWER PLUG
+- 0454 SMART KEY BATTERY
+
+Validation:
+- Actions run #108: SUCCESS.
+- Source download failures: 0.
+- Image readability / 4:3 / minimum-size guards: PASS.
+- 0403 and 0404 use separate crops from the same ICCB overview: control box vs power plug.
+- BLACK UI unchanged.
+
+Codex action:
+1. Pull latest `main`.
+2. Bind 0402 / 0403 / 0404 / 0454 with current blobs.
+3. Reverse-QA 0403 vs 0404 carefully so the two ICCB cards remain visually distinct.
+4. Verify 0454 visibly shows the battery/battery compartment, not only the smart-key rear cover.
+5. Count live Production only after mobile + reverse-QA.
+
+Current master:
+- PASS candidates: **254 / 500**
+- REVIEW/backlog: **246**

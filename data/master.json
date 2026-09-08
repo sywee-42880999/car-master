@@ -2331,6 +2331,312 @@
       "source_refs": [
         "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
       ]
+    },
+    {
+      "id": "0231",
+      "en": "ROOF MOLDING",
+      "ko": "루프 몰딩",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0232",
+      "en": "ROOF DRIP MOLDING",
+      "ko": "루프 드립 몰딩",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0233",
+      "en": "ROOF SPOILER GARNISH",
+      "ko": "루프 스포일러 가니쉬",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0234",
+      "en": "LIFTGATE GARNISH",
+      "ko": "리프트게이트 가니쉬",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0235",
+      "en": "TAILGATE GLASS",
+      "ko": "테일게이트 글라스",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0236",
+      "en": "LICENSE PLATE GARNISH",
+      "ko": "번호판 가니쉬",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0237",
+      "en": "FRONT SKID PLATE",
+      "ko": "프론트 스키드 플레이트",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0238",
+      "en": "REAR SKID PLATE",
+      "ko": "리어 스키드 플레이트",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0239",
+      "en": "TOWING EYE COVER",
+      "ko": "견인고리 커버",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0239.jpg",
+      "source_refs": [
+        "HY_LX3_2026_TOWING_HOOK"
+      ]
+    },
+    {
+      "id": "0240",
+      "en": "BUMPER MOLDING",
+      "ko": "범퍼 몰딩",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0241",
+      "en": "SUNROOF GLASS",
+      "ko": "선루프 글라스",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0241.jpg",
+      "source_refs": [
+        "HY_LX3_2026_SUNROOF_GLASS"
+      ]
+    },
+    {
+      "id": "0242",
+      "en": "SUNROOF WIND DEFLECTOR",
+      "ko": "선루프 윈드 디플렉터",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0243",
+      "en": "SUNROOF DRAIN",
+      "ko": "선루프 드레인",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0244",
+      "en": "ROOF ANTENNA BASE",
+      "ko": "루프 안테나 베이스",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0245",
+      "en": "DOOR GLASS RUN",
+      "ko": "도어 글라스 런",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0246",
+      "en": "FRONT DOOR FRAME",
+      "ko": "프론트 도어 프레임",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0247",
+      "en": "REAR DOOR FRAME",
+      "ko": "리어 도어 프레임",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0248",
+      "en": "LIFTGATE WEATHERSTRIP",
+      "ko": "리프트게이트 웨더스트립",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0249",
+      "en": "HOOD WEATHERSTRIP",
+      "ko": "후드 웨더스트립",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0250",
+      "en": "COWL WEATHERSTRIP",
+      "ko": "카울 웨더스트립",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0251",
+      "en": "FRONT AIR VENT",
+      "ko": "프론트 에어 벤트",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0252",
+      "en": "REAR AIR VENT",
+      "ko": "리어 에어 벤트",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0253",
+      "en": "DEFROSTER VENT",
+      "ko": "디프로스터 벤트",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0254",
+      "en": "SIDE AIR VENT",
+      "ko": "사이드 에어 벤트",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0255",
+      "en": "CLIMATE CONTROL PANEL",
+      "ko": "공조 조절 패널",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0255.jpg",
+      "source_refs": [
+        "HY_NE1A_2025_AUTO_CLIMATE_CONTROL"
+      ]
+    },
+    {
+      "id": "0256",
+      "en": "TEMPERATURE CONTROL KNOB",
+      "ko": "온도 조절 노브",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0257",
+      "en": "FAN SPEED CONTROL",
+      "ko": "풍량 조절부",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0258",
+      "en": "AIR INTAKE CONTROL BUTTON",
+      "ko": "내외기 전환 버튼",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0258.jpg",
+      "source_refs": [
+        "HY_NE1A_2025_AUTO_CLIMATE_CONTROL"
+      ]
+    },
+    {
+      "id": "0259",
+      "en": "FRONT WINDSHIELD DEFROSTER BUTTON",
+      "ko": "앞유리 서리제거 버튼",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0259.jpg",
+      "source_refs": [
+        "HY_NE1A_2025_AUTO_CLIMATE_CONTROL"
+      ]
+    },
+    {
+      "id": "0260",
+      "en": "REAR WINDOW DEFROSTER BUTTON",
+      "ko": "뒷유리 열선 버튼",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0260.jpg",
+      "source_refs": [
+        "HY_NE1A_2025_AUTO_CLIMATE_CONTROL"
+      ]
     }
   ]
 }

@@ -879,3 +879,11 @@ All remaining IDs in 0321–0370 are REVIEW + Production Backlog and must not bl
 - English title wraps; long explanations scroll inside the card. Short landscape view uses an image/copy split.
 - Content IDs, production status and image assets are unchanged.
 - Implementation commit: 7a8f8c4. Real iPhone verification remains pending; local browser executable was unavailable. No production progress increment.
+
+
+## CODEX LIVE DEPLOY VERIFIED — 2026-09-08
+- Verified and deployed **147 PASS cards (29.4%)** in the BLACK UI.
+- Exact verified IDs: **0011–0016, 0018–0027, 0030–0039, 0041, 0043–0054, 0056–0058, 0060–0069, 0071–0078, 0081–0118, 0120–0124, 0126–0130, 0136, 0140–0143, 0146, 0148, 0154, 0193–0194, 0197–0198, 0201, 0203–0204, 0226–0228, 0239, 0241, 0255, 0258–0260, 0271–0274, 0277–0278, 0280–0281, 0291–0293, 0295, 0346–0347, 0360**.
+- iPhone 13 QA: swipe advanced 0011 → 0012; card counter showed 2 / 147; viewport width and document width were both 390 px.
+- REVIEW and production backlog items are excluded from the learning deck.
+- Live URL: https://sywee-42880999.github.io/car-master/

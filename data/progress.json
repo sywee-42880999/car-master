@@ -1,11 +1,11 @@
 {
   "total": 500,
-  "completed": 20,
-  "pass": 20,
-  "review": 0,
+  "completed": 147,
+  "pass": 147,
+  "review": 213,
   "fix": 0,
-  "percent": 4,
-  "current_batch": "0021-0030",
+  "percent": 29.4,
+  "current_batch": "0371-0380",
   "updated_at": "2026-09-08",
   "display_rule": "Show only progress percentage in chat."
 }

@@ -1186,3 +1186,51 @@ Regression detected immediately after batch 06:
 Current master after recovery/fix:
 - PASS: **210 / 500**
 - Remaining REVIEW/backlog: **290**
+
+
+## CODEX HOLD RECOVERY READY — 2026-09-08 — EXACT REVERSE-QA HOLDS
+Codex reverse-QA correctly held these nine cards. The earlier Chat restoration of their old PASS states was incorrect and has been superseded.
+
+Original Codex hold reasons:
+- **0131–0135**: five separate tool cards used the same uncropped five-tool overview; individual part was not identifiable per card.
+- **0144, 0145, 0147**: battery / fuse box / engine-oil-dipstick used the same full engine-room overview; not card-specific.
+- **0360**: image depicted center-console storage, not an overhead console.
+
+Recovery production completed in Actions run **#89 — SUCCESS**:
+- **0131 JACK HANDLE** → individual tool crop
+- **0132 JACK** → individual tool crop
+- **0133 TOWING HOOK** → individual tool crop
+- **0134 WHEEL LUG NUT WRENCH** → individual tool crop
+- **0135 SOCKET** → individual tool crop
+- **0144 BATTERY** → card-specific Hyundai engine-bay crop from Santa Fe MX5 2026 official manual
+- **0145 FUSE BOX** → card-specific Hyundai engine-bay crop from Santa Fe MX5 2026 official manual
+- **0147 ENGINE OIL DIPSTICK** → card-specific Hyundai engine-bay crop from Santa Fe MX5 2026 official manual
+- **0360 OVERHEAD CONSOLE** → replacement Hyundai Tucson NX4 2025 official overhead-console/map-lamp assembly image
+
+Final assets:
+- `images/parts/0131.jpg`
+- `images/parts/0132.jpg`
+- `images/parts/0133.jpg`
+- `images/parts/0134.jpg`
+- `images/parts/0135.jpg`
+- `images/parts/0144.jpg`
+- `images/parts/0145.jpg`
+- `images/parts/0147.jpg`
+- `images/parts/0360.jpg`
+
+Detailed QA:
+- `research/codex-hold-recovery.md`
+
+### Codex action
+1. Pull latest `main`.
+2. Rebind these exact nine IDs using the new file blobs; do not reuse cached/old images.
+3. Reverse-QA each card: English term → visible physical part → exact image.
+4. Verify 0131–0135 are visually distinct and each card shows only its requested tool.
+5. Verify 0144/0145/0147 are card-specific crops, not the same full engine-room overview.
+6. Verify 0360 visibly depicts the ceiling overhead console.
+7. Only after live BLACK UI + mobile + reverse-QA passes should these nine count toward Production progress.
+8. If any still fail, report the exact ID and reason; do not silently downgrade unrelated validated PASS items.
+
+Current master after recovery assets:
+- PASS: **210 / 500**
+- REVIEW/backlog: **290**

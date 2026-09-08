@@ -2442,6 +2442,54 @@
         "0364"
       ],
       "source_verified_at": "2026-09-08"
+    },
+    "HY_QZ_2026_DOOR_POCKET": {
+      "maker": "Hyundai",
+      "model": "XCIENT QZ",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/QZ/2026/ko_KR/topic_drg_qm5_s3c.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_LQZ030152K"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0334"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_AXEV_2026_DOOR_ARMREST": {
+      "maker": "Hyundai",
+      "model": "INSTER AXEV",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/AXEV/2026/en_UK/topic_brc_wc4_bcc.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_ShoppingBagHook_2_RHD"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0335"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_DOOR_TRIM": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/topic_ldh_2jw_pyb.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_MoodLamp"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0336"
+      ],
+      "source_verified_at": "2026-09-08"
     }
   }
 }

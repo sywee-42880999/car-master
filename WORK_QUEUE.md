@@ -165,3 +165,17 @@ After each Chat production batch appears on `main`, Codex should:
 - Do not overwrite the other side's active batch.
 - If a batch file or target asset already exists, inspect it first and continue from Repo state.
 - Production progress must not be incremented merely because a crop or research file was committed. Increment only after correct live BLACK UI display + reverse QA.
+
+
+## LATEST PRODUCTION CORRECTION — 2026-09-08
+This section supersedes the older statement above that all 0011–0020 crops passed reverse QA.
+
+Chat-generated correction crops were visually reviewed from Hyundai official source assets and promoted only where the physical part was sufficiently clear.
+
+- PASS replacement crops: **0011, 0012, 0013, 0014, 0015, 0016, 0019, 0020**
+- REVIEW / stronger official close-up still required: **0017 WIDE-REAR VIEW CAMERA, 0018 ANTENNA**
+- Detailed result: `research/0011-0020-production-result.md`
+- Crop generator: `tools/build_production_preview.py`
+- Codex must not silently promote 0017/0018 merely because an official overview contains a callout.
+- No Production percentage increment from this correction cycle.
+- GitHub main remains the Chat↔Codex handoff channel; Codex should pull latest main before continuing UI bind/deploy work.

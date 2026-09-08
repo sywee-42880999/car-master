@@ -3249,6 +3249,509 @@
       "source_refs": [
         "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
       ]
+    },
+    {
+      "id": "0321",
+      "en": "SEAT BELT HEIGHT ADJUSTER",
+      "ko": "시트벨트 높이 조절장치",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0322",
+      "en": "SEAT BELT ANCHOR",
+      "ko": "시트벨트 앵커",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0323",
+      "en": "SEAT BELT TONGUE",
+      "ko": "시트벨트 텅",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0324",
+      "en": "SEAT BELT RETRACTOR",
+      "ko": "시트벨트 리트랙터",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0325",
+      "en": "CHILD RESTRAINT ANCHORAGE",
+      "ko": "어린이 보호장치 앵커리지",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0326",
+      "en": "TOP TETHER ANCHORAGE",
+      "ko": "탑 테더 앵커리지",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0327",
+      "en": "LOWER ANCHORAGE",
+      "ko": "하부 앵커리지",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0328",
+      "en": "CHILD RESTRAINT ANCHOR COVER",
+      "ko": "어린이 보호장치 앵커 커버",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0329",
+      "en": "SEAT BELT BUCKLE RELEASE BUTTON",
+      "ko": "시트벨트 버클 해제 버튼",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0330",
+      "en": "SEAT BELT GUIDE",
+      "ko": "시트벨트 가이드",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0331",
+      "en": "DOOR LOCK KNOB",
+      "ko": "도어 잠금 노브",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0332",
+      "en": "CHILD-PROTECTOR REAR DOOR LOCK",
+      "ko": "어린이 보호용 뒷도어 잠금장치",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0333",
+      "en": "DOOR COURTESY LIGHT",
+      "ko": "도어 커티시 램프",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0334",
+      "en": "DOOR POCKET",
+      "ko": "도어 포켓",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0335",
+      "en": "DOOR ARMREST",
+      "ko": "도어 암레스트",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0336",
+      "en": "DOOR TRIM",
+      "ko": "도어 트림",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0337",
+      "en": "DOOR SEAL",
+      "ko": "도어 씰",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0338",
+      "en": "DOOR STRIKER",
+      "ko": "도어 스트라이커",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0339",
+      "en": "DOOR LATCH",
+      "ko": "도어 래치",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0340",
+      "en": "DOOR LOCK ACTUATOR",
+      "ko": "도어 잠금 액추에이터",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0341",
+      "en": "WINDSHIELD WASHER",
+      "ko": "앞유리 워셔",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0342",
+      "en": "REAR WINDOW WASHER",
+      "ko": "뒷유리 워셔",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0343",
+      "en": "WINDSHIELD DEFROSTER",
+      "ko": "앞유리 서리제거 장치",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0344",
+      "en": "REAR WINDOW DEFROSTER",
+      "ko": "뒷유리 열선",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0345",
+      "en": "HEATED SIDE VIEW MIRROR",
+      "ko": "열선 실외 미러",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0346",
+      "en": "AUTO-DIMMING INSIDE REARVIEW MIRROR",
+      "ko": "자동 감광 실내 미러",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0346.jpg",
+      "source_refs": [
+        "HY_LX3_2026_MIRROR_SENSORS"
+      ]
+    },
+    {
+      "id": "0347",
+      "en": "RAIN SENSOR",
+      "ko": "레인 센서",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0347.jpg",
+      "source_refs": [
+        "HY_LX3_2026_MIRROR_SENSORS"
+      ]
+    },
+    {
+      "id": "0348",
+      "en": "AUTO LIGHT SENSOR",
+      "ko": "오토 라이트 센서",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0349",
+      "en": "WINDSHIELD CAMERA COVER",
+      "ko": "앞유리 카메라 커버",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0350",
+      "en": "MIRROR BASE",
+      "ko": "미러 베이스",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0351",
+      "en": "FRONT USB CHARGER",
+      "ko": "앞좌석 USB 충전 포트",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0352",
+      "en": "12V POWER OUTLET",
+      "ko": "12V 전원 소켓",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0353",
+      "en": "AC POWER OUTLET",
+      "ko": "AC 전원 소켓",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0354",
+      "en": "WIRELESS CHARGING PAD",
+      "ko": "무선 충전 패드",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0355",
+      "en": "CENTER CONSOLE USB PORT",
+      "ko": "센터 콘솔 USB 포트",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0356",
+      "en": "REAR CONSOLE USB PORT",
+      "ko": "리어 콘솔 USB 포트",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0357",
+      "en": "CENTER CONSOLE CUP HOLDER",
+      "ko": "센터 콘솔 컵홀더",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0358",
+      "en": "REAR ARMREST CUP HOLDER",
+      "ko": "뒷좌석 암레스트 컵홀더",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0359",
+      "en": "SUNGLASSES HOLDER",
+      "ko": "선글라스 보관함",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0360",
+      "en": "OVERHEAD CONSOLE",
+      "ko": "오버헤드 콘솔",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0360.jpg",
+      "source_refs": [
+        "HY_LX3_2026_OVERHEAD_CONSOLE"
+      ]
+    },
+    {
+      "id": "0361",
+      "en": "SEAT BELT HEIGHT ADJUSTER",
+      "ko": "시트벨트 높이 조절장치",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0362",
+      "en": "SEAT BELT ANCHOR",
+      "ko": "시트벨트 앵커",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0363",
+      "en": "SEAT BELT RETRACTOR",
+      "ko": "시트벨트 리트랙터",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0364",
+      "en": "SEAT BELT GUIDE",
+      "ko": "시트벨트 가이드",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0365",
+      "en": "CHILD RESTRAINT TOP TETHER ANCHOR",
+      "ko": "유아용 시트 상부 테더 앵커",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0366",
+      "en": "CHILD RESTRAINT LOWER ANCHOR",
+      "ko": "유아용 시트 하부 앵커",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0367",
+      "en": "PASSENGER OCCUPANT SENSOR",
+      "ko": "동승석 승객 감지 센서",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0368",
+      "en": "AIRBAG WARNING LABEL",
+      "ko": "에어백 경고 라벨",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0369",
+      "en": "FRONT IMPACT SENSOR",
+      "ko": "전방 충돌 센서",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
+    },
+    {
+      "id": "0370",
+      "en": "SIDE IMPACT SENSOR",
+      "ko": "측면 충돌 센서",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
+      ]
     }
   ]
 }

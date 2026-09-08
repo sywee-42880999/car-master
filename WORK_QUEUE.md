@@ -609,3 +609,29 @@ Operational rule:
 
 Deferred now:
 - **0171–0180** all moved to Production Backlog pending direct Hyundai underbody visuals.
+
+
+## CODEX HANDOFF READY — 2026-09-08 — IDs 0191–0200
+Chat Production has completed and committed final assets for:
+- **0193 WIPER ARM**
+- **0194 REAR WIPER ARM**
+- **0195 HOOD LATCH**
+- **0196 SECONDARY HOOD RELEASE LEVER** — corrected from HOOD SAFETY LATCH; old term kept as alias.
+- **0197 LIFTGATE HANDLE BUTTON**
+- **0198 LIFTGATE SUPPORT STRUTS**
+
+Final assets: `images/parts/0193.jpg`–`images/parts/0198.jpg`.
+Detailed QA: `research/0191-0200-production-result.md`.
+
+Production Backlog — continue forward, do not block:
+- **0191 WINDSHIELD WASHER NOZZLE**
+- **0192 REAR WINDOW WASHER NOZZLE**
+- **0199 DOOR HINGE**
+- **0200 DOOR CHECKER**
+
+### Codex action
+1. Pull latest `main`.
+2. Bind/display 0193–0198 in BLACK UI without redesign.
+3. Do not promote backlog items from generic imagery.
+4. Continue deploying earlier PASS assets.
+5. Production % only after live BLACK UI + reverse QA.

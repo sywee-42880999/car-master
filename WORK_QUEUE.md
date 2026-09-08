@@ -1066,3 +1066,46 @@ All remaining **23 IDs** in 0471–0500 remain REVIEW + Production Backlog and m
 3. Keep all other 0471–0500 items hidden as REVIEW/backlog.
 4. Mobile-check + reverse-QA before counting Production progress.
 5. After this handoff, the full permanent-ID range **0001–0500 has a term mapping**; remaining work is backlog recovery / visual strengthening / live QA, not forward ID allocation.
+
+
+## BACKLOG RECOVERY POLICY UPDATE — 2026-09-08
+User expanded the image-source fallback rule for backlog recovery:
+1. Prefer Hyundai official Owner's Manual / Hyundai official assets.
+2. If unavailable, manufacturer media / press sites from Hyundai, Kia, Genesis or other automakers are allowed.
+3. If still unavailable, reliable general automotive web images are allowed when the physical part is unmistakable.
+4. Always record the source. Do not use an image merely because it is visually similar.
+5. Ambiguous items remain hidden/backlog.
+
+## BACKLOG RECOVERY RESULTS — BATCHES 01–02
+Batch 01 PASS:
+- 0042 CENTER CONSOLE
+- 0125 FILLING HOSE
+- 0150 CABIN AIR FILTER
+- 0195 HOOD LATCH
+- 0196 SECONDARY HOOD RELEASE LEVER
+- 0205 DAYTIME RUNNING LIGHT
+- 0206 POSITION LIGHT
+- 0209 SIDE VIEW MIRROR TURN SIGNAL
+
+Batch 02 PASS:
+- 0302 REAR CUP HOLDER
+- 0303 SEATBACK POCKET
+- 0315 SEATBACK ANGLE CONTROL SWITCH
+- 0316 LUMBAR SUPPORT SWITCH
+- 0317 LEG SUPPORT SWITCH
+- 0318 WALK-IN SWITCH
+- 0321 SEAT BELT HEIGHT ADJUSTER
+
+Batch 02 unresolved:
+- 0320 HEAD RESTRAINT RELEASE BUTTON — official candidate URLs returned 404; keep hidden and retry via manufacturer media/general automotive web source.
+
+Validation:
+- Backlog recovery Actions run #77: SUCCESS
+- Backlog recovery Actions run #79: SUCCESS
+- Source download failures for promoted PASS assets: 0
+- Image readability / 4:3 / minimum-size guards: PASS
+- BLACK UI unchanged.
+
+Current master after batch 02:
+- PASS: **186 / 500**
+- Remaining REVIEW/backlog: **314**

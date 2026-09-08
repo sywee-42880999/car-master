@@ -111,7 +111,14 @@
     "0127": "images/parts/0127.jpg",
     "0128": "images/parts/0128.jpg",
     "0129": "images/parts/0129.jpg",
-    "0130": "images/parts/0130.jpg"
+    "0130": "images/parts/0130.jpg",
+    "0131": "images/parts/0131.jpg",
+    "0132": "images/parts/0132.jpg",
+    "0133": "images/parts/0133.jpg",
+    "0134": "images/parts/0134.jpg",
+    "0135": "images/parts/0135.jpg",
+    "0136": "images/parts/0136.jpg",
+    "0140": "images/parts/0140.jpg"
   },
   "rules": [
     "Prefer official Hyundai PDF or official Hyundai web manual.",
@@ -1021,6 +1028,35 @@
       "repo_asset": null,
       "used_by": [
         "0130"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_SPARE_TIRE": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/topic_wyh_21f_vdc.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_SpareTireReplacementOverview",
+        "2C_SpareTireReplacementPrecedure_1",
+        "2C_SpareTireReplacementPrecedure_3",
+        "2C_SpareTireReplacementPrecedure_4",
+        "2C_SpareTireReplacementPrecedure_5"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0131",
+        "0132",
+        "0133",
+        "0134",
+        "0135",
+        "0136",
+        "0137",
+        "0138",
+        "0139",
+        "0140"
       ],
       "source_verified_at": "2026-09-08"
     }

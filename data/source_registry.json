@@ -150,7 +150,11 @@
     "0277": "images/parts/0277.jpg",
     "0278": "images/parts/0278.jpg",
     "0280": "images/parts/0280.jpg",
-    "0281": "images/parts/0281.jpg"
+    "0281": "images/parts/0281.jpg",
+    "0291": "images/parts/0291.jpg",
+    "0292": "images/parts/0292.jpg",
+    "0293": "images/parts/0293.jpg",
+    "0295": "images/parts/0295.jpg"
   },
   "rules": [
     "Prefer official Hyundai PDF or official Hyundai web manual.",
@@ -1425,6 +1429,28 @@
       "used_by": [
         "0280",
         "0281"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_USB_POWER_WIRELESS": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/id70d45014823.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_USBPort",
+        "2C_USBChargeOutlet",
+        "2C_PowerOutlet_1",
+        "2C_WirelessSmartPhoneChargingSystem"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0291",
+        "0292",
+        "0293",
+        "0295"
       ],
       "source_verified_at": "2026-09-08"
     }

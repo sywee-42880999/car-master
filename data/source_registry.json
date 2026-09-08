@@ -136,7 +136,13 @@
     "0204": "images/parts/0204.jpg",
     "0226": "images/parts/0226.jpg",
     "0227": "images/parts/0227.jpg",
-    "0228": "images/parts/0228.jpg"
+    "0228": "images/parts/0228.jpg",
+    "0239": "images/parts/0239.jpg",
+    "0241": "images/parts/0241.jpg",
+    "0255": "images/parts/0255.jpg",
+    "0258": "images/parts/0258.jpg",
+    "0259": "images/parts/0259.jpg",
+    "0260": "images/parts/0260.jpg"
   },
   "rules": [
     "Prefer official Hyundai PDF or official Hyundai web manual.",
@@ -1322,6 +1328,57 @@
         "0226",
         "0227",
         "0228"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_TOWING_HOOK": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/id29684c9bcdf0.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_TowingHook"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0239"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_SUNROOF_GLASS": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/id41bb7f3d970.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_SunroofSlideOpen"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0241"
+      ],
+      "source_verified_at": "2026-09-08"
+    },
+    "HY_NE1A_2025_AUTO_CLIMATE_CONTROL": {
+      "maker": "Hyundai",
+      "model": "IONIQ 5 NE1a",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/ida859515e7c9.html",
+      "pdf_url": null,
+      "image_keys": [
+        "1C_AutoAircon"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0255",
+        "0258",
+        "0259",
+        "0260"
       ],
       "source_verified_at": "2026-09-08"
     }

@@ -871,3 +871,11 @@ All remaining IDs in 0321–0370 are REVIEW + Production Backlog and must not bl
 3. Skip all REVIEW/backlog IDs.
 4. Continue later PASS items even when IDs are non-contiguous.
 5. Mobile-check + reverse-QA before counting Production progress.
+
+
+## MOBILE VIEWPORT FIX — 2026-09-08
+- User reported the learning action clipped below mobile browser chrome and requested removal of the Korean part name.
+- `index.html` now hides the Korean part-name line, fits the mobile shell to 100dvh (100svh fallback), reserves space for controls and scales the image area with object-fit: contain.
+- English title wraps; long explanations scroll inside the card. Short landscape view uses an image/copy split.
+- Content IDs, production status and image assets are unchanged.
+- Implementation commit: 7a8f8c4. Real iPhone verification remains pending; local browser executable was unavailable. No production progress increment.

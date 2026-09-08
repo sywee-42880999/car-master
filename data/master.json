@@ -2748,11 +2748,12 @@
       "id": "0261",
       "en": "STEERING WHEEL TILT/TELESCOPIC LEVER",
       "ko": "스티어링 휠 틸트·텔레스코픽 레버",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_NX4A_2026_STEERING_LEVER"
+      ],
+      "image": "images/parts/0261.jpg"
     },
     {
       "id": "0262",
@@ -2778,11 +2779,12 @@
       "id": "0264",
       "en": "ESC OFF BUTTON",
       "ko": "ESC OFF 버튼",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_ESC_OFF"
+      ],
+      "image": "images/parts/0264.jpg"
     },
     {
       "id": "0265",
@@ -2808,31 +2810,34 @@
       "id": "0267",
       "en": "POWER LIFTGATE BUTTON",
       "ko": "파워 리프트게이트 버튼",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_POWER_LIFTGATE_BUTTON"
+      ],
+      "image": "images/parts/0267.jpg"
     },
     {
       "id": "0268",
       "en": "FUEL FILLER DOOR RELEASE BUTTON",
       "ko": "연료 주입구 도어 열림 버튼",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3HEV_2026_FUEL_DOOR_BUTTON"
+      ],
+      "image": "images/parts/0268.jpg"
     },
     {
       "id": "0269",
       "en": "CHARGING DOOR OPEN/CLOSE BUTTON",
       "ko": "충전구 도어 열림·닫힘 버튼",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_NE1N_2026_CHARGING_DOOR_BUTTON"
+      ],
+      "image": "images/parts/0269.jpg"
     },
     {
       "id": "0270",

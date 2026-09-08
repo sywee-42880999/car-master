@@ -373,10 +373,12 @@
       "id": "0042",
       "en": "CENTER CONSOLE",
       "ko": "센터 콘솔",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
         "HY_LX3_2026_0041_0050"
-      ]
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0042.jpg"
     },
     {
       "id": "0043",
@@ -1255,10 +1257,12 @@
       "id": "0125",
       "en": "FILLING HOSE",
       "ko": "주입 호스",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
         "HY_LX3_2026_TMK"
-      ]
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0125.jpg"
     },
     {
       "id": "0126",
@@ -1514,10 +1518,12 @@
       "id": "0150",
       "en": "CABIN AIR FILTER",
       "ko": "캐빈 에어 필터",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
-        "HY_NE1N_2026_MOTOR_ROOM"
-      ]
+        "HY_CABIN_FILTER_COMPONENTS"
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0150.jpg"
     },
     {
       "id": "0151",
@@ -1959,8 +1965,8 @@
       "id": "0195",
       "en": "HOOD LATCH",
       "ko": "후드 래치",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "image": "images/parts/0195.jpg",
       "source_refs": [
         "HY_DN8_2026_HOOD_OPEN"
@@ -1970,8 +1976,8 @@
       "id": "0196",
       "en": "SECONDARY HOOD RELEASE LEVER",
       "ko": "후드 2차 열림 레버",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "image": "images/parts/0196.jpg",
       "source_refs": [
         "HY_DN8_2026_HOOD_OPEN"
@@ -2080,21 +2086,23 @@
       "id": "0205",
       "en": "DAYTIME RUNNING LIGHT",
       "ko": "주간주행등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_EXTERIOR_LIGHTS"
-      ]
+      ],
+      "image": "images/parts/0205.jpg"
     },
     {
       "id": "0206",
       "en": "POSITION LIGHT",
       "ko": "미등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_EXTERIOR_LIGHTS"
-      ]
+      ],
+      "image": "images/parts/0206.jpg"
     },
     {
       "id": "0207",
@@ -2120,11 +2128,12 @@
       "id": "0209",
       "en": "SIDE VIEW MIRROR TURN SIGNAL",
       "ko": "실외 미러 방향지시등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_EXTERIOR_LIGHTS"
-      ]
+      ],
+      "image": "images/parts/0209.jpg"
     },
     {
       "id": "0210",

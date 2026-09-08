@@ -235,3 +235,30 @@ Still REVIEW — do not bind/promote:
 4. Do not promote 0040.
 5. Deploy and mobile-check; report mismatches by permanent ID.
 6. Production % changes only after live BLACK UI + reverse QA.
+
+
+## CODEX HANDOFF READY — 2026-09-08 — IDs 0041–0050
+Chat Production has completed and committed final assets for:
+- **0041 GLOVE BOX**
+- **0043 CUP HOLDER**
+- **0044 USB PORT**
+- **0045 USB CHARGER**
+- **0046 POWER OUTLET**
+- **0047 WIRELESS SMARTPHONE CHARGING SYSTEM**
+- **0048 HAZARD WARNING FLASHER BUTTON**
+- **0049 ENGINE START/STOP BUTTON**
+- **0050 INSTRUMENT CLUSTER**
+
+Final assets: `images/parts/0041.jpg`, `0043.jpg`–`0050.jpg`.
+Detailed QA: `research/0041-0050-production-result.md`.
+
+Still REVIEW — do not bind/promote:
+- **0042 CENTER CONSOLE** — current dedicated Hyundai image is specifically Center Console Storage, so using it would collide with permanent ID 0111 CENTER CONSOLE STORAGE. Use a stronger full-console source before promotion.
+
+### Codex action now
+1. Pull latest `main`.
+2. Bind/display 0041 and 0043–0050 in the existing BLACK UI without redesign.
+3. Do not redo crops or source research.
+4. Do not promote 0042.
+5. Deploy and mobile-check; report mismatches by permanent ID.
+6. Production % changes only after live BLACK UI + reverse QA.

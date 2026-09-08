@@ -4776,6 +4776,306 @@
       "source_refs": [
         "HY_NE1A_2025_EV_GAUGES_2"
       ]
+    },
+    {
+      "id": "0471",
+      "en": "ENGINE COOLANT CAP",
+      "ko": "엔진 냉각수 캡",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_ENGINE_MAINTENANCE_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0472",
+      "en": "12 V BATTERY POSITIVE TERMINAL",
+      "ko": "12V 배터리 양극 단자",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_BATTERY_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0473",
+      "en": "12 V BATTERY NEGATIVE TERMINAL",
+      "ko": "12V 배터리 음극 단자",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_BATTERY_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0474",
+      "en": "FUSE/RELAY BOX COVER",
+      "ko": "퓨즈·릴레이 박스 커버",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_FUSE_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0475",
+      "en": "FUSE PULLER",
+      "ko": "퓨즈 풀러",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_FUSE_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0476",
+      "en": "BLADE TYPE FUSE",
+      "ko": "블레이드 타입 퓨즈",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_FUSE_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0477",
+      "en": "CARTRIDGE TYPE FUSE",
+      "ko": "카트리지 타입 퓨즈",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_FUSE_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0478",
+      "en": "MULTI FUSE",
+      "ko": "멀티 퓨즈",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_FUSE_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0479",
+      "en": "BATTERY SENSOR",
+      "ko": "배터리 센서",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_BATTERY_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0480",
+      "en": "AIR CLEANER FILTER",
+      "ko": "에어 클리너 필터",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_AIR_FILTER_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0481",
+      "en": "CABIN AIR FILTER COVER",
+      "ko": "캐빈 에어 필터 커버",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_CABIN_FILTER_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0482",
+      "en": "FRONT WIPER BLADE",
+      "ko": "앞유리 와이퍼 블레이드",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_WIPER_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0483",
+      "en": "FRONT WIPER ARM CAP",
+      "ko": "앞유리 와이퍼 암 캡",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_WIPER_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0484",
+      "en": "REAR WIPER ARM CAP",
+      "ko": "뒷유리 와이퍼 암 캡",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_WIPER_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0485",
+      "en": "TOWING EYE",
+      "ko": "견인 고리",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_TOWING_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0486",
+      "en": "WHEEL LUG NUT",
+      "ko": "휠 러그 너트",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_WHEEL_TIRE_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0487",
+      "en": "WHEEL CENTER CAP",
+      "ko": "휠 센터 캡",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_WHEEL_TIRE_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0488",
+      "en": "TIRE VALVE CAP",
+      "ko": "타이어 밸브 캡",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_WHEEL_TIRE_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0489",
+      "en": "TIRE SIDEWALL",
+      "ko": "타이어 사이드월",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_WHEEL_TIRE_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0490",
+      "en": "SPARE TIRE HOLD-DOWN BOLT",
+      "ko": "스페어 타이어 고정 볼트",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_SPARE_TIRE_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0491",
+      "en": "JACK BRACKET",
+      "ko": "잭 브래킷",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_SPARE_TIRE_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0492",
+      "en": "TOOL CASE",
+      "ko": "공구 케이스",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_SPARE_TIRE_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0493",
+      "en": "CHARGING PORT CAP",
+      "ko": "충전 포트 캡",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_EV_CHARGING_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0494",
+      "en": "DC CHARGING INLET",
+      "ko": "DC 충전 인렛",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_EV_CHARGING_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0495",
+      "en": "AC CHARGING INLET",
+      "ko": "AC 충전 인렛",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_EV_CHARGING_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0496",
+      "en": "CHARGING CONNECTOR LOCK",
+      "ko": "충전 커넥터 잠금 장치",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_EV_CHARGING_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0497",
+      "en": "CHARGING CONNECTOR RELEASE BUTTON",
+      "ko": "충전 커넥터 해제 버튼",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_EV_CHARGING_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0498",
+      "en": "V2L CONNECTOR COVER",
+      "ko": "V2L 커넥터 커버",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_V2L_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0499",
+      "en": "FRONT TRUNK COVER",
+      "ko": "프론트 트렁크 커버",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_FRONT_TRUNK_COMPONENTS"
+      ]
+    },
+    {
+      "id": "0500",
+      "en": "BATTERY COOLING AIR INLET",
+      "ko": "배터리 냉각 공기 흡입구",
+      "status": "REVIEW",
+      "production_backlog": true,
+      "source_refs": [
+        "HY_BATTERY_COOLING_COMPONENTS"
+      ]
     }
   ]
 }

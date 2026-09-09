@@ -4080,61 +4080,67 @@
       "id": "0390",
       "en": "AIRBAG WARNING LIGHT",
       "ko": "에어백 경고등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_LX3_2026_CLUSTER_GAUGES_WARNINGS"
-      ]
+        "HY_LX3_2026_WARNING_INDICATORS"
+      ],
+      "image": "images/parts/0390.jpg"
     },
     {
       "id": "0391",
       "en": "SEAT BELT WARNING LIGHT",
       "ko": "시트벨트 경고등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_LX3_2026_CLUSTER_GAUGES_WARNINGS"
-      ]
+        "HY_LX3_2026_WARNING_INDICATORS"
+      ],
+      "image": "images/parts/0391.jpg"
     },
     {
       "id": "0392",
       "en": "PARKING BRAKE & BRAKE FLUID WARNING LIGHT",
       "ko": "주차 브레이크·브레이크액 경고등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_LX3_2026_CLUSTER_GAUGES_WARNINGS"
-      ]
+        "HY_LX3_2026_WARNING_INDICATORS"
+      ],
+      "image": "images/parts/0392.jpg"
     },
     {
       "id": "0393",
       "en": "ABS WARNING LIGHT",
       "ko": "ABS 경고등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_LX3_2026_CLUSTER_GAUGES_WARNINGS"
-      ]
+        "HY_LX3_2026_WARNING_INDICATORS"
+      ],
+      "image": "images/parts/0393.jpg"
     },
     {
       "id": "0394",
       "en": "ESC WARNING LIGHT",
       "ko": "ESC 경고등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_LX3_2026_CLUSTER_GAUGES_WARNINGS"
-      ]
+        "HY_LX3_2026_WARNING_INDICATORS"
+      ],
+      "image": "images/parts/0394.jpg"
     },
     {
       "id": "0395",
       "en": "MASTER WARNING LIGHT",
       "ko": "마스터 경고등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_LX3_2026_CLUSTER_GAUGES_WARNINGS"
-      ]
+        "HY_LX3_2026_WARNING_INDICATORS"
+      ],
+      "image": "images/parts/0395.jpg"
     },
     {
       "id": "0396",
@@ -4398,81 +4404,89 @@
       "id": "0421",
       "en": "MOTOR DRIVEN POWER STEERING (MDPS) WARNING LIGHT",
       "ko": "전동식 파워 스티어링(MDPS) 경고등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_WARNING_INDICATORS"
-      ]
+      ],
+      "image": "images/parts/0421.jpg"
     },
     {
       "id": "0422",
       "en": "LOW FUEL LEVEL WARNING LIGHT",
       "ko": "연료 부족 경고등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_WARNING_INDICATORS"
-      ]
+      ],
+      "image": "images/parts/0422.jpg"
     },
     {
       "id": "0423",
       "en": "ENGINE OIL PRESSURE WARNING LIGHT",
       "ko": "엔진 오일 압력 경고등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_WARNING_INDICATORS"
-      ]
+      ],
+      "image": "images/parts/0423.jpg"
     },
     {
       "id": "0424",
       "en": "MALFUNCTION INDICATOR LAMP (MIL)",
       "ko": "엔진 경고등(MIL)",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_WARNING_INDICATORS"
-      ]
+      ],
+      "image": "images/parts/0424.jpg"
     },
     {
       "id": "0425",
       "en": "12 V BATTERY CHARGING SYSTEM WARNING LIGHT",
       "ko": "12V 배터리 충전 시스템 경고등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_WARNING_INDICATORS"
-      ]
+      ],
+      "image": "images/parts/0425.jpg"
     },
     {
       "id": "0426",
       "en": "LOW TIRE PRESSURE WARNING LIGHT",
       "ko": "저압 타이어 경고등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_WARNING_INDICATORS"
-      ]
+      ],
+      "image": "images/parts/0426.jpg"
     },
     {
       "id": "0427",
       "en": "ELECTRONIC PARKING BRAKE (EPB) WARNING LIGHT",
       "ko": "전자식 주차 브레이크(EPB) 경고등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_WARNING_INDICATORS"
-      ]
+      ],
+      "image": "images/parts/0427.jpg"
     },
     {
       "id": "0428",
       "en": "AUTO HOLD INDICATOR LIGHT",
       "ko": "오토 홀드 표시등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_WARNING_INDICATORS"
-      ]
+      ],
+      "image": "images/parts/0428.jpg"
     },
     {
       "id": "0429",
@@ -4488,161 +4502,177 @@
       "id": "0430",
       "en": "FORWARD SAFETY WARNING LIGHT",
       "ko": "전방 안전 경고등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_WARNING_INDICATORS"
-      ]
+      ],
+      "image": "images/parts/0430.jpg"
     },
     {
       "id": "0431",
       "en": "EMERGENCY STEERING WARNING LIGHT",
       "ko": "긴급 조향 경고등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_WARNING_INDICATORS"
-      ]
+      ],
+      "image": "images/parts/0431.jpg"
     },
     {
       "id": "0432",
       "en": "LANE SAFETY INDICATOR LIGHT",
       "ko": "차로 안전 표시등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_WARNING_INDICATORS"
-      ]
+      ],
+      "image": "images/parts/0432.jpg"
     },
     {
       "id": "0433",
       "en": "LANE FOLLOWING ASSIST (LFA) INDICATOR LIGHT",
       "ko": "차로 유지 보조(LFA) 표시등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_WARNING_INDICATORS"
-      ]
+      ],
+      "image": "images/parts/0433.jpg"
     },
     {
       "id": "0434",
       "en": "SPEED LIMITER INDICATOR LIGHT",
       "ko": "속도 제한 표시등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_WARNING_INDICATORS"
-      ]
+      ],
+      "image": "images/parts/0434.jpg"
     },
     {
       "id": "0435",
       "en": "INTELLIGENT SPEED LIMIT ASSIST (ISLA) INDICATOR LIGHT",
       "ko": "지능형 속도 제한 보조(ISLA) 표시등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_WARNING_INDICATORS"
-      ]
+      ],
+      "image": "images/parts/0435.jpg"
     },
     {
       "id": "0436",
       "en": "INATTENTIVE DRIVING WARNING LIGHT",
       "ko": "부주의 운전 경고등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_WARNING_INDICATORS"
-      ]
+      ],
+      "image": "images/parts/0436.jpg"
     },
     {
       "id": "0437",
       "en": "FORWARD ATTENTION WARNING LIGHT",
       "ko": "전방 주의 경고등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_WARNING_INDICATORS"
-      ]
+      ],
+      "image": "images/parts/0437.jpg"
     },
     {
       "id": "0438",
       "en": "LED HEADLIGHT WARNING LIGHT",
       "ko": "LED 헤드램프 경고등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_WARNING_INDICATORS"
-      ]
+      ],
+      "image": "images/parts/0438.jpg"
     },
     {
       "id": "0439",
       "en": "DOWNHILL BRAKE CONTROL (DBC) INDICATOR LIGHT",
       "ko": "경사로 저속 주행(DBC) 표시등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_WARNING_INDICATORS"
-      ]
+      ],
+      "image": "images/parts/0439.jpg"
     },
     {
       "id": "0440",
       "en": "ELECTRONIC STABILITY CONTROL (ESC) INDICATOR LIGHT",
       "ko": "차체 자세 제어(ESC) 표시등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_WARNING_INDICATORS"
-      ]
+      ],
+      "image": "images/parts/0440.jpg"
     },
     {
       "id": "0441",
       "en": "ELECTRONIC STABILITY CONTROL (ESC) OFF INDICATOR LIGHT",
       "ko": "ESC OFF 표시등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_WARNING_INDICATORS"
-      ]
+      ],
+      "image": "images/parts/0441.jpg"
     },
     {
       "id": "0442",
       "en": "IMMOBILIZER INDICATOR LIGHT",
       "ko": "이모빌라이저 표시등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_WARNING_INDICATORS"
-      ]
+      ],
+      "image": "images/parts/0442.jpg"
     },
     {
       "id": "0443",
       "en": "LOW BEAM INDICATOR LIGHT",
       "ko": "하향등 표시등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_WARNING_INDICATORS"
-      ]
+      ],
+      "image": "images/parts/0443.jpg"
     },
     {
       "id": "0444",
       "en": "HIGH BEAM INDICATOR LIGHT",
       "ko": "상향등 표시등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_WARNING_INDICATORS"
-      ]
+      ],
+      "image": "images/parts/0444.jpg"
     },
     {
       "id": "0445",
       "en": "HIGH BEAM ASSIST (HBA) INDICATOR LIGHT",
       "ko": "하이빔 보조(HBA) 표시등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_WARNING_INDICATORS"
-      ]
+      ],
+      "image": "images/parts/0445.jpg"
     },
     {
       "id": "0446",

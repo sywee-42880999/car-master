@@ -2,11 +2,6 @@ name: Collect official vehicle images
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - data/models-latest.json
-      - scripts/collect_vehicle_images.py
-      - .github/workflows/vehicle-images.yml
 
 permissions:
   contents: write

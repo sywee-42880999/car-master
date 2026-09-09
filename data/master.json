@@ -5107,11 +5107,12 @@
       "id": "0479",
       "en": "BATTERY SENSOR",
       "ko": "배터리 센서",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_BATTERY_COMPONENTS"
-      ]
+        "HY_NX4_2025_BATTERY_SENSOR_DIRECT"
+      ],
+      "image": "images/parts/0479.jpg"
     },
     {
       "id": "0480",
@@ -5194,11 +5195,12 @@
       "id": "0487",
       "en": "WHEEL CENTER CAP",
       "ko": "휠 센터 캡",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_WHEEL_TIRE_COMPONENTS"
-      ]
+      ],
+      "image": "images/parts/0487.jpg"
     },
     {
       "id": "0488",
@@ -5215,11 +5217,12 @@
       "id": "0489",
       "en": "TIRE SIDEWALL",
       "ko": "타이어 사이드월",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_WHEEL_TIRE_COMPONENTS"
-      ]
+        "HY_LX3_2026_TIRE_SIDEWALL_DIRECT"
+      ],
+      "image": "images/parts/0489.jpg"
     },
     {
       "id": "0490",
@@ -5236,21 +5239,23 @@
       "id": "0491",
       "en": "JACK BRACKET",
       "ko": "잭 브래킷",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_SPARE_TIRE_COMPONENTS"
-      ]
+      ],
+      "image": "images/parts/0491.jpg"
     },
     {
       "id": "0492",
       "en": "TOOL CASE",
       "ko": "공구 케이스",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_SPARE_TIRE_COMPONENTS"
-      ]
+      ],
+      "image": "images/parts/0492.jpg"
     },
     {
       "id": "0493",

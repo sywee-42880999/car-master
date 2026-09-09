@@ -114,11 +114,9 @@
         "score": 30.71
       },
       "rear": {
-        "file": "images/vehicles/hyundai/h007_rear.webp",
-        "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ-9_Exterior-Rear_Charging-Cable_Closeup_Emotional:4x3?wid=768&fit=wrap",
-        "score": 22,
-        "meta": "",
-        "audit": "RECHECK"
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "H008": {
@@ -130,11 +128,9 @@
         "score": 27.53
       },
       "rear": {
-        "file": "images/vehicles/hyundai/h008_rear.webp",
-        "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_KONA_Petrol_N-Line_Exterior-Rear_16x9:4x3?wid=640&hei=480&fit=wrap",
-        "score": 14,
-        "meta": "",
-        "audit": "RECHECK"
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "H009": {
@@ -348,11 +344,9 @@
         "score": 29.4
       },
       "rear": {
-        "file": "images/vehicles/hyundai/h014_rear.webp",
-        "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_i20_Exterior-Front_Driving_06_i20_Driving_Front",
-        "score": 12,
-        "meta": "Hyundai i20 driving through a city street with buildings in the background.",
-        "audit": "RECHECK"
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "H015": {
@@ -383,9 +377,9 @@
       },
       "rear": {
         "file": "images/vehicles/hyundai/h016_rear.webp",
-        "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/HYU_PD_HATCHBACK_EViz_Env_PE2-EcotronicGrayPearl_52910G4720_C03",
-        "score": 18.0,
-        "meta": "Side view of the new Hyundai i30 in grey, parked outside a wide, open staircase.",
+        "source": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/find-a-car/pip/cars/i30-pde/i30-pde-design-rear-accordion-m.jpg",
+        "score": 12,
+        "meta": "i30 rear design",
         "audit": "RECHECK"
       }
     },
@@ -1390,11 +1384,9 @@
         "score": 34.75
       },
       "rear": {
-        "file": "images/vehicles/hyundai/h049_rear.webp",
-        "source": "https://www.hyundai.com/cstatic/images/product/cars/xcient/safety-02.jpg",
-        "score": 22,
-        "meta": "더 뉴 엑시언트 후측방 충돌 경고 및 후측방 근거리 충돌 경고",
-        "audit": "RECHECK"
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "H050": {
@@ -1545,9 +1537,9 @@
       ],
       "rear": {
         "file": "images/vehicles/hyundai/h051_rear.webp",
-        "source": "https://www.hyundai.com/cstatic/images/product/cars/county/rear-emergency-door.jpg",
+        "source": "https://www.hyundai.com/cstatic/images/product/cars/county/facade-rear-design-2.jpg",
         "score": 30,
-        "meta": "",
+        "meta": "전면부 디자인, 후면부 비상문 (리무진, 투어 제외)",
         "audit": "RECHECK"
       }
     },
@@ -1881,9 +1873,9 @@
       ],
       "rear": {
         "file": "images/vehicles/hyundai/h057_rear.webp",
-        "source": "https://trucknbus.hyundai.com/global/en/images/product/cars/universe/air-suspension-rear.jpg",
+        "source": "https://trucknbus.hyundai.com/global/en/images/product/cars/universe/rear-combination-lamp.jpg",
         "score": 22,
-        "meta": "Air suspension (Rear)",
+        "meta": "Rear combination lamp",
         "audit": "RECHECK"
       }
     },
@@ -1928,11 +1920,9 @@
         "score": 27.67
       },
       "rear": {
-        "file": "images/vehicles/kia/k003_rear.webp",
-        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ray-ev/24my/content/rayev_driving_rear_side_anti_collision_mo.jpg",
-        "score": 42,
-        "meta": "",
-        "audit": "RECHECK"
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K004": {
@@ -1962,11 +1952,9 @@
         "audit": "RECHECK"
       },
       "rear": {
-        "file": "images/vehicles/kia/k005_rear.webp",
-        "source": "https://www.kia.com/content/dam/kwcms/mx/es/images/shopping-tools/cofigura-tu-kia/k3-hatchback/K3HB_Version_FieryRed_Lx.png",
-        "score": 42,
-        "meta": "",
-        "audit": "RECHECK"
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K006": {
@@ -1994,11 +1982,9 @@
         "audit": "RECHECK"
       },
       "rear": {
-        "file": "images/vehicles/kia/k007_rear.webp",
-        "source": "https://www.kia.com/us/en/vehicles/k4-hatchback/2026/_jcr_content/root/responsivegrid/fiftyfifty_copy_2142.coreimg.jpeg/1779308659246/my26-ev6-mep-5050-trim-highlight-v2.jpeg",
-        "score": 43.5,
-        "meta": "Standing Shot of the 2026 K4 Hatchback GT-Line turbo in Grey.",
-        "audit": "RECHECK"
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K008": {
@@ -2582,11 +2568,9 @@
         "audit": "RECHECK"
       },
       "rear": {
-        "file": "images/vehicles/kia/k029_rear.webp",
-        "source": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/vehicles/ev4/my26/discover/kia-ev4-gtl-my26-fastback-clearcut-v2.jpg",
-        "score": 12,
-        "meta": "car image",
-        "audit": "RECHECK"
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K030": {
@@ -2738,11 +2722,9 @@
         "score": 13.04
       },
       "rear": {
-        "file": "images/vehicles/kia/k031_rear.webp",
-        "source": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/gnb/flyout-neu/kia_ev4-gtl_hatchback_268x134.png",
-        "score": 42,
-        "meta": "Kia EV4 Hatchback",
-        "audit": "RECHECK"
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K032": {
@@ -3446,11 +3428,9 @@
         "score": 41.95
       },
       "rear": {
-        "file": "images/vehicles/genesis/g005_rear.webp",
-        "source": "https://s7d1.scene7.com/is/image/hyundai/gma-cv-g90-wingback-0326:16-9?wid=1000&hei=563&fmt=webp",
-        "score": 12,
-        "meta": "",
-        "audit": "RECHECK"
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "G006": {
@@ -3492,11 +3472,9 @@
         "score": 18.51
       },
       "rear": {
-        "file": "images/vehicles/genesis/g008_rear.webp",
-        "source": "https://dams.hyundai-autoever.com/cdn-cgi/image/width=1440,height=720,fit=cover,quality=85,format=auto/v1/openapi/hmg-presigned-url/50534b313031303030303030303030303039393133/genesis-gv60-magma-2026-exterior-detail-rearspoiler-large.png",
-        "score": 14,
-        "meta": "",
-        "audit": "RECHECK"
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "G009": {
@@ -3566,6 +3544,6 @@
       }
     }
   },
-  "rear_generated_at": "2026-09-09T22:40:44Z",
-  "rear_found": 65
+  "rear_generated_at": "2026-09-09T22:43:02Z",
+  "rear_found": 54
 }

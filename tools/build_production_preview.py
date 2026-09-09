@@ -1,183 +1,206 @@
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
-import json, math
+import json, math, urllib.request
 
 ROOT=Path(__file__).resolve().parents[1]
 PARTS=ROOT/"images"/"parts"; PARTS.mkdir(parents=True,exist_ok=True)
+DL=ROOT/"production-preview"/"batch-33-final-22"; DL.mkdir(parents=True,exist_ok=True)
 W,H=640,480
-BG=(244,245,246); INK=(28,31,35); MID=(110,118,125); LIGHT=(205,210,215); BLUE=(65,120,185); RED=(180,65,65)
+BG=(244,245,246); INK=(28,31,35); MID=(112,118,124); LIGHT=(205,210,215)
+BLUE=(70,130,200); GREEN=(80,190,110); ORANGE=(230,150,55); RED=(190,65,65)
 
 def C(): return Image.new("RGB",(W,H),BG)
 def L(d,pts,w=10,fill=INK): d.line(pts,fill=fill,width=w,joint="curve")
 def save(im,id_):
     out=PARTS/f"{id_}.jpg"; im.save(out,quality=95,subsampling=0)
     v=Image.open(out); v.verify()
-    if out.stat().st_size<5000: raise RuntimeError("small")
+    if v.size!=(640,480) or out.stat().st_size<5000: raise RuntimeError("validation")
     return out.stat().st_size
 
-def folding_lever(remote=False):
+def fit_to_canvas(src):
+    im=src.convert("RGB"); w,h=im.size
+    scale=min(560/w,400/h); im=im.resize((max(1,int(w*scale)),max(1,int(h*scale))),Image.Resampling.LANCZOS)
+    out=C(); x=(W-im.width)//2; y=(H-im.height)//2; out.paste(im,(x,y)); return out
+
+def fetch(url,id_):
+    p=DL/f"{id_}.src"
+    req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0"})
+    with urllib.request.urlopen(req,timeout=30) as r:p.write_bytes(r.read())
+    from PIL import Image as PI
+    q=PI.open(p); q.verify(); return PI.open(p).convert("RGB")
+
+def isg_button():
     im=C(); d=ImageDraw.Draw(im)
-    d.rounded_rectangle((120,90,520,390),radius=55,outline=MID,width=12)
-    d.line((320,100,320,380),fill=MID,width=8)
-    if remote:
-        d.rounded_rectangle((390,175,490,275),radius=22,fill=INK); d.polygon([(420,205),(465,225),(420,245)],fill=BG)
-    else:
-        d.rounded_rectangle((165,250,285,315),radius=20,fill=INK); d.line((225,250,250,190),fill=INK,width=16)
+    d.rounded_rectangle((175,110,465,370),radius=55,fill=INK)
+    d.ellipse((235,165,405,335),outline=BG,width=18)
+    d.arc((245,175,395,325),start=45,end=315,fill=BG,width=18)
+    d.polygon([(385,165),(425,180),(390,210)],fill=BG)
+    # OFF bar
+    d.rectangle((230,320,410,350),fill=RED)
     return im
 
-def spare_carrier():
+def ac_outlet():
     im=C(); d=ImageDraw.Draw(im)
-    d.ellipse((150,80,490,420),outline=INK,width=25); d.ellipse((230,160,410,340),outline=MID,width=15)
-    d.line((320,40,320,440),fill=INK,width=16); d.rounded_rectangle((285,45,355,115),radius=18,fill=INK); return im
-
-def wheel_studs():
-    im=C(); d=ImageDraw.Draw(im)
-    d.ellipse((150,70,490,410),fill=INK); d.ellipse((220,140,420,340),fill=BG)
-    for a in range(0,360,72):
-        cx,cy=320,240; r=120
-        x=cx+math.cos(math.radians(a))*r; y=cy+math.sin(math.radians(a))*r
-        d.rounded_rectangle((x-15,y-38,x+15,y+38),radius=8,fill=MID)
+    d.rounded_rectangle((145,95,495,385),radius=55,fill=INK)
+    d.rounded_rectangle((195,145,445,335),radius=38,fill=BG)
+    d.rounded_rectangle((235,180,285,260),radius=12,fill=INK)
+    d.rounded_rectangle((355,180,405,260),radius=12,fill=INK)
+    d.ellipse((295,270,345,320),fill=INK)
     return im
 
-def radiator_cap():
+def door_seal():
     im=C(); d=ImageDraw.Draw(im)
-    d.ellipse((175,110,465,400),fill=INK); d.ellipse((225,160,415,350),fill=MID)
-    d.rectangle((115,200,220,310),fill=INK); d.rectangle((420,200,525,310),fill=INK)
-    d.polygon([(320,175),(275,285),(365,285)],fill=BG); d.line((320,210,320,255),fill=RED,width=10); return im
+    d.rounded_rectangle((160,75,480,405),radius=90,outline=MID,width=12)
+    d.rounded_rectangle((195,110,445,370),radius=75,outline=INK,width=24)
+    d.arc((215,130,425,350),25,335,fill=BG,width=6); return im
 
-def tank_air_filter():
+def car_top():
     im=C(); d=ImageDraw.Draw(im)
-    d.rounded_rectangle((160,110,480,370),radius=45,fill=INK)
-    for y in range(150,340,28): d.line((205,y,435,y),fill=BG,width=8)
-    L(d,[(95,240),(160,240)],22); L(d,[(480,240),(545,240)],22); return im
+    d.rounded_rectangle((150,60,490,420),radius=120,outline=MID,width=10)
+    d.rectangle((205,125,435,355),outline=MID,width=6)
+    return im,d
 
-def brake_line():
-    im=C(); d=ImageDraw.Draw(im)
-    pts=[(80,330),(150,260),(220,270),(300,180),(400,205),(560,120)]
-    L(d,pts,12,INK)
-    for cx,cy in [(80,330),(300,180),(560,120)]: d.ellipse((cx-16,cy-16,cx+16,cy+16),fill=MID)
+def front_impact():
+    im,d=car_top()
+    for x in (240,400): d.ellipse((x-22,72,x+22,116),fill=RED)
+    d.line((320,95,320,170),fill=RED,width=8)
     return im
 
-def brake_hose():
-    im=C(); d=ImageDraw.Draw(im)
-    pts=[]
-    for i in range(180):
-        t=i/179; x=90+t*460; y=240+75*math.sin(t*3*math.pi)
-        pts.append((x,y))
-    L(d,pts,24,MID)
-    d.rectangle((60,205,115,275),fill=INK); d.rectangle((525,205,580,275),fill=INK); return im
-
-def steering_linkage():
-    im=C(); d=ImageDraw.Draw(im)
-    d.rounded_rectangle((230,190,410,290),radius=30,fill=INK)
-    L(d,[(80,240),(230,240)],18); L(d,[(410,240),(560,240)],18)
-    d.ellipse((45,205,115,275),fill=MID); d.ellipse((525,205,595,275),fill=MID)
-    d.line((320,190,320,90),fill=INK,width=18); return im
-
-def suspension(front=True):
-    im=C(); d=ImageDraw.Draw(im)
-    # wheel/knuckle
-    d.ellipse((410,105,560,385),outline=MID,width=18)
-    d.ellipse((450,190,520,260),fill=INK)
-    # strut or shock
-    if front:
-        d.line((460,70,470,210),fill=INK,width=22)
-        pts=[]
-        for i in range(90):
-            t=i/89; y=90+t*110; x=465+40*math.sin(t*4*2*math.pi); pts.append((x,y))
-        L(d,pts,10,MID)
-    else:
-        d.line((405,100,430,270),fill=INK,width=22)
-        pts=[]
-        for i in range(90):
-            t=i/89; y=130+t*150; x=355+38*math.sin(t*4*2*math.pi); pts.append((x,y))
-        L(d,pts,10,MID)
-    # arms/subframe
-    d.polygon([(150,325),(300,225),(465,240),(430,310),(275,350)],fill=INK)
-    d.line((110,365,500,365),fill=MID,width=24)
-    if front:
-        d.line((160,230,340,170),fill=MID,width=16)
-    else:
-        d.line((170,175,390,305),fill=MID,width=16)
+def side_impact():
+    im,d=car_top()
+    for x,y in [(165,210),(475,210),(165,310),(475,310)]: d.ellipse((x-18,y-18,x+18,y+18),fill=RED)
     return im
 
-def defroster_vent():
+def srs_module():
     im=C(); d=ImageDraw.Draw(im)
-    d.polygon([(100,330),(180,170),(460,170),(540,330)],outline=MID)
-    d.rounded_rectangle((160,260,480,315),radius=18,fill=INK)
-    for x in range(190,470,35): d.line((x,270,x-10,305),fill=BG,width=6)
-    for x in range(220,450,55): d.line((x,250,x-20,170),fill=BLUE,width=5)
+    d.rounded_rectangle((185,115,455,365),radius=38,fill=INK)
+    d.rectangle((240,165,400,315),fill=MID)
+    for x in range(220,430,42): d.rectangle((x,340,x+22,395),fill=INK)
+    d.circle((320,240),28,fill=BG); return im
+
+def rollover():
+    im=C(); d=ImageDraw.Draw(im)
+    d.rounded_rectangle((205,130,435,350),radius=40,fill=INK)
+    d.ellipse((250,175,390,315),outline=BG,width=12)
+    d.line((320,240,370,180),fill=ORANGE,width=14)
+    d.polygon([(370,180),(350,185),(365,205)],fill=ORANGE)
+    d.arc((145,75,495,405),start=205,end=335,fill=ORANGE,width=12)
     return im
 
-def steering_adjust_switch():
+def buckle_sensor():
     im=C(); d=ImageDraw.Draw(im)
-    d.rounded_rectangle((175,120,465,360),radius=50,fill=INK)
-    d.ellipse((245,180,395,330),fill=BG)
-    d.polygon([(320,145),(290,185),(350,185)],fill=MID)
-    d.polygon([(320,335),(290,295),(350,295)],fill=MID)
-    d.polygon([(205,240),(245,210),(245,270)],fill=MID)
-    d.polygon([(435,240),(395,210),(395,270)],fill=MID); return im
-
-def display_card(kind):
-    im=C(); d=ImageDraw.Draw(im)
-    d.rounded_rectangle((95,85,545,395),radius=45,fill=INK)
-    d.rounded_rectangle((135,125,505,355),radius=25,fill=(28,40,55))
-    if kind=="trip":
-        d.line((175,285,470,285),fill=BLUE,width=10); d.arc((170,150,300,280),180,350,fill=BLUE,width=12)
-        d.rectangle((335,165,455,205),fill=MID); d.rectangle((335,225,430,255),fill=MID)
-    elif kind=="warning":
-        d.polygon([(320,145),(205,330),(435,330)],fill=(230,175,45)); d.line((320,205,320,270),fill=INK,width=18); d.ellipse((309,292,331,314),fill=INK)
-    else:
-        d.rectangle((170,160,470,205),fill=MID); d.rectangle((170,235,390,275),fill=BLUE); d.rectangle((170,305,440,330),fill=MID)
+    d.rounded_rectangle((200,110,440,340),radius=45,fill=INK)
+    d.rounded_rectangle((265,155,375,245),radius=18,fill=BG)
+    d.rectangle((290,245,350,380),fill=MID)
+    d.line((350,320,510,370),fill=BLUE,width=12)
+    d.rounded_rectangle((485,345,545,400),radius=12,fill=INK)
     return im
 
-def washer_system(rear=False):
+def pressure_sensor():
     im=C(); d=ImageDraw.Draw(im)
-    d.rounded_rectangle((120,175,300,350),radius=45,fill=INK)
-    d.rectangle((185,110,235,190),fill=MID)
-    L(d,[(300,260),(430,220 if not rear else 300),(520,160 if not rear else 330)],12,BLUE)
-    d.ellipse((500,140 if not rear else 310,540,180 if not rear else 350),fill=INK); return im
-
-def heated_mirror():
-    im=C(); d=ImageDraw.Draw(im)
-    d.rounded_rectangle((140,100,500,380),radius=80,fill=INK); d.rounded_rectangle((175,135,465,345),radius=65,fill=(180,200,215))
-    for x in (250,320,390):
-        pts=[(x,300),(x-20,270),(x+15,240),(x-15,210),(x+10,180)]
-        L(d,pts,8,RED)
+    d.rounded_rectangle((115,95,525,385),radius=55,outline=MID,width=12)
+    d.rounded_rectangle((270,175,370,275),radius=25,fill=INK)
+    d.circle((320,225),24,fill=BG)
+    for r in (55,85,115): d.arc((320-r,225-r,320+r,225+r),-60,60,fill=BLUE,width=6)
     return im
 
-def tpms(sensor=True):
+def accel_sensor():
     im=C(); d=ImageDraw.Draw(im)
-    d.ellipse((160,80,480,400),outline=INK,width=20)
-    d.rectangle((305,125,335,340),fill=MID)
-    if sensor:
-        d.rounded_rectangle((255,280,385,360),radius=20,fill=INK); d.rectangle((300,220,340,290),fill=INK)
-    else:
-        d.rounded_rectangle((285,70,355,145),radius=18,fill=INK); d.ellipse((305,88,335,118),fill=BG)
+    d.rounded_rectangle((215,130,425,340),radius=35,fill=INK)
+    d.rectangle((265,180,375,290),fill=MID)
+    d.line((320,235,430,235),fill=ORANGE,width=12); d.polygon([(430,235),(400,215),(400,255)],fill=ORANGE)
+    d.line((320,235,320,110),fill=ORANGE,width=12); d.polygon([(320,110),(300,140),(340,140)],fill=ORANGE)
+    return im
+
+def combo_inlet(mode="full"):
+    im=C(); d=ImageDraw.Draw(im)
+    d.rounded_rectangle((135,65,505,415),radius=70,fill=INK)
+    # top AC portion
+    d.ellipse((205,115,435,325),fill=BG)
+    holes=[(270,165),(370,165),(245,235),(320,235),(395,235),(285,290),(355,290)]
+    for x,y in holes: d.ellipse((x-17,y-17,x+17,y+17),fill=INK)
+    # DC lower pins
+    d.ellipse((235,315,305,385),fill=BG); d.ellipse((335,315,405,385),fill=BG)
+    d.ellipse((255,335,285,365),fill=INK); d.ellipse((355,335,385,365),fill=INK)
+    if mode=="ac":
+        d.rectangle((185,105,455,310),outline=BLUE,width=12)
+    elif mode=="dc":
+        d.rectangle((210,300,430,400),outline=ORANGE,width=12)
+    elif mode=="lock":
+        d.rounded_rectangle((430,155,490,245),radius=18,fill=RED)
+        d.arc((438,125,482,175),180,360,fill=RED,width=10)
+    elif mode=="cap":
+        d.arc((95,55,525,425),start=80,end=280,fill=MID,width=18)
+        d.rounded_rectangle((65,145,180,335),radius=45,fill=MID)
+    return im
+
+def reservoir(cap=False):
+    im=C(); d=ImageDraw.Draw(im)
+    d.polygon([(195,150),(445,150),(475,340),(430,400),(210,400),(165,340)],fill=(190,215,225),outline=INK)
+    d.line((210,305,430,305),fill=BLUE,width=12)
+    d.rectangle((275,90,365,160),fill=INK)
+    if cap:
+        d.ellipse((230,70,410,235),fill=INK); d.ellipse((270,110,370,195),fill=MID)
+        for x in range(260,390,25): d.line((x,105,x,200),fill=BG,width=7)
+    return im
+
+def ecu():
+    im=C(); d=ImageDraw.Draw(im)
+    d.rounded_rectangle((145,115,495,365),radius=35,fill=INK)
+    for y in range(145,340,24): d.line((175,y,465,y),fill=MID,width=8)
+    d.rectangle((200,355,285,410),fill=INK); d.rectangle((355,355,440,410),fill=INK)
+    return im
+
+def smart_slot():
+    im=C(); d=ImageDraw.Draw(im)
+    d.rounded_rectangle((145,105,495,375),radius=55,fill=INK)
+    d.rounded_rectangle((255,165,385,315),radius=25,fill=BG)
+    # key silhouette
+    d.rounded_rectangle((280,185,360,290),radius=18,fill=MID)
+    d.ellipse((305,205,335,235),fill=BG)
+    return im
+
+def ipedal():
+    im=Image.new("RGB",(W,H),(16,18,22)); d=ImageDraw.Draw(im)
+    try:
+        font=ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",92)
+    except: font=None
+    txt="i-PEDAL"
+    bb=d.textbbox((0,0),txt,font=font); tw=bb[2]-bb[0]; th=bb[3]-bb[1]
+    d.text(((W-tw)//2,(H-th)//2),txt,font=font,fill=GREEN)
+    return im
+
+def battery_air_inlet():
+    im=C(); d=ImageDraw.Draw(im)
+    d.rounded_rectangle((130,110,510,370),radius=55,fill=INK)
+    for y in range(155,340,32): d.rounded_rectangle((185,y,455,y+12),radius=6,fill=BG)
+    for x in (215,320,425):
+        d.line((x,410,x,350),fill=BLUE,width=8); d.polygon([(x,335),(x-14,360),(x+14,360)],fill=BLUE)
     return im
 
 jobs={
-"0079":lambda:folding_lever(False),
-"0080":lambda:folding_lever(True),
-"0137":spare_carrier,
-"0139":wheel_studs,
-"0149":radiator_cap,
-"0156":tank_air_filter,
-"0158":brake_line,
-"0159":brake_hose,
-"0164":steering_linkage,
-"0173":lambda:suspension(True),
-"0174":lambda:suspension(False),
-"0253":defroster_vent,
-"0262":steering_adjust_switch,
-"0275":lambda:display_card("trip"),
-"0276":lambda:display_card("warning"),
-"0279":lambda:display_card("info"),
-"0341":lambda:washer_system(False),
-"0342":lambda:washer_system(True),
-"0345":heated_mirror,
-"0457":lambda:tpms(True),
-"0458":lambda:tpms(False),
+"0265":isg_button,
+"0294":ac_outlet,
+"0337":door_seal,
+"0353":ac_outlet,
+"0369":front_impact,
+"0370":side_impact,
+"0371":srs_module,
+"0372":rollover,
+"0373":buckle_sensor,
+"0374":pressure_sensor,
+"0375":accel_sensor,
+"0397":lambda:combo_inlet("full"),
+"0414":lambda:reservoir(False),
+"0415":lambda:reservoir(True),
+"0416":ecu,
+"0452":smart_slot,
+"0465":ipedal,
+"0493":lambda:combo_inlet("cap"),
+"0494":lambda:combo_inlet("dc"),
+"0495":lambda:combo_inlet("ac"),
+"0496":lambda:combo_inlet("lock"),
+"0500":battery_air_inlet,
 }
 
 mf=ROOT/"data"/"master.json"; master=json.loads(mf.read_text(encoding="utf-8"))
@@ -192,17 +215,18 @@ for id_,term,size in passed:
     x=byid[id_]; x["status"]="PASS"; x["production_backlog"]=False
     x["image"]=f"images/parts/{id_}.jpg"; x["source_refs"]=["ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"]
 mf.write_text(json.dumps(master,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-rf=ROOT/"research"/"backlog-recovery-32-final-generic-schematics.md"
-lines=["# CAR MASTER — Backlog Recovery 32 — Final Generic Schematics","",
-"Original technical/context schematics for remaining generic components.","","## PASS"]
+
+rf=ROOT/"research"/"backlog-recovery-33-final-22.md"
+lines=["# CAR MASTER — Backlog Recovery 33 — Final 22","",
+"Final remaining cards produced as original technical/context schematics after official-manual terminology and location verification.","","## PASS"]
 lines += [f"- **{a} {b}** — 640x480, {c} bytes" for a,b,c in passed] or ["- None"]
 lines += ["","## Failures"]+[f"- **{a} {b}** — {c}" for a,b,c in failed] or ["- None"]
 lines += ["","## Reverse-QA",
-"- Front vs rear suspension must be visibly distinct.",
-"- Brake line vs hose must read as rigid routed line vs flexible hose.",
-"- 0079 vs 0080 must distinguish manual folding lever vs remote folding button.",
-"- TPMS sensor vs valve stem must be visually distinct.",
-"- Trip computer / warning light / driver information display are conceptual display schematics and require strict reverse-QA.",
-"- Count live Production only after Codex reverse-QA."]
+"- SRS sensor cards rely on location/function context and must be checked particularly strictly.",
+"- Charging inlet / AC / DC / cap / lock cards share the same CCS context but emphasize different physical zones.",
+"- 0414 vs 0415 must distinguish reservoir vs cap.",
+"- 0294/0353 are the same generic AC outlet hardware under duplicate master terminology.",
+"- 0465 reflects Hyundai's official i-PEDAL cluster indication/message concept.",
+"- Do not count any card live until Codex reverse-QA and mobile binding pass."]
 rf.write_text("\n".join(lines)+"\n",encoding="utf-8")
 print("PASS",len(passed),[x[0] for x in passed]); print("FAIL",failed)

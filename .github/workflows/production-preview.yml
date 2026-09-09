@@ -27,18 +27,18 @@ jobs:
         with:
           name: car-master-production-preview
           path: production-preview/
-      - name: Commit batch 21
+      - name: Commit batch 22
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/master.json research/backlog-recovery-21-direct-sensors.md
-          for id in 0009 0010 0218 0219 0220 0378 0379 0380 0381 0475; do
+          git add data/master.json research/backlog-recovery-22-basic-hardware.md
+          for id in 0471 0472 0473 0400 0401 0497 0483 0484; do
             if [ -f "images/parts/$id.jpg" ]; then git add "images/parts/$id.jpg"; fi
           done
           if git diff --cached --quiet; then
-            echo "No validated batch-21 changes."
+            echo "No validated batch-22 changes."
           else
-            git commit -m "Recover direct sensors and fuse puller batch 21"
+            git commit -m "Recover basic hardware batch 22"
             git pull --rebase origin main
             git push origin HEAD:main
           fi

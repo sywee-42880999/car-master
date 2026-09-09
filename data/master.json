@@ -1457,10 +1457,12 @@
       "id": "0138",
       "en": "SPARE TIRE RETAINER GUIDE",
       "ko": "스페어 타이어 리테이너 가이드",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
         "HY_LX3_2026_SPARE_TIRE"
-      ]
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0138.jpg"
     },
     {
       "id": "0139",
@@ -2769,11 +2771,12 @@
       "id": "0263",
       "en": "INSTRUMENT PANEL ILLUMINATION CONTROL",
       "ko": "계기판 조명 밝기 조절부",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_CLUSTER_ILLUMINATION"
+      ],
+      "image": "images/parts/0263.jpg"
     },
     {
       "id": "0264",
@@ -2800,11 +2803,12 @@
       "id": "0266",
       "en": "LANE SAFETY BUTTON",
       "ko": "차로 안전 버튼",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_NE1N_2026_LANE_SAFETY_BUTTON"
+      ],
+      "image": "images/parts/0266.jpg"
     },
     {
       "id": "0267",
@@ -2843,11 +2847,12 @@
       "id": "0270",
       "en": "HEAD-UP DISPLAY",
       "ko": "헤드업 디스플레이",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_HUD_INFO"
+      ],
+      "image": "images/parts/0270.jpg"
     },
     {
       "id": "0271",
@@ -2971,11 +2976,12 @@
       "id": "0282",
       "en": "AUDIO CONTROL PANEL",
       "ko": "오디오 조작 패널",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_US4_2025_AUDIO_CONTROL_PANEL"
+      ],
+      "image": "images/parts/0282.jpg"
     },
     {
       "id": "0283",
@@ -3219,11 +3225,12 @@
       "id": "0306",
       "en": "CARGO FLOOR",
       "ko": "러기지 플로어",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_AXEV_2026_CARGO_FLOOR"
+      ],
+      "image": "images/parts/0306.jpg"
     },
     {
       "id": "0307",
@@ -3270,31 +3277,34 @@
       "id": "0311",
       "en": "SEAT FORWARD/BACKWARD ADJUSTMENT LEVER",
       "ko": "시트 전후 조절 레버",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_MANUAL_SEAT_ADJUST"
+      ],
+      "image": "images/parts/0311.jpg"
     },
     {
       "id": "0312",
       "en": "SEATBACK ANGLE ADJUSTMENT LEVER",
       "ko": "등받이 각도 조절 레버",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_MANUAL_SEAT_ADJUST"
+      ],
+      "image": "images/parts/0312.jpg"
     },
     {
       "id": "0313",
       "en": "SEAT HEIGHT ADJUSTMENT LEVER",
       "ko": "시트 높이 조절 레버",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_MANUAL_SEAT_ADJUST"
+      ],
+      "image": "images/parts/0313.jpg"
     },
     {
       "id": "0314",
@@ -3386,11 +3396,12 @@
       "id": "0322",
       "en": "SEAT BELT ANCHOR",
       "ko": "시트벨트 앵커",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_SEAT_BELT_RESTRAINT"
+      ],
+      "image": "images/parts/0322.jpg"
     },
     {
       "id": "0323",
@@ -3459,11 +3470,12 @@
       "id": "0329",
       "en": "SEAT BELT BUCKLE RELEASE BUTTON",
       "ko": "시트벨트 버클 해제 버튼",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_SEAT_BELT_RESTRAINT"
+      ],
+      "image": "images/parts/0329.jpg"
     },
     {
       "id": "0330",
@@ -3684,21 +3696,23 @@
       "id": "0351",
       "en": "FRONT USB CHARGER",
       "ko": "앞좌석 USB 충전 포트",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+      ],
+      "image": "images/parts/0351.jpg"
     },
     {
       "id": "0352",
       "en": "12V POWER OUTLET",
       "ko": "12V 전원 소켓",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+      ],
+      "image": "images/parts/0352.jpg"
     },
     {
       "id": "0353",
@@ -3714,21 +3728,23 @@
       "id": "0354",
       "en": "WIRELESS CHARGING PAD",
       "ko": "무선 충전 패드",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+      ],
+      "image": "images/parts/0354.jpg"
     },
     {
       "id": "0355",
       "en": "CENTER CONSOLE USB PORT",
       "ko": "센터 콘솔 USB 포트",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+      ],
+      "image": "images/parts/0355.jpg"
     },
     {
       "id": "0356",
@@ -3755,11 +3771,12 @@
       "id": "0358",
       "en": "REAR ARMREST CUP HOLDER",
       "ko": "뒷좌석 암레스트 컵홀더",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+      ],
+      "image": "images/parts/0358.jpg"
     },
     {
       "id": "0359",
@@ -3787,21 +3804,23 @@
       "id": "0361",
       "en": "SEAT BELT HEIGHT ADJUSTER",
       "ko": "시트벨트 높이 조절장치",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_SEAT_BELT_RESTRAINT"
+      ],
+      "image": "images/parts/0361.jpg"
     },
     {
       "id": "0362",
       "en": "SEAT BELT ANCHOR",
       "ko": "시트벨트 앵커",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_SEAT_BELT_RESTRAINT"
+      ],
+      "image": "images/parts/0362.jpg"
     },
     {
       "id": "0363",
@@ -4000,41 +4019,45 @@
       "id": "0382",
       "en": "FRONT ULTRASONIC SENSOR",
       "ko": "전방 초음파 센서",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_LX3_2026_ADAS_SENSORS"
-      ]
+        "HY_NE1N_2026_PDW_SENSORS"
+      ],
+      "image": "images/parts/0382.jpg"
     },
     {
       "id": "0383",
       "en": "FRONT SIDE ULTRASONIC SENSOR",
       "ko": "전측방 초음파 센서",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_LX3_2026_ADAS_SENSORS"
-      ]
+        "HY_NE1N_2025_PCA_SENSORS"
+      ],
+      "image": "images/parts/0383.jpg"
     },
     {
       "id": "0384",
       "en": "REAR ULTRASONIC SENSOR",
       "ko": "후방 초음파 센서",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_LX3_2026_ADAS_SENSORS"
-      ]
+        "HY_NE1N_2026_PDW_SENSORS"
+      ],
+      "image": "images/parts/0384.jpg"
     },
     {
       "id": "0385",
       "en": "REAR SIDE ULTRASONIC SENSOR",
       "ko": "후측방 초음파 센서",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_LX3_2026_ADAS_SENSORS"
-      ]
+        "HY_NE1N_2025_PCA_SENSORS"
+      ],
+      "image": "images/parts/0385.jpg"
     },
     {
       "id": "0386",
@@ -4146,11 +4169,12 @@
       "id": "0396",
       "en": "CCS ADAPTER",
       "ko": "CCS 어댑터",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_NE1A_2025_EV_CHARGING"
-      ]
+      ],
+      "image": "images/parts/0396.jpg"
     },
     {
       "id": "0397",
@@ -4241,11 +4265,12 @@
       "id": "0405",
       "en": "PORTABLE CHARGER CHARGING CONNECTOR",
       "ko": "휴대용 충전기 충전 커넥터",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_NE1A_2025_PORTABLE_CHARGER"
-      ]
+      ],
+      "image": "images/parts/0405.jpg"
     },
     {
       "id": "0406",
@@ -4295,31 +4320,34 @@
       "id": "0410",
       "en": "PLUG-IN HYBRID HIGH VOLTAGE BATTERY",
       "ko": "플러그인 하이브리드 고전압 배터리",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_NX4PHEV_2026_HYBRID_COMPONENTS"
-      ]
+      ],
+      "image": "images/parts/0410.jpg"
     },
     {
       "id": "0411",
       "en": "DRIVE MOTOR HIGH VOLTAGE CONNECTOR",
       "ko": "구동 모터 고전압 커넥터",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_NX4PHEV_2026_HYBRID_COMPONENTS"
-      ]
+      ],
+      "image": "images/parts/0411.jpg"
     },
     {
       "id": "0412",
       "en": "HIGH VOLTAGE CUT-OFF SWITCH",
       "ko": "고전압 차단 스위치",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_NX4PHEV_2026_HYBRID_COMPONENTS"
-      ]
+      ],
+      "image": "images/parts/0412.jpg"
     },
     {
       "id": "0413",
@@ -4398,11 +4426,12 @@
       "id": "0420",
       "en": "READY INDICATOR LIGHT",
       "ko": "주행 준비 표시등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_NE1A_2025_EV_GAUGES"
-      ]
+      ],
+      "image": "images/parts/0420.jpg"
     },
     {
       "id": "0421",
@@ -4496,11 +4525,12 @@
       "id": "0429",
       "en": "AWD WARNING LIGHT",
       "ko": "AWD 경고등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_WARNING_INDICATORS"
-      ]
+      ],
+      "image": "images/parts/0429.jpg"
     },
     {
       "id": "0430",
@@ -4682,11 +4712,12 @@
       "id": "0446",
       "en": "REMOTE SMART PARKING ASSIST (FORWARD/BACKWARD) BUTTON",
       "ko": "원격 스마트 주차 보조 전진·후진 버튼",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_LX3_2026_SMART_KEY"
-      ]
+        "HY_NH2_2026_RSPA_SMART_KEY_BUTTON"
+      ],
+      "image": "images/parts/0446.jpg"
     },
     {
       "id": "0447",
@@ -4897,11 +4928,12 @@
       "id": "0466",
       "en": "REGENERATIVE BRAKE WARNING LIGHT",
       "ko": "회생 제동 경고등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_NE1A_2025_EV_GAUGES_2"
-      ]
+      ],
+      "image": "images/parts/0466.jpg"
     },
     {
       "id": "0467",
@@ -4929,21 +4961,23 @@
       "id": "0469",
       "en": "CHARGING CONNECTOR INDICATOR LIGHT",
       "ko": "충전 커넥터 표시등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_NE1A_2025_EV_GAUGES_2"
-      ]
+      ],
+      "image": "images/parts/0469.jpg"
     },
     {
       "id": "0470",
       "en": "HIGH VOLTAGE BATTERY LEVEL WARNING LIGHT",
       "ko": "고전압 배터리 잔량 경고등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_NE1A_2025_EV_GAUGES_2"
-      ]
+      ],
+      "image": "images/parts/0470.jpg"
     },
     {
       "id": "0471",
@@ -4979,11 +5013,12 @@
       "id": "0474",
       "en": "FUSE/RELAY BOX COVER",
       "ko": "퓨즈·릴레이 박스 커버",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_FUSE_COMPONENTS"
-      ]
+      ],
+      "image": "images/parts/0474.jpg"
     },
     {
       "id": "0475",
@@ -5106,11 +5141,12 @@
       "id": "0486",
       "en": "WHEEL LUG NUT",
       "ko": "휠 러그 너트",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_WHEEL_TIRE_COMPONENTS"
-      ]
+      ],
+      "image": "images/parts/0486.jpg"
     },
     {
       "id": "0487",
@@ -5146,11 +5182,12 @@
       "id": "0490",
       "en": "SPARE TIRE HOLD-DOWN BOLT",
       "ko": "스페어 타이어 고정 볼트",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_SPARE_TIRE_COMPONENTS"
-      ]
+      ],
+      "image": "images/parts/0490.jpg"
     },
     {
       "id": "0491",

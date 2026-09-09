@@ -1,5 +1,5 @@
 {
-  "version": "2026-09-10-b",
+  "version": "2026-09-10-c",
   "rejects": {
     "H001": [
       {
@@ -9,6 +9,10 @@
       {
         "url": "https://dmassets.hyundai.com/is/image/hyundaiautoever/2025_Backseatdriver_Hyundai_Inster_30s_FULL_16x9_titled_TVC_thumbnail?wid=720&fit=constrain",
         "reason": "video thumbnail, not clean rear"
+      },
+      {
+        "url": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_INSTER_2024_Interior_Editorial_03:1x1?wid=480&fit=wrap",
+        "reason": "interior seats"
       }
     ],
     "H007": [
@@ -19,6 +23,10 @@
       {
         "url": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ-9_Exterior-Rear_Charging-Cable_Closeup_Emotional:4x3?wid=1920&fit=wrap",
         "reason": "rear charging close-up"
+      },
+      {
+        "url": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ-9_Exterior-Rear_Charging-Cable_Closeup_Emotional:4x3?wid=480&fit=wrap",
+        "reason": "charging close-up"
       }
     ],
     "H013": [
@@ -111,6 +119,10 @@
       {
         "url": "https://trucknbus.hyundai.com/global/en/images/product/cars/universe/stylish3-section-outside-rear-view-mirror.jpg",
         "reason": "mirror detail"
+      },
+      {
+        "url": "https://trucknbus.hyundai.com/global/en/images/product/cars/universe/wide-outside-rear-view-mirror.jpg",
+        "reason": "mirror detail"
       }
     ],
     "K001": [
@@ -130,6 +142,10 @@
       },
       {
         "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ray/27my/content/ray_xline_rear_garnish_sm.jpg",
+        "reason": "rear garnish detail"
+      },
+      {
+        "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ray/27my/content/ray_xline_rear_garnish_lg.jpg",
         "reason": "rear garnish detail"
       }
     ],
@@ -171,6 +187,10 @@
       {
         "url": "https://www.kia.com/content/dam/kia2/in/en/our-vehicles/showroom/sonet/slider/exterior/2023/8-d.jpg",
         "reason": "rear skid plate feature"
+      },
+      {
+        "url": "https://www.kia.com/content/dam/kia2/in/en/our-vehicles/showroom/sonet/slider/safety/2023/4-d.jpg",
+        "reason": "parking sensor feature"
       }
     ],
     "K014": [
@@ -181,6 +201,10 @@
       {
         "url": "https://www.kia.com/content/dam/kia2/in/en/our-vehicles/syros/eng/Eng-6.jpg",
         "reason": "front/rear parking sensor feature"
+      },
+      {
+        "url": "https://www.kia.com/content/dam/kia2/in/en/our-vehicles/syros/eng/Eng-5.jpg",
+        "reason": "seatbelt/reminder feature"
       }
     ],
     "K015": [
@@ -203,6 +227,10 @@
       {
         "url": "https://www.kia.com/us/content/dam/kia/us/en/vehicles/telluride/2027/mep/hero/375-hero.jpg",
         "reason": "hero angle not established as rear"
+      },
+      {
+        "url": "https://www.kia.com/us/en/vehicles/telluride/2027/_jcr_content/root/responsivegrid/fiftyfifty.coreimg.jpeg/1781797359708/l2q-telluride-ice-5050-accessories-v2.jpeg",
+        "reason": "rear-seat accessory/interior"
       }
     ],
     "K029": [

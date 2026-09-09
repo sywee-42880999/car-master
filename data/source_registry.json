@@ -3190,6 +3190,73 @@
         "0389"
       ],
       "source_verified_at": "2026-09-09"
+    },
+    "HY_LX3_2026_PRETENSIONER_DIRECT": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/topic_skl_bp4_ccc.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_RetractPretensioner",
+        "2C_PretensionerComponent"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0070"
+      ],
+      "source_verified_at": "2026-09-09"
+    },
+    "HY_NH2_2026_CHILD_LOCK_DIRECT": {
+      "maker": "Hyundai",
+      "model": "Hyundai NH2",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NH2/2026/ko_KR/idbe85cec80c2.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_CheckChildProtectRearDoorLock",
+        "2C_ChildProtectRearDoorLockButton"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0332"
+      ],
+      "source_verified_at": "2026-09-09"
+    },
+    "HY_NX4_2025_PARKING_BRAKE_PEDAL": {
+      "maker": "Hyundai",
+      "model": "Tucson NX4",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NX4/2025/en_GN/topic_jd1_2y5_v1c.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_ReleasingParkingbrake_Foottype",
+        "2C_ApplyingParkingbrake_Foottype"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0299"
+      ],
+      "source_verified_at": "2026-09-09"
+    },
+    "HY_NX4_2025_REAR_ARMREST_CUP": {
+      "maker": "Hyundai",
+      "model": "Tucson NX4",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NX4/2025/en_GN/ida639a72a3df.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_CupHolderRearArmrest"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0301"
+      ],
+      "source_verified_at": "2026-09-09"
     }
   }
 }

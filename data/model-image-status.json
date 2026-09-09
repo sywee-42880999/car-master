@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T21:28:12Z",
+  "generated_at": "2026-09-09T21:36:16Z",
   "models": {
     "H001": {
       "model": "INSTER",
@@ -190,9 +190,11 @@
       "model": "ST1",
       "brand": "hyundai",
       "front": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/hyundai/h020_front.webp",
+        "source": "https://conversionplus.hyundai.com/upload/model/pcimg/2026/03/b7f40661bd7c492d97a4df0bc0ca280a.png",
+        "score": 999,
+        "meta": "override",
+        "audit": "RECHECK"
       }
     },
     "H021": {
@@ -337,27 +339,33 @@
       "model": "HB20",
       "brand": "hyundai",
       "front": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/hyundai/h035_front.webp",
+        "source": "https://www.hyundai.com.br/content/dam/hmb/product-page/novo-hyndai-hb20/veiculo/360/externo/hb20_cinza_shadow_01.webp",
+        "score": 999,
+        "meta": "override",
+        "audit": "RECHECK"
       }
     },
     "H036": {
       "model": "HB20S",
       "brand": "hyundai",
       "front": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/hyundai/h036_front.webp",
+        "source": "https://www.hyundai.com.br/content/dam/hmb/product-page/novo-hyundai-hb20s/veiculo/360/externo_v2/hb20s_cinza_shadow_01.webp",
+        "score": 999,
+        "meta": "override",
+        "audit": "RECHECK"
       }
     },
     "H037": {
       "model": "SANTA CRUZ",
       "brand": "hyundai",
       "front": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/hyundai/h037_front.webp",
+        "source": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/newsroom/news-image/2024/03/0328-1/media-kit/mk3.jpg",
+        "score": 999,
+        "meta": "override",
+        "audit": "RECHECK"
       }
     },
     "H038": {
@@ -403,9 +411,9 @@
       "brand": "hyundai",
       "front": {
         "file": "images/vehicles/hyundai/h042_front.webp",
-        "source": "https://org3.hyundai.com/content/dam/hyundai/ww/en/images/newsroom/news-image/2023/09/0915-02/gallery/gallery-image-1170x640-03.jpg",
+        "source": "https://org3.hyundai.com/content/dam/hyundai/ww/en/images/newsroom/news-image/2023/09/0915-02/gallery/gallery-image-1170x640-04.jpg",
         "score": 28.04,
-        "meta": "New ELANTRA N, driving on a winding road, three-quarter front view lazyLoadImg New ELANTRA N, driving on a winding road, three-quarter front view post-asset__thumb lazyLoadImg",
+        "meta": "Two of New ELANTRA N, driving on a winding road, one following the other, three-quarter front view lazyLoadImg Two of New ELANTRA N, driving on a winding road, one following the ot",
         "audit": "RECHECK"
       }
     },
@@ -791,9 +799,11 @@
       "model": "EV2",
       "brand": "kia",
       "front": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/kia/k026_front.webp",
+        "source": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/news-articles/article-images-%28940x529%29/EV2-Unveil-1%28940x529%29.jpg",
+        "score": 999,
+        "meta": "override",
+        "audit": "RECHECK"
       }
     },
     "K027": {
@@ -818,9 +828,11 @@
       "model": "EV4",
       "brand": "kia",
       "front": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/kia/k029_front.webp",
+        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ev4/25my/content/the-kia-ev4_feature_bg_pc.jpg",
+        "score": 999,
+        "meta": "override",
+        "audit": "RECHECK"
       }
     },
     "K030": {
@@ -872,9 +884,11 @@
       "model": "EV6 GT",
       "brand": "kia",
       "front": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/kia/k035_front.webp",
+        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ev6-gt/27my/gallery/image/ev6-gt_gallery_image_front.jpg",
+        "score": 999,
+        "meta": "override",
+        "audit": "RECHECK"
       }
     },
     "K036": {
@@ -890,9 +904,11 @@
       "model": "EV9 GT",
       "brand": "kia",
       "front": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/kia/k037_front.webp",
+        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ev9-gt/26my/gallery/image/ev9-gt_gallery_image_front.jpg",
+        "score": 999,
+        "meta": "override",
+        "audit": "RECHECK"
       }
     },
     "K038": {

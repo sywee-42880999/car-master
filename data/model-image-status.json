@@ -8,6 +8,13 @@
         "file": "images/vehicles/hyundai/h001_front.webp",
         "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_INSTER_Lounge_Exterior_Top_Front_3x4:3x4?wid=1920&fit=wrap",
         "score": 30.03
+      },
+      "rear": {
+        "file": "images/vehicles/hyundai/h001_rear.webp",
+        "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_INSTER_Cross_Exterior_Top_Front_3x4:3x4?wid=480&fit=wrap",
+        "score": 30,
+        "meta": "The rear view of Hyundai INSTER Cross trim parked on the hill.",
+        "audit": "RECHECK"
       }
     },
     "H002": {
@@ -19,6 +26,11 @@
         "score": 26.07,
         "meta": "",
         "audit": "RECHECK"
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "H003": {
@@ -30,6 +42,13 @@
         "score": 27.25,
         "meta": "Vehicle coming down the curve responsive-image",
         "audit": "RECHECK"
+      },
+      "rear": {
+        "file": "images/vehicles/hyundai/h003_rear.webp",
+        "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ_5_2024_SHOT04_34_Rear_Lights_On:4x3?wid=640&hei=480&fit=wrap",
+        "score": 32,
+        "meta": "",
+        "audit": "RECHECK"
       }
     },
     "H004": {
@@ -39,6 +58,13 @@
         "file": "images/vehicles/hyundai/h004_front.webp",
         "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/03_IONIQ5N_Exterior_Driving_Circuit_Front_02:4x3?wid=480&hei=360&fit=wrap",
         "score": 27.24,
+        "meta": "",
+        "audit": "RECHECK"
+      },
+      "rear": {
+        "file": "images/vehicles/hyundai/h004_rear.webp",
+        "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/05_IONIQ5N_Exterior_Driving_Winding_Road_Rear_01:4x3?wid=640&hei=480&fit=wrap",
+        "score": 32,
         "meta": "",
         "audit": "RECHECK"
       }
@@ -52,6 +78,13 @@
         "score": 27.63,
         "meta": "Hyundai IONIQ 6 electric sedan shown from the side in front of a modern building. dynamic-video__posterimage",
         "audit": "RECHECK"
+      },
+      "rear": {
+        "file": "images/vehicles/hyundai/h005_rear.webp",
+        "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ6_Exterior_SHOT08_34_Rear_Lights_On:1x1?wid=1920&fit=wrap",
+        "score": 32,
+        "meta": "",
+        "audit": "RECHECK"
       }
     },
     "H006": {
@@ -63,6 +96,13 @@
         "score": 29.89,
         "meta": "",
         "audit": "RECHECK"
+      },
+      "rear": {
+        "file": "images/vehicles/hyundai/h006_rear.webp",
+        "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ-6N_Exterior-Rear-Quarter_Driving_22_IONIQ-6N_Driving-Rear:3x4?wid=1920&fit=wrap",
+        "score": 32,
+        "meta": "",
+        "audit": "RECHECK"
       }
     },
     "H007": {
@@ -72,6 +112,13 @@
         "file": "images/vehicles/hyundai/h007_front.webp",
         "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ-9_Exterior_04_KV_IONIQ_9_34_Front?wid=1920",
         "score": 30.71
+      },
+      "rear": {
+        "file": "images/vehicles/hyundai/h007_rear.webp",
+        "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ9_Lightning-Pattern_Video_16x9_Thumbnail?wid=720&fit=constrain",
+        "score": 30,
+        "meta": "The LED lighting signature of the IONIQ 9 show from the front and rear.",
+        "audit": "RECHECK"
       }
     },
     "H008": {
@@ -81,6 +128,13 @@
         "file": "images/vehicles/hyundai/h008_front.webp",
         "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_KONA_Petrol_N-Line_Exterior-Front_16x9:4x3?wid=640&hei=480&fit=wrap",
         "score": 27.53
+      },
+      "rear": {
+        "file": "images/vehicles/hyundai/h008_rear.webp",
+        "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_KONA_Petrol_N-Line_Exterior-Rear_16x9:4x3?wid=640&hei=480&fit=wrap",
+        "score": 14,
+        "meta": "",
+        "audit": "RECHECK"
       }
     },
     "H009": {
@@ -130,7 +184,12 @@
           "meta": "",
           "page": "https://www.hyundai.com/kr/ko/e/vehicles/tucson/intro"
         }
-      ]
+      ],
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
+      }
     },
     "H010": {
       "model": "SANTA FE",
@@ -139,6 +198,11 @@
         "file": "images/vehicles/hyundai/h010_front.webp",
         "source": "https://www.hyundai.com/content/dam/hyundai/id/en/data/vehicle-thumbnail/product/all-new-santa-fe/all-new-santa-fe-640x344.png",
         "score": 20.38
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "H011": {
@@ -148,6 +212,11 @@
         "file": "images/vehicles/hyundai/h011_front.webp",
         "source": "https://www.hyundai.com/content/dam/hyundai/au/en/models/palisade/lx3/FSC-9UW7L9G1GAA216_EXT-GMP_TYPE-Front-34.png",
         "score": 24.25
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "H012": {
@@ -157,6 +226,13 @@
         "file": "images/vehicles/hyundai/h012_front.webp",
         "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_NEXO_Exterior-Front_PI_SHOT01:4x3?wid=1920&hei=1440&fit=wrap",
         "score": 49
+      },
+      "rear": {
+        "file": "images/vehicles/hyundai/h012_rear.webp",
+        "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_NEXO_Exterior-Rear_PI_SHOT02:4x3?wid=640&hei=480&fit=wrap",
+        "score": 14,
+        "meta": "",
+        "audit": "RECHECK"
       }
     },
     "H013": {
@@ -166,6 +242,13 @@
         "file": "images/vehicles/hyundai/h013_front.webp",
         "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_BAYON_Exterior-Front_Parking_04_Bayon_Parking_34Front_16-9:16x9?wid=640&hei=360&fit=wrap",
         "score": 31.4
+      },
+      "rear": {
+        "file": "images/vehicles/hyundai/h013_rear.webp",
+        "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/HYU_BC3_CUV_IViz_Location_24",
+        "score": 22,
+        "meta": "Inside view of the back seats of the Hyundai BAYON.",
+        "audit": "RECHECK"
       }
     },
     "H014": {
@@ -175,6 +258,13 @@
         "file": "images/vehicles/hyundai/h014_front.webp",
         "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_i20_Exterior-Front_Driving_06_i20_Driving_Front:16x9?wid=640&hei=360&fit=wrap",
         "score": 29.4
+      },
+      "rear": {
+        "file": "images/vehicles/hyundai/h014_rear.webp",
+        "source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/i20/Highlights/pc/i20galleryb_3.jpg",
+        "score": 13.5,
+        "meta": "Right side rear view of silver Elantra parked in front of the building",
+        "audit": "RECHECK"
       }
     },
     "H015": {
@@ -186,6 +276,11 @@
         "score": 44.98,
         "meta": "Hyundai i20 N LINE Car Hyundai i20 N LINE Car",
         "audit": "RECHECK"
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "H016": {
@@ -197,6 +292,13 @@
         "score": 15.64,
         "meta": "i30 front design bgCenter responsive-image",
         "audit": "RECHECK"
+      },
+      "rear": {
+        "file": "images/vehicles/hyundai/h016_rear.webp",
+        "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/HYU_PD_HATCHBACK_EViz_Env_PE2-EcotronicGrayPearl_52910G4720_C02",
+        "score": 18.0,
+        "meta": "Front three-quarters view of the new Hyundai i30 in grey, parked outside a modern house.",
+        "audit": "RECHECK"
       }
     },
     "H017": {
@@ -206,6 +308,13 @@
         "file": "images/vehicles/hyundai/h017_front.webp",
         "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_i30_WG_2024_Exterior_SHOT03_34_Front_Lights_On:4x3?wid=2560&hei=1920&fmt=png-alpha&fit=wrap",
         "score": 49
+      },
+      "rear": {
+        "file": "images/vehicles/hyundai/h017_rear.webp",
+        "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/HYU_PD_WAGON_EViz_Env_PE2-EcotronicGrayPearl_52910G4720_C06",
+        "score": 48.0,
+        "meta": "The roof and rear of the new Hyundai i30 Wagon in grey, seen from above on a road.",
+        "audit": "RECHECK"
       }
     },
     "H018": {
@@ -215,6 +324,11 @@
         "file": "images/vehicles/hyundai/h018_front.webp",
         "source": "https://www.hyundai.com/content/dam/hyundai/id/en/data/vehicle-thumbnail/product/staria/staria-640x344.png",
         "score": 14.38
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "H019": {
@@ -224,6 +338,13 @@
         "file": "images/vehicles/hyundai/h019_front.webp",
         "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_STARIA-Electric_Exterior-Front:4x3?wid=640&hei=480&fit=wrap",
         "score": 33.53
+      },
+      "rear": {
+        "file": "images/vehicles/hyundai/h019_rear.webp",
+        "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_STARIA-Electric_Exterior_Rear_3x4:3x4?wid=480&fit=wrap",
+        "score": 42,
+        "meta": "Rear view of the Hyundai STARIA Electric parked near modern beachside homes.",
+        "audit": "RECHECK"
       }
     },
     "H020": {
@@ -235,6 +356,11 @@
         "score": 999,
         "meta": "override",
         "audit": "RECHECK"
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "H021": {
@@ -368,7 +494,12 @@
           "meta": "",
           "page": "https://trucknbus.hyundai.com/global/en/"
         }
-      ]
+      ],
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
+      }
     },
     "H022": {
       "model": "PORTER II Electric",
@@ -379,6 +510,11 @@
         "score": 40.35,
         "meta": "PORTERII Electric Visual",
         "audit": "RECHECK"
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "H023": {
@@ -389,6 +525,13 @@
         "source": "https://www.hyundai.com/content/dam/hyundai/id/en/data/vehicle-thumbnail/product/new-creta/creta-640x344.png",
         "score": 27.31,
         "meta": "",
+        "audit": "RECHECK"
+      },
+      "rear": {
+        "file": "images/vehicles/hyundai/h023_rear.webp",
+        "source": "https://www.hyundai.com/content/dam/hyundai/id/id/images/find-a-car/pip/new-creta/exterior/Connecting-LED-Lamps-1620x911.png",
+        "score": 22,
+        "meta": "all-new-santa-fe-rear-LED",
         "audit": "RECHECK"
       }
     },
@@ -401,6 +544,13 @@
         "score": 47.16,
         "meta": "Hyundai CRETA N Line Car Hyundai CRETA N Line Car",
         "audit": "RECHECK"
+      },
+      "rear": {
+        "file": "images/vehicles/hyundai/h024_rear.webp",
+        "source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/creta-n-line/highlights/knight/cretanlinebig4.jpg",
+        "score": 42,
+        "meta": "New Hyundai creta-n-line creta-n-line rearview creta-n-line rearview",
+        "audit": "RECHECK"
       }
     },
     "H025": {
@@ -410,6 +560,13 @@
         "file": "images/vehicles/hyundai/h025_front.webp",
         "source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/creta-electric/highlights/cretaevthumbnailkv.jpg",
         "score": 19.17
+      },
+      "rear": {
+        "file": "images/vehicles/hyundai/h025_rear.webp",
+        "source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/creta-electric/highlights/pc/cretaev-wirelesscharger.jpg",
+        "score": 42,
+        "meta": "rear wireless charger",
+        "audit": "RECHECK"
       }
     },
     "H026": {
@@ -419,6 +576,13 @@
         "file": "images/vehicles/hyundai/h026_front.webp",
         "source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Exter/exterior/exter-ext-front.jpg",
         "score": 44.17
+      },
+      "rear": {
+        "file": "images/vehicles/hyundai/h026_rear.webp",
+        "source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Exter/exterior/ext-bold-skid-plates.jpg",
+        "score": 30,
+        "meta": "bold rear skid plate",
+        "audit": "RECHECK"
       }
     },
     "H027": {
@@ -429,6 +593,13 @@
         "source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/vehicle-thumbnail/Thumbnail/thumbnail460x250.png",
         "score": 27.16,
         "meta": "Hyundai ALCAZAR Car Hyundai ALCAZAR Car",
+        "audit": "RECHECK"
+      },
+      "rear": {
+        "file": "images/vehicles/hyundai/h027_rear.webp",
+        "source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Alcazar/booking-open/ITdeviceholderandretractablecupholder.jpg",
+        "score": 22,
+        "meta": "Hyundai Alcazar Seat Back Table",
         "audit": "RECHECK"
       }
     },
@@ -441,6 +612,13 @@
         "score": 27.16,
         "meta": "Hyundai VERNA Car Hyundai VERNA Car",
         "audit": "RECHECK"
+      },
+      "rear": {
+        "file": "images/vehicles/hyundai/h028_rear.webp",
+        "source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Verna/Exterior/bold_bumper-design.jpg",
+        "score": 30,
+        "meta": "Bold bumper design (Rear)",
+        "audit": "RECHECK"
       }
     },
     "H029": {
@@ -450,6 +628,13 @@
         "file": "images/vehicles/hyundai/h029_front.webp",
         "source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/vehicle-thumbnail/Thumbnail/aura_thumbnail_pc.png",
         "score": 30.2
+      },
+      "rear": {
+        "file": "images/vehicles/hyundai/h029_rear.webp",
+        "source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Aura/gallery/pc/auragallerypc_1.jpg",
+        "score": 12,
+        "meta": "Back side view of aura",
+        "audit": "RECHECK"
       }
     },
     "H030": {
@@ -459,6 +644,13 @@
         "file": "images/vehicles/hyundai/h030_front.webp",
         "source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/vehicle-thumbnail/Thumbnail/grandi10nios_thumbnail_pc.png",
         "score": 54.2
+      },
+      "rear": {
+        "file": "images/vehicles/hyundai/h030_rear.webp",
+        "source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Grand-i10-Nios/Gallery%20Section/big/pc/niosgallerysmal_2.jpg",
+        "score": 30,
+        "meta": "Back view of nios",
+        "audit": "RECHECK"
       }
     },
     "H031": {
@@ -468,6 +660,11 @@
         "file": "images/vehicles/hyundai/h031_front.webp",
         "source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/vehicle-thumbnail/Thumbnail/prime-hb-thumbnail-pc.jpg",
         "score": 36.02
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "H032": {
@@ -477,6 +674,11 @@
         "file": "images/vehicles/hyundai/h032_front.webp",
         "source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/vehicle-thumbnail/Thumbnail/prime-sd-thumbnail-pc.jpg",
         "score": 36.19
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "H033": {
@@ -486,6 +688,13 @@
         "file": "images/vehicles/hyundai/h033_front.webp",
         "source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Venue/Exterior/pc/venueextfront1.jpg",
         "score": 44.17
+      },
+      "rear": {
+        "file": "images/vehicles/hyundai/h033_rear.webp",
+        "source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Venue/Exterior/pc/venueextrear1.jpg",
+        "score": 30,
+        "meta": "Hyundai Venue Rear View of Back Side Hyundai Venue Rear View of Back Side Hyundai Venue Rear View of Back Side",
+        "audit": "RECHECK"
       }
     },
     "H034": {
@@ -497,6 +706,11 @@
         "score": 38.66,
         "meta": "Atlas White d-block w-100 Altas White d-block w-100 Altas White d-block w-100",
         "audit": "RECHECK"
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "H035": {
@@ -508,6 +722,11 @@
         "score": 999,
         "meta": "override",
         "audit": "RECHECK"
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "H036": {
@@ -519,6 +738,11 @@
         "score": 999,
         "meta": "override",
         "audit": "RECHECK"
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "H037": {
@@ -530,6 +754,11 @@
         "score": 999,
         "meta": "override",
         "audit": "RECHECK"
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "H038": {
@@ -663,7 +892,14 @@
           "meta": "new-stargazer-midnight-black-pearl lazyload",
           "page": "https://www.hyundai.com/ph/en/find-a-car/new-stargazer/design"
         }
-      ]
+      ],
+      "rear": {
+        "file": "images/vehicles/hyundai/h038_rear.webp",
+        "source": "https://www.hyundai.com/content/dam/hyundai/ph/en/images/find-a-car/pip/new-stargazer/gallery/design/STARGAZER-FL-Rear.jpg",
+        "score": 30,
+        "meta": "new-stargazer-rear",
+        "audit": "RECHECK"
+      }
     },
     "H039": {
       "model": "STARGAZER X / Cartenz X",
@@ -672,6 +908,11 @@
         "file": "images/vehicles/hyundai/h039_front.webp",
         "source": "https://www.hyundai.com/content/dam/hyundai/id/en/data/vehicle-thumbnail/product/stargazer-cartenz-x/default/stargazer-cartenz-x-640x344.png",
         "score": 20.38
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "H040": {
@@ -681,6 +922,13 @@
         "file": "images/vehicles/hyundai/h040_front.webp",
         "source": "https://www.hyundai.com/content/dam/hyundai/ph/en/images/find-a-car/pip/Custin/exterior/CASTIN_Front_45_White.jpg",
         "score": 27.47
+      },
+      "rear": {
+        "file": "images/vehicles/hyundai/h040_rear.webp",
+        "source": "https://www.hyundai.com/content/dam/hyundai/ph/en/images/find-a-car/pip/Custin/exterior/rear-custin.jpg",
+        "score": 30,
+        "meta": "",
+        "audit": "RECHECK"
       }
     },
     "H041": {
@@ -690,6 +938,13 @@
         "file": "images/vehicles/hyundai/h041_front.webp",
         "source": "https://www.hyundai.com/content/dam/hyundai/ph/en/images/find-a-car/pip/elantra/ext-colors/CN7_PE_K2_LHD_COLOR_EXTERIOR_Atlas%20White_CMYK.jpg",
         "score": 26.87
+      },
+      "rear": {
+        "file": "images/vehicles/hyundai/h041_rear.webp",
+        "source": "https://www.hyundai.com/content/dam/hyundai/ph/en/images/find-a-car/pip/elantra/Gallery/design/DESIGN-ELANTRA-Assets-10.jpg",
+        "score": 30,
+        "meta": "elantra-rear",
+        "audit": "RECHECK"
       }
     },
     "H042": {
@@ -701,6 +956,13 @@
         "score": 28.04,
         "meta": "Two of New ELANTRA N, driving on a winding road, one following the other, three-quarter front view lazyLoadImg Two of New ELANTRA N, driving on a winding road, one following the ot",
         "audit": "RECHECK"
+      },
+      "rear": {
+        "file": "images/vehicles/hyundai/h042_rear.webp",
+        "source": "https://org3.hyundai.com/content/dam/hyundai/ww/en/images/newsroom/news-image/2023/09/0915-02/gallery/gallery-image-1170x640-05.jpg",
+        "score": 32,
+        "meta": "New ELANTRA N, driving on a winding road, rear view New ELANTRA N, driving on a winding road, rear view",
+        "audit": "RECHECK"
       }
     },
     "H043": {
@@ -710,6 +972,11 @@
         "file": "images/vehicles/hyundai/h043_front.webp",
         "source": "https://sonata.beijing-hyundai.com.cn/sonata/assets/resource/vehicle/config/group01/01.png",
         "score": 31.82
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "H044": {
@@ -843,7 +1110,12 @@
           "meta": "",
           "page": "https://www.hyundai.com/kr/ko/e/vehicles/purchase-consult/consult?from=estimate"
         }
-      ]
+      ],
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
+      }
     },
     "H045": {
       "model": "ELEXIO / EO",
@@ -852,6 +1124,11 @@
         "file": "images/vehicles/hyundai/h045_front.webp",
         "source": "https://www.hyundai.com/content/dam/hyundai/au/en/models/elexio/oe/FSC-I8W5ZHZ7ZHH198_EXT-PB2_TYPE-Front-34.png",
         "score": 24.25
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "H046": {
@@ -985,7 +1262,12 @@
           "meta": "沐飒 ix35升级版 沐飒 ix35升级版 pad-only lazy 沐飒 ix35升级版 沐飒 ix35升级版 mb-only lazy",
           "page": "https://www.beijing-hyundai.com.cn/vehicleslist/"
         }
-      ]
+      ],
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
+      }
     },
     "H047": {
       "model": "MIGHTY",
@@ -994,6 +1276,11 @@
         "file": "images/vehicles/hyundai/h047_front.webp",
         "source": "https://www.hyundai.com/cstatic/images/product/cars/mighty/color/creamy_white.jpg",
         "score": 30.85
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "H048": {
@@ -1003,6 +1290,11 @@
         "file": "images/vehicles/hyundai/h048_front.webp",
         "source": "https://www.hyundai.com/cstatic/images/product/cars/pavis/pavise-armroll-truck-bin-kv-pc.jpg",
         "score": 26.0
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "H049": {
@@ -1012,6 +1304,13 @@
         "file": "images/vehicles/hyundai/h049_front.webp",
         "source": "https://trucknbus.hyundai.com/global/en/images/product/360vr/xcient-qz/exterior/creamy-white/creamy-white-000.png",
         "score": 34.75
+      },
+      "rear": {
+        "file": "images/vehicles/hyundai/h049_rear.webp",
+        "source": "https://trucknbus.hyundai.com/global/en/images/product/cars/xcient/rear-air-suspension.jpg",
+        "score": 22,
+        "meta": "Rear air Suspension<",
+        "audit": "RECHECK"
       }
     },
     "H050": {
@@ -1021,6 +1320,11 @@
         "file": "images/vehicles/hyundai/h050_front.webp",
         "source": "https://www.hyundai.com/ccontents/metadata/MT00002361/facebook-xcient-fuel-cell.jpg",
         "score": 23.31
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "H051": {
@@ -1154,7 +1458,12 @@
           "meta": "",
           "page": "https://trucknbus.hyundai.com/global/en/products/bus/county"
         }
-      ]
+      ],
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
+      }
     },
     "H052": {
       "model": "COUNTY Electric",
@@ -1163,6 +1472,11 @@
         "file": "images/vehicles/hyundai/h052_front.webp",
         "source": "https://www.hyundai.com/cstatic/images/product/cars/county-electric/design-options-2.jpg",
         "score": 17.89
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "H053": {
@@ -1172,6 +1486,11 @@
         "file": "images/vehicles/hyundai/h053_front.webp",
         "source": "https://www.hyundai.com/cstatic/images/product/cars/eleccity/design-exterior-01.jpg",
         "score": 19.0
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "H054": {
@@ -1181,6 +1500,13 @@
         "file": "images/vehicles/hyundai/h054_front.webp",
         "source": "https://www.hyundai.com/cstatic/images/product/cars/elec-city-town/electric-bus-front-design.jpg",
         "score": 35.25
+      },
+      "rear": {
+        "file": "images/vehicles/hyundai/h054_rear.webp",
+        "source": "https://www.hyundai.com/cstatic/images/product/cars/elec-city-town/rear-parking-distance-warning.jpg",
+        "score": 30,
+        "meta": "",
+        "audit": "RECHECK"
       }
     },
     "H055": {
@@ -1190,6 +1516,11 @@
         "file": "images/vehicles/hyundai/h055_front.webp",
         "source": "https://www.hyundai.com/cstatic/images/product/cars/elec-city-double-decker/eleccity-double-3-4.jpg",
         "score": 47.85
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "H056": {
@@ -1323,7 +1654,14 @@
           "meta": "",
           "page": "https://www.hyundai.com/kr/ko/c/products/bus/uni-city"
         }
-      ]
+      ],
+      "rear": {
+        "file": "images/vehicles/hyundai/h056_rear.webp",
+        "source": "https://www.hyundai.com/cstatic/images/product/cars/unicity/rear-warning-system.jpg",
+        "score": 30,
+        "meta": "",
+        "audit": "RECHECK"
+      }
     },
     "H057": {
       "model": "UNIVERSE",
@@ -1456,7 +1794,14 @@
           "meta": "Jake brake",
           "page": "https://trucknbus.hyundai.com/global/en/products/bus/universe"
         }
-      ]
+      ],
+      "rear": {
+        "file": "images/vehicles/hyundai/h057_rear.webp",
+        "source": "https://trucknbus.hyundai.com/global/en/images/product/cars/universe/rear-bumper-with-reverse-warning-system-opt.jpg",
+        "score": 30,
+        "meta": "Rear bumper with reverse warning system (OPT)",
+        "audit": "RECHECK"
+      }
     },
     "K001": {
       "model": "Picanto / Morning",
@@ -1465,6 +1810,13 @@
         "file": "images/vehicles/kia/k001_front.webp",
         "source": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/vehicles/ja/picanto-my25/discover/kia-picanto-gtl-my25-Static-FrontTop-exterior-with-Talent--w-t-m.jpg",
         "score": 25.51
+      },
+      "rear": {
+        "file": "images/vehicles/kia/k001_rear.webp",
+        "source": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/vehicles/ja/picanto-my25/discover/kia-picanto-my25-rearviewmonitor-keyvisual-d-w.jpg",
+        "score": 30,
+        "meta": "",
+        "audit": "RECHECK"
       }
     },
     "K002": {
@@ -1474,6 +1826,13 @@
         "file": "images/vehicles/kia/k002_front.webp",
         "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ray/27my/content/ray_gravity_front_skid_plate_pop_pc.jpg",
         "score": 24.08
+      },
+      "rear": {
+        "file": "images/vehicles/kia/k002_rear.webp",
+        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ray/27my/content/ray_xline_rear_garnish_mo.jpg",
+        "score": 12,
+        "meta": "",
+        "audit": "RECHECK"
       }
     },
     "K003": {
@@ -1483,6 +1842,13 @@
         "file": "images/vehicles/kia/k003_front.webp",
         "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ray-ev/27my/content/rayev_exterior_front_side_pc.jpg",
         "score": 27.67
+      },
+      "rear": {
+        "file": "images/vehicles/kia/k003_rear.webp",
+        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ray-ev/24my/content/rayev_driving_rear_side_anti_collision_mo.jpg",
+        "score": 42,
+        "meta": "",
+        "audit": "RECHECK"
       }
     },
     "K004": {
@@ -1494,6 +1860,11 @@
         "score": 27.82,
         "meta": "",
         "audit": "RECHECK"
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K005": {
@@ -1505,6 +1876,13 @@
         "score": 41.01,
         "meta": "",
         "audit": "RECHECK"
+      },
+      "rear": {
+        "file": "images/vehicles/kia/k005_rear.webp",
+        "source": "https://www.kia.com/content/dam/kwcms/mx/es/images/showroom/2025/k3-hatchback/white-profile/img_kia_k3_hb_perfil.png",
+        "score": 43.5,
+        "meta": "",
+        "audit": "RECHECK"
       }
     },
     "K006": {
@@ -1514,6 +1892,11 @@
         "file": "images/vehicles/kia/k006_front.webp",
         "source": "https://www.kia.com/content/dam/kia/us/en/vehicles/k4/2026/trim-cards/kia-trim-jellies-my26-k4-ex.png",
         "score": 12.33
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K007": {
@@ -1523,6 +1906,13 @@
         "file": "images/vehicles/kia/k007_front.webp",
         "source": "https://www.kia.com/content/dam/kia/us/en/vehicles/k4-hatchback/2026/trims/ex/exterior/61656a/360/04.png",
         "score": 43.01,
+        "meta": "",
+        "audit": "RECHECK"
+      },
+      "rear": {
+        "file": "images/vehicles/kia/k007_rear.webp",
+        "source": "https://www.kia.com/us/content/dam/kia/us/en/vehicles/k4-hatchback/2026/global-hero/kia-hero-v21920-hero-myxx-vehicle.jpg",
+        "score": 44,
         "meta": "",
         "audit": "RECHECK"
       }
@@ -1658,7 +2048,12 @@
           "meta": "Kia K4 SW",
           "page": "https://www.kia.com/de/ueber-kia/neue-modelle/"
         }
-      ]
+      ],
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
+      }
     },
     "K009": {
       "model": "K5",
@@ -1667,6 +2062,13 @@
         "file": "images/vehicles/kia/k009_front.webp",
         "source": "https://www.kia.com/content/dam/kia/us/en/home2-0/mtf-carousel/sedan/k5/my27-k5-mtf-large-middle.png",
         "score": 10.38
+      },
+      "rear": {
+        "file": "images/vehicles/kia/k009_rear.webp",
+        "source": "https://www.kia.com/us/content/dam/kia/us/en/images/global-header/vehicles/sedan-hatchback/mm-large-static-desktop.png",
+        "score": 12,
+        "meta": "Kia K5",
+        "audit": "RECHECK"
       }
     },
     "K010": {
@@ -1800,7 +2202,12 @@
           "meta": "small",
           "page": "https://www.kia.com/kr/vehicles/k8/features"
         }
-      ]
+      ],
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
+      }
     },
     "K011": {
       "model": "K9",
@@ -1809,6 +2216,13 @@
         "file": "images/vehicles/kia/k011_front.webp",
         "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k9/24my/content/k9_exterior_front_pc.jpg",
         "score": 27.67
+      },
+      "rear": {
+        "file": "images/vehicles/kia/k011_rear.webp",
+        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k9/24my/content/k9_exterior_rear_mo.jpg",
+        "score": 12,
+        "meta": "",
+        "audit": "RECHECK"
       }
     },
     "K012": {
@@ -1818,6 +2232,13 @@
         "file": "images/vehicles/kia/k012_front.webp",
         "source": "https://www.kia.com/content/dam/kia2/in/en/images/360vr/sonet/sxw5k2g1uhh078/exterior/gb2/09-d.png",
         "score": 16.5
+      },
+      "rear": {
+        "file": "images/vehicles/kia/k012_rear.webp",
+        "source": "https://www.kia.com/content/dam/kia2/in/en/our-vehicles/showroom/sonet/slider/caurosel/1440x2560_2_1.jpg",
+        "score": 31.5,
+        "meta": "A dark gray Kia Sonet X-Line SUV is parked on a sunlit street, in front of a textured metal background. Kia Sonet SUV in Dark Gray Colour A dark gray Kia Sonet ",
+        "audit": "RECHECK"
       }
     },
     "K013": {
@@ -1827,6 +2248,11 @@
         "file": "images/vehicles/kia/k013_front.webp",
         "source": "https://www.kia.com/content/dam/kwcms/mx/es/images/showroom/2026/seltos/thumbnail/Sxl_snow-white-pearl_seltos_configura_tu_kia.png",
         "score": 18.4
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K014": {
@@ -1836,6 +2262,13 @@
         "file": "images/vehicles/kia/k014_front.webp",
         "source": "https://www.kia.com/content/dam/kia2/in/en/images/360vr/syros/8ww5k2g1upp121/exterior/ebb/09-d.png",
         "score": 16.22
+      },
+      "rear": {
+        "file": "images/vehicles/kia/k014_rear.webp",
+        "source": "https://www.kia.com/content/dam/kia2/in/en/our-vehicles/syros/new/Ex_ORVM_d.jpg",
+        "score": 31.5,
+        "meta": "Kia Syros SUV with Robust Front & Rear Skid Plate with Silver Metallic Finish",
+        "audit": "RECHECK"
       }
     },
     "K015": {
@@ -1845,6 +2278,13 @@
         "file": "images/vehicles/kia/k015_front.webp",
         "source": "https://www.kia.com/content/dam/kia2/in/en/images/360vr/syros_ev/8bw5zhz7zpp078/exterior/ism/09-d.png",
         "score": 16.22
+      },
+      "rear": {
+        "file": "images/vehicles/kia/k015_rear.webp",
+        "source": "https://www.kia.com/content/dam/kia2/in/en/images/our-vehicles/syros_ev/comfort/FrontRear.jpeg",
+        "score": 42,
+        "meta": "3223",
+        "audit": "RECHECK"
       }
     },
     "K016": {
@@ -1854,6 +2294,11 @@
         "file": "images/vehicles/kia/k016_front.webp",
         "source": "https://www.kia.com/content/dam/kia2/in/en/images/360vr/carens/tyw71mc57dd413/exterior/mpb/08-m.png",
         "score": 14.31
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K017": {
@@ -1863,6 +2308,11 @@
         "file": "images/vehicles/kia/k017_front.webp",
         "source": "https://www.kia.com/content/dam/kia2/in/en/images/home/h-1/mpv/carens-clavis.png",
         "score": 16.72
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K018": {
@@ -1874,6 +2324,13 @@
         "score": 44.79,
         "meta": "Kia Carens Clavis EV elctric car showing front display",
         "audit": "RECHECK"
+      },
+      "rear": {
+        "file": "images/vehicles/kia/k018_rear.webp",
+        "source": "https://www.kia.com/content/dam/kia2/in/en/our-vehicles/kia-carens-clavis-ev/showroom/s-8/s8-4.png",
+        "score": 34,
+        "meta": "Kia Carens Clavis EV Electric Car with Rear Cross Traffic Collision Warning & Avoidance Assist feature",
+        "audit": "RECHECK"
       }
     },
     "K019": {
@@ -1883,6 +2340,11 @@
         "file": "images/vehicles/kia/k019_front.webp",
         "source": "https://www.kia.com/content/dam/kia2/in/en/images/360vr/carnival/8tb72hc5jgg000/exterior/gwp/08-m.png",
         "score": 14.31
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K020": {
@@ -1894,6 +2356,13 @@
         "score": 17.88,
         "meta": "",
         "audit": "RECHECK"
+      },
+      "rear": {
+        "file": "images/vehicles/kia/k020_rear.webp",
+        "source": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/vehicles/niro-sg2/discover/kia-niro-my24-visual-34-rear-d-w.jpg",
+        "score": 12,
+        "meta": "",
+        "audit": "RECHECK"
       }
     },
     "K021": {
@@ -1903,6 +2372,13 @@
         "file": "images/vehicles/kia/k021_front.webp",
         "source": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/vehicles/stonic/my26/embargo/discover/kia-stonic-ice-gtl-my26_BS_front-driving-w.jpg",
         "score": 26.6
+      },
+      "rear": {
+        "file": "images/vehicles/kia/k021_rear.webp",
+        "source": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/vehicles/stonic/my26/embargo/discover/kia-stonic-ice-gtl-my26_PD_Rear%20Lights_sRGB.jpg",
+        "score": 33.0,
+        "meta": "Rear view of white Kia Stonic with a contemporary building with steel-lattice design in the backround",
+        "audit": "RECHECK"
       }
     },
     "K022": {
@@ -1914,6 +2390,13 @@
         "score": 27.88,
         "meta": "",
         "audit": "RECHECK"
+      },
+      "rear": {
+        "file": "images/vehicles/kia/k022_rear.webp",
+        "source": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/xceed/MY26/Xceed_GTL_MY26(04)_1160x653.jpg",
+        "score": 30,
+        "meta": "Kia XCeed  front styling Kia XCeed gtl rear Kia XCeed gtl rear",
+        "audit": "RECHECK"
       }
     },
     "K023": {
@@ -1923,6 +2406,13 @@
         "file": "images/vehicles/kia/k023_front.webp",
         "source": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/The_all-new_Sportage/Sportage-GTLineS-1920x1080.png",
         "score": 999
+      },
+      "rear": {
+        "file": "images/vehicles/kia/k023_rear.webp",
+        "source": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/vehicles/sportage/my26/discover/kia-sportage-hev-gtl-my26_BS_34Rear_with_Talent-1920x1440.jpg",
+        "score": 32,
+        "meta": "",
+        "audit": "RECHECK"
       }
     },
     "K024": {
@@ -1932,6 +2422,11 @@
         "file": "images/vehicles/kia/k024_front.webp",
         "source": "https://www.kia.com/content/dam/kwcms/mx/es/images/showroom/2024/sorento/usps-exterior/1-Nuevo-dise%C3%B1o-de-faros-frontal-900x600.jpg",
         "score": 25.94
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K025": {
@@ -1941,6 +2436,13 @@
         "file": "images/vehicles/kia/k025_front.webp",
         "source": "https://www.kia.com/content/dam/kia/us/en/vehicles/telluride/2027/trims/x-line-sx-prestige/exterior/adb4c0/360/05.png",
         "score": 17.26
+      },
+      "rear": {
+        "file": "images/vehicles/kia/k025_rear.webp",
+        "source": "https://www.kia.com/us/content/dam/kia/us/en/vehicles/telluride/2027/mep/cross-sell/column-control-2-img-2.jpg",
+        "score": 31.5,
+        "meta": "A still shot of the 2027 Hybrid Kia Telluride in blue-green parked on a dirt path, with the driver's side of the SUV facing out against a backdrop of foliage an",
+        "audit": "RECHECK"
       }
     },
     "K026": {
@@ -1952,6 +2454,13 @@
         "score": 999,
         "meta": "override",
         "audit": "RECHECK"
+      },
+      "rear": {
+        "file": "images/vehicles/kia/k026_rear.webp",
+        "source": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/vehicles/ev2/my27/discover/kia-ev2-my27-BL-BS_Rear-1920x1080.jpg",
+        "score": 14,
+        "meta": "",
+        "audit": "RECHECK"
       }
     },
     "K027": {
@@ -1961,6 +2470,13 @@
         "file": "images/vehicles/kia/k027_front.webp",
         "source": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/vehicles/sv/sv-my25/discover/kia-ev3-pe-gtl-34front.png",
         "score": 999
+      },
+      "rear": {
+        "file": "images/vehicles/kia/k027_rear.webp",
+        "source": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/vehicles/sv/sv-my25/discover/kia-ev3-gtl-my25-delp-exterior-rear.jpg",
+        "score": 12,
+        "meta": "kia-ev3-gtl-my25-delp-exterior-rear.jpg",
+        "audit": "RECHECK"
       }
     },
     "K028": {
@@ -1970,6 +2486,11 @@
         "file": "images/vehicles/kia/k028_front.webp",
         "source": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/contents/about-kia/neue-modelle/gt-modelle/kia_ev3_gt_940x640.jpg",
         "score": 13.04
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K029": {
@@ -1980,6 +2501,13 @@
         "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ev4/25my/content/the-kia-ev4_feature_bg_pc.jpg",
         "score": 999,
         "meta": "override",
+        "audit": "RECHECK"
+      },
+      "rear": {
+        "file": "images/vehicles/kia/k029_rear.webp",
+        "source": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/vehicles/ev4/my26/discover/kia-ev4-my26-NA-Beauty_34-Rear_MaleTalent_rgb-1920x1080.jpg",
+        "score": 14,
+        "meta": "Unique rear hatchback design",
         "audit": "RECHECK"
       }
     },
@@ -2114,7 +2642,14 @@
           "meta": "Sorento Sorento Sorento Sorento",
           "page": "https://www.kia.com/uk/new-cars/ev4/"
         }
-      ]
+      ],
+      "rear": {
+        "file": "images/vehicles/kia/k030_rear.webp",
+        "source": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/vehicles/ev4/my26/discover/kia-ev4-my26-NA-Beauty_34-Rear_MaleTalent_rgb-1920x1080.jpg",
+        "score": 44,
+        "meta": "Unique rear hatchback design",
+        "audit": "RECHECK"
+      }
     },
     "K031": {
       "model": "EV4 GT",
@@ -2123,6 +2658,13 @@
         "file": "images/vehicles/kia/k031_front.webp",
         "source": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/contents/about-kia/neue-modelle/gt-modelle/kia_ev4_gt_940x640.jpg",
         "score": 13.04
+      },
+      "rear": {
+        "file": "images/vehicles/kia/k031_rear.webp",
+        "source": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/gnb/flyout-neu/kia_ev4-gtl_hatchback_520x260.png",
+        "score": 44,
+        "meta": "",
+        "audit": "RECHECK"
       }
     },
     "K032": {
@@ -2132,6 +2674,11 @@
         "file": "images/vehicles/kia/k032_front.webp",
         "source": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/vehicles/ev5/my26-presales/trims/ev5-presales-air.png",
         "score": 999
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K033": {
@@ -2141,6 +2688,11 @@
         "file": "images/vehicles/kia/k033_front.webp",
         "source": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/contents/about-kia/neue-modelle/gt-modelle/kia_ev5_gt_940x640.jpg",
         "score": 13.04
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K034": {
@@ -2150,6 +2702,11 @@
         "file": "images/vehicles/kia/k034_front.webp",
         "source": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/EV6/EV6_GTL_MY25_LifstyleExterior_FullFront_with_Talent_sRGB_577x432.jpg",
         "score": 25.43
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K035": {
@@ -2161,6 +2718,11 @@
         "score": 999,
         "meta": "override",
         "audit": "RECHECK"
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K036": {
@@ -2170,6 +2732,11 @@
         "file": "images/vehicles/kia/k036_front.webp",
         "source": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/EV9/kia-ev9_2022-gt-line-s-7-seat-pacific-blue_0014-1920x1080.png",
         "score": 999
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K037": {
@@ -2181,6 +2748,11 @@
         "score": 999,
         "meta": "override",
         "audit": "RECHECK"
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K038": {
@@ -2314,7 +2886,12 @@
           "meta": "small",
           "page": "https://www.kia.com/kr/vehicles/tasman/features"
         }
-      ]
+      ],
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
+      }
     },
     "K039": {
       "model": "Tasman Single Cab Chassis",
@@ -2447,7 +3024,12 @@
           "meta": "Kia Tasman top front view lazyload",
           "page": "https://www.kia.com/au/cars/tasman/"
         }
-      ]
+      ],
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
+      }
     },
     "K040": {
       "model": "Tasman Dual Cab Chassis",
@@ -2580,7 +3162,12 @@
           "meta": "Kia Tasman Drive Car of the Yea award",
           "page": "https://www.kia.com/au/cars/tasman/"
         }
-      ]
+      ],
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
+      }
     },
     "K041": {
       "model": "PV5 Passenger",
@@ -2589,6 +3176,11 @@
         "file": "images/vehicles/kia/k041_front.webp",
         "source": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/gnb/flyout-neu/kia_pv5-passenger_520x260.png",
         "score": 16.23
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K042": {
@@ -2598,6 +3190,11 @@
         "file": "images/vehicles/kia/k042_front.webp",
         "source": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/gnb/flyout-neu/kia_pv5-cargo_520x260.png",
         "score": 16.23
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K043": {
@@ -2607,6 +3204,11 @@
         "file": "images/vehicles/kia/k043_front.webp",
         "source": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/gnb/flyout-neu/kia_pv5-crew_520x260.webp",
         "score": 22.42
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K044": {
@@ -2616,6 +3218,11 @@
         "file": "images/vehicles/kia/k044_front.webp",
         "source": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/gnb/flyout-neu/Kia_pv5-chassis-cab_520x260.png",
         "score": 22.23
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K045": {
@@ -2625,6 +3232,11 @@
         "file": "images/vehicles/kia/k045_front.webp",
         "source": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/contents/pv5wav-gnb/pv5-wav-520x260.png",
         "score": 16.23
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K046": {
@@ -2634,6 +3246,11 @@
         "file": "images/vehicles/kia/k046_front.webp",
         "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/pv5-openbed/27my/content/the_kia_pv5_openbed_bg_pc.jpg",
         "score": 25.6
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K047": {
@@ -2645,6 +3262,11 @@
         "score": 26.88,
         "meta": "The 2026 Bongo III",
         "audit": "RECHECK"
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K048": {
@@ -2654,6 +3276,11 @@
         "file": "images/vehicles/kia/k048_front.webp",
         "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/bongo3ev/26my/spec/bongo3ev_specification_front_image_pc.png",
         "score": 24.68
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "G001": {
@@ -2663,6 +3290,13 @@
         "file": "images/vehicles/genesis/g001_front.webp",
         "source": "https://s7d1.scene7.com/is/image/hyundai/2026-g70-33t-spt-pst-awd-capriblue-obsidianblackwredstitch-frontdrvrangle-studio-4:16-9?wid=1000&hei=563&fmt=webp",
         "score": 41.94
+      },
+      "rear": {
+        "file": "images/vehicles/genesis/g001_rear.webp",
+        "source": "https://s7d1.scene7.com/is/image/hyundai/gs-1687-21x9-g70:21-9?wid=2206&hei=946&fmt=webp",
+        "score": 13.5,
+        "meta": "3/4 passenger side view of Genesis G70 in Tasman Blue, parked against a white gradient background",
+        "audit": "RECHECK"
       }
     },
     "G002": {
@@ -2672,6 +3306,11 @@
         "file": "images/vehicles/genesis/g002_front.webp",
         "source": "https://www.genesis.com/content/dam/genesis-p2/kr/admin/model-information/G70%20Shooting%20Brake/wide-image/2026-01-08/18-20-35/genesis-kr-admin-model-wide-image-g70-shooting-brake-desktop-880x335-kr.png",
         "score": 20.51
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "G003": {
@@ -2681,6 +3320,11 @@
         "file": "images/vehicles/genesis/g003_front.webp",
         "source": "https://s7d1.scene7.com/is/image/hyundai/2026-g80-35t-spt-pst-awd-uyuniwhite-obsidianblackwredstitchwcarbonfiber-frontdrvrangle-studio-3:16-9?wid=1000&hei=563&fmt=webp",
         "score": 45.94
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "G004": {
@@ -2690,6 +3334,11 @@
         "file": "images/vehicles/genesis/g004_front.webp",
         "source": "https://www.genesis.com/content/dam/genesis-p2/kr/admin/model-information/Electrified%20G80/wide-image/2026-03-03/10-13-31/genesis-kr-admin-model-list-thumbnail-electrified-g80-27my-desktop-880x335.png",
         "score": 18.51
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "G005": {
@@ -2699,6 +3348,13 @@
         "file": "images/vehicles/genesis/g005_front.webp",
         "source": "https://s7d1.scene7.com/is/image/hyundai/2026-g90-35t-e-sc-awd-vikblack-blackmonotone-frontdrvrangle-studio-3:16-9?wid=1000&hei=563&fmt=webp",
         "score": 41.95
+      },
+      "rear": {
+        "file": "images/vehicles/genesis/g005_rear.webp",
+        "source": "https://s7d1.scene7.com/is/image/hyundai/gma-cv-g90-wingback-0326:16-9?wid=1000&hei=563&fmt=webp",
+        "score": 12,
+        "meta": "",
+        "audit": "RECHECK"
       }
     },
     "G006": {
@@ -2708,6 +3364,11 @@
         "file": "images/vehicles/genesis/g006_front.webp",
         "source": "https://www.genesis.com/content/dam/genesis-p2/kr/admin/model-information/G90%20Long%20Wheel%20Base/wide-image/2025-03-04/10-27-07/genesis-kr-admin-model-wide-image-g90-lwb-desktop-880x335-ko.png",
         "score": 21.51
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "G007": {
@@ -2717,6 +3378,11 @@
         "file": "images/vehicles/genesis/g007_front.webp",
         "source": "https://s7d1.scene7.com/is/image/hyundai/2026-gv60-prf-awd-uyuniwhite-obsidianblackmonotonenappaleather-frontdrvrangle-studio-gnav:16-9?wid=1000&hei=563&fmt=webp",
         "score": 45.96
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "G008": {
@@ -2726,6 +3392,11 @@
         "file": "images/vehicles/genesis/g008_front.webp",
         "source": "https://www.genesis.com/content/dam/genesis-p2/kr/admin/model-information/GV60%20Magma/wide-image/2026-01-12/15-19-31/genesis-kr-admin-model-list-thumbnail-gv60-magma-desktop-desktop-880x335-en.png",
         "score": 18.51
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "G009": {
@@ -2735,6 +3406,11 @@
         "file": "images/vehicles/genesis/g009_front.webp",
         "source": "https://www.genesis.com/content/dam/genesis-p2/kr/admin/bto-information/gv70-2024-jk4b/exterior/pc-image/gv70-24my-bto-exterior-uyuni-white-desktop-1920x960.png",
         "score": 999
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "G010": {
@@ -2744,6 +3420,11 @@
         "file": "images/vehicles/genesis/g010_front.webp",
         "source": "https://s7d1.scene7.com/is/image/hyundai/2027_egv70_pst_awd_savilesilver_obsidianblackwithgraystitch_frontdrvrangle_studio:16-9?wid=700&hei=394&fmt=webp",
         "score": 45.46
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "G011": {
@@ -2755,6 +3436,13 @@
         "score": 26.88,
         "meta": "responsive-image responsive-image--unloaded models-menu__image responsive-image responsive-image--unloaded models-menu__image",
         "audit": "RECHECK"
+      },
+      "rear": {
+        "file": "images/vehicles/genesis/g011_rear.webp",
+        "source": "https://s7d1.scene7.com/is/image/hyundai/my27-jx-1085-woutbadge-extended-1:16-9?wid=1800&hei=1013&fmt=webp",
+        "score": 12,
+        "meta": "Rear view of Genesis GV80 in sunlit modern setting, two people walking alongside",
+        "audit": "RECHECK"
       }
     },
     "G012": {
@@ -2764,7 +3452,14 @@
         "file": "images/vehicles/genesis/g012_front.webp",
         "source": "https://s7d1.scene7.com/is/image/hyundai/2027-gv80coupe-35t-e-sc-mhev-pst-awd-ceresblue-obsidianblackmonotonegraystitch-frontdrvrangle-gnav:16-9?wid=1000&hei=563&fmt=webp",
         "score": 49.98
+      },
+      "rear": {
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     }
-  }
+  },
+  "rear_generated_at": "2026-09-09T22:24:56Z",
+  "rear_found": 54
 }

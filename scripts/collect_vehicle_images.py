@@ -12,7 +12,7 @@ REG = ROOT / "data/models-latest.json"
 OUT = ROOT / "images/vehicles"
 STAT = ROOT / "data/model-image-status.json"
 
-PAGE_CACHE = {}
+PAGE_CACHE = {}\nIMG_CACHE = {}
 S = requests.Session()
 S.headers.update({
     "User-Agent": "Mozilla/5.0 Chrome/128 Safari/537.36",

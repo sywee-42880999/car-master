@@ -1796,3 +1796,7 @@ Codex action:
    - lower control arm vs tie rod end vs wheel hub vs steering knuckle
 4. Hold only exact failing IDs.
 5. Count live Production only after BLACK UI + mobile + reverse-QA.
+## CENTERED MESSAGE UX — 2026-09-09
+- Moved transient lock/restore/system messages from the bottom edge to a centered overlay card.
+- Existing game-rules, STEP, TEST, PASS, KEY, and reward messages already use centered overlays.
+- iPhone 13 QA: message center 195×332 exactly matched viewport center 195×332; horizontal overflow 0.

@@ -1,61 +1,76 @@
 {
   "project": "AUTOMOTIVE VISUAL VOCABULARY",
   "version": "1.1",
-  "rule": "Permanent IDs must never be renumbered. Full ID allocation is in data/id_registry.json. Shared source details are in data/source_registry.json.",
+  "rule": "Permanent IDs must never be renumbered. English naming follows Hyundai Owner's Manual terminology first; card labels use natural English singular/plural; common UK automotive equivalents are shown in parentheses on representative base terms only. Full ID allocation is in data/id_registry.json. Shared source details are in data/source_registry.json.",
   "items": [
     {
       "id": "0001",
-      "en": "HOOD",
+      "en": "HOOD (BONNET)",
       "ko": "후드",
       "status": "PASS",
       "production_backlog": false,
       "image": "images/parts/0001.jpg",
       "source_refs": [
         "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ],
+      "aliases": [
+        "HOOD"
       ]
     },
     {
       "id": "0002",
-      "en": "HEADLIGHTS",
+      "en": "HEADLIGHT",
       "ko": "헤드램프",
       "status": "PASS",
       "production_backlog": false,
       "image": "images/parts/0002.jpg",
       "source_refs": [
         "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ],
+      "aliases": [
+        "HEADLIGHTS"
       ]
     },
     {
       "id": "0003",
-      "en": "FRONT WIPER BLADES",
+      "en": "FRONT WIPER BLADE",
       "ko": "앞유리 와이퍼 블레이드",
       "status": "PASS",
       "production_backlog": false,
       "image": "images/parts/0003.jpg",
       "source_refs": [
         "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ],
+      "aliases": [
+        "FRONT WIPER BLADES"
       ]
     },
     {
       "id": "0004",
-      "en": "SIDE VIEW MIRRORS",
+      "en": "OUTSIDE REARVIEW MIRROR",
       "ko": "실외 미러",
       "status": "PASS",
       "production_backlog": false,
       "image": "images/parts/0004.jpg",
       "source_refs": [
         "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ],
+      "aliases": [
+        "SIDE VIEW MIRRORS"
       ]
     },
     {
       "id": "0005",
-      "en": "WINDOWS",
+      "en": "WINDOW",
       "ko": "유리창",
       "status": "PASS",
       "production_backlog": false,
       "image": "images/parts/0005.jpg",
       "source_refs": [
         "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ],
+      "aliases": [
+        "WINDOWS"
       ]
     },
     {
@@ -71,24 +86,30 @@
     },
     {
       "id": "0007",
-      "en": "TIRES",
+      "en": "TIRE (TYRE)",
       "ko": "타이어",
       "status": "PASS",
       "production_backlog": false,
       "image": "images/parts/0007.jpg",
       "source_refs": [
         "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ],
+      "aliases": [
+        "TIRES"
       ]
     },
     {
       "id": "0008",
-      "en": "WHEELS",
+      "en": "WHEEL",
       "ko": "휠",
       "status": "PASS",
       "production_backlog": false,
       "image": "images/parts/0008.jpg",
       "source_refs": [
         "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ],
+      "aliases": [
+        "WHEELS"
       ]
     },
     {
@@ -115,12 +136,15 @@
     },
     {
       "id": "0011",
-      "en": "DOORS",
+      "en": "DOOR",
       "ko": "도어",
       "image": "images/parts/0011.jpg",
       "status": "PASS",
       "source_refs": [
         "HY_LX3_2026_REAR_OVERVIEW"
+      ],
+      "aliases": [
+        "DOORS"
       ]
     },
     {
@@ -146,24 +170,30 @@
     },
     {
       "id": "0014",
-      "en": "REAR COMBINATION LIGHTS",
+      "en": "REAR COMBINATION LAMP",
       "ko": "리어 콤비네이션 램프",
       "image": "images/parts/0014.jpg",
       "status": "PASS",
       "source_refs": [
         "HY_NX4A_2026_REAR_LAMP",
         "HY_LX3_2026_REAR_OVERVIEW"
+      ],
+      "aliases": [
+        "REAR COMBINATION LIGHTS"
       ]
     },
     {
       "id": "0015",
-      "en": "REVERSE LIGHTS",
+      "en": "REVERSE LAMP",
       "ko": "후진등",
       "image": "images/parts/0015.jpg",
       "status": "PASS",
       "source_refs": [
         "HY_MX5A_2024_REVERSE",
         "HY_LX3_2026_REAR_OVERVIEW"
+      ],
+      "aliases": [
+        "REVERSE LIGHTS"
       ]
     },
     {
@@ -211,13 +241,16 @@
     },
     {
       "id": "0020",
-      "en": "HIGH MOUNTED STOP LIGHT",
+      "en": "HIGH MOUNTED STOP LAMP",
       "ko": "보조 제동등",
       "image": "images/parts/0020.jpg",
       "status": "PASS",
       "source_refs": [
         "HY_NX4_2025_HIGH_STOP",
         "HY_LX3_2026_REAR_OVERVIEW"
+      ],
+      "aliases": [
+        "HIGH MOUNTED STOP LIGHT"
       ]
     },
     {
@@ -252,12 +285,15 @@
     },
     {
       "id": "0024",
-      "en": "WINDSHIELD",
+      "en": "WINDSHIELD (WINDSCREEN)",
       "ko": "앞유리",
       "status": "PASS",
       "image": "images/parts/0024.jpg",
       "source_refs": [
         "HY_LX3_2026_FRONT_OVERVIEW"
+      ],
+      "aliases": [
+        "WINDSHIELD"
       ]
     },
     {
@@ -282,13 +318,14 @@
     },
     {
       "id": "0027",
-      "en": "ULTRASONIC SENSORS",
+      "en": "ULTRASONIC SENSOR",
       "ko": "초음파 센서",
       "status": "PASS",
       "image": "images/parts/0027.jpg",
       "aliases": [
         "PARKING DISTANCE WARNING SENSOR",
-        "PARKING SENSOR"
+        "PARKING SENSOR",
+        "ULTRASONIC SENSORS"
       ],
       "source_refs": [
         "HY_NX4_2025_ULTRASONIC_SENSOR"
@@ -296,13 +333,16 @@
     },
     {
       "id": "0028",
-      "en": "TURN SIGNAL LIGHT",
+      "en": "TURN SIGNAL LIGHT (INDICATOR)",
       "ko": "방향지시등",
       "status": "PASS",
       "production_backlog": false,
       "image": "images/parts/0028.jpg",
       "source_refs": [
         "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ],
+      "aliases": [
+        "TURN SIGNAL LIGHT"
       ]
     },
     {
@@ -2484,13 +2524,16 @@
     },
     {
       "id": "0227",
-      "en": "FENDER",
+      "en": "FENDER (WING)",
       "ko": "펜더",
       "status": "PASS",
       "production_backlog": false,
       "image": "images/parts/0227.jpg",
       "source_refs": [
         "HY_LX3_2026_EXTERIOR_OVERVIEWS"
+      ],
+      "aliases": [
+        "FENDER"
       ]
     },
     {

@@ -198,7 +198,7 @@ def choose(name, vt, pages, over, want):
         explicit = [(u,s) for u,s in ranked if any(k in unquote(u).lower() for k in REAR)]
         ranked = explicit
     best = None
-    for u, us in ranked[:7]:
+    for u, us in ranked[:3]:
         try:
             im, final = getimg(u)
             sc = us + qscore(im, final, want)
@@ -220,7 +220,7 @@ def main():
         mid,brand,name,vt,pages,over = row
         rec = {"model":name,"brand":brand}
         print(f"[{n}/{len(data['m'])}] {mid} {name}", flush=True)
-        for want in ("front","rear"):
+        for want in ("front",):
             im,url,score = choose(name,vt,pages,over,want)
             if im:
                 out = OUT/brand/f"{mid.lower()}_{want}.webp"

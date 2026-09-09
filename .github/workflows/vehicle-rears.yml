@@ -1,0 +1,43 @@
+name: Collect official rear vehicle images
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - data/models-latest.json
+      - scripts/collect_vehicle_rears.py
+      - .github/workflows/vehicle-rears.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vehicle-rear-collector
+  cancel-in-progress: true
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check requests beautifulsoup4 pillow
+      - name: Collect rear images
+        run: python scripts/collect_vehicle_rears.py
+      - name: Commit rear assets
+        run: |
+          git config user.name "car-master-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A data/model-image-status.json images/vehicles
+          if git diff --cached --quiet; then
+            echo "No rear image changes"
+            exit 0
+          fi
+          git commit -m "Collect official rear vehicle images"
+          git push

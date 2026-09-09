@@ -1692,3 +1692,43 @@ Validation:
 - Failure flow PASS: 0/20 retained all 20 incorrect entries; review target ID matched displayed original card; return to results PASS.
 - Input normalization PASS: lowercase plus surrounding spaces accepted; misspelling/partial alternatives remain incorrect.
 - Layout QA: all 364 PASS cards at 390×844 and 320×700; text overflow 0; horizontal overflow 0; runtime errors 0.
+
+
+## BACKLOG RECOVERY — BATCHES 23–25 — 2026-09-09
+
+### Batch 23 — seat/tire
+- Actions run #130: SUCCESS
+- PASS:
+  - 0488 TIRE VALVE CAP
+- Held due source 404:
+  - 0079 SEATBACK FOLDING LEVER
+  - 0330 SEAT BELT GUIDE
+  - 0364 SEAT BELT GUIDE
+
+### Batch 24 — battery/tire/spare
+- Actions run #132: SUCCESS
+- PASS +5:
+  - 0479 BATTERY SENSOR
+  - 0489 TIRE SIDEWALL
+  - 0491 JACK BRACKET
+  - 0492 TOOL CASE
+  - 0487 WHEEL CENTER CAP
+
+### Batch 25 — cluster
+- Actions run #134: SUCCESS
+- PASS +4:
+  - 0386 ENGINE COOLANT TEMPERATURE GAUGE
+  - 0387 CLUSTER DISPLAY
+  - 0388 DISTANCE TO EMPTY
+  - 0389 OUTSIDE TEMPERATURE GAUGE
+
+Current master:
+- PASS candidates: **374 / 500**
+- REVIEW/backlog: **126**
+
+Codex action:
+1. Pull latest `main`.
+2. Bind Batch 23–25 promoted IDs using current image blobs.
+3. Reverse-QA 0479 battery sensor, 0487 center cap, 0489 tire sidewall, 0491 vs 0492 bracket/tool case.
+4. Reverse-QA 0386 vs 0387 carefully: coolant gauge vs central cluster display.
+5. Count live Production only after BLACK UI + mobile + reverse-QA.

@@ -27,18 +27,18 @@ jobs:
         with:
           name: car-master-production-preview
           path: production-preview/
-      - name: Commit batch 29
+      - name: Commit batch 30
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/master.json research/backlog-recovery-29-original-mechanical-schematics.md
-          for id in 0151 0152 0153 0155 0157 0163 0165 0168 0169 0170 0171 0172 0177 0181 0183 0184 0185 0187 0188 0189 0190; do
+          git add data/master.json research/backlog-recovery-30-original-generic-schematics.md
+          for id in 0119 0199 0200 0202 0296 0300 0309 0323 0324 0330 0338 0339 0340 0363 0364 0368 0191 0192; do
             if [ -f "images/parts/$id.jpg" ]; then git add "images/parts/$id.jpg"; fi
           done
           if git diff --cached --quiet; then
-            echo "No validated batch-29 changes."
+            echo "No validated batch-30 changes."
           else
-            git commit -m "Recover original mechanical schematics batch 29"
+            git commit -m "Recover original generic schematics batch 30"
             git pull --rebase origin main
             git push origin HEAD:main
           fi

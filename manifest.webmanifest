@@ -1,1 +1,1 @@
-{"name":"CAR MASTER v0.5","short_name":"CAR MASTER","description":"현대자동차 공식 영문 용어로 배우는 자동차 파트 트레이너","lang":"ko","id":"./","start_url":"./index.html","scope":"./","display":"standalone","background_color":"#eef2f6","theme_color":"#10233f","icons":[]}
+{"name":"자동차 단어장","short_name":"자동차 단어장","description":"단어 외우고, 커피 타자","lang":"ko","id":"./","start_url":"./index.html","scope":"./","display":"standalone","background_color":"#080808","theme_color":"#080808","icons":[]}

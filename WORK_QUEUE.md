@@ -1674,3 +1674,21 @@ Codex action:
 5. Verify 0400 connector vs 0401/0497 release-control area.
 6. Verify 0483/0484 front vs rear wiper arm cap.
 7. Count live Production only after mobile + reverse-QA.
+## ISSUE #1 — 자동차 단어장 GAME FLOW — 2026-09-09
+Implemented the complete Issue #1 flow while retaining permanent IDs, PASS-only filtering, current image paths, and the BLACK visual system.
+
+Implemented:
+- Service title/subcopy/goal and first-run HOW TO PLAY overlay.
+- STEP 1–5 journey with clear state, current state, locked TEST/INVENTORY, and remaining-stage copy.
+- 20-image test with direct English input; trim + case-insensitive, otherwise exact match only.
+- Full 20-question completion before scoring, 20/20 pass threshold, and incorrect-item review list.
+- Incorrect review links navigate to the existing permanent-ID learning card, highlight it, and return to results.
+- PASS → KEY ACQUIRED → inventory unlock → iced Americano ×5 claim flow.
+- Centered answer/stage/key overlays and localStorage persistence/reset.
+- Existing fixed card geometry, swipe, AUTO, hidden-card restore, current data and images retained.
+
+Validation:
+- Full mobile flow PASS: STEP 1 CLEAR → STEP 2; 20/20 PASS; KEY ACQUIRED; inventory unlocked; reward RECEIVED.
+- Failure flow PASS: 0/20 retained all 20 incorrect entries; review target ID matched displayed original card; return to results PASS.
+- Input normalization PASS: lowercase plus surrounding spaces accepted; misspelling/partial alternatives remain incorrect.
+- Layout QA: all 364 PASS cards at 390×844 and 320×700; text overflow 0; horizontal overflow 0; runtime errors 0.

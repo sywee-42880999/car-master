@@ -21,16 +21,24 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - run: pip install pillow fonttools
       - run: python tools/build_production_preview.py
-      - name: Commit warning font discovery
+      - uses: actions/upload-artifact@v4
+        with:
+          name: car-master-production-preview
+          path: production-preview/
+      - name: Commit warning icon batch 17
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add research/warning-font-discovery.md
+          git add data/master.json research/backlog-recovery-17-warning-icons.md
+          for id in 0390 0391 0392 0393 0394 0395 0421 0422 0423 0424 0425 0426 0427 0428 0429 0430 0431 0432 0433 0434 0435 0436 0437 0438 0439 0440 0441 0442 0443 0444 0445; do
+            if [ -f "images/parts/$id.jpg" ]; then git add "images/parts/$id.jpg"; fi
+          done
           if git diff --cached --quiet; then
-            echo "No discovery changes."
+            echo "No validated warning icon changes."
           else
-            git commit -m "Discover Hyundai warning icon font"
+            git commit -m "Recover Hyundai warning icons batch 17"
             git pull --rebase origin main
             git push origin HEAD:main
           fi

@@ -26,9 +26,11 @@
         "audit": "RECHECK"
       },
       "rear": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/hyundai/h002_rear.webp",
+        "source": "https://casper.hyundai.com/wstatic/images/pc/vehicles/highlight/27my/rear-day-27my.jpg",
+        "score": 30,
+        "meta": "",
+        "audit": "RECHECK"
       }
     },
     "H003": {
@@ -1388,9 +1390,11 @@
         "score": 34.75
       },
       "rear": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/hyundai/h049_rear.webp",
+        "source": "https://www.hyundai.com/cstatic/images/product/cars/xcient/safety-02.jpg",
+        "score": 22,
+        "meta": "더 뉴 엑시언트 후측방 충돌 경고 및 후측방 근거리 충돌 경고",
+        "audit": "RECHECK"
       }
     },
     "H050": {
@@ -1540,9 +1544,11 @@
         }
       ],
       "rear": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/hyundai/h051_rear.webp",
+        "source": "https://www.hyundai.com/cstatic/images/product/cars/county/rear-emergency-door.jpg",
+        "score": 30,
+        "meta": "",
+        "audit": "RECHECK"
       }
     },
     "H052": {
@@ -1907,9 +1913,9 @@
       },
       "rear": {
         "file": "images/vehicles/kia/k002_rear.webp",
-        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ray/27my/content/ray_xline_rear_skid_plate_mo.jpg",
+        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ray/23my/content/ray_exterior_beige.jpg",
         "score": 12,
-        "meta": "",
+        "meta": "레이 외장 밀키 베이지 후면",
         "audit": "RECHECK"
       }
     },
@@ -2142,9 +2148,11 @@
         "score": 10.38
       },
       "rear": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/kia/k009_rear.webp",
+        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k5/26my/spec/k5pe_specification_rear_image_pc.png",
+        "score": 14,
+        "meta": "K5 제원 후면 : 전폭 1,860mm, 윤거 후 1,640/1,630/1,625/1,617mm ※ 윤거 : 16/17/18/19인치 타이어 적용 기준",
+        "audit": "RECHECK"
       }
     },
     "K010": {
@@ -2494,9 +2502,11 @@
         "score": 25.94
       },
       "rear": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/kia/k024_rear.webp",
+        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/sorento/26my/spec/sorento_specification_rear_image_mo.png",
+        "score": 30,
+        "meta": "",
+        "audit": "RECHECK"
       }
     },
     "K025": {
@@ -2822,9 +2832,11 @@
         "audit": "RECHECK"
       },
       "rear": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/kia/k037_rear.webp",
+        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ev9-gt/my/content/ev9-gt_brand_02_sm.jpg",
+        "score": 42,
+        "meta": "The Kia EV9 GT 후면 디자인",
+        "audit": "RECHECK"
       }
     },
     "K038": {
@@ -3250,9 +3262,11 @@
         "score": 16.23
       },
       "rear": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/kia/k041_rear.webp",
+        "source": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/contents/pbv/5/freecoding/pv5-passenger/Design_Exterior_03_m.jpg",
+        "score": 30,
+        "meta": "Full rear view of the Kia PV5 Passenger",
+        "audit": "RECHECK"
       }
     },
     "K042": {
@@ -3264,9 +3278,11 @@
         "score": 16.23
       },
       "rear": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/kia/k042_rear.webp",
+        "source": "https://eu-www.kia.com/content/dam/kwcms/kme/global/en/assets/contents/pbv/5/freecoding/pv5-cargo/Exterior%20Rear-Popup_01_m.jpg",
+        "score": 30,
+        "meta": "Video of the Kia PV5 Cargo's rear doors getting fully opened",
+        "audit": "RECHECK"
       }
     },
     "K043": {
@@ -3306,9 +3322,11 @@
         "score": 16.23
       },
       "rear": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/kia/k045_rear.webp",
+        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/pv5-wav/27my/spec/pv5_wav_specification_rear_mo.png",
+        "score": 30,
+        "meta": "",
+        "audit": "RECHECK"
       }
     },
     "K046": {
@@ -3320,9 +3338,11 @@
         "score": 25.6
       },
       "rear": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/kia/k046_rear.webp",
+        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/pv5-openbed/27my/spec/pv5_openbed_specification_rear_mo.png",
+        "score": 30,
+        "meta": "",
+        "audit": "RECHECK"
       }
     },
     "K047": {
@@ -3380,9 +3400,11 @@
         "score": 20.51
       },
       "rear": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/genesis/g002_rear.webp",
+        "source": "https://dams.hyundai-autoever.com/cdn-cgi/image/width=708,height=400,fit=cover,quality=85,format=auto/v1/openapi/hmg-presigned-url/50534b313031303030303030303030303131393637/genesis-g70-shooting-brake-2026-standard-exterior-rear-design-large.png",
+        "score": 30,
+        "meta": "",
+        "audit": "RECHECK"
       }
     },
     "G003": {
@@ -3470,9 +3492,11 @@
         "score": 18.51
       },
       "rear": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/genesis/g008_rear.webp",
+        "source": "https://dams.hyundai-autoever.com/cdn-cgi/image/width=1440,height=720,fit=cover,quality=85,format=auto/v1/openapi/hmg-presigned-url/50534b313031303030303030303030303039393133/genesis-gv60-magma-2026-exterior-detail-rearspoiler-large.png",
+        "score": 14,
+        "meta": "",
+        "audit": "RECHECK"
       }
     },
     "G009": {
@@ -3542,6 +3566,6 @@
       }
     }
   },
-  "rear_generated_at": "2026-09-09T22:37:47Z",
-  "rear_found": 53
+  "rear_generated_at": "2026-09-09T22:40:44Z",
+  "rear_found": 65
 }

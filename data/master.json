@@ -1266,14 +1266,16 @@
       "id": "0119",
       "en": "FLOOR MAT ANCHORS",
       "ko": "플로어 매트 고정 앵커",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
-        "HY_LX2_2025_FLOOR_MAT_ANCHOR"
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
       ],
       "aliases": [
         "FLOOR MAT ANCHOR",
         "FLOOR MAT ANCHOR(S)"
-      ]
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0119.jpg"
     },
     {
       "id": "0120",
@@ -2054,21 +2056,23 @@
       "id": "0191",
       "en": "WINDSHIELD WASHER NOZZLE",
       "ko": "앞유리 워셔 노즐",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0191.jpg"
     },
     {
       "id": "0192",
       "en": "REAR WINDOW WASHER NOZZLE",
       "ko": "뒷유리 워셔 노즐",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0192.jpg"
     },
     {
       "id": "0193",
@@ -2151,21 +2155,23 @@
       "id": "0199",
       "en": "DOOR HINGE",
       "ko": "도어 힌지",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0199.jpg"
     },
     {
       "id": "0200",
       "en": "DOOR CHECKER",
       "ko": "도어 체커",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0200.jpg"
     },
     {
       "id": "0201",
@@ -2182,11 +2188,12 @@
       "id": "0202",
       "en": "REFLECTOR",
       "ko": "리플렉터",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0202.jpg"
     },
     {
       "id": "0203",
@@ -3195,11 +3202,12 @@
       "id": "0296",
       "en": "CUP HOLDER INSERT",
       "ko": "컵홀더 인서트",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0296.jpg"
     },
     {
       "id": "0297",
@@ -3238,11 +3246,12 @@
       "id": "0300",
       "en": "BRAKE PEDAL",
       "ko": "브레이크 페달",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0300.jpg"
     },
     {
       "id": "0301",
@@ -3335,11 +3344,12 @@
       "id": "0309",
       "en": "CARGO HOOK",
       "ko": "러기지 후크",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0309.jpg"
     },
     {
       "id": "0310",
@@ -3488,21 +3498,23 @@
       "id": "0323",
       "en": "SEAT BELT TONGUE",
       "ko": "시트벨트 텅",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0323.jpg"
     },
     {
       "id": "0324",
       "en": "SEAT BELT RETRACTOR",
       "ko": "시트벨트 리트랙터",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0324.jpg"
     },
     {
       "id": "0325",
@@ -3562,11 +3574,12 @@
       "id": "0330",
       "en": "SEAT BELT GUIDE",
       "ko": "시트벨트 가이드",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0330.jpg"
     },
     {
       "id": "0331",
@@ -3646,31 +3659,34 @@
       "id": "0338",
       "en": "DOOR STRIKER",
       "ko": "도어 스트라이커",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0338.jpg"
     },
     {
       "id": "0339",
       "en": "DOOR LATCH",
       "ko": "도어 래치",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0339.jpg"
     },
     {
       "id": "0340",
       "en": "DOOR LOCK ACTUATOR",
       "ko": "도어 잠금 액추에이터",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0340.jpg"
     },
     {
       "id": "0341",
@@ -3912,21 +3928,23 @@
       "id": "0363",
       "en": "SEAT BELT RETRACTOR",
       "ko": "시트벨트 리트랙터",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0363.jpg"
     },
     {
       "id": "0364",
       "en": "SEAT BELT GUIDE",
       "ko": "시트벨트 가이드",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0364.jpg"
     },
     {
       "id": "0365",
@@ -3965,11 +3983,12 @@
       "id": "0368",
       "en": "AIRBAG WARNING LABEL",
       "ko": "에어백 경고 라벨",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0368.jpg"
     },
     {
       "id": "0369",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T21:45:19Z",
+  "generated_at": "2026-09-09T22:31:37Z",
   "models": {
     "H001": {
       "model": "INSTER",
@@ -149,40 +149,124 @@
       },
       "candidates": [
         {
+          "score": 27,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/find-a-car/pip/suv/tucson-nx4-2023/design/tucson-design-front-accordion-m.jpg",
+          "meta": "Tucson exterior front design bgCenter responsive-image",
+          "page": "https://www.hyundai.com/worldwide/en/suv/tucson-2023/design"
+        },
+        {
+          "score": 25,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/find-a-car/pip/suv/tucson-nx4-2023/design/tucson-design-side-accordion-m.jpg",
+          "meta": "Tucson exterior side design bgCenter responsive-image",
+          "page": "https://www.hyundai.com/worldwide/en/suv/tucson-2023/design"
+        },
+        {
+          "score": 25,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/find-a-car/pip/suv/tucson-nx4-2023/design/tucson-design-rear-accordion-m.jpg",
+          "meta": "Tucson exterior rear design bgCenter responsive-image",
+          "page": "https://www.hyundai.com/worldwide/en/suv/tucson-2023/design"
+        },
+        {
+          "score": 25,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/find-a-car/pip/suv/tucson-nx4-2023/design/tucson-design-front-accordion-pc.jpg",
+          "meta": "",
+          "page": "https://www.hyundai.com/worldwide/en/suv/tucson-2023/design"
+        },
+        {
           "score": 23,
           "url": "https://www.hyundai.com/contents/repn-car/side-45/tucson-26my-45side.png",
           "meta": "",
           "page": "https://www.hyundai.com/kr/ko/e/vehicles/tucson/intro"
         },
         {
-          "score": -12,
-          "url": "https://www.hyundai.com/static/images/common/favicon/favicon-96x96.png",
-          "meta": "",
-          "page": "https://www.hyundai.com/kr/ko/e/vehicles/tucson/intro"
+          "score": 23,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/find-a-car/pip/suv/tucson-nx4-2023/design/tucson-2023-design-kv-pc.jpg",
+          "meta": "The new TUCSON Design key visual responsive-image",
+          "page": "https://www.hyundai.com/worldwide/en/suv/tucson-2023/design"
         },
         {
-          "score": -12,
-          "url": "https://www.hyundai.com/static/images/common/favicon/favicon-32x32.png",
-          "meta": "",
-          "page": "https://www.hyundai.com/kr/ko/e/vehicles/tucson/intro"
+          "score": 23,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/find-a-car/pip/suv/tucson-nx4-2023/design/tucson-design-side-orange-optimized-m.jpg",
+          "meta": "Tucson side view responsive-image",
+          "page": "https://www.hyundai.com/worldwide/en/suv/tucson-2023/design"
         },
         {
-          "score": -12,
-          "url": "https://www.hyundai.com/static/images/common/favicon/favicon-16x16.png",
-          "meta": "",
-          "page": "https://www.hyundai.com/kr/ko/e/vehicles/tucson/intro"
+          "score": 23,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/find-a-car/pip/suv/tucson-nx4-2023/design/tucson-design-side-mirror-original.jpg",
+          "meta": "Tucson Turn Signal Indicator LED Outside Mirror",
+          "page": "https://www.hyundai.com/worldwide/en/suv/tucson-2023/design"
         },
         {
-          "score": -12,
-          "url": "https://www.hyundai.com/static/images/common/favicon/apple-touch-icon.png",
-          "meta": "",
-          "page": "https://www.hyundai.com/kr/ko/e/vehicles/tucson/intro"
+          "score": 23,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/find-a-car/pip/suv/tucson-nx4-2023/design/tucson-design-rear-main-m.jpg",
+          "meta": "Tucson rear view responsive-image",
+          "page": "https://www.hyundai.com/worldwide/en/suv/tucson-2023/design"
         },
         {
-          "score": -26,
-          "url": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/company/investor-relations/management-information/governance/management-information-governance-profile-eui-sun-chung-pc.webp",
+          "score": 23,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/find-a-car/pip/suv/tucson-nx4-2023/social/tucson-2023-design-social.jpg",
           "meta": "",
-          "page": "https://www.hyundai.com/kr/ko/e/vehicles/tucson/intro"
+          "page": "https://www.hyundai.com/worldwide/en/suv/tucson-2023/design"
+        },
+        {
+          "score": 23,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/find-a-car/pip/suv/tucson-nx4/tucson-nx4-teaer-stg-pc.jpg",
+          "meta": "",
+          "page": "https://www.hyundai.com/worldwide/en/suv/tucson-2023/design"
+        },
+        {
+          "score": 23,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/find-a-car/pip/suv/tucson-nx4/tucson-nx4-teaer-stg-m.jpg",
+          "meta": "",
+          "page": "https://www.hyundai.com/worldwide/en/suv/tucson-2023/design"
+        },
+        {
+          "score": 23,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/find-a-car/pip/suv/tucson-nx4-2023/design/tucson-2023-design-kv-m.jpg",
+          "meta": "",
+          "page": "https://www.hyundai.com/worldwide/en/suv/tucson-2023/design"
+        },
+        {
+          "score": 23,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/find-a-car/pip/suv/tucson-nx4-2023/design/tucson-design-side-accordion-pc.jpg",
+          "meta": "",
+          "page": "https://www.hyundai.com/worldwide/en/suv/tucson-2023/design"
+        },
+        {
+          "score": 23,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/find-a-car/pip/suv/tucson-nx4-2023/design/tucson-design-side-orange-optimized-pc.jpg",
+          "meta": "",
+          "page": "https://www.hyundai.com/worldwide/en/suv/tucson-2023/design"
+        },
+        {
+          "score": 23,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/find-a-car/pip/suv/tucson-nx4-2023/design/tucson-design-rear-accordion-pc.jpg",
+          "meta": "",
+          "page": "https://www.hyundai.com/worldwide/en/suv/tucson-2023/design"
+        },
+        {
+          "score": 23,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/find-a-car/pip/suv/tucson-nx4-2023/design/tucson-design-rear-main-pc.jpg",
+          "meta": "",
+          "page": "https://www.hyundai.com/worldwide/en/suv/tucson-2023/design"
+        },
+        {
+          "score": 23,
+          "url": "https://www.hyundai.com/contents/repn-car/side-45/tucson-hybrid-26my-45side.png",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/tucson-hybrid/intro"
+        },
+        {
+          "score": 18,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/find-a-car/pip/suv/tucson-nx4-2023/design/tucson-design-front-dark-metal-grille-original.jpg",
+          "meta": "Tucson Dark Metal Paint Radiator Grille (Clear Type DRL)",
+          "page": "https://www.hyundai.com/worldwide/en/suv/tucson-2023/design"
+        },
+        {
+          "score": 18,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/find-a-car/pip/suv/tucson-nx4-2023/design/tucson-design-front-dark-tinted-grille-original.jpg",
+          "meta": "Tucson Dark Tinted Chrome Radiator Grille (Hidden Lighting DRL)",
+          "page": "https://www.hyundai.com/worldwide/en/suv/tucson-2023/design"
         }
       ],
       "rear": {
@@ -2073,6 +2157,12 @@
       },
       "candidates": [
         {
+          "score": 17,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k8/26my/spec/k8_specification_front_pc.png",
+          "meta": "K8 제원 정면 : 전폭 1,880mm, 전고 1,480mm, 윤거 전 1,624mm ※ 윤거/전고는 20인치 타이어 적용 기준, 단위 : mm",
+          "page": "https://www.kia.com/kr/vehicles/k8/specification"
+        },
+        {
           "score": 15,
           "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k8/25pe/content/k8_exterior_soundproof_glass_mo.jpg",
           "meta": "small",
@@ -2101,6 +2191,24 @@
           "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k8/25pe/content/k8_exterior_soundproof_glass_pop_mo.jpg",
           "meta": "",
           "page": "https://www.kia.com/kr/vehicles/k8/features"
+        },
+        {
+          "score": 15,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k8/26my/spec/k8_specification_front_mo.png",
+          "meta": "",
+          "page": "https://www.kia.com/kr/vehicles/k8/specification"
+        },
+        {
+          "score": 15,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k8/26my/spec/k8_specification_rear_pc.png",
+          "meta": "K8 제원 후면 : 전폭 1,880mm, 전고 1,480mm, 윤거 후 1,631mm ※ 윤거/전고는 20인치 타이어 적용 기준, 단위 : mm",
+          "page": "https://www.kia.com/kr/vehicles/k8/specification"
+        },
+        {
+          "score": 15,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k8/26my/spec/k8_specification_3direction_pc.png",
+          "meta": "K8 제원 정면,후면,측면 : 전폭 1,880mm, 전고 1,480mm, 윤거 전 1,624mm, 전폭 1,880mm, 윤거 후 1,631mm, 전장 5,050mm, 축거 2,895mm ※ 윤거/전고는 20인치 타이어 적용 기준, 단위 : mm",
+          "page": "https://www.kia.com/kr/vehicles/k8/specification"
         },
         {
           "score": 13,
@@ -2166,30 +2274,6 @@
           "score": 13,
           "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/represent/krgl301/k8_gljs4aa36_b_abp.png",
           "meta": "노블레스 라이트 A/T",
-          "page": "https://www.kia.com/kr/vehicles/k8/features"
-        },
-        {
-          "score": 13,
-          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k8/25pe/content/k8_signature_black_main_mo.jpg",
-          "meta": "small",
-          "page": "https://www.kia.com/kr/vehicles/k8/features"
-        },
-        {
-          "score": 13,
-          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k8/25pe/content/k8_signature_black_main_sm.jpg",
-          "meta": "K8 시그니처 블랙 외장 small",
-          "page": "https://www.kia.com/kr/vehicles/k8/features"
-        },
-        {
-          "score": 13,
-          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k8/25pe/content/k8_signature_black_main_lg.jpg",
-          "meta": "K8 시그니처 블랙 외장 large",
-          "page": "https://www.kia.com/kr/vehicles/k8/features"
-        },
-        {
-          "score": 13,
-          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k8/25pe/content/k8_signature_black_emblem_mo.jpg",
-          "meta": "small",
           "page": "https://www.kia.com/kr/vehicles/k8/features"
         }
       ],

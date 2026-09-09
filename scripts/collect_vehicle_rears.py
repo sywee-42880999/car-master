@@ -23,8 +23,9 @@ if REJECTS_FILE.exists():
     for k,v in _rj.items():
         vals=v if isinstance(v,list) else [v]
         REJECTS[k]={x.get("url") for x in vals if isinstance(x,dict) and x.get("url")}
-REAR=("rear","back","34rear","rear34","rear-three-quarter","three-quarter-rear","rear_3-4","rear-3-4","back34","back-34","후면","후측면","후측")
-BAD=("interior","seat","wheel","lamp","headlamp","grille","spoiler","sunroof","sensor","safety","adas","detail","close","feature","accessory","profile-eui-sun","governance","suspension","protection")
+REAR=("rear","34rear","rear34","rear-three-quarter","three-quarter-rear","rear_3-4","rear-3-4","back view","back side","back34","back-34","후면","후측면","후측")
+BAD=("interior","seat","wheel","lamp","headlamp","grille","spoiler","sunroof","sensor","safety","adas","detail","close","feature","accessory","profile-eui-sun","governance","suspension","protection","collision","warning","garnish","charger","charging","bumper","emergency door","emergency-door")
+HARD_BAD=("interior","seat","spoiler","sensor","safety","adas","detail","accessory","suspension","collision","warning","garnish","charger","charging","emergency door","emergency-door","rearviewmonitor","rear-view monitor","closeup","close-up")
 NEUTRAL=("silver","gray","grey","white","uyuni","atlas","snow","steel","pearl","creamy","cyber","ecotronic","shimmering")
 
 def clean(s): return re.sub(r"[^a-z0-9]+","",(s or "").lower())
@@ -78,6 +79,10 @@ def page_images(page):
 def score(u,meta,name):
     text=unquote(u+" "+meta).lower(); ct=clean(text)
     if not any(k in text for k in REAR):return -999
+    if any(k in text for k in HARD_BAD):return -999
+    n=name.lower()
+    if ("hatchback" in text or "fastback" in text) and not ("hatchback" in n or "fastback" in n):return -999
+    if ("n-line" in text or "nline" in clean(text)) and "n line" not in n:return -999
     exact=max((len(a) for a in aliases(name) if a and a in ct),default=0)
     s=30 if exact>=5 else 12 if exact>=2 else -30
     for g in variant_groups(name):

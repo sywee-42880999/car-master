@@ -1,0 +1,113 @@
+{
+  "version": "2026-09-10",
+  "rejects": {
+    "H001": {
+      "url": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_INSTER_Cross_Exterior_Top_Front_3x4:3x4?wid=480&fit=wrap",
+      "reason": "front 3/4 source, not rear"
+    },
+    "H007": {
+      "url": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ9_Lightning-Pattern_Video_16x9_Thumbnail?wid=720&fit=constrain",
+      "reason": "mixed front/rear video thumbnail"
+    },
+    "H013": {
+      "url": "https://dmassets.hyundai.com/is/image/hyundaiautoever/HYU_BC3_CUV_IViz_Location_24",
+      "reason": "rear seats/interior"
+    },
+    "H014": {
+      "url": "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/i20/Highlights/pc/i20galleryb_3.jpg",
+      "reason": "metadata says Elantra; wrong model"
+    },
+    "H016": {
+      "url": "https://dmassets.hyundai.com/is/image/hyundaiautoever/HYU_PD_HATCHBACK_EViz_Env_PE2-EcotronicGrayPearl_52910G4720_C02",
+      "reason": "front three-quarter"
+    },
+    "H023": {
+      "url": "https://www.hyundai.com/content/dam/hyundai/id/id/images/find-a-car/pip/new-creta/exterior/Connecting-LED-Lamps-1620x911.png",
+      "reason": "lighting detail / mismatched metadata"
+    },
+    "H025": {
+      "url": "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/creta-electric/highlights/pc/cretaev-wirelesscharger.jpg",
+      "reason": "wireless charger interior"
+    },
+    "H026": {
+      "url": "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Exter/exterior/ext-bold-skid-plates.jpg",
+      "reason": "rear skid plate detail"
+    },
+    "H027": {
+      "url": "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Alcazar/booking-open/ITdeviceholderandretractablecupholder.jpg",
+      "reason": "seat-back table/interior"
+    },
+    "H028": {
+      "url": "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Verna/Exterior/bold_bumper-design.jpg",
+      "reason": "rear bumper detail"
+    },
+    "H049": {
+      "url": "https://trucknbus.hyundai.com/global/en/images/product/cars/xcient/rear-air-suspension.jpg",
+      "reason": "rear air suspension detail"
+    },
+    "H054": {
+      "url": "https://www.hyundai.com/cstatic/images/product/cars/elec-city-town/rear-parking-distance-warning.jpg",
+      "reason": "parking warning feature detail"
+    },
+    "H056": {
+      "url": "https://www.hyundai.com/cstatic/images/product/cars/unicity/rear-warning-system.jpg",
+      "reason": "rear warning system detail"
+    },
+    "H057": {
+      "url": "https://trucknbus.hyundai.com/global/en/images/product/cars/universe/rear-bumper-with-reverse-warning-system-opt.jpg",
+      "reason": "rear bumper warning detail"
+    },
+    "K001": {
+      "url": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/vehicles/ja/picanto-my25/discover/kia-picanto-my25-rearviewmonitor-keyvisual-d-w.jpg",
+      "reason": "rear-view monitor feature"
+    },
+    "K002": {
+      "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ray/27my/content/ray_xline_rear_garnish_mo.jpg",
+      "reason": "rear garnish detail"
+    },
+    "K005": {
+      "url": "https://www.kia.com/content/dam/kwcms/mx/es/images/showroom/2025/k3-hatchback/white-profile/img_kia_k3_hb_perfil.png",
+      "reason": "side profile, not rear"
+    },
+    "K007": {
+      "url": "https://www.kia.com/us/content/dam/kia/us/en/vehicles/k4-hatchback/2026/global-hero/kia-hero-v21920-hero-myxx-vehicle.jpg",
+      "reason": "generic hero; rear not established"
+    },
+    "K009": {
+      "url": "https://www.kia.com/us/content/dam/kia/us/en/images/global-header/vehicles/sedan-hatchback/mm-large-static-desktop.png",
+      "reason": "generic header image"
+    },
+    "K012": {
+      "url": "https://www.kia.com/content/dam/kia2/in/en/our-vehicles/showroom/sonet/slider/caurosel/1440x2560_2_1.jpg",
+      "reason": "rear angle not established"
+    },
+    "K014": {
+      "url": "https://www.kia.com/content/dam/kia2/in/en/our-vehicles/syros/new/Ex_ORVM_d.jpg",
+      "reason": "ORVM/mirror feature"
+    },
+    "K015": {
+      "url": "https://www.kia.com/content/dam/kia2/in/en/images/our-vehicles/syros_ev/comfort/FrontRear.jpeg",
+      "reason": "feature/composite, not clean rear"
+    },
+    "K018": {
+      "url": "https://www.kia.com/content/dam/kia2/in/en/our-vehicles/kia-carens-clavis-ev/showroom/s-8/s8-4.png",
+      "reason": "rear cross-traffic feature"
+    },
+    "K025": {
+      "url": "https://www.kia.com/us/content/dam/kia/us/en/vehicles/telluride/2027/mep/cross-sell/column-control-2-img-2.jpg",
+      "reason": "rear angle not established"
+    },
+    "K029": {
+      "url": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/vehicles/ev4/my26/discover/kia-ev4-my26-NA-Beauty_34-Rear_MaleTalent_rgb-1920x1080.jpg",
+      "reason": "hatchback rear used for EV4 sedan"
+    },
+    "K031": {
+      "url": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/gnb/flyout-neu/kia_ev4-gtl_hatchback_520x260.png",
+      "reason": "GT-Line hatchback used for EV4 GT"
+    },
+    "G001": {
+      "url": "https://s7d1.scene7.com/is/image/hyundai/gs-1687-21x9-g70:21-9?wid=2206&hei=946&fmt=webp",
+      "reason": "passenger-side 3/4; rear not established"
+    }
+  }
+}

@@ -739,10 +739,12 @@
       "id": "0070",
       "en": "SEAT BELT PRETENSIONER",
       "ko": "안전벨트 프리텐셔너",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
-        "HY_LX3_2026_CHILD_RESTRAINT"
-      ]
+        "HY_LX3_2026_PRETENSIONER_DIRECT"
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0070.jpg"
     },
     {
       "id": "0071",
@@ -3175,11 +3177,12 @@
       "id": "0299",
       "en": "PARKING BRAKE PEDAL",
       "ko": "주차 브레이크 페달",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_NX4_2025_PARKING_BRAKE_PEDAL"
+      ],
+      "image": "images/parts/0299.jpg"
     },
     {
       "id": "0300",
@@ -3195,11 +3198,12 @@
       "id": "0301",
       "en": "REAR CENTER ARMREST",
       "ko": "뒷좌석 센터 암레스트",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_NX4_2025_REAR_ARMREST_CUP"
+      ],
+      "image": "images/parts/0301.jpg"
     },
     {
       "id": "0302",
@@ -3238,11 +3242,12 @@
       "id": "0305",
       "en": "REAR POWER OUTLET",
       "ko": "뒷좌석 전원 소켓",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_NX4_2025_CARGO_POWER_OUTLET"
+      ],
+      "image": "images/parts/0305.jpg"
     },
     {
       "id": "0306",
@@ -3526,11 +3531,12 @@
       "id": "0332",
       "en": "CHILD-PROTECTOR REAR DOOR LOCK",
       "ko": "어린이 보호용 뒷도어 잠금장치",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_NH2_2026_CHILD_LOCK_DIRECT"
+      ],
+      "image": "images/parts/0332.jpg"
     },
     {
       "id": "0333",

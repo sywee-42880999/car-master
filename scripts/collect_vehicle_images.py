@@ -192,6 +192,15 @@ def main():
         print(f"[{n}/{len(target)}] {mid} {name}",flush=True)
         im,url,score,meta=choose(name,vt,pages,over)
         rec=old.setdefault("models",{}).setdefault(mid,{"model":name,"brand":brand})
+        diag=[]
+        for page in pages:
+            try:
+                for cu,cm in page_images(page):
+                    diag.append((candidate_score(cu,cm,name,page),cu,cm,page))
+            except Exception:
+                pass
+        diag.sort(reverse=True,key=lambda x:x[0])
+        rec["candidates"]=[{"score":round(x[0],2),"url":x[1],"meta":(x[2] or "")[:180],"page":x[3]} for x in diag[:20]]
         out=OUT/brand/f"{mid.lower()}_front.webp"
         if im:
             out.parent.mkdir(parents=True,exist_ok=True)

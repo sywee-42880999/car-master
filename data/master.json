@@ -94,12 +94,24 @@
     {
       "id": "0009",
       "en": "FRONT RADAR",
-      "ko": "전방 레이더"
+      "ko": "전방 레이더",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0009.jpg",
+      "source_refs": [
+        "HY_NX4_2025_RADARS"
+      ]
     },
     {
       "id": "0010",
       "en": "FRONT VIEW CAMERA",
-      "ko": "전방 카메라"
+      "ko": "전방 카메라",
+      "status": "PASS",
+      "production_backlog": false,
+      "image": "images/parts/0010.jpg",
+      "source_refs": [
+        "HY_NE1N_2026_FCA_SENSORS"
+      ]
     },
     {
       "id": "0011",
@@ -2297,31 +2309,34 @@
       "id": "0218",
       "en": "FRONT CAMERA",
       "ko": "전방 카메라",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_NE1N_2026_FCA_SENSORS"
+      ],
+      "image": "images/parts/0218.jpg"
     },
     {
       "id": "0219",
       "en": "SIDE CAMERA",
       "ko": "측면 카메라",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_NE1N_2025_WIDE_CAMERAS"
+      ],
+      "image": "images/parts/0219.jpg"
     },
     {
       "id": "0220",
       "en": "REAR CAMERA",
       "ko": "후방 카메라",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_NE1N_2025_WIDE_CAMERAS"
+      ],
+      "image": "images/parts/0220.jpg"
     },
     {
       "id": "0221",
@@ -3993,41 +4008,45 @@
       "id": "0378",
       "en": "FRONT CORNER RADAR",
       "ko": "전방 코너 레이더",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_LX3_2026_ADAS_SENSORS"
-      ]
+        "HY_NE1N_2026_FCA_SENSORS"
+      ],
+      "image": "images/parts/0378.jpg"
     },
     {
       "id": "0379",
       "en": "REAR CORNER RADAR",
       "ko": "후방 코너 레이더",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_LX3_2026_ADAS_SENSORS"
-      ]
+        "HY_NE1N_2026_FCA_SENSORS"
+      ],
+      "image": "images/parts/0379.jpg"
     },
     {
       "id": "0380",
       "en": "WIDE-FRONT VIEW CAMERA",
       "ko": "광각 전방 카메라",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_LX3_2026_ADAS_SENSORS"
-      ]
+        "HY_NE1N_2025_WIDE_CAMERAS"
+      ],
+      "image": "images/parts/0380.jpg"
     },
     {
       "id": "0381",
       "en": "WIDE-SIDE VIEW CAMERA",
       "ko": "광각 측면 카메라",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_LX3_2026_ADAS_SENSORS"
-      ]
+        "HY_NE1N_2025_WIDE_CAMERAS"
+      ],
+      "image": "images/parts/0381.jpg"
     },
     {
       "id": "0382",
@@ -5039,11 +5058,12 @@
       "id": "0475",
       "en": "FUSE PULLER",
       "ko": "퓨즈 풀러",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_FUSE_COMPONENTS"
-      ]
+        "HY_NX4_2025_FUSE_PULLER"
+      ],
+      "image": "images/parts/0475.jpg"
     },
     {
       "id": "0476",

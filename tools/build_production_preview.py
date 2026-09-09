@@ -3,7 +3,7 @@ from PIL import Image
 import urllib.request, json
 
 ROOT=Path(__file__).resolve().parents[1]
-PARTS=ROOT/"images"/"parts"; OUT=ROOT/"production-preview"; DL=OUT/"batch-24-battery-tire-spare"
+PARTS=ROOT/"images"/"parts"; OUT=ROOT/"production-preview"; DL=OUT/"batch-25-cluster"
 PARTS.mkdir(parents=True,exist_ok=True); DL.mkdir(parents=True,exist_ok=True)
 
 def fetch(url,id_):
@@ -34,11 +34,10 @@ def save(im,id_):
     return v.width,v.height,out.stat().st_size
 
 jobs={
-"0479":("https://ownersmanual.hyundai.com/full_webhelp/NX4/2025/en_GN/images/2C_ISGBatterySensor.jpg.png",None,"HY_NX4_2025_BATTERY_SENSOR_DIRECT"),
-"0489":("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_TireSideWallLabelling.jpg.png",None,"HY_LX3_2026_TIRE_SIDEWALL_DIRECT"),
-"0491":("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_SpareTireReplacementOverview.jpg.png",(0.10,0.42,0.42,0.95),"HY_SPARE_TIRE_COMPONENTS"),
-"0492":("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_SpareTireReplacementOverview.jpg.png",(0.00,0.00,1.00,0.45),"HY_SPARE_TIRE_COMPONENTS"),
-"0487":("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_SpareTireReplacementPrecedure_4.jpg.png",(0.28,0.22,0.76,0.78),"HY_WHEEL_TIRE_COMPONENTS"),
+"0388":("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_DistanceToEmpty.jpg.png",None,"HY_LX3_2026_DISTANCE_TO_EMPTY"),
+"0389":("https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/images/2C_OutsideTemp.jpg.png",None,"HY_NE1A_2025_OUTSIDE_TEMP"),
+"0386":("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/1C_ClusterOverview_1.jpg.png",(0.00,0.00,0.48,1.00),"HY_LX3_2026_CLUSTER_GAUGES_WARNINGS"),
+"0387":("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/1C_ClusterOverview_1.jpg.png",(0.28,0.05,0.78,0.95),"HY_LX3_2026_CLUSTER_GAUGES_WARNINGS"),
 }
 
 mf=ROOT/"data"/"master.json"; master=json.loads(mf.read_text(encoding="utf-8"))
@@ -53,10 +52,10 @@ for id_,(url,b,src) in jobs.items():
 for id_,term,src,w,h,size in passed:
     x=byid[id_]; x["status"]="PASS"; x["production_backlog"]=False; x["image"]=f"images/parts/{id_}.jpg"; x["source_refs"]=[src]
 mf.write_text(json.dumps(master,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-rf=ROOT/"research"/"backlog-recovery-24-battery-tire-spare.md"
-lines=["# CAR MASTER — Backlog Recovery 24 — Battery/Tire/Spare","","## PASS"]
+rf=ROOT/"research"/"backlog-recovery-25-cluster.md"
+lines=["# CAR MASTER — Backlog Recovery 25 — Cluster","","## PASS"]
 lines += [f"- **{a} {b}** — {d}x{e}, {f} bytes — {c}" for a,b,c,d,e,f in passed] or ["- None"]
 lines += ["","## Failures"]+[f"- **{a} {b}** — {c}" for a,b,c in failed] or ["- None"]
-lines += ["","## Reverse-QA","- 0479 must visibly show the battery sensor on the battery terminal.","- 0489 must show the tire sidewall labeling area.","- 0491/0492 must distinguish jack bracket vs tool case.","- 0487 must show wheel center-cap area, not merely the full wheel.","- Count live Production only after Codex reverse-QA."]
+lines += ["","## Reverse-QA","- 0388 must show Distance to Empty directly.","- 0389 must show Outside Temperature directly.","- 0386 must read as engine coolant temperature gauge; 0387 as central cluster display.","- Count live Production only after Codex reverse-QA."]
 rf.write_text("\n".join(lines)+"\n",encoding="utf-8")
 print("PASS",passed); print("FAIL",failed)

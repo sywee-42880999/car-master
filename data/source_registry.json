@@ -3158,6 +3158,38 @@
         "0489"
       ],
       "source_verified_at": "2026-09-09"
+    },
+    "HY_LX3_2026_DISTANCE_TO_EMPTY": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/topic_fxk_bxb_2cc.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_DistanceToEmpty"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0388"
+      ],
+      "source_verified_at": "2026-09-09"
+    },
+    "HY_NE1A_2025_OUTSIDE_TEMP": {
+      "maker": "Hyundai",
+      "model": "IONIQ 5 NE1a",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/topic_kx2_55q_t5b.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_OutsideTemp"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0389"
+      ],
+      "source_verified_at": "2026-09-09"
     }
   }
 }

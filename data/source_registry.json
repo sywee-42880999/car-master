@@ -3037,6 +3037,58 @@
         "0475"
       ],
       "source_verified_at": "2026-09-09"
+    },
+    "HY_LX3_2026_JUMP_TERMINALS": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/topic_nb1_r5c_qcc.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_JumpStartOverview"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0472",
+        "0473"
+      ],
+      "source_verified_at": "2026-09-09"
+    },
+    "HY_NX4_2025_COOLANT_CAP": {
+      "maker": "Hyundai",
+      "model": "Tucson NX4",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NX4/2025/en_GN/id1aa58c65f4e.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_CheckCoolantCapLocked",
+        "2C_CheckCoolantCapLocked_2"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0471"
+      ],
+      "source_verified_at": "2026-09-09"
+    },
+    "HY_SX2EV_2025_AC_CHARGER": {
+      "maker": "Hyundai",
+      "model": "Kona EV SX2EV",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/SX2EV/2025/en_US/id8ca6367ceb4.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_ACCharger"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0400",
+        "0401",
+        "0497"
+      ],
+      "source_verified_at": "2026-09-09"
     }
   }
 }

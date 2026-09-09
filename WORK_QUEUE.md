@@ -1732,3 +1732,9 @@ Codex action:
 3. Reverse-QA 0479 battery sensor, 0487 center cap, 0489 tire sidewall, 0491 vs 0492 bracket/tool case.
 4. Reverse-QA 0386 vs 0387 carefully: coolant gauge vs central cluster display.
 5. Count live Production only after BLACK UI + mobile + reverse-QA.
+## ISSUE #1 UX CORRECTION — 2026-09-09
+- Removed per-card correct/NICE/PERFECT overlays from the self-reported learning action.
+- Added an always-available Game Rules control; first-run rules still open automatically.
+- Each newly cleared STEP now stores one coffee and shows an explicit inventory deposit message; locked inventory displays stored count out of five.
+- STEP 5 deposit leads to TEST UNLOCKED, preserving the required exam transition.
+- Mobile QA: rules first-run/reopen PASS; ordinary card overlay absent; STEP 1 deposit message PASS; localStorage coffeeReward=1; inventory 1/5; horizontal overflow 0; runtime errors 0.

@@ -1,9 +1,9 @@
-const CACHE = 'car-vocabulary-game-v1';
+const CACHE = 'car-vocabulary-game-v2';
 const ASSETS = [
   './',
   './index.html',
-  './game.css?v=1',
-  './game.js?v=1',
+  './game.css?v=2',
+  './game.js?v=2',
   './black-preview.html',
   './black-preview.css?v=2',
   './black-preview.js?v=3',

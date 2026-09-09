@@ -1546,3 +1546,81 @@ Codex action:
 3. Reverse-QA warning icons by exact English term -> official Hyundai icon.
 4. Hold only exact IDs that visually mismatch; do not downgrade unrelated cards.
 5. Count live Production only after mobile + reverse-QA.
+
+
+## ACCELERATED 100-ITEM ATTEMPTS — BATCHES 19–20 — 2026-09-09
+
+User requested processing in 100-item units where practical, while preserving exact PASS criteria.
+
+### Batch 19 — first 100-item attempt
+- Actions run #122: SUCCESS
+- Attempted: 100
+- PASS produced: **36**
+- Production failures: 0
+- Deferred: 64
+- Research: `research/backlog-recovery-19-100-attempt.md`
+- Production commit: `afb8ff45e4a814bd910b2c3a478ad40d5b86e7f6`
+
+Key promoted groups:
+- official seat controls / seat-belt controls
+- Hyundai official ADAS ultrasonic sensor images
+- CCS adapter / portable charging connector
+- PHEV high-voltage components
+- RSPA smart-key button
+- fuse / wheel lug nut / spare-tire hold-down
+- exact physical duplicate reuses for cargo floor, USB/12V/wireless charger, rear cup holder
+- official HyundaiOwns indicator glyphs
+
+### Batch 20 — second 100-item attempt
+- Actions run #124: SUCCESS
+- Attempted: 100
+- PASS produced: **17**
+- Production failures: 2
+- Deferred: 81
+- Research: `research/backlog-recovery-20-100-attempt.md`
+- Production commit: `786cf56a89f6330ebd8b5023f560d98b5a2a974d`
+
+Batch 20 PASS:
+- 0289 PASSENGER AIRBAG INDICATOR
+- 0304 REAR USB CHARGER
+- 0310 CARGO POWER OUTLET
+- 0319 RELAXATION COMFORT SEAT SWITCH
+- 0348 AUTO LIGHT SENSOR
+- 0356 REAR CONSOLE USB PORT
+- 0367 PASSENGER OCCUPANT SENSOR
+- 0417 FRONT TRUNK
+- 0499 FRONT TRUNK COVER
+- 0377 FRONT CENTER SIDE AIRBAG
+- 0283 VOLUME KNOB
+- 0284 TUNE KNOB
+- 0285 HOME BUTTON
+- 0286 MEDIA BUTTON
+- 0287 SETUP BUTTON
+- 0288 SEEK/TRACK BUTTON
+- 0498 V2L CONNECTOR COVER
+
+Batch 20 source failures kept hidden:
+- 0265 IDLE STOP AND GO OFF BUTTON — candidate image path 404
+- 0332 CHILD-PROTECTOR REAR DOOR LOCK — candidate image path 404
+
+### Aggregate result of two 100-item attempts
+- Total attempted across the two runs: **200**
+- New PASS candidates: **53**
+- Current master PASS candidates: **346 / 500**
+- Current REVIEW/backlog: **154**
+
+Guardrails remain unchanged:
+- 100-item attempt does NOT mean forced 100 PASS.
+- Multi-component overview images require card-specific isolation before promotion.
+- Exact physical image reuse is permitted only for truly identical hardware under synonymous/locational master terms.
+- Search fallback order: Hyundai official -> maker official/media -> reliable automotive web.
+- Count toward live Production only after BLACK UI bind + mobile + Codex reverse-QA.
+
+### Codex action
+1. Pull latest `main`.
+2. Bind all Batch 19–20 promoted IDs with current image blobs.
+3. Reverse-QA English term -> exact visible physical part/icon -> exact image.
+4. Check audio-control crops 0283–0288 individually.
+5. Check 0417 vs 0499 as front trunk vs front-trunk cover.
+6. Check duplicate physical reuses individually before live counting.
+7. Hold only exact failing IDs; do not downgrade unrelated validated cards.

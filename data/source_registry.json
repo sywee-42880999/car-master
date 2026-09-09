@@ -2613,6 +2613,121 @@
         "0269"
       ],
       "source_verified_at": "2026-09-08"
+    },
+    "HY_LX3_2026_MANUAL_SEAT_ADJUST": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/topic_ucw_xt1_k2c.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_AdjustSeatForwardBackwardmanual",
+        "2C_AdjustSeatBackmanual",
+        "2C_AdjustSeatHeightmanual"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0311",
+        "0312",
+        "0313"
+      ],
+      "source_verified_at": "2026-09-09"
+    },
+    "HY_LX3_2026_SEAT_BELT_RESTRAINT": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/idff24e696250.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_AdjustSeatBelt",
+        "2C_SeatBeltRelease",
+        "2C_AdjustSeatBeltHeight",
+        "2C_RearCenterSeatBeltWearStep"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0322",
+        "0329",
+        "0361",
+        "0362"
+      ],
+      "source_verified_at": "2026-09-09"
+    },
+    "HY_NH2_2026_RSPA_SMART_KEY_BUTTON": {
+      "maker": "Hyundai",
+      "model": "Hyundai NH2",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NH2/2026/ko_KR/ida23e5f7bd1e.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_RSPASmartKeyButton"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0446"
+      ],
+      "source_verified_at": "2026-09-09"
+    },
+    "HY_US4_2025_AUDIO_CONTROL_PANEL": {
+      "maker": "Hyundai",
+      "model": "Hyundai US4",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/US4/2025/en_GN/ida5a2cf26a54.html",
+      "pdf_url": null,
+      "image_keys": [
+        "CGJ4M0000EE",
+        "CGJ4M0001EE"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0282"
+      ],
+      "source_verified_at": "2026-09-09"
+    },
+    "HY_NE1N_2026_PDW_SENSORS": {
+      "maker": "Hyundai",
+      "model": "IONIQ 5 N NE1N",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/ne1n/2026/en_us/topic_xjg_cyl_w5b.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_FrontUltrasonicSensor",
+        "2C_RearUltrasonicSensor"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0382",
+        "0384"
+      ],
+      "source_verified_at": "2026-09-09"
+    },
+    "HY_NE1N_2025_PCA_SENSORS": {
+      "maker": "Hyundai",
+      "model": "IONIQ 5 N NE1N",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/ne1n/2025/ko_kr/id236SE050YY4.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_FrontSideUltrsonicSensor",
+        "2C_RearSideUltrsonicSensor",
+        "2C_WideFrontSideViewCamera",
+        "2C_WideRearCamera"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0380",
+        "0381",
+        "0383",
+        "0385"
+      ],
+      "source_verified_at": "2026-09-09"
     }
   }
 }

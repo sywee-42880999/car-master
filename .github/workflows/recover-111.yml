@@ -79,5 +79,7 @@ jobs:
             exit 1
           fi
           git commit -m "Restore 111 missing CAR MASTER image assets"
+          git restore .
+          git clean -fd production-preview research || true
           git pull --rebase origin main
           git push origin HEAD:main

@@ -1505,3 +1505,44 @@ Codex action:
 Current master:
 - PASS candidates: **258 / 500**
 - REVIEW/backlog: **242**
+
+
+## ACCELERATED BACKLOG RECOVERY — BATCHES 17–18 — 2026-09-09
+User requested faster processing without reducing accuracy.
+
+New bulk-production strategy:
+1. Warning/indicator icons: parse Hyundai official warning-light page, map official label -> glyph -> color class, render with Hyundai official HyundaiOwns font into 4:3 cards.
+2. Synonymous duplicate physical components: reuse an already validated exact image only when the physical component is truly the same and only the terminology differs.
+3. Dedicated hardware images: continue using official Hyundai/Kia manual images with part-specific crops.
+4. Ambiguous service/underbody items stay deferred until a direct visual exists.
+
+Batch 17 — warning icon bulk recovery:
+- Actions run #118: SUCCESS.
+- 31 attempted, **30 PASS**, 1 failed auto-map.
+- PASS: 0390–0395 and 0421–0445 except 0429.
+- 0429 AWD WARNING LIGHT remains backlog; page item exists but automatic parser did not capture item 14.
+- Source method: Hyundai official warning page + Hyundai official `HYUNDAI_OWNS-Regular.woff`.
+- Each learning image contains only the official target icon; no generic cluster screenshot reuse.
+
+Batch 18:
+- Actions run #120: SUCCESS.
+- PASS:
+  - 0460 TPMS MALFUNCTION INDICATOR
+  - 0418 CHARGE/POWER GAUGE
+  - 0419 HIGH VOLTAGE BATTERY SOC GAUGE
+  - 0406 V2L CONNECTOR
+  - 0407 V2L POWER OUTLET
+- 0429 retry still failed; keep hidden.
+- 0418/0419 reuse exact already-validated gauge assets from synonymous 0467/0468 physical components.
+- 0406/0407 use dedicated Hyundai IONIQ 5 V2L official images.
+
+Current master after Batch 18:
+- PASS candidates: **293 / 500**
+- REVIEW/backlog: **207**
+
+Codex action:
+1. Pull latest `main`.
+2. Bind newly promoted Batch 17–18 IDs using current blobs.
+3. Reverse-QA warning icons by exact English term -> official Hyundai icon.
+4. Hold only exact IDs that visually mismatch; do not downgrade unrelated cards.
+5. Count live Production only after mobile + reverse-QA.

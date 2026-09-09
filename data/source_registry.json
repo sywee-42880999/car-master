@@ -2963,6 +2963,80 @@
         "0379"
       ],
       "source_verified_at": "2026-09-09"
+    },
+    "HY_NX4_2025_RADARS": {
+      "maker": "Hyundai",
+      "model": "Tucson NX4",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NX4/2025/en_US/id9a49044923d.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_FrontRadar",
+        "2C_RearCornerRadar"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0009",
+        "0379"
+      ],
+      "source_verified_at": "2026-09-09"
+    },
+    "HY_NE1N_2026_FCA_SENSORS": {
+      "maker": "Hyundai",
+      "model": "IONIQ 5 N NE1N",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NE1N/2026/en_US/id23BSE400QPM.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_FrontCameraRadar",
+        "2C_RearRadar_2"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0010",
+        "0218",
+        "0378",
+        "0379"
+      ],
+      "source_verified_at": "2026-09-09"
+    },
+    "HY_NE1N_2025_WIDE_CAMERAS": {
+      "maker": "Hyundai",
+      "model": "IONIQ 5 N NE1N",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/ne1n/2025/ko_kr/id236SE050YY4.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_WideFrontSideViewCamera",
+        "2C_WideRearCamera"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0219",
+        "0220",
+        "0380",
+        "0381"
+      ],
+      "source_verified_at": "2026-09-09"
+    },
+    "HY_NX4_2025_FUSE_PULLER": {
+      "maker": "Hyundai",
+      "model": "Tucson NX4",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NX4/2025/en_GN/id1c3fc6742c6.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_EngineRoomFuseReplacement"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0475"
+      ],
+      "source_verified_at": "2026-09-09"
     }
   }
 }

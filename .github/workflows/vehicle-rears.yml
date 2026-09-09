@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - data/models-latest.json
+      - data/rear-source-rejects.json
       - scripts/collect_vehicle_rears.py
       - .github/workflows/vehicle-rears.yml
 

@@ -1,0 +1,102 @@
+{
+  "version": "1.0",
+  "target_ui": {
+    "app_max_width_px": 430,
+    "mobile_horizontal_padding_px": 16,
+    "card_visual_css_px": [
+      398,
+      244
+    ],
+    "preferred_asset_px": [
+      1194,
+      732
+    ],
+    "aspect_ratio": 1.63114754,
+    "retina_scale": 3
+  },
+  "fit_rules": {
+    "passenger": {
+      "target_body_width_pct": [
+        84,
+        88
+      ],
+      "target_body_height_max_pct": 82,
+      "safe_left_right_pct": [
+        6,
+        8
+      ],
+      "safe_top_pct": [
+        7,
+        10
+      ],
+      "safe_bottom_pct": [
+        8,
+        12
+      ]
+    },
+    "suv_mpv_pickup": {
+      "target_body_width_pct": [
+        82,
+        87
+      ],
+      "target_body_height_max_pct": 84,
+      "safe_left_right_pct": [
+        7,
+        9
+      ],
+      "safe_top_pct": [
+        6,
+        9
+      ],
+      "safe_bottom_pct": [
+        8,
+        11
+      ]
+    },
+    "truck_bus_commercial": {
+      "target_body_width_pct": [
+        76,
+        84
+      ],
+      "target_body_height_max_pct": 86,
+      "safe_left_right_pct": [
+        9,
+        12
+      ],
+      "safe_top_pct": [
+        5,
+        8
+      ],
+      "safe_bottom_pct": [
+        7,
+        10
+      ]
+    }
+  },
+  "source_priority": [
+    "official configurator / 360",
+    "official white-background model thumbnail",
+    "official model-page gallery",
+    "official newsroom / media center",
+    "official brochure"
+  ],
+  "color_priority": [
+    "silver",
+    "light gray",
+    "white",
+    "other light neutral",
+    "other official color"
+  ],
+  "naming": "images/vehicles/{brand}/{master_id}_{front|rear}.webp",
+  "item_fields": {
+    "view": "vehicle",
+    "vehicle_type": "passenger | suv | mpv | pickup | truck | bus | commercial",
+    "object_position": "50% 50%"
+  },
+  "notes": [
+    "Do not crop wheels, mirrors, roof, bumpers or cargo/body extremities.",
+    "Front and rear images of one model should use the same color/trim when practical.",
+    "Use source whitespace first; CSS margins are a safety layer, not a substitute for bad crops.",
+    "Existing 4:3 part images remain unchanged."
+  ]
+}

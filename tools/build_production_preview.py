@@ -3,7 +3,7 @@ from PIL import Image
 import urllib.request, json
 
 ROOT=Path(__file__).resolve().parents[1]
-PARTS=ROOT/"images"/"parts"; OUT=ROOT/"production-preview"; DL=OUT/"batch-23-seat-tire"
+PARTS=ROOT/"images"/"parts"; OUT=ROOT/"production-preview"; DL=OUT/"batch-24-battery-tire-spare"
 PARTS.mkdir(parents=True,exist_ok=True); DL.mkdir(parents=True,exist_ok=True)
 
 def fetch(url,id_):
@@ -34,11 +34,13 @@ def save(im,id_):
     return v.width,v.height,out.stat().st_size
 
 jobs={
-"0079":("https://ownersmanual.hyundai.com/full_webhelp/LX2/2025/en_US/images/B0053EU09.jpg.png",None,"HY_LX2_2025_REAR_SEAT_GUIDE"),
-"0330":("https://ownersmanual.hyundai.com/full_webhelp/LX2/2025/en_US/images/B0053EU07.jpg.png",None,"HY_LX2_2025_REAR_SEAT_GUIDE"),
-"0364":("https://ownersmanual.hyundai.com/full_webhelp/LX2/2025/en_US/images/B0053EU08.jpg.png",None,"HY_LX2_2025_REAR_SEAT_GUIDE"),
-"0488":("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_TMKProcedure_3.jpg.png",(0.30,0.20,0.90,0.95),"HY_LX3_2026_TMK_VALVE"),
+"0479":("https://ownersmanual.hyundai.com/full_webhelp/NX4/2025/en_GN/images/2C_ISGBatterySensor.jpg.png",None,"HY_NX4_2025_BATTERY_SENSOR_DIRECT"),
+"0489":("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_TireSideWallLabelling.jpg.png",None,"HY_LX3_2026_TIRE_SIDEWALL_DIRECT"),
+"0491":("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_SpareTireReplacementOverview.jpg.png",(0.10,0.42,0.42,0.95),"HY_SPARE_TIRE_COMPONENTS"),
+"0492":("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_SpareTireReplacementOverview.jpg.png",(0.00,0.00,1.00,0.45),"HY_SPARE_TIRE_COMPONENTS"),
+"0487":("https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/images/2C_SpareTireReplacementPrecedure_4.jpg.png",(0.28,0.22,0.76,0.78),"HY_WHEEL_TIRE_COMPONENTS"),
 }
+
 mf=ROOT/"data"/"master.json"; master=json.loads(mf.read_text(encoding="utf-8"))
 items=master.get("items",master.get("entries",master if isinstance(master,list) else [])); byid={x["id"]:x for x in items}
 passed=[]; failed=[]
@@ -51,10 +53,10 @@ for id_,(url,b,src) in jobs.items():
 for id_,term,src,w,h,size in passed:
     x=byid[id_]; x["status"]="PASS"; x["production_backlog"]=False; x["image"]=f"images/parts/{id_}.jpg"; x["source_refs"]=[src]
 mf.write_text(json.dumps(master,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-rf=ROOT/"research"/"backlog-recovery-23-seat-tire.md"
-lines=["# CAR MASTER — Backlog Recovery 23 — Seat/Tire","","## PASS"]
+rf=ROOT/"research"/"backlog-recovery-24-battery-tire-spare.md"
+lines=["# CAR MASTER — Backlog Recovery 24 — Battery/Tire/Spare","","## PASS"]
 lines += [f"- **{a} {b}** — {d}x{e}, {f} bytes — {c}" for a,b,c,d,e,f in passed] or ["- None"]
 lines += ["","## Failures"]+[f"- **{a} {b}** — {c}" for a,b,c in failed] or ["- None"]
-lines += ["","## Reverse-QA","- 0079 must show the folding lever/strap, not generic rear seat.","- 0330/0364 must show seat-belt guide routing points.","- 0488 must show the tire valve cap/valve area clearly.","- Count live Production only after Codex reverse-QA."]
+lines += ["","## Reverse-QA","- 0479 must visibly show the battery sensor on the battery terminal.","- 0489 must show the tire sidewall labeling area.","- 0491/0492 must distinguish jack bracket vs tool case.","- 0487 must show wheel center-cap area, not merely the full wheel.","- Count live Production only after Codex reverse-QA."]
 rf.write_text("\n".join(lines)+"\n",encoding="utf-8")
 print("PASS",passed); print("FAIL",failed)

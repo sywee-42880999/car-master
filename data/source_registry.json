@@ -2728,6 +2728,54 @@
         "0385"
       ],
       "source_verified_at": "2026-09-09"
+    },
+    "HY_LX3_2026_CLUSTER_ILLUMINATION": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/id8e7cd3c47f1.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_AdjustClusterLightingBrightness"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0263"
+      ],
+      "source_verified_at": "2026-09-09"
+    },
+    "HY_NE1N_2026_LANE_SAFETY_BUTTON": {
+      "maker": "Hyundai",
+      "model": "IONIQ 5 N NE1N",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NE1N/2026/en_US/topic_vdw_1sl_w5b.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_LaneSafetyButton"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0266"
+      ],
+      "source_verified_at": "2026-09-09"
+    },
+    "HY_LX3_2026_HUD_INFO": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/id888c8d7e48a.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_HUDIconInfo"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0270"
+      ],
+      "source_verified_at": "2026-09-09"
     }
   }
 }

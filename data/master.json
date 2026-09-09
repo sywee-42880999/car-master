@@ -836,19 +836,23 @@
       "id": "0079",
       "en": "SEATBACK FOLDING LEVER",
       "ko": "시트백 폴딩 레버",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
-        "HY_NE1N_2026_SEAT_OVERVIEW"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0079.jpg"
     },
     {
       "id": "0080",
       "en": "REMOTE FOLDING BUTTON",
       "ko": "원격 폴딩 버튼",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
-        "HY_NE1N_2026_SEAT_OVERVIEW"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0080.jpg"
     },
     {
       "id": "0081",
@@ -1464,10 +1468,12 @@
       "id": "0137",
       "en": "SPARE TIRE CARRIER",
       "ko": "스페어 타이어 캐리어",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
-        "HY_LX3_2026_SPARE_TIRE"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0137.jpg"
     },
     {
       "id": "0138",
@@ -1484,10 +1490,12 @@
       "id": "0139",
       "en": "WHEEL STUDS",
       "ko": "휠 스터드",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
-        "HY_LX3_2026_SPARE_TIRE"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0139.jpg"
     },
     {
       "id": "0140",
@@ -1594,10 +1602,12 @@
       "id": "0149",
       "en": "RADIATOR CAP",
       "ko": "라디에이터 캡",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
-        "HY_LX2_2025_ENGINE_ROOM"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0149.jpg"
     },
     {
       "id": "0150",
@@ -1674,10 +1684,12 @@
       "id": "0156",
       "en": "FUEL TANK AIR FILTER",
       "ko": "연료 탱크 에어 필터",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
-        "HY_LX3_2026_MAINTENANCE_ITEMS"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0156.jpg"
     },
     {
       "id": "0157",
@@ -1694,19 +1706,23 @@
       "id": "0158",
       "en": "BRAKE LINE",
       "ko": "브레이크 라인",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
-        "HY_LX3_2026_MAINTENANCE_ITEMS"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0158.jpg"
     },
     {
       "id": "0159",
       "en": "BRAKE HOSE",
       "ko": "브레이크 호스",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
-        "HY_LX3_2026_MAINTENANCE_ITEMS"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0159.jpg"
     },
     {
       "id": "0160",
@@ -1763,10 +1779,12 @@
       "id": "0164",
       "en": "STEERING LINKAGE",
       "ko": "스티어링 링키지",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
-        "HY_LX3_2026_SEVERE_MAINTENANCE"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0164.jpg"
     },
     {
       "id": "0165",
@@ -1860,21 +1878,23 @@
       "id": "0173",
       "en": "FRONT SUSPENSION",
       "ko": "프론트 서스펜션",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0173.jpg"
     },
     {
       "id": "0174",
       "en": "REAR SUSPENSION",
       "ko": "리어 서스펜션",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0174.jpg"
     },
     {
       "id": "0175",
@@ -2752,11 +2772,12 @@
       "id": "0253",
       "en": "DEFROSTER VENT",
       "ko": "디프로스터 벤트",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0253.jpg"
     },
     {
       "id": "0254",
@@ -2850,11 +2871,12 @@
       "id": "0262",
       "en": "POWER STEERING WHEEL ADJUSTMENT SWITCH",
       "ko": "전동 스티어링 휠 조절 스위치",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0262.jpg"
     },
     {
       "id": "0263",
@@ -2991,21 +3013,23 @@
       "id": "0275",
       "en": "TRIP COMPUTER",
       "ko": "트립 컴퓨터",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0275.jpg"
     },
     {
       "id": "0276",
       "en": "WARNING LIGHT",
       "ko": "경고등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0276.jpg"
     },
     {
       "id": "0277",
@@ -3033,11 +3057,12 @@
       "id": "0279",
       "en": "DRIVER INFORMATION DISPLAY",
       "ko": "운전자 정보 디스플레이",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0279.jpg"
     },
     {
       "id": "0280",
@@ -3712,21 +3737,23 @@
       "id": "0341",
       "en": "WINDSHIELD WASHER",
       "ko": "앞유리 워셔",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0341.jpg"
     },
     {
       "id": "0342",
       "en": "REAR WINDOW WASHER",
       "ko": "뒷유리 워셔",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0342.jpg"
     },
     {
       "id": "0343",
@@ -3754,11 +3781,12 @@
       "id": "0345",
       "en": "HEATED SIDE VIEW MIRROR",
       "ko": "열선 실외 미러",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0345.jpg"
     },
     {
       "id": "0346",
@@ -4972,21 +5000,23 @@
       "id": "0457",
       "en": "TIRE PRESSURE SENSOR",
       "ko": "타이어 공기압 센서",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_LX3_2026_TPMS"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0457.jpg"
     },
     {
       "id": "0458",
       "en": "TIRE VALVE STEM",
       "ko": "타이어 밸브 스템",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_LX3_2026_TPMS"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0458.jpg"
     },
     {
       "id": "0459",

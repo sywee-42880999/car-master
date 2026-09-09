@@ -5204,11 +5204,12 @@
       "id": "0488",
       "en": "TIRE VALVE CAP",
       "ko": "타이어 밸브 캡",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_WHEEL_TIRE_COMPONENTS"
-      ]
+        "HY_LX3_2026_TMK_VALVE"
+      ],
+      "image": "images/parts/0488.jpg"
     },
     {
       "id": "0489",

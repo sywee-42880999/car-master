@@ -1,0 +1,46 @@
+name: Rebuild SRS and charging learning images
+
+on:
+  push:
+    paths:
+      - ".github/workflows/rebuild-srs-charging.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install pillow
+      - run: python tools/rebuild_srs_charging.py
+      - name: Validate and commit
+        run: |
+          python - <<'PY'
+          from PIL import Image
+          from pathlib import Path
+          ids="0369 0370 0371 0372 0373 0374 0375 0397 0493 0494 0495 0496".split()
+          bad=[]
+          for id_ in ids:
+              p=Path("images/parts")/f"{id_}.jpg"
+              try:
+                  im=Image.open(p); im.verify()
+                  im=Image.open(p)
+                  if im.size!=(800,600): bad.append((id_,im.size))
+              except Exception as e: bad.append((id_,str(e)))
+          print("bad",bad)
+          if bad: raise SystemExit(1)
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tools/rebuild_srs_charging.py
+          git add images/parts/0369.jpg images/parts/0370.jpg images/parts/0371.jpg images/parts/0372.jpg images/parts/0373.jpg images/parts/0374.jpg images/parts/0375.jpg images/parts/0397.jpg images/parts/0493.jpg images/parts/0494.jpg images/parts/0495.jpg images/parts/0496.jpg
+          git commit -m "Rebuild SRS and charging cards with distinct physical targets"
+          git pull --rebase origin main
+          git push origin HEAD:main

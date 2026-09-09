@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T21:26:12Z",
+  "generated_at": "2026-09-09T21:28:12Z",
   "models": {
     "H001": {
       "model": "INSTER",
@@ -26,9 +26,9 @@
       "brand": "hyundai",
       "front": {
         "file": "images/vehicles/hyundai/h003_front.webp",
-        "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ-3_Exterior-Front-Side_3_Three-Quarter-Front:16x9?wid=640&hei=360&fit=wrap",
-        "score": 33.32,
-        "meta": "",
+        "source": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/find-a-car/pip/eco/ioniq5-2024/design/ioniq5-design-exterior-main-mo.jpg",
+        "score": 27.25,
+        "meta": "Vehicle coming down the curve responsive-image",
         "audit": "RECHECK"
       }
     },
@@ -37,8 +37,8 @@
       "brand": "hyundai",
       "front": {
         "file": "images/vehicles/hyundai/h004_front.webp",
-        "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ-3_Exterior-Front-Side_3_Three-Quarter-Front:16x9?wid=640&hei=360&fit=wrap",
-        "score": 33.32,
+        "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/03_IONIQ5N_Exterior_Driving_Circuit_Front_02:4x3?wid=480&hei=360&fit=wrap",
+        "score": 27.24,
         "meta": "",
         "audit": "RECHECK"
       }
@@ -48,9 +48,9 @@
       "brand": "hyundai",
       "front": {
         "file": "images/vehicles/hyundai/h005_front.webp",
-        "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ-3_Exterior-Front-Side_3_Three-Quarter-Front:16x9?wid=640&hei=360&fit=wrap",
-        "score": 33.32,
-        "meta": "",
+        "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ6_Exterior_Video_16x9_Thumbnail?wid=720&fit=constrain",
+        "score": 27.63,
+        "meta": "Hyundai IONIQ 6 electric sedan shown from the side in front of a modern building. dynamic-video__posterimage",
         "audit": "RECHECK"
       }
     },
@@ -59,8 +59,8 @@
       "brand": "hyundai",
       "front": {
         "file": "images/vehicles/hyundai/h006_front.webp",
-        "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ-3_Exterior-Front-Side_3_Three-Quarter-Front:16x9?wid=640&hei=360&fit=wrap",
-        "score": 33.32,
+        "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ-6N_Exterior-Front_Driving_CE_N_Exterior_Main_02_Urban:16x9?wid=1920&fit=wrap",
+        "score": 29.89,
         "meta": "",
         "audit": "RECHECK"
       }
@@ -87,11 +87,9 @@
       "model": "TUCSON",
       "brand": "hyundai",
       "front": {
-        "file": "images/vehicles/hyundai/h009_front.webp",
-        "source": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/company/investor-relations/management-information/governance/management-information-governance-profile-eui-sun-chung-pc.webp",
-        "score": 9.48,
-        "meta": "",
-        "audit": "RECHECK"
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "H010": {
@@ -144,9 +142,9 @@
       "brand": "hyundai",
       "front": {
         "file": "images/vehicles/hyundai/h015_front.webp",
-        "source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/vehicle-thumbnail/Thumbnail/exter_thumbnail_pc.png",
-        "score": 37.16,
-        "meta": "Hyundai EXTER Car Hyundai EXTER Car",
+        "source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/i20-n-line/Highlights/pc/i20-n-linethumbnail-pc.png",
+        "score": 44.98,
+        "meta": "Hyundai i20 N LINE Car Hyundai i20 N LINE Car",
         "audit": "RECHECK"
       }
     },
@@ -155,9 +153,9 @@
       "brand": "hyundai",
       "front": {
         "file": "images/vehicles/hyundai/h016_front.webp",
-        "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ-3_Exterior-Front-Side_3_Three-Quarter-Front:16x9?wid=640&hei=360&fit=wrap",
-        "score": 23.32,
-        "meta": "",
+        "source": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/find-a-car/pip/cars/i30-pde/i30-pde-design-front-accordion-m.jpg",
+        "score": 15.64,
+        "meta": "i30 front design bgCenter responsive-image",
         "audit": "RECHECK"
       }
     },
@@ -192,11 +190,9 @@
       "model": "ST1",
       "brand": "hyundai",
       "front": {
-        "file": "images/vehicles/hyundai/h020_front.webp",
-        "source": "https://www.hyundai.com/content/dam/hyundai/kr/ko/images/common/common-ht01-background-cloud-image-m.jpg",
-        "score": 18.11,
-        "meta": "",
-        "audit": "RECHECK"
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "H021": {
@@ -224,8 +220,8 @@
       "brand": "hyundai",
       "front": {
         "file": "images/vehicles/hyundai/h023_front.webp",
-        "source": "https://www.hyundai.com/content/dam/hyundai/id/en/data/vehicle-thumbnail/product/stargazer-cartenz-x/default/stargazer-cartenz-x-640x344.png",
-        "score": 31.31,
+        "source": "https://www.hyundai.com/content/dam/hyundai/id/en/data/vehicle-thumbnail/product/new-creta/creta-640x344.png",
+        "score": 27.31,
         "meta": "",
         "audit": "RECHECK"
       }
@@ -235,9 +231,9 @@
       "brand": "hyundai",
       "front": {
         "file": "images/vehicles/hyundai/h024_front.webp",
-        "source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/vehicle-thumbnail/Thumbnail/exter_thumbnail_pc.png",
-        "score": 37.16,
-        "meta": "Hyundai EXTER Car Hyundai EXTER Car",
+        "source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/vehicle-thumbnail/Thumbnail/creta-thumbnail-pc.png",
+        "score": 47.16,
+        "meta": "Hyundai CRETA N Line Car Hyundai CRETA N Line Car",
         "audit": "RECHECK"
       }
     },
@@ -264,9 +260,9 @@
       "brand": "hyundai",
       "front": {
         "file": "images/vehicles/hyundai/h027_front.webp",
-        "source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/vehicle-thumbnail/Thumbnail/exter_thumbnail_pc.png",
+        "source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/vehicle-thumbnail/Thumbnail/thumbnail460x250.png",
         "score": 27.16,
-        "meta": "Hyundai EXTER Car Hyundai EXTER Car",
+        "meta": "Hyundai ALCAZAR Car Hyundai ALCAZAR Car",
         "audit": "RECHECK"
       }
     },
@@ -275,9 +271,9 @@
       "brand": "hyundai",
       "front": {
         "file": "images/vehicles/hyundai/h028_front.webp",
-        "source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/vehicle-thumbnail/Thumbnail/exter_thumbnail_pc.png",
+        "source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/vehicle-thumbnail/Thumbnail/verna_thumbanil_pc.png",
         "score": 27.16,
-        "meta": "Hyundai EXTER Car Hyundai EXTER Car",
+        "meta": "Hyundai VERNA Car Hyundai VERNA Car",
         "audit": "RECHECK"
       }
     },
@@ -408,7 +404,7 @@
       "front": {
         "file": "images/vehicles/hyundai/h042_front.webp",
         "source": "https://org3.hyundai.com/content/dam/hyundai/ww/en/images/newsroom/news-image/2023/09/0915-02/gallery/gallery-image-1170x640-03.jpg",
-        "score": 21.04,
+        "score": 28.04,
         "meta": "New ELANTRA N, driving on a winding road, three-quarter front view lazyLoadImg New ELANTRA N, driving on a winding road, three-quarter front view post-asset__thumb lazyLoadImg",
         "audit": "RECHECK"
       }
@@ -426,11 +422,9 @@
       "model": "GRANDEUR",
       "brand": "hyundai",
       "front": {
-        "file": "images/vehicles/hyundai/h044_front.webp",
-        "source": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/company/investor-relations/management-information/governance/management-information-governance-profile-eui-sun-chung-pc.webp",
-        "score": 9.48,
-        "meta": "",
-        "audit": "RECHECK"
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "H045": {
@@ -491,11 +485,9 @@
       "model": "COUNTY",
       "brand": "hyundai",
       "front": {
-        "file": "images/vehicles/hyundai/h051_front.webp",
-        "source": "https://trucknbus.hyundai.com/global/en/upload/metadata/MT00000002/modern-premium-gnb-1.jpg",
-        "score": 22.02,
-        "meta": "Hyundai Brand Story",
-        "audit": "RECHECK"
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "H052": {
@@ -539,8 +531,8 @@
       "brand": "hyundai",
       "front": {
         "file": "images/vehicles/hyundai/h056_front.webp",
-        "source": "https://www.hyundai.com/cstatic/images/product/cars/unicity/vehicle-lower-protection-net.jpg",
-        "score": 34.51,
+        "source": "https://www.hyundai.com/cstatic/images/product/cars/unicity/side-trim.jpg",
+        "score": 25.2,
         "meta": "",
         "audit": "RECHECK"
       }
@@ -550,9 +542,9 @@
       "brand": "hyundai",
       "front": {
         "file": "images/vehicles/hyundai/h057_front.webp",
-        "source": "https://trucknbus.hyundai.com/global/en/images/product/cars/universe/air-suspension-front.jpg",
-        "score": 34.08,
-        "meta": "Air suspension (Front)",
+        "source": "https://trucknbus.hyundai.com/global/en/images/product/cars/universe/wide-front-head-lining-noble-only.jpg",
+        "score": 25.2,
+        "meta": "Wide front head lining (Noble only)",
         "audit": "RECHECK"
       }
     },
@@ -588,9 +580,9 @@
       "brand": "kia",
       "front": {
         "file": "images/vehicles/kia/k004_front.webp",
-        "source": "https://www.kia.com/content/dam/kwcms/mx/es/images/showroom/2026/seltos/thumbnail/Sxl_snow-white-pearl_seltos_configura_tu_kia.png",
-        "score": 32.82,
-        "meta": "msg_vehicle_seltos msg_vehicle_seltos",
+        "source": "https://www.kia.com/content/dam/kwcms/mx/es/images/showroom/2026/k3-sedan/MiniaturasCaracteristicas/AjusteMiniaturas/K3_sd_white_L.png",
+        "score": 27.82,
+        "meta": "",
         "audit": "RECHECK"
       }
     },
@@ -599,9 +591,9 @@
       "brand": "kia",
       "front": {
         "file": "images/vehicles/kia/k005_front.webp",
-        "source": "https://dealers.kia.com/content/dam/kwcms/mx/es/images/showroom/2026/seltos/thumbnail/Sxl_snow-white-pearl_seltos_configura_tu_kia.png",
-        "score": 44.82,
-        "meta": "msg_vehicle_seltos msg_vehicle_seltos",
+        "source": "https://www.kia.com/content/dam/kwcms/mx/es/images/showroom/2024/k3-hatchback/360-complete/snow-white-pearl/360-Kia-K3-HB-SNOW-WHITE-PEARL00.png",
+        "score": 41.01,
+        "meta": "",
         "audit": "RECHECK"
       }
     },
@@ -648,9 +640,9 @@
       "brand": "kia",
       "front": {
         "file": "images/vehicles/kia/k010_front.webp",
-        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/represent/krgl301/k8_s_byg.png",
-        "score": 13.61,
-        "meta": "",
+        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k8/25pe/content/k8_exterior_soundproof_glass_mo.jpg",
+        "score": 15.45,
+        "meta": "small",
         "audit": "RECHECK"
       }
     },
@@ -722,9 +714,9 @@
       "brand": "kia",
       "front": {
         "file": "images/vehicles/kia/k018_front.webp",
-        "source": "https://www.kia.com/content/dam/kia2/in/en/images/360vr/new_seltos/1mw5k8g1ugg205/exterior/ebb/08-m.png",
-        "score": 45.25,
-        "meta": "d2-img",
+        "source": "https://www.kia.com/content/dam/kia2/in/en/our-vehicles/kia-carens-clavis-ev/showroom/s-5/s5-kv-d.png",
+        "score": 44.79,
+        "meta": "Kia Carens Clavis EV elctric car showing front display",
         "audit": "RECHECK"
       }
     },
@@ -743,7 +735,7 @@
       "front": {
         "file": "images/vehicles/kia/k020_front.webp",
         "source": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/all-new-niro/RHD_Front_Static_HI_d_2.jpg",
-        "score": 19.88,
+        "score": 17.88,
         "meta": "",
         "audit": "RECHECK"
       }
@@ -763,7 +755,7 @@
       "front": {
         "file": "images/vehicles/kia/k022_front.webp",
         "source": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/xceed/MY26/XCeed_Blue-Flame(1920x1080).jpg",
-        "score": 29.88,
+        "score": 27.88,
         "meta": "",
         "audit": "RECHECK"
       }
@@ -835,11 +827,9 @@
       "model": "EV4 Fastback / Hatchback",
       "brand": "kia",
       "front": {
-        "file": "images/vehicles/kia/k030_front.webp",
-        "source": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/vehicles/ev4/my26/discover/kia-ev4-my26-NA-Beauty_34-Rear_MaleTalent_rgb-1920x1080.jpg",
-        "score": 12.88,
-        "meta": "Unique rear hatchback design",
-        "audit": "RECHECK"
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K031": {
@@ -882,11 +872,9 @@
       "model": "EV6 GT",
       "brand": "kia",
       "front": {
-        "file": "images/vehicles/kia/k035_front.webp",
-        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ev6-gt/27my/gallery/image/ev6-gt_gallery_image_front.jpg",
-        "score": 8.74,
-        "meta": "",
-        "audit": "RECHECK"
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K036": {
@@ -902,11 +890,9 @@
       "model": "EV9 GT",
       "brand": "kia",
       "front": {
-        "file": "images/vehicles/kia/k037_front.webp",
-        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ev9-gt/26my/gallery/image/ev9-gt_gallery_image_front.jpg",
-        "score": 8.74,
-        "meta": "",
-        "audit": "RECHECK"
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K038": {
@@ -996,7 +982,7 @@
       "front": {
         "file": "images/vehicles/kia/k047_front.webp",
         "source": "https://www.kia.com/content/dam/kwp/kr/ko/main-kv-contents/202311/kv_bongo3_contract_pc.jpg",
-        "score": 28.88,
+        "score": 26.88,
         "meta": "The 2026 Bongo III",
         "audit": "RECHECK"
       }
@@ -1105,8 +1091,8 @@
       "brand": "genesis",
       "front": {
         "file": "images/vehicles/genesis/g011_front.webp",
-        "source": "https://s7d1.scene7.com/is/image/hyundai/2026-g80-35t-spt-pst-awd-uyuniwhite-obsidianblackwredstitchwcarbonfiber-frontdrvrangle-studio-3:16-9?wid=700&hei=394&fmt=webp",
-        "score": 30.37,
+        "source": "https://s7d1.scene7.com/is/image/hyundai/2027-gv80-35t-pst-awd-makalugray-blackmonotoneandoliveashwood-frontdrvrangle-studio-gnav:16-9?wid=700&hei=394&fmt=webp",
+        "score": 26.88,
         "meta": "responsive-image responsive-image--unloaded models-menu__image responsive-image responsive-image--unloaded models-menu__image",
         "audit": "RECHECK"
       }

@@ -2691,11 +2691,12 @@
       "id": "0254",
       "en": "SIDE AIR VENT",
       "ko": "사이드 에어 벤트",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_NE1A_2025_FRONT_VENT_DEFROST"
+      ],
+      "image": "images/parts/0254.jpg"
     },
     {
       "id": "0255",
@@ -3081,11 +3082,12 @@
       "id": "0290",
       "en": "DIGITAL KEY PAD",
       "ko": "디지털 키 패드",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_NE1A_2025_DIGITAL_KEY_PAD"
+      ],
+      "image": "images/parts/0290.jpg"
     },
     {
       "id": "0291",
@@ -3339,11 +3341,12 @@
       "id": "0314",
       "en": "POWER SEAT CONTROL SWITCH",
       "ko": "전동 시트 조절 스위치",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_NX4_2025_POWER_SEAT_SWITCH"
+      ],
+      "image": "images/parts/0314.jpg"
     },
     {
       "id": "0315",
@@ -3645,21 +3648,23 @@
       "id": "0343",
       "en": "WINDSHIELD DEFROSTER",
       "ko": "앞유리 서리제거 장치",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_NE1A_2025_FRONT_VENT_DEFROST"
+      ],
+      "image": "images/parts/0343.jpg"
     },
     {
       "id": "0344",
       "en": "REAR WINDOW DEFROSTER",
       "ko": "뒷유리 열선",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2026_REAR_DEFROST"
+      ],
+      "image": "images/parts/0344.jpg"
     },
     {
       "id": "0345",

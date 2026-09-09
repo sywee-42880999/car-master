@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T21:40:23Z",
+  "generated_at": "2026-09-09T21:45:19Z",
   "models": {
     "H001": {
       "model": "INSTER",
@@ -87,9 +87,11 @@
       "model": "TUCSON",
       "brand": "hyundai",
       "front": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/hyundai/h009_front.webp",
+        "source": "https://www.hyundai.com/contents/repn-car/side-45/tucson-26my-45side.png",
+        "score": 999,
+        "meta": "override",
+        "audit": "RECHECK"
       },
       "candidates": [
         {
@@ -239,9 +241,11 @@
       "model": "PORTER II",
       "brand": "hyundai",
       "front": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/hyundai/h021_front.webp",
+        "source": "https://www.hyundai-motor.com.tw/upload/car_data/s728add0260b55cb1e6ba7ce70f2b8fe2.png",
+        "score": 999,
+        "meta": "override",
+        "audit": "RECHECK"
       },
       "candidates": [
         {
@@ -533,9 +537,9 @@
       "brand": "hyundai",
       "front": {
         "file": "images/vehicles/hyundai/h038_front.webp",
-        "source": "https://www.hyundai.com/content/dam/hyundai/id/en/data/vehicle-thumbnail/product/stargazer-cartenz-x/default/stargazer-cartenz-x-640x344.png",
-        "score": 35.31,
-        "meta": "",
+        "source": "https://www.hyundai.com/content/dam/hyundai/id/id/images/find-a-car/pip/stargazer-cartenz/car-thumbnail/stargazer-cartenz-640x344.png",
+        "score": 999,
+        "meta": "override",
         "audit": "RECHECK"
       },
       "candidates": [
@@ -712,9 +716,11 @@
       "model": "GRANDEUR",
       "brand": "hyundai",
       "front": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/hyundai/h044_front.webp",
+        "source": "https://www.hyundai.com/contents/repn-car/side-45/grandeur-27fl-45side.png",
+        "score": 999,
+        "meta": "override",
+        "audit": "RECHECK"
       },
       "candidates": [
         {
@@ -852,9 +858,11 @@
       "model": "MU FASA",
       "brand": "hyundai",
       "front": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/hyundai/h046_front.webp",
+        "source": "https://mufasa.beijing-hyundai.com.cn/assets/resource/vehicle/outside/img01-mb.jpg",
+        "score": 999,
+        "meta": "override",
+        "audit": "RECHECK"
       },
       "candidates": [
         {
@@ -1019,9 +1027,11 @@
       "model": "COUNTY",
       "brand": "hyundai",
       "front": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/hyundai/h051_front.webp",
+        "source": "https://trucknbus.hyundai.com/global/en/images/product/cars/county-new-breeze/county-new-main-bg.jpg",
+        "score": 999,
+        "meta": "override",
+        "audit": "RECHECK"
       },
       "candidates": [
         {
@@ -1187,9 +1197,9 @@
       "brand": "hyundai",
       "front": {
         "file": "images/vehicles/hyundai/h056_front.webp",
-        "source": "https://www.hyundai.com/cstatic/images/product/cars/unicity/side-trim.jpg",
-        "score": 25.2,
-        "meta": "",
+        "source": "https://www.hyundai.com/ccontents/carmng/KV00000214/KV00000106unicity-kv-01.jpg",
+        "score": 999,
+        "meta": "override",
         "audit": "RECHECK"
       },
       "candidates": [
@@ -1320,9 +1330,9 @@
       "brand": "hyundai",
       "front": {
         "file": "images/vehicles/hyundai/h057_front.webp",
-        "source": "https://trucknbus.hyundai.com/global/en/images/product/cars/universe/wide-front-head-lining-noble-only.jpg",
-        "score": 25.2,
-        "meta": "Wide front head lining (Noble only)",
+        "source": "https://trucknbus.hyundai.com/global/en/images/product/cars/universe/universe-nobel.jpg",
+        "score": 999,
+        "meta": "override",
         "audit": "RECHECK"
       },
       "candidates": [
@@ -1521,9 +1531,11 @@
       "model": "K4 Sportswagon",
       "brand": "kia",
       "front": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/kia/k008_front.webp",
+        "source": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/contents/about-kia/neue-modelle/k4-sw/kia_neue-modelle_k4-sw_940x640_04.webp",
+        "score": 999,
+        "meta": "override",
+        "audit": "RECHECK"
       },
       "candidates": [
         {
@@ -1662,9 +1674,9 @@
       "brand": "kia",
       "front": {
         "file": "images/vehicles/kia/k010_front.webp",
-        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k8/25pe/content/k8_exterior_soundproof_glass_mo.jpg",
-        "score": 15.45,
-        "meta": "small",
+        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/represent/krgl301/k8_gljs49i36_a_agt.png",
+        "score": 999,
+        "meta": "override",
         "audit": "RECHECK"
       },
       "candidates": [
@@ -1975,9 +1987,11 @@
       "model": "EV4 Fastback / Hatchback",
       "brand": "kia",
       "front": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/kia/k030_front.webp",
+        "source": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/images/new-cars/ev4/2026/ev4_fastback_gtl_specs_482x272.png",
+        "score": 999,
+        "meta": "override",
+        "audit": "RECHECK"
       },
       "candidates": [
         {
@@ -2173,9 +2187,11 @@
       "model": "Tasman Pick-up",
       "brand": "kia",
       "front": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/kia/k038_front.webp",
+        "source": "https://www.kia.com/content/dam/kwcms/au/en/images/showroom/tasman/features/kia-tasman-grade-comparison-pu-s.webp",
+        "score": 999,
+        "meta": "override",
+        "audit": "RECHECK"
       },
       "candidates": [
         {
@@ -2304,9 +2320,11 @@
       "model": "Tasman Single Cab Chassis",
       "brand": "kia",
       "front": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/kia/k039_front.webp",
+        "source": "https://www.kia.com/content/dam/kwcms/au/en/images/showroom/tasman/cab-chassis/kia-tasman-grade-comparison-scc-s.webp",
+        "score": 999,
+        "meta": "override",
+        "audit": "RECHECK"
       },
       "candidates": [
         {
@@ -2435,9 +2453,11 @@
       "model": "Tasman Dual Cab Chassis",
       "brand": "kia",
       "front": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/kia/k040_front.webp",
+        "source": "https://www.kia.com/content/dam/kwcms/au/en/images/showroom/tasman/cab-chassis/kia-tasman-grade-comparison-dcc-s.webp",
+        "score": 999,
+        "meta": "override",
+        "audit": "RECHECK"
       },
       "candidates": [
         {

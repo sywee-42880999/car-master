@@ -1800,3 +1800,159 @@ Codex action:
 - Moved transient lock/restore/system messages from the bottom edge to a centered overlay card.
 - Existing game-rules, STEP, TEST, PASS, KEY, and reward messages already use centered overlays.
 - iPhone 13 QA: message center 195×332 exactly matched viewport center 195×332; horizontal overflow 0.
+
+
+## FULL MASTER IMAGE CANDIDATE COVERAGE — BATCHES 29–33 — 2026-09-09
+
+### Batch 29 — original mechanical schematics
+Current `data/master.json` confirms PASS +21:
+- 0151 ENGINE OIL FILTER
+- 0152 DRIVE BELT
+- 0153 SPARK PLUG
+- 0155 FUEL TANK
+- 0157 FUEL FILTER
+- 0163 STEERING GEAR RACK
+- 0165 STEERING GEAR BOOT
+- 0168 SUSPENSION BALL JOINT
+- 0169 PROPELLER SHAFT
+- 0170 REAR DIFFERENTIAL
+- 0171 FRONT DIFFERENTIAL
+- 0172 TRANSFER CASE
+- 0177 STABILIZER BAR
+- 0181 WHEEL BEARING
+- 0183 STRUT MOUNT
+- 0184 UPPER CONTROL ARM
+- 0185 STABILIZER LINK
+- 0187 SUBFRAME
+- 0188 CROSSMEMBER
+- 0189 UNDER COVER
+- 0190 MUD GUARD
+
+### Batch 30 — original generic schematics
+Actions run #144: SUCCESS
+PASS +18:
+- 0119 FLOOR MAT ANCHORS
+- 0199 DOOR HINGE
+- 0200 DOOR CHECKER
+- 0202 REFLECTOR
+- 0296 CUP HOLDER INSERT
+- 0300 BRAKE PEDAL
+- 0309 CARGO HOOK
+- 0323 SEAT BELT TONGUE
+- 0324 SEAT BELT RETRACTOR
+- 0330 SEAT BELT GUIDE
+- 0338 DOOR STRIKER
+- 0339 DOOR LATCH
+- 0340 DOOR LOCK ACTUATOR
+- 0363 SEAT BELT RETRACTOR
+- 0364 SEAT BELT GUIDE
+- 0368 AIRBAG WARNING LABEL
+- 0191 WINDSHIELD WASHER NOZZLE
+- 0192 REAR WINDOW WASHER NOZZLE
+
+### Batch 31 — trim context schematics
+Actions run #146: SUCCESS
+Current master confirms PASS +22. Surrounding vehicle geometry is shown lightly and the target trim/location is emphasized.
+Promoted:
+- 0210, 0221, 0222, 0229, 0230, 0231, 0232
+- 0242, 0243, 0244, 0245, 0246, 0247, 0248, 0249, 0250
+- 0308, 0349, 0350, 0328, 0331, 0333
+Note: 0337 DOOR SEAL failed in this batch due a drawing-function bug and was recovered in Batch 33.
+
+### Batch 32 — final generic schematics
+Actions run #148: SUCCESS
+Current master confirms PASS +21:
+- 0079 SEATBACK FOLDING LEVER
+- 0080 REMOTE FOLDING BUTTON
+- 0137 SPARE TIRE CARRIER
+- 0139 WHEEL STUDS
+- 0149 RADIATOR CAP
+- 0156 FUEL TANK AIR FILTER
+- 0158 BRAKE LINE
+- 0159 BRAKE HOSE
+- 0164 STEERING LINKAGE
+- 0173 FRONT SUSPENSION
+- 0174 REAR SUSPENSION
+- 0253 DEFROSTER VENT
+- 0262 POWER STEERING WHEEL ADJUSTMENT SWITCH
+- 0275 TRIP COMPUTER
+- 0276 WARNING LIGHT
+- 0279 DRIVER INFORMATION DISPLAY
+- 0341 WINDSHIELD WASHER
+- 0342 REAR WINDOW WASHER
+- 0345 HEATED SIDE VIEW MIRROR
+- 0457 TIRE PRESSURE SENSOR
+- 0458 TIRE VALVE STEM
+
+### Batch 33 — final 22
+Actions run #150: SUCCESS
+Current master confirms the final 22 PASS candidates:
+- 0265 IDLE STOP AND GO OFF BUTTON
+- 0294 AC POWER OUTLET
+- 0337 DOOR SEAL
+- 0353 AC POWER OUTLET
+- 0369 FRONT IMPACT SENSOR
+- 0370 SIDE IMPACT SENSOR
+- 0371 SRS CONTROL MODULE
+- 0372 ROLLOVER SENSOR
+- 0373 SEAT BELT BUCKLE SENSOR
+- 0374 SIDE IMPACT PRESSURE SENSOR
+- 0375 SIDE IMPACT ACCELERATION SENSOR
+- 0397 CHARGING INLET
+- 0414 INVERTER COOLANT RESERVOIR
+- 0415 INVERTER COOLANT RESERVOIR CAP
+- 0416 ECU
+- 0452 SMART KEY SLOT
+- 0465 I-PEDAL INDICATOR
+- 0493 CHARGING PORT CAP
+- 0494 DC CHARGING INLET
+- 0495 AC CHARGING INLET
+- 0496 CHARGING CONNECTOR LOCK
+- 0500 BATTERY COOLING AIR INLET
+
+### Current master state
+- PASS candidates: **500 / 500**
+- REVIEW/backlog: **0**
+- Permanent ID coverage: **0001–0500 complete**
+
+IMPORTANT:
+- **500 / 500 here means every permanent ID has a prepared PASS candidate image in `data/master.json`.**
+- This is NOT automatically 100% live Production.
+- Live Production still requires exact BLACK UI binding + mobile verification + Codex reverse-QA.
+- Original technical/context schematics are intentionally used where direct manufacturer imagery was unavailable, ambiguous, or licensing was unclear.
+- These schematics must be judged by immediate term -> physical component recognition, not merely by file validity.
+
+### High-priority Codex reverse-QA
+1. Batches 28–33 original schematics:
+   - mechanical parts: brake / drivetrain / suspension / steering
+   - door hardware and seat-belt hardware
+   - trim / weatherstrip / molding locations
+2. Batch 32 conceptual cards:
+   - 0275 TRIP COMPUTER
+   - 0276 WARNING LIGHT
+   - 0279 DRIVER INFORMATION DISPLAY
+3. Batch 33 SRS cards:
+   - 0369–0375 require especially strict location/function QA.
+4. Batch 33 charging cards:
+   - 0397, 0493–0496 must remain visually distinct by inlet / cap / AC / DC / lock.
+5. 0414 vs 0415:
+   - reservoir vs reservoir cap.
+6. 0294 / 0353:
+   - duplicate generic AC outlet hardware under separate permanent IDs; validate taxonomy before live count.
+7. 0191 / 0192:
+   - generic washer-nozzle form is shared; validate whether location-neutral imagery is acceptable for front vs rear terminology.
+8. 0324 / 0363 and 0330 / 0364:
+   - duplicate physical hardware under repeated master terms; verify taxonomy and UI duplication behavior.
+
+### Codex action
+1. Pull latest `main`.
+2. Treat `data/master.json` as authoritative candidate state.
+3. Rebind all newly promoted IDs to current image blobs; do not use cached old images.
+4. Reverse-QA English term -> exact physical component/location -> displayed image.
+5. Any failing card should be moved back to REVIEW/backlog individually with exact reason.
+6. Do not downgrade unrelated cards.
+7. Run BLACK UI + iPhone/mobile QA after binding.
+8. Only then report live Production count / percentage.
+
+Production commit for final 22:
+- `b00fb50ed1d8eb087c7202596d61f19834c325b4`

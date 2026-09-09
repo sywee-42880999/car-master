@@ -1,0 +1,47 @@
+name: Rebuild 0151-0192 technical learning images
+
+on:
+  push:
+    paths:
+      - ".github/workflows/rebuild-0151-0192.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install pillow
+      - run: python tools/rebuild_0151_0192.py
+      - name: Validate and commit
+        run: |
+          python - <<'PY'
+          from PIL import Image
+          from pathlib import Path
+          ids=[f"{i:04d}" for i in range(151,193) if i!=154]
+          bad=[]
+          for id_ in ids:
+              p=Path("images/parts")/f"{id_}.jpg"
+              try:
+                  im=Image.open(p); im.verify()
+                  im=Image.open(p)
+                  if im.size!=(800,600): bad.append((id_,im.size))
+              except Exception as e: bad.append((id_,str(e)))
+          print("bad",bad)
+          if bad: raise SystemExit(1)
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add images/parts/0151.jpg images/parts/0152.jpg images/parts/0153.jpg
+          for id in $(seq -w 155 192); do git add "images/parts/0$id.jpg" 2>/dev/null || true; done
+          git add tools/rebuild_0151_0192.py
+          git commit -m "Rebuild 0151-0192 as component-specific technical images"
+          git pull --rebase origin main
+          git push origin HEAD:main

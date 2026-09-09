@@ -21,7 +21,7 @@ S.headers.update({
 PAGE_CACHE={}
 IMG_CACHE={}
 GOOD=("34front","front34","3-4","three-quarter","three quarter","front","exterior","vehicle","car","360","thumbnail","jelly","trim","model")
-BAD=("interior","seat","wheel","lamp","headlamp","grille","spoiler","sunroof","sensor","safety","adas","detail","close","feature","accessory","profile-eui-sun","governance")
+BAD=("interior","seat","wheel","lamp","headlamp","grille","spoiler","sunroof","sensor","safety","adas","detail","close","feature","accessory","profile-eui-sun","governance","suspension","protection","airbag","radar","parking","speaker","storage")
 NEUTRAL=("silver","gray","grey","white","uyuni","atlas","snow","steel","pearl","creamy","cyber","ecotronic","shimmering")
 
 def clean(s): return re.sub(r"[^a-z0-9]+","",(s or "").lower())
@@ -91,7 +91,7 @@ def page_images(page):
     return PAGE_CACHE[page]
 
 def candidate_score(u,meta,name,page):
-    text=unquote(u+" "+meta+" "+page).lower()
+    text=unquote(u+" "+meta).lower()
     ctext=clean(text)
     score=0
     als=aliases(name)
@@ -174,7 +174,7 @@ def choose(name,vt,pages,over):
             print(" page failed",page,e,flush=True)
     pool.sort(reverse=True,key=lambda x:x[0])
     for base,u,meta,page in pool[:10]:
-        if base<8: continue
+        if base<12: continue
         try:
             im,final=getimg(u)
             score=base+whiteness(im)*10+min(3,(im.width*im.height)/(1600*900)*2)

@@ -1624,3 +1624,53 @@ Guardrails remain unchanged:
 5. Check 0417 vs 0499 as front trunk vs front-trunk cover.
 6. Check duplicate physical reuses individually before live counting.
 7. Hold only exact failing IDs; do not downgrade unrelated validated cards.
+
+
+## BACKLOG RECOVERY — BATCHES 21–22 — 2026-09-09
+
+### Batch 21 — direct sensors & fuse puller
+- Actions run #126: SUCCESS
+- PASS +10:
+  - 0009 FRONT RADAR
+  - 0010 FRONT VIEW CAMERA
+  - 0218 FRONT CAMERA
+  - 0219 SIDE CAMERA
+  - 0220 REAR CAMERA
+  - 0378 FRONT CORNER RADAR
+  - 0379 REAR CORNER RADAR
+  - 0380 WIDE-FRONT VIEW CAMERA
+  - 0381 WIDE-SIDE VIEW CAMERA
+  - 0475 FUSE PULLER
+- Sources are Hyundai official direct sensor/fuse images found via web search, not generic overview reuse.
+
+### Batch 22 — basic hardware
+A concurrent workflow write caused the research markdown to show PASS None even though the validated assets/master changes are present. Treat current `data/master.json` as authoritative.
+
+Current PASS IDs from Batch 22:
+- 0471 ENGINE COOLANT CAP
+- 0472 12 V BATTERY POSITIVE TERMINAL
+- 0473 12 V BATTERY NEGATIVE TERMINAL
+- 0400 CHARGING CONNECTOR
+- 0401 CHARGING CONNECTOR UNLOCK BUTTON
+- 0497 CHARGING CONNECTOR RELEASE BUTTON
+- 0483 FRONT WIPER ARM CAP
+- 0484 REAR WIPER ARM CAP
+
+Sources:
+- Hyundai Tucson official coolant-cap image.
+- Hyundai Palisade official Jump Start overview for + / - terminal-specific crops.
+- Hyundai Kona EV official AC charging connector image for connector/release-control crops.
+- Hyundai Palisade official wiper replacement images for front/rear wiper arm caps.
+
+Current master after Batch 22:
+- PASS candidates: **364 / 500**
+- REVIEW/backlog: **136**
+
+Codex action:
+1. Pull latest `main`.
+2. Bind Batch 21–22 images using current blobs.
+3. Reverse-QA sensor direction/position carefully.
+4. Verify 0472 vs 0473 positive/negative terminal distinction.
+5. Verify 0400 connector vs 0401/0497 release-control area.
+6. Verify 0483/0484 front vs rear wiper arm cap.
+7. Count live Production only after mobile + reverse-QA.

@@ -23,7 +23,7 @@ if REJECTS_FILE.exists():
     for k,v in _rj.items():
         vals=v if isinstance(v,list) else [v]
         REJECTS[k]={x.get("url") for x in vals if isinstance(x,dict) and x.get("url")}
-REAR=("rear","back","34rear","rear34","rear-three-quarter","three-quarter-rear","rear_3-4","rear-3-4","back34","back-34")
+REAR=("rear","back","34rear","rear34","rear-three-quarter","three-quarter-rear","rear_3-4","rear-3-4","back34","back-34","후면","후측면","후측")
 BAD=("interior","seat","wheel","lamp","headlamp","grille","spoiler","sunroof","sensor","safety","adas","detail","close","feature","accessory","profile-eui-sun","governance","suspension","protection")
 NEUTRAL=("silver","gray","grey","white","uyuni","atlas","snow","steel","pearl","creamy","cyber","ecotronic","shimmering")
 

@@ -119,7 +119,7 @@ def getimg(url):
         im,final=IMG_CACHE[url];return im.copy(),final
     r=S.get(url,timeout=15);r.raise_for_status()
     im=Image.open(io.BytesIO(r.content));im.load()
-    if im.width<420 or im.height<180:raise ValueError("too small")
+    if im.width<250 or im.height<120:raise ValueError("too small")
     if im.mode=="RGBA":
         bg=Image.new("RGBA",im.size,(255,255,255,255));bg.alpha_composite(im);im=bg.convert("RGB")
     else:im=im.convert("RGB")

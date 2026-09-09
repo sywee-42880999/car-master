@@ -2776,6 +2776,193 @@
         "0270"
       ],
       "source_verified_at": "2026-09-09"
+    },
+    "HY_NX4_2025_REAR_USB_CHARGER": {
+      "maker": "Hyundai",
+      "model": "Tucson NX4",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NX4/2025/en_GN/id89582801c2e.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_USBChargePortCenterConsoleBox"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0304",
+        "0356"
+      ],
+      "source_verified_at": "2026-09-09"
+    },
+    "HY_NX4_2025_CARGO_POWER_OUTLET": {
+      "maker": "Hyundai",
+      "model": "Tucson NX4",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NX4/2025/en_GN/idbeccbdc39b7.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_PowerOutlet_2"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0305",
+        "0310"
+      ],
+      "source_verified_at": "2026-09-09"
+    },
+    "HY_NX4_2025_AUTO_LIGHT_SENSOR": {
+      "maker": "Hyundai",
+      "model": "Tucson NX4",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NX4/2025/en_GN/iddecdd13665b.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_LightSwitchAutoPosition"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0348"
+      ],
+      "source_verified_at": "2026-09-09"
+    },
+    "HY_MX5A_2024_RELAXATION_SEAT_SWITCH": {
+      "maker": "Hyundai",
+      "model": "Santa Fe MX5a",
+      "year": "2024",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/MX5a/2024/en_US/id82434e76753.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_RelaxationComfortSeatSwitch"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0319"
+      ],
+      "source_verified_at": "2026-09-09"
+    },
+    "HY_LX2_2025_CHILD_LOCK": {
+      "maker": "Hyundai",
+      "model": "Palisade LX2",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX2/2025/en_US/id2d16df8d35b.html",
+      "pdf_url": null,
+      "image_keys": [
+        "B0111EU01"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0332"
+      ],
+      "source_verified_at": "2026-09-09"
+    },
+    "HY_LX3HEV_2026_OCS_INDICATOR": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3 HEV",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3HEV/2026/en_US/id3049997ded6.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_OCSIndicator"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0289"
+      ],
+      "source_verified_at": "2026-09-09"
+    },
+    "HY_LX3_2025_OCS_PARTS": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2025/ko_KR/id23C4B0806PN.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_OCSParts"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0367"
+      ],
+      "source_verified_at": "2026-09-09"
+    },
+    "HY_NE1A_2025_FRONT_TRUNK": {
+      "maker": "Hyundai",
+      "model": "IONIQ 5 NE1a",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/idf3db689bac8.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_FrontTrunk"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0417",
+        "0499"
+      ],
+      "source_verified_at": "2026-09-09"
+    },
+    "HY_GENERIC_ISG_OFF": {
+      "maker": "Hyundai",
+      "model": "Hyundai",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/docview/webhelp/Hyundai/b6495a43-8ab9-453a-96a1-645137803c3d/topic_rhy_hf4_nwb.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_ISGOffButton"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0265"
+      ],
+      "source_verified_at": "2026-09-09"
+    },
+    "HY_LX3_2026_AIRBAG_SENSOR_OVERVIEW": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/idc15db94866e.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_AirbagSensorOverview"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0369",
+        "0370",
+        "0371",
+        "0374",
+        "0375"
+      ],
+      "source_verified_at": "2026-09-09"
+    },
+    "HY_NE1N_2026_FCA_RADAR_CAMERA": {
+      "maker": "Hyundai",
+      "model": "IONIQ 5 N NE1N",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NE1N/2026/en_US/id23BSE400QPM.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_FrontCameraRadar",
+        "2C_RearRadar_2"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0009",
+        "0010",
+        "0378",
+        "0379"
+      ],
+      "source_verified_at": "2026-09-09"
     }
   }
 }

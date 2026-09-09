@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T21:36:16Z",
+  "generated_at": "2026-09-09T21:40:23Z",
   "models": {
     "H001": {
       "model": "INSTER",
@@ -90,7 +90,45 @@
         "file": null,
         "source": null,
         "audit": "MISS"
-      }
+      },
+      "candidates": [
+        {
+          "score": 23,
+          "url": "https://www.hyundai.com/contents/repn-car/side-45/tucson-26my-45side.png",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/tucson/intro"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/static/images/common/favicon/favicon-96x96.png",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/tucson/intro"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/static/images/common/favicon/favicon-32x32.png",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/tucson/intro"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/static/images/common/favicon/favicon-16x16.png",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/tucson/intro"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/static/images/common/favicon/apple-touch-icon.png",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/tucson/intro"
+        },
+        {
+          "score": -26,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/company/investor-relations/management-information/governance/management-information-governance-profile-eui-sun-chung-pc.webp",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/tucson/intro"
+        }
+      ]
     },
     "H010": {
       "model": "SANTA FE",
@@ -204,7 +242,129 @@
         "file": null,
         "source": null,
         "audit": "MISS"
-      }
+      },
+      "candidates": [
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/static/images/logo_footer.png",
+          "meta": "현대자동차",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/purchase-consult/consult?from=estimate"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/content/dam/hyundai/kr/ko/images/common/footer-mark-wa.png",
+          "meta": "과학기술정보통신부 WA(WEB접근성) 품질인증 마크, 웹와치(WebWatch) 2026.06.29 ~ 2027.06.28 WA 품질인증 마크, 웹와치(WebWatch) 2026.06.29 ~ 2027.06.28",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/purchase-consult/consult?from=estimate"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/content/dam/hyundai/kr/ko/images/common/footer-mark01.png",
+          "meta": "우수디자인 지식경제부선정",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/purchase-consult/consult?from=estimate"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/content/dam/hyundai/kr/ko/images/common/footer-mark03.png",
+          "meta": "가족친화 우수기관",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/purchase-consult/consult?from=estimate"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/content/dam/hyundai/kr/ko/images/common/footer-mark04.png",
+          "meta": "2025년 한국서비스품질지수(KS-SQI)<br />조사대상 전 부문 1위 수상<br />(자동차A/S 및 자동차판매서비스)",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/purchase-consult/consult?from=estimate"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/content/dam/hyundai/kr/ko/images/common/footer-mark06.png",
+          "meta": "2026년 국가고객만족도(NCSI) 조사대상 전 부문 1위 수상 (컴팩트승용, 중형, 준대형, 대형, 컴팩트RV, 대형RV, 전기차)",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/purchase-consult/consult?from=estimate"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/content/dam/hyundai/kr/ko/images/common/footer-mark07.png",
+          "meta": "2025년 한국산업의 고객만족도(KCSI) 조사대상 전 부문 1위 수상 (일반승용차, RV승용차, 경형승용차, 전기차, 프리미엄)",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/purchase-consult/consult?from=estimate"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/content/dam/hyundai/kr/ko/images/common/img_mark_ksqei.png",
+          "meta": "2024년 한국품질만족지수 (KS-QEI) 조사 12개 부문 1위",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/purchase-consult/consult?from=estimate"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/static/images/hyu_logo_og_image.jpg",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/purchase-consult/consult?from=estimate"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/static/images/common/favicon/favicon-96x96.png",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/purchase-consult/consult?from=estimate"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/static/images/common/favicon/favicon-32x32.png",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/purchase-consult/consult?from=estimate"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/static/images/common/favicon/favicon-16x16.png",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/purchase-consult/consult?from=estimate"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/static/images/common/favicon/apple-touch-icon.png",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/purchase-consult/consult?from=estimate"
+        },
+        {
+          "score": -12,
+          "url": "https://trucknbus.hyundai.com/global/en/upload/metadata/MT00000002/modern-premium-gnb-1.jpg",
+          "meta": "Hyundai Brand Story",
+          "page": "https://trucknbus.hyundai.com/global/en/"
+        },
+        {
+          "score": -12,
+          "url": "https://trucknbus.hyundai.com/global/en/upload/metadata/MT00000003/design-gnb.jpg",
+          "meta": "",
+          "page": "https://trucknbus.hyundai.com/global/en/"
+        },
+        {
+          "score": -12,
+          "url": "https://trucknbus.hyundai.com/global/en/upload/metadata/MT00000008/technology-gnb.jpg",
+          "meta": "",
+          "page": "https://trucknbus.hyundai.com/global/en/"
+        },
+        {
+          "score": -12,
+          "url": "https://trucknbus.hyundai.com/global/en/upload/metadata/MT00000014/facilities-gnb.jpg",
+          "meta": "",
+          "page": "https://trucknbus.hyundai.com/global/en/"
+        },
+        {
+          "score": -12,
+          "url": "https://trucknbus.hyundai.com/global/en/upload/metadata/MT00000018/hyundai-cv-history-gnb.jpg",
+          "meta": "",
+          "page": "https://trucknbus.hyundai.com/global/en/"
+        },
+        {
+          "score": -12,
+          "url": "https://trucknbus.hyundai.com/global/en/images/common/gnb-odd.svg",
+          "meta": "HYUNDAI HYUNDAI",
+          "page": "https://trucknbus.hyundai.com/global/en/"
+        },
+        {
+          "score": -12,
+          "url": "https://trucknbus.hyundai.com/global/en/upload/metadata/MT00200400/news-gnb1.jpg",
+          "meta": "",
+          "page": "https://trucknbus.hyundai.com/global/en/"
+        }
+      ]
     },
     "H022": {
       "model": "PORTER II Electric",
@@ -377,7 +537,129 @@
         "score": 35.31,
         "meta": "",
         "audit": "RECHECK"
-      }
+      },
+      "candidates": [
+        {
+          "score": 35,
+          "url": "https://www.hyundai.com/content/dam/hyundai/id/en/data/vehicle-thumbnail/product/stargazer-cartenz-x/default/stargazer-cartenz-x-640x344.png",
+          "meta": "",
+          "page": "https://www.hyundai.com/id/en/find-a-car/stargazer/highlights"
+        },
+        {
+          "score": 33,
+          "url": "https://www.hyundai.com/content/dam/hyundai/id/en/data/vehicle-thumbnail/product/stargazer-cartenz-x/default/stargazer-cartenz-x-320x172.png",
+          "meta": "STARGAZER Cartenz X lazyload STARGAZER Cartenz X lazyload",
+          "page": "https://www.hyundai.com/id/en/find-a-car/stargazer/highlights"
+        },
+        {
+          "score": 33,
+          "url": "https://www.hyundai.com/content/dam/hyundai/id/id/images/find-a-car/pip/stargazer-cartenz/car-thumbnail/stargazer-cartenz-640x344.png",
+          "meta": "",
+          "page": "https://www.hyundai.com/id/en/find-a-car/stargazer/highlights"
+        },
+        {
+          "score": 31,
+          "url": "https://www.hyundai.com/content/dam/hyundai/id/id/images/find-a-car/pip/stargazer-cartenz/car-thumbnail/stargazer-cartenz-320x172.png",
+          "meta": "STARGAZER Cartenz lazyload STARGAZER Cartenz lazyload",
+          "page": "https://www.hyundai.com/id/en/find-a-car/stargazer/highlights"
+        },
+        {
+          "score": 30.5,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ph/en/images/find-a-car/pip/new-stargazer/ext-colors/SGX-side-creamy-white",
+          "meta": "new-stargazer-x-creamy-white-pearl-black-roof lazyload",
+          "page": "https://www.hyundai.com/ph/en/find-a-car/new-stargazer/design"
+        },
+        {
+          "score": 30.5,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ph/en/images/find-a-car/pip/new-stargazer/ext-colors/SG-side-creamy-white",
+          "meta": "new-stargazer-creamy-white-pearl lazyload",
+          "page": "https://www.hyundai.com/ph/en/find-a-car/new-stargazer/design"
+        },
+        {
+          "score": 30.5,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ph/en/images/find-a-car/pip/new-stargazer/ext-colors/SGX---Creamy-White.jpg",
+          "meta": "Creamy White Pearl with Black Roof (STARGAZER X exclusive)",
+          "page": "https://www.hyundai.com/ph/en/find-a-car/new-stargazer/design"
+        },
+        {
+          "score": 30.5,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ph/en/images/find-a-car/pip/new-stargazer/ext-colors/GLS---Creamy-White.jpg",
+          "meta": "Creamy White Pearl",
+          "page": "https://www.hyundai.com/ph/en/find-a-car/new-stargazer/design"
+        },
+        {
+          "score": 30,
+          "url": "https://www.hyundai.com/content/dam/hyundai/id/en/data/vehicle-thumbnail/product/stargazer-x/stargazer-x-640x344.png",
+          "meta": "",
+          "page": "https://www.hyundai.com/id/en/find-a-car/stargazer/highlights"
+        },
+        {
+          "score": 30,
+          "url": "https://www.hyundai.com/content/dam/hyundai/id/en/data/vehicle-thumbnail/product/stargazer/stargazer-640x344.png",
+          "meta": "",
+          "page": "https://www.hyundai.com/id/en/find-a-car/stargazer/highlights"
+        },
+        {
+          "score": 28,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ph/en/images/find-a-car/thumbnail/NEW-STARGAZER.png",
+          "meta": "STARGAZER lazyload gaImpression STARGAZER lazyload gaImpression",
+          "page": "https://www.hyundai.com/ph/en/find-a-car/new-stargazer/design"
+        },
+        {
+          "score": 28,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ph/en/images/find-a-car/pip/new-stargazer/gallery/design/STARGAZER-FL-Front.jpg",
+          "meta": "new-stargazer-front lazyload",
+          "page": "https://www.hyundai.com/ph/en/find-a-car/new-stargazer/design"
+        },
+        {
+          "score": 28,
+          "url": "https://www.hyundai.com/content/dam/hyundai/id/en/data/vehicle-thumbnail/product/stargazer-x/stargazer-x-320x172.png",
+          "meta": "STARGAZER X thumbnail lazyload STARGAZER X thumbnail lazyload",
+          "page": "https://www.hyundai.com/id/en/find-a-car/stargazer/highlights"
+        },
+        {
+          "score": 28,
+          "url": "https://www.hyundai.com/content/dam/hyundai/id/en/data/vehicle-thumbnail/product/stargazer/stargazer-320x172.png",
+          "meta": "STARGAZER thumbnail lazyload STARGAZER thumbnail lazyload",
+          "page": "https://www.hyundai.com/id/en/find-a-car/stargazer/highlights"
+        },
+        {
+          "score": 27.5,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ph/en/images/find-a-car/pip/new-stargazer/ext-colors/SGX-side-dragon-red",
+          "meta": "new-stargazer-x-dragon-red-pearl-black-roof lazyload",
+          "page": "https://www.hyundai.com/ph/en/find-a-car/new-stargazer/design"
+        },
+        {
+          "score": 27.5,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ph/en/images/find-a-car/pip/new-stargazer/ext-colors/SGX-side-magnetic-silver",
+          "meta": "new-stargazer-x-magnetic-silver-metallic-black-roof lazyload",
+          "page": "https://www.hyundai.com/ph/en/find-a-car/new-stargazer/design"
+        },
+        {
+          "score": 27.5,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ph/en/images/find-a-car/pip/new-stargazer/ext-colors/SG-side-dragon-red",
+          "meta": "new-stargazer-dragon-red-pearl lazyload",
+          "page": "https://www.hyundai.com/ph/en/find-a-car/new-stargazer/design"
+        },
+        {
+          "score": 27.5,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ph/en/images/find-a-car/pip/new-stargazer/ext-colors/SG-side-magnetic-silver",
+          "meta": "new-stargazer-magnetic-silver-metallic lazyload",
+          "page": "https://www.hyundai.com/ph/en/find-a-car/new-stargazer/design"
+        },
+        {
+          "score": 27.5,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ph/en/images/find-a-car/pip/new-stargazer/ext-colors/SG-side-titan-gray",
+          "meta": "new-stargazer-titan-gray-metallic lazyload",
+          "page": "https://www.hyundai.com/ph/en/find-a-car/new-stargazer/design"
+        },
+        {
+          "score": 27.5,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ph/en/images/find-a-car/pip/new-stargazer/ext-colors/SG-side-midnight-black",
+          "meta": "new-stargazer-midnight-black-pearl lazyload",
+          "page": "https://www.hyundai.com/ph/en/find-a-car/new-stargazer/design"
+        }
+      ]
     },
     "H039": {
       "model": "STARGAZER X / Cartenz X",
@@ -433,7 +715,129 @@
         "file": null,
         "source": null,
         "audit": "MISS"
-      }
+      },
+      "candidates": [
+        {
+          "score": 23,
+          "url": "https://www.hyundai.com/contents/repn-car/side-45/grandeur-27fl-45side.png",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/grandeur/intro"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/static/images/common/favicon/favicon-96x96.png",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/grandeur/intro"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/static/images/common/favicon/favicon-32x32.png",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/grandeur/intro"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/static/images/common/favicon/favicon-16x16.png",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/grandeur/intro"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/static/images/common/favicon/apple-touch-icon.png",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/grandeur/intro"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/static/images/logo_footer.png",
+          "meta": "현대자동차",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/purchase-consult/consult?from=estimate"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/content/dam/hyundai/kr/ko/images/common/footer-mark-wa.png",
+          "meta": "과학기술정보통신부 WA(WEB접근성) 품질인증 마크, 웹와치(WebWatch) 2026.06.29 ~ 2027.06.28 WA 품질인증 마크, 웹와치(WebWatch) 2026.06.29 ~ 2027.06.28",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/purchase-consult/consult?from=estimate"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/content/dam/hyundai/kr/ko/images/common/footer-mark01.png",
+          "meta": "우수디자인 지식경제부선정",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/purchase-consult/consult?from=estimate"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/content/dam/hyundai/kr/ko/images/common/footer-mark03.png",
+          "meta": "가족친화 우수기관",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/purchase-consult/consult?from=estimate"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/content/dam/hyundai/kr/ko/images/common/footer-mark04.png",
+          "meta": "2025년 한국서비스품질지수(KS-SQI)<br />조사대상 전 부문 1위 수상<br />(자동차A/S 및 자동차판매서비스)",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/purchase-consult/consult?from=estimate"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/content/dam/hyundai/kr/ko/images/common/footer-mark06.png",
+          "meta": "2026년 국가고객만족도(NCSI) 조사대상 전 부문 1위 수상 (컴팩트승용, 중형, 준대형, 대형, 컴팩트RV, 대형RV, 전기차)",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/purchase-consult/consult?from=estimate"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/content/dam/hyundai/kr/ko/images/common/footer-mark07.png",
+          "meta": "2025년 한국산업의 고객만족도(KCSI) 조사대상 전 부문 1위 수상 (일반승용차, RV승용차, 경형승용차, 전기차, 프리미엄)",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/purchase-consult/consult?from=estimate"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/content/dam/hyundai/kr/ko/images/common/img_mark_ksqei.png",
+          "meta": "2024년 한국품질만족지수 (KS-QEI) 조사 12개 부문 1위",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/purchase-consult/consult?from=estimate"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/static/images/hyu_logo_og_image.jpg",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/purchase-consult/consult?from=estimate"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/static/images/common/favicon/favicon-96x96.png",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/purchase-consult/consult?from=estimate"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/static/images/common/favicon/favicon-32x32.png",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/purchase-consult/consult?from=estimate"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/static/images/common/favicon/favicon-16x16.png",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/purchase-consult/consult?from=estimate"
+        },
+        {
+          "score": -12,
+          "url": "https://www.hyundai.com/static/images/common/favicon/apple-touch-icon.png",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/purchase-consult/consult?from=estimate"
+        },
+        {
+          "score": -26,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/company/investor-relations/management-information/governance/management-information-governance-profile-eui-sun-chung-pc.webp",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/grandeur/intro"
+        },
+        {
+          "score": -26,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/company/investor-relations/management-information/governance/management-information-governance-profile-eui-sun-chung-pc.webp",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/purchase-consult/consult?from=estimate"
+        }
+      ]
     },
     "H045": {
       "model": "ELEXIO / EO",
@@ -451,7 +855,129 @@
         "file": null,
         "source": null,
         "audit": "MISS"
-      }
+      },
+      "candidates": [
+        {
+          "score": -10.5,
+          "url": "https://www.beijing-hyundai.com.cn/media/5789/logo-white.png",
+          "meta": "logo logo",
+          "page": "https://www.beijing-hyundai.com.cn/vehicleslist/"
+        },
+        {
+          "score": -10.5,
+          "url": "https://www.beijing-hyundai.com.cn/media/6923/logo-white.png",
+          "meta": "logo 首页",
+          "page": "https://www.beijing-hyundai.com.cn/vehicleslist/"
+        },
+        {
+          "score": -10.5,
+          "url": "https://www.beijing-hyundai.com.cn/media/5789/logo-white.png",
+          "meta": "logo logo",
+          "page": "https://www.beijing-hyundai.com.cn/"
+        },
+        {
+          "score": -10.5,
+          "url": "https://www.beijing-hyundai.com.cn/media/6923/logo-white.png",
+          "meta": "logo 首页",
+          "page": "https://www.beijing-hyundai.com.cn/"
+        },
+        {
+          "score": -12,
+          "url": "https://www.beijing-hyundai.com.cn/media/12413/ef367f18-0714-4fc6-97d3-f91d9e993d2f.jpg",
+          "meta": "分享",
+          "page": "https://www.beijing-hyundai.com.cn/vehicleslist/"
+        },
+        {
+          "score": -12,
+          "url": "https://www.beijing-hyundai.com.cn/media/1062/logo.png",
+          "meta": "北京现代官网 北京现代官网 北京现代官网 北京现代官网",
+          "page": "https://www.beijing-hyundai.com.cn/vehicleslist/"
+        },
+        {
+          "score": -12,
+          "url": "https://www.beijing-hyundai.com.cn/media/15227/ioniq-v.png",
+          "meta": "艾尼氪 V lazy 艾尼氪 V 艾尼氪 V pad-only lazy",
+          "page": "https://www.beijing-hyundai.com.cn/vehicleslist/"
+        },
+        {
+          "score": -12,
+          "url": "https://www.beijing-hyundai.com.cn/media/13100/第十一代索纳塔-pc.png",
+          "meta": "第十一代索纳塔 lazy",
+          "page": "https://www.beijing-hyundai.com.cn/vehicleslist/"
+        },
+        {
+          "score": -12,
+          "url": "https://www.beijing-hyundai.com.cn/media/15197/车型专区.png",
+          "meta": "全新 伊兰特 lazy 全新 伊兰特 全新 伊兰特 pad-only lazy 全新 伊兰特 全新 伊兰特 mb-only lazy",
+          "page": "https://www.beijing-hyundai.com.cn/vehicleslist/"
+        },
+        {
+          "score": -12,
+          "url": "https://www.beijing-hyundai.com.cn/media/13941/navlmgpc.jpg",
+          "meta": "第五代 胜达 lazy",
+          "page": "https://www.beijing-hyundai.com.cn/vehicleslist/"
+        },
+        {
+          "score": -12,
+          "url": "https://www.beijing-hyundai.com.cn/media/15203/车型专区pc.png",
+          "meta": "全新 途胜L lazy",
+          "page": "https://www.beijing-hyundai.com.cn/vehicleslist/"
+        },
+        {
+          "score": -12,
+          "url": "https://www.beijing-hyundai.com.cn/media/13110/沐飒-ix35升级版.png",
+          "meta": "沐飒 ix35升级版 lazy",
+          "page": "https://www.beijing-hyundai.com.cn/vehicleslist/"
+        },
+        {
+          "score": -12,
+          "url": "https://www.beijing-hyundai.com.cn/media/14757/pc-eo-车型专区.png",
+          "meta": "EO 羿欧 lazy",
+          "page": "https://www.beijing-hyundai.com.cn/vehicleslist/"
+        },
+        {
+          "score": -12,
+          "url": "https://www.beijing-hyundai.com.cn/media/13911/navlmgpc.png",
+          "meta": "库斯途 lazy",
+          "page": "https://www.beijing-hyundai.com.cn/vehicleslist/"
+        },
+        {
+          "score": -12,
+          "url": "https://www.beijing-hyundai.com.cn/media/15186/fcbd6fb7a8ac0389ac8b03d5e22989.jpg",
+          "meta": "pic placeholder replace",
+          "page": "https://www.beijing-hyundai.com.cn/vehicleslist/"
+        },
+        {
+          "score": -12,
+          "url": "https://www.beijing-hyundai.com.cn/media/15228/ioniq-v-mb.png",
+          "meta": "艾尼氪 V 艾尼氪 V mb-only lazy",
+          "page": "https://www.beijing-hyundai.com.cn/vehicleslist/"
+        },
+        {
+          "score": -12,
+          "url": "https://www.beijing-hyundai.com.cn/media/13101/第十一代索纳塔-m端.jpg",
+          "meta": "第十一代索纳塔 第十一代索纳塔 pad-only lazy 第十一代索纳塔 第十一代索纳塔 mb-only lazy",
+          "page": "https://www.beijing-hyundai.com.cn/vehicleslist/"
+        },
+        {
+          "score": -12,
+          "url": "https://www.beijing-hyundai.com.cn/media/13940/navlmgm.jpg",
+          "meta": "第五代 胜达 第五代 胜达 pad-only lazy 第五代 胜达 第五代 胜达 mb-only lazy",
+          "page": "https://www.beijing-hyundai.com.cn/vehicleslist/"
+        },
+        {
+          "score": -12,
+          "url": "https://www.beijing-hyundai.com.cn/media/15202/车型专区.png",
+          "meta": "全新 途胜L 全新 途胜L pad-only lazy 全新 途胜L 全新 途胜L mb-only lazy",
+          "page": "https://www.beijing-hyundai.com.cn/vehicleslist/"
+        },
+        {
+          "score": -12,
+          "url": "https://www.beijing-hyundai.com.cn/media/12507/6.jpg",
+          "meta": "沐飒 ix35升级版 沐飒 ix35升级版 pad-only lazy 沐飒 ix35升级版 沐飒 ix35升级版 mb-only lazy",
+          "page": "https://www.beijing-hyundai.com.cn/vehicleslist/"
+        }
+      ]
     },
     "H047": {
       "model": "MIGHTY",
@@ -496,7 +1022,129 @@
         "file": null,
         "source": null,
         "audit": "MISS"
-      }
+      },
+      "candidates": [
+        {
+          "score": -12,
+          "url": "https://trucknbus.hyundai.com/global/en/upload/metadata/MT00000002/modern-premium-gnb-1.jpg",
+          "meta": "Hyundai Brand Story",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/county"
+        },
+        {
+          "score": -12,
+          "url": "https://trucknbus.hyundai.com/global/en/upload/metadata/MT00000003/design-gnb.jpg",
+          "meta": "",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/county"
+        },
+        {
+          "score": -12,
+          "url": "https://trucknbus.hyundai.com/global/en/upload/metadata/MT00000008/technology-gnb.jpg",
+          "meta": "",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/county"
+        },
+        {
+          "score": -12,
+          "url": "https://trucknbus.hyundai.com/global/en/upload/metadata/MT00000014/facilities-gnb.jpg",
+          "meta": "",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/county"
+        },
+        {
+          "score": -12,
+          "url": "https://trucknbus.hyundai.com/global/en/upload/metadata/MT00000018/hyundai-cv-history-gnb.jpg",
+          "meta": "",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/county"
+        },
+        {
+          "score": -12,
+          "url": "https://trucknbus.hyundai.com/global/en/images/common/gnb-odd.svg",
+          "meta": "HYUNDAI HYUNDAI",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/county"
+        },
+        {
+          "score": -12,
+          "url": "https://trucknbus.hyundai.com/global/en/upload/metadata/MT00200400/news-gnb1.jpg",
+          "meta": "",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/county"
+        },
+        {
+          "score": -12,
+          "url": "https://trucknbus.hyundai.com/global/en/upload/mainmng/BM00200108/kv-011-bg.jpg",
+          "meta": "ui_responsive_image",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/county"
+        },
+        {
+          "score": -12,
+          "url": "https://trucknbus.hyundai.com/global/en/upload/mainmng/BM00200105/KV-01-bg.jpg",
+          "meta": "ui_responsive_image",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/county"
+        },
+        {
+          "score": -12,
+          "url": "https://trucknbus.hyundai.com/global/en/upload/mainmng/BM00000014/KV-03-bg.jpg",
+          "meta": "ui_responsive_image",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/county"
+        },
+        {
+          "score": -12,
+          "url": "https://trucknbus.hyundai.com/global/en/upload/mainmng/BM00000018/main-products-img-01.jpg",
+          "meta": "ui_responsive_image",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/county"
+        },
+        {
+          "score": -12,
+          "url": "https://trucknbus.hyundai.com/global/en/upload/mainmng/BM00200200/main-products-img-02.jpg",
+          "meta": "ui_responsive_image",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/county"
+        },
+        {
+          "score": -12,
+          "url": "https://trucknbus.hyundai.com/global/en/upload/mainmng/BM00200203/main-products-img-03.jpg",
+          "meta": "ui_responsive_image",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/county"
+        },
+        {
+          "score": -12,
+          "url": "https://trucknbus.hyundai.com/global/en/upload/mainmng/BM00200205/main-products-img-05.jpg",
+          "meta": "ui_responsive_image",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/county"
+        },
+        {
+          "score": -12,
+          "url": "https://trucknbus.hyundai.com/global/en/upload/mainmng/BM00200300/main-products-super-aero-city-pc.jpg",
+          "meta": "ui_responsive_image",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/county"
+        },
+        {
+          "score": -12,
+          "url": "https://trucknbus.hyundai.com/global/en/upload/press/BL00000855/photo-01-pc.jpg",
+          "meta": "Hyundai Motor Introduces XCIENT Fuel Cell Truck Fleet in South America to Drive Zero Tailpipe Emissions Logistics in Uruguay ui_responsive_image",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/county"
+        },
+        {
+          "score": -12,
+          "url": "https://trucknbus.hyundai.com/global/en/upload/press/BL00000854/photo-01-pc.jpg",
+          "meta": "Hyundai Motor’s XCIENT Fuel Cell Truck Fleet Achieves 20-Million-Kilometer Milestone in Europe ui_responsive_image",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/county"
+        },
+        {
+          "score": -12,
+          "url": "https://trucknbus.hyundai.com/global/en/upload/metadata/MT00000001/main.jpg",
+          "meta": "",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/county"
+        },
+        {
+          "score": -12,
+          "url": "https://trucknbus.hyundai.com/global/en/upload/press/BL00000854/photo-01-facebook.jpg",
+          "meta": "",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/county"
+        },
+        {
+          "score": -12,
+          "url": "https://trucknbus.hyundai.com/global/en/upload/press/BL00000854/photo-01-x.jpg",
+          "meta": "",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/county"
+        }
+      ]
     },
     "H052": {
       "model": "COUNTY Electric",
@@ -543,7 +1191,129 @@
         "score": 25.2,
         "meta": "",
         "audit": "RECHECK"
-      }
+      },
+      "candidates": [
+        {
+          "score": 25,
+          "url": "https://www.hyundai.com/cstatic/images/product/cars/unicity/side-trim.jpg",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/c/products/bus/uni-city"
+        },
+        {
+          "score": 23,
+          "url": "https://www.hyundai.com/ccontents/carmng/KV00000214/KV00000106unicity-kv-01.jpg",
+          "meta": "ui_responsive_image",
+          "page": "https://www.hyundai.com/kr/ko/c/products/bus/uni-city"
+        },
+        {
+          "score": 23,
+          "url": "https://www.hyundai.com/cstatic/images/product/cars/unicity/unicity-bg.jpg",
+          "meta": "ui_responsive_image",
+          "page": "https://www.hyundai.com/kr/ko/c/products/bus/uni-city"
+        },
+        {
+          "score": 23,
+          "url": "https://www.hyundai.com/cstatic/images/product/cars/unicity/performance.jpg",
+          "meta": "ui_responsive_image",
+          "page": "https://www.hyundai.com/kr/ko/c/products/bus/uni-city"
+        },
+        {
+          "score": 23,
+          "url": "https://www.hyundai.com/cstatic/images/product/cars/unicity/q-290-cng.jpg",
+          "meta": "EURO6",
+          "page": "https://www.hyundai.com/kr/ko/c/products/bus/uni-city"
+        },
+        {
+          "score": 23,
+          "url": "https://www.hyundai.com/cstatic/images/product/cars/unicity/maintenance.jpg",
+          "meta": "ui_responsive_image",
+          "page": "https://www.hyundai.com/kr/ko/c/products/bus/uni-city"
+        },
+        {
+          "score": 23,
+          "url": "https://www.hyundai.com/cstatic/images/product/cars/unicity/prd-valve.jpg",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/c/products/bus/uni-city"
+        },
+        {
+          "score": 23,
+          "url": "https://www.hyundai.com/cstatic/images/product/cars/unicity/gas-charger.jpg",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/c/products/bus/uni-city"
+        },
+        {
+          "score": 23,
+          "url": "https://www.hyundai.com/cstatic/images/product/cars/unicity/side-impact.jpg",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/c/products/bus/uni-city"
+        },
+        {
+          "score": 23,
+          "url": "https://www.hyundai.com/cstatic/images/product/cars/unicity/prevention-of-forward-collision.jpg",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/c/products/bus/uni-city"
+        },
+        {
+          "score": 23,
+          "url": "https://www.hyundai.com/cstatic/images/product/cars/unicity/car-departure-warning.jpg",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/c/products/bus/uni-city"
+        },
+        {
+          "score": 23,
+          "url": "https://www.hyundai.com/cstatic/images/product/cars/unicity/emergency-door-and-operating-lever-1.jpg",
+          "meta": "ui_thumbswitcher_target",
+          "page": "https://www.hyundai.com/kr/ko/c/products/bus/uni-city"
+        },
+        {
+          "score": 23,
+          "url": "https://www.hyundai.com/cstatic/images/product/cars/unicity/emergency-door-and-operating-lever-2.jpg",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/c/products/bus/uni-city"
+        },
+        {
+          "score": 23,
+          "url": "https://www.hyundai.com/cstatic/images/product/cars/unicity/emergency-switching-switch.jpg",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/c/products/bus/uni-city"
+        },
+        {
+          "score": 23,
+          "url": "https://www.hyundai.com/cstatic/images/product/cars/unicity/cargo-room-opening-cluster-warning.jpg",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/c/products/bus/uni-city"
+        },
+        {
+          "score": 23,
+          "url": "https://www.hyundai.com/cstatic/images/product/cars/unicity/rear-warning-system.jpg",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/c/products/bus/uni-city"
+        },
+        {
+          "score": 23,
+          "url": "https://www.hyundai.com/cstatic/images/product/cars/unicity/design.jpg",
+          "meta": "Design ui_responsive_image",
+          "page": "https://www.hyundai.com/kr/ko/c/products/bus/uni-city"
+        },
+        {
+          "score": 23,
+          "url": "https://www.hyundai.com/cstatic/images/product/cars/unicity/semi-flush-side-glass.jpg",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/c/products/bus/uni-city"
+        },
+        {
+          "score": 23,
+          "url": "https://www.hyundai.com/cstatic/images/product/cars/unicity/rh-lh-out-side-mirror-cover-1.jpg",
+          "meta": "ui_thumbswitcher_target",
+          "page": "https://www.hyundai.com/kr/ko/c/products/bus/uni-city"
+        },
+        {
+          "score": 23,
+          "url": "https://www.hyundai.com/cstatic/images/product/cars/unicity/rh-lh-out-side-mirror-cover-2.jpg",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/c/products/bus/uni-city"
+        }
+      ]
     },
     "H057": {
       "model": "UNIVERSE",
@@ -554,7 +1324,129 @@
         "score": 25.2,
         "meta": "Wide front head lining (Noble only)",
         "audit": "RECHECK"
-      }
+      },
+      "candidates": [
+        {
+          "score": 25,
+          "url": "https://trucknbus.hyundai.com/global/en/images/product/cars/universe/wide-front-head-lining-noble-only.jpg",
+          "meta": "Wide front head lining (Noble only)",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/universe"
+        },
+        {
+          "score": 25,
+          "url": "https://trucknbus.hyundai.com/global/en/images/product/cars/universe/front-garnish-noble.jpg",
+          "meta": "Front garnish (Noble) ui_responsive_image",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/universe"
+        },
+        {
+          "score": 25,
+          "url": "https://trucknbus.hyundai.com/global/en/images/product/cars/universe/chrome-plated-front-garnish-molding-high-decker.jpg",
+          "meta": "Chrome plated front garnish molding(High Decker)",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/universe"
+        },
+        {
+          "score": 25,
+          "url": "https://www.hyundai.com/cstatic/images/product/cars/universe/design-exterior-01.jpg",
+          "meta": "유니버스 노블 전면 글래스(상부착색, 1피스)+오버랩와이퍼 ui_thumbswitcher_target 유니버스 노블 전면 글래스(상부착색, 1피스)+오버랩와이퍼",
+          "page": "https://www.hyundai.com/kr/ko/c/products/bus/universe"
+        },
+        {
+          "score": 25,
+          "url": "https://www.hyundai.com/cstatic/images/product/cars/universe/design-exterior-02.jpg",
+          "meta": "유니버스 노블 LED 리어 마커램프 & 콤비네이션램프, 루프 스포일러+드립레일",
+          "page": "https://www.hyundai.com/kr/ko/c/products/bus/universe"
+        },
+        {
+          "score": 25,
+          "url": "https://www.hyundai.com/cstatic/images/product/cars/universe/design-exterior-03.jpg",
+          "meta": "유니버스 프라임 전면 글래스 (상부착색, 1피스)+오버랩와이퍼",
+          "page": "https://www.hyundai.com/kr/ko/c/products/bus/universe"
+        },
+        {
+          "score": 25,
+          "url": "https://www.hyundai.com/cstatic/images/product/cars/universe/design-exterior-04.jpg",
+          "meta": "유니버스 프라임 LED 리어 마커 램프 및 벌브타입 리어 콤비램프, 루프 스포일러+드립레일",
+          "page": "https://www.hyundai.com/kr/ko/c/products/bus/universe"
+        },
+        {
+          "score": 23,
+          "url": "https://trucknbus.hyundai.com/global/en/images/product/cars/universe/the-full-view-of-the-jeon-ju-plant.jpg",
+          "meta": "The full view of the jeon ju plant ui_responsive_image",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/universe"
+        },
+        {
+          "score": 23,
+          "url": "https://trucknbus.hyundai.com/global/en/images/product/cars/universe/the-view-of-rnd-center.jpg",
+          "meta": "The view of R&D Center.",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/universe"
+        },
+        {
+          "score": 23,
+          "url": "https://trucknbus.hyundai.com/global/en/images/product/cars/universe/electro-deposition-system.jpg",
+          "meta": "Electro Deposition System",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/universe"
+        },
+        {
+          "score": 23,
+          "url": "https://trucknbus.hyundai.com/global/en/images/product/cars/universe/the-automatic-robot-welding.jpg",
+          "meta": "The automatic robot welding that realizes the high quality body.",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/universe"
+        },
+        {
+          "score": 23,
+          "url": "https://trucknbus.hyundai.com/global/en/images/product/cars/universe/universe-nobel.jpg",
+          "meta": "Universe Nobel",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/universe"
+        },
+        {
+          "score": 23,
+          "url": "https://trucknbus.hyundai.com/global/en/images/product/cars/universe/universe-luxury.jpg",
+          "meta": "Universe Luxury",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/universe"
+        },
+        {
+          "score": 23,
+          "url": "https://trucknbus.hyundai.com/global/en/images/product/cars/universe/industrial-engine.png",
+          "meta": "Industrial Engine",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/universe"
+        },
+        {
+          "score": 23,
+          "url": "https://trucknbus.hyundai.com/global/en/images/product/cars/universe/generator-engine.png",
+          "meta": "Generator Engine",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/universe"
+        },
+        {
+          "score": 23,
+          "url": "https://trucknbus.hyundai.com/global/en/images/product/cars/universe/dynamic-performance-economical.jpg",
+          "meta": "Dynamic performance & Economical ui_responsive_image",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/universe"
+        },
+        {
+          "score": 23,
+          "url": "https://trucknbus.hyundai.com/global/en/images/product/cars/universe/oil-filter.jpg",
+          "meta": "Oil Filter",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/universe"
+        },
+        {
+          "score": 23,
+          "url": "https://trucknbus.hyundai.com/global/en/images/product/cars/universe/fuel-filter.jpg",
+          "meta": "Fuel Filter",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/universe"
+        },
+        {
+          "score": 23,
+          "url": "https://trucknbus.hyundai.com/global/en/images/product/cars/universe/electro-magnetic-radiator-fan.jpg",
+          "meta": "Electro magnetic radiator fan (Powertec engine)",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/universe"
+        },
+        {
+          "score": 23,
+          "url": "https://trucknbus.hyundai.com/global/en/images/product/cars/universe/jake-brake.jpg",
+          "meta": "Jake brake",
+          "page": "https://trucknbus.hyundai.com/global/en/products/bus/universe"
+        }
+      ]
     },
     "K001": {
       "model": "Picanto / Morning",
@@ -632,7 +1524,129 @@
         "file": null,
         "source": null,
         "audit": "MISS"
-      }
+      },
+      "candidates": [
+        {
+          "score": 34,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/gnb/flyout-neu/Kia_k4-wgn-gtl_268x134.png",
+          "meta": "Kia K4 Sportswagon",
+          "page": "https://www.kia.com/de/ueber-kia/neue-modelle/"
+        },
+        {
+          "score": 34,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/gnb/flyout-neu/Kia_k4-wgn-gtl_268x134.png",
+          "meta": "Kia K4 Sportswagon",
+          "page": "https://www.kia.com/de/"
+        },
+        {
+          "score": 5,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/contents/about-kia/neue-modelle/k4-sw/kia_neue-modelle_k4-sw_940x640_04.webp",
+          "meta": "Kia K4 SW",
+          "page": "https://www.kia.com/de/ueber-kia/neue-modelle/"
+        },
+        {
+          "score": 5,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/contents/about-kia/neue-modelle/k4-sw/kia_neue-modelle_k4-sw_940x640_05.webp",
+          "meta": "Kia K4 SW",
+          "page": "https://www.kia.com/de/ueber-kia/neue-modelle/"
+        },
+        {
+          "score": 5,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/contents/about-kia/neue-modelle/k4-sw/kia_neue-modelle_k4-sw_940x640_06.webp",
+          "meta": "Kia K4 SW",
+          "page": "https://www.kia.com/de/ueber-kia/neue-modelle/"
+        },
+        {
+          "score": 5,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/contents/about-kia/neue-modelle/kia_neue-modelle_k4-gtl_940x640_01.jpg",
+          "meta": "Kia K4",
+          "page": "https://www.kia.com/de/ueber-kia/neue-modelle/"
+        },
+        {
+          "score": 5,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/contents/about-kia/neue-modelle/kia_neue-modelle_k4-gtl_940x640_02.jpg",
+          "meta": "Kia K4",
+          "page": "https://www.kia.com/de/ueber-kia/neue-modelle/"
+        },
+        {
+          "score": 5,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/contents/about-kia/neue-modelle/kia_neue-modelle_k4-gtl_940x640_03.jpg",
+          "meta": "Kia K4",
+          "page": "https://www.kia.com/de/ueber-kia/neue-modelle/"
+        },
+        {
+          "score": 5,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/contents/about-kia/neue-modelle/kia_neue-modelle_k4-gtl_940x640_04.jpg",
+          "meta": "Kia K4",
+          "page": "https://www.kia.com/de/ueber-kia/neue-modelle/"
+        },
+        {
+          "score": 5,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/contents/about-kia/neue-modelle/kia_neue-modelle_k4-gtl_940x640_05.jpg",
+          "meta": "Kia K4",
+          "page": "https://www.kia.com/de/ueber-kia/neue-modelle/"
+        },
+        {
+          "score": 5,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/contents/about-kia/neue-modelle/kia_neue-modelle_k4-gtl_940x640_06.jpg",
+          "meta": "Kia K4",
+          "page": "https://www.kia.com/de/ueber-kia/neue-modelle/"
+        },
+        {
+          "score": 5,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/contents/about-kia/neue-modelle/kia_neue-modelle_k4-gtl_940x640_07.jpg",
+          "meta": "Kia K4",
+          "page": "https://www.kia.com/de/ueber-kia/neue-modelle/"
+        },
+        {
+          "score": 4,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/contents/about-kia/neue-modelle/XCeed/kia_xceed_01_940x640.jpg",
+          "meta": "Carousel gallery",
+          "page": "https://www.kia.com/de/ueber-kia/neue-modelle/"
+        },
+        {
+          "score": 4,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/contents/about-kia/neue-modelle/XCeed/kia_xceed_02_940x640.jpg",
+          "meta": "Carousel gallery",
+          "page": "https://www.kia.com/de/ueber-kia/neue-modelle/"
+        },
+        {
+          "score": 4,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/contents/about-kia/neue-modelle/XCeed/kia_xceed_03_940x640.jpg",
+          "meta": "Carousel gallery",
+          "page": "https://www.kia.com/de/ueber-kia/neue-modelle/"
+        },
+        {
+          "score": 4,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/contents/about-kia/neue-modelle/XCeed/kia_xceed_04_940x640.jpg",
+          "meta": "Carousel gallery",
+          "page": "https://www.kia.com/de/ueber-kia/neue-modelle/"
+        },
+        {
+          "score": 3,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/gnb/flyout-neu/kia_k4-gtl_520x260.png",
+          "meta": "",
+          "page": "https://www.kia.com/de/ueber-kia/neue-modelle/"
+        },
+        {
+          "score": 3,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/gnb/flyout-neu/Kia_k4-wgn-gtl_520x260.png",
+          "meta": "",
+          "page": "https://www.kia.com/de/ueber-kia/neue-modelle/"
+        },
+        {
+          "score": 3,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/contents/about-kia/neue-modelle/k4-sw/kia_k4_sw_01.jpg",
+          "meta": "Kia K4 SW",
+          "page": "https://www.kia.com/de/ueber-kia/neue-modelle/"
+        },
+        {
+          "score": 3,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/contents/about-kia/neue-modelle/k4-sw/kia_k4_sw_02.jpg",
+          "meta": "Kia K4 SW",
+          "page": "https://www.kia.com/de/ueber-kia/neue-modelle/"
+        }
+      ]
     },
     "K009": {
       "model": "K5",
@@ -652,7 +1666,129 @@
         "score": 15.45,
         "meta": "small",
         "audit": "RECHECK"
-      }
+      },
+      "candidates": [
+        {
+          "score": 15,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k8/25pe/content/k8_exterior_soundproof_glass_mo.jpg",
+          "meta": "small",
+          "page": "https://www.kia.com/kr/vehicles/k8/features"
+        },
+        {
+          "score": 15,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k8/25pe/content/k8_exterior_soundproof_glass_sm.jpg",
+          "meta": "크롬 사이드 가니쉬 small",
+          "page": "https://www.kia.com/kr/vehicles/k8/features"
+        },
+        {
+          "score": 15,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k8/25pe/content/k8_exterior_soundproof_glass_lg.jpg",
+          "meta": "크롬 사이드 가니쉬 large",
+          "page": "https://www.kia.com/kr/vehicles/k8/features"
+        },
+        {
+          "score": 15,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k8/25pe/content/k8_exterior_soundproof_glass_pop_pc.jpg",
+          "meta": "",
+          "page": "https://www.kia.com/kr/vehicles/k8/features"
+        },
+        {
+          "score": 15,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k8/25pe/content/k8_exterior_soundproof_glass_pop_mo.jpg",
+          "meta": "",
+          "page": "https://www.kia.com/kr/vehicles/k8/features"
+        },
+        {
+          "score": 13,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k8/26my/content/k8_brand_bestselection_mo.jpg",
+          "meta": "small",
+          "page": "https://www.kia.com/kr/vehicles/k8/features"
+        },
+        {
+          "score": 13,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k8/26my/content/k8_brand_bestselection_sm.jpg",
+          "meta": "Respect your way The 2026 K5 & K8 편 small",
+          "page": "https://www.kia.com/kr/vehicles/k8/features"
+        },
+        {
+          "score": 13,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k8/26my/content/k8_brand_bestselection_lg.jpg",
+          "meta": "Respect your way The 2026 K5 & K8 편 large",
+          "page": "https://www.kia.com/kr/vehicles/k8/features"
+        },
+        {
+          "score": 13,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k8/25pe/content/k8_brand_03_mo.jpg",
+          "meta": "small",
+          "page": "https://www.kia.com/kr/vehicles/k8/features"
+        },
+        {
+          "score": 13,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k8/25pe/content/k8_brand_03_sm.jpg",
+          "meta": "The Priceless The new K8 - The Encore 편 small",
+          "page": "https://www.kia.com/kr/vehicles/k8/features"
+        },
+        {
+          "score": 13,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k8/25pe/content/k8_brand_03_lg.jpg",
+          "meta": "The Priceless The new K8 - The Encore 편 large",
+          "page": "https://www.kia.com/kr/vehicles/k8/features"
+        },
+        {
+          "score": 13,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k8/25pe/content/k8_brand_02_mo.jpg",
+          "meta": "small",
+          "page": "https://www.kia.com/kr/vehicles/k8/features"
+        },
+        {
+          "score": 13,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k8/25pe/content/k8_brand_02_sm.jpg",
+          "meta": "The Priceless The new K8 - The Brightest Days 편 small",
+          "page": "https://www.kia.com/kr/vehicles/k8/features"
+        },
+        {
+          "score": 13,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k8/25pe/content/k8_brand_02_lg.jpg",
+          "meta": "The Priceless The new K8 - The Brightest Days 편 large",
+          "page": "https://www.kia.com/kr/vehicles/k8/features"
+        },
+        {
+          "score": 13,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/represent/krgl301/k8_gljs49i36_a_agt.png",
+          "meta": "시그니처 블랙 A/T 시그니처 블랙 A/T",
+          "page": "https://www.kia.com/kr/vehicles/k8/features"
+        },
+        {
+          "score": 13,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/represent/krgl301/k8_gljs4aa36_b_abp.png",
+          "meta": "노블레스 라이트 A/T",
+          "page": "https://www.kia.com/kr/vehicles/k8/features"
+        },
+        {
+          "score": 13,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k8/25pe/content/k8_signature_black_main_mo.jpg",
+          "meta": "small",
+          "page": "https://www.kia.com/kr/vehicles/k8/features"
+        },
+        {
+          "score": 13,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k8/25pe/content/k8_signature_black_main_sm.jpg",
+          "meta": "K8 시그니처 블랙 외장 small",
+          "page": "https://www.kia.com/kr/vehicles/k8/features"
+        },
+        {
+          "score": 13,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k8/25pe/content/k8_signature_black_main_lg.jpg",
+          "meta": "K8 시그니처 블랙 외장 large",
+          "page": "https://www.kia.com/kr/vehicles/k8/features"
+        },
+        {
+          "score": 13,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k8/25pe/content/k8_signature_black_emblem_mo.jpg",
+          "meta": "small",
+          "page": "https://www.kia.com/kr/vehicles/k8/features"
+        }
+      ]
     },
     "K011": {
       "model": "K9",
@@ -842,7 +1978,129 @@
         "file": null,
         "source": null,
         "audit": "MISS"
-      }
+      },
+      "candidates": [
+        {
+          "score": 31,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/static/owners/reference-guide-and-manual/hatchback.png",
+          "meta": "Hatchback category-icon",
+          "page": "https://www.kia.com/uk/new-cars/ev4/"
+        },
+        {
+          "score": 8,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/vehicles/ev4/my26/discover/kia-ev4-my26-NA-Beauty_34-Rear_MaleTalent_rgb-1920x1080.jpg",
+          "meta": "Unique rear hatchback design",
+          "page": "https://www.kia.com/uk/new-cars/ev4/"
+        },
+        {
+          "score": -20,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/images/new-cars/ev4/2026/ev4_fastback_gtl_specs_482x272.png",
+          "meta": "",
+          "page": "https://www.kia.com/uk/new-cars/ev4/"
+        },
+        {
+          "score": -20,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/images/new-cars/ev4/2026/ev4_fastback_gtls_specs_482x272.png",
+          "meta": "",
+          "page": "https://www.kia.com/uk/new-cars/ev4/"
+        },
+        {
+          "score": -22.5,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/common/exterior-colour/kia-fusion-white-metallic.jpg",
+          "meta": "fusion-white Eexterior Colour fusion-white Eexterior Colour fusion-white Eexterior Colour fusion-white Eexterior Colour",
+          "page": "https://www.kia.com/uk/new-cars/ev4/"
+        },
+        {
+          "score": -22.5,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/common/exterior-colour/kia-fusion-white",
+          "meta": "fusion-white,phantom-black,magma-red,blue-flame",
+          "page": "https://www.kia.com/uk/new-cars/ev4/"
+        },
+        {
+          "score": -22.5,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/common/exterior-colour/WAF_wolf-grey_0000.jpg",
+          "meta": "wolf-grey Eexterior Colour wolf-grey Eexterior Colour",
+          "page": "https://www.kia.com/uk/new-cars/ev4/"
+        },
+        {
+          "score": -22.5,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/common/exterior-colour/kia-fusion-white.jpg",
+          "meta": "",
+          "page": "https://www.kia.com/uk/new-cars/ev4/"
+        },
+        {
+          "score": -22.5,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/common/exterior-colour/kia-fusion-white,phantom-black,magma-red,blue-flame.jpg",
+          "meta": "",
+          "page": "https://www.kia.com/uk/new-cars/ev4/"
+        },
+        {
+          "score": -22.5,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/common/exterior-colour/kia-wolf-grey.jpg",
+          "meta": "",
+          "page": "https://www.kia.com/uk/new-cars/ev4/"
+        },
+        {
+          "score": -24,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/common/exterior-colour/kia-phantom-black-metallic.jpg",
+          "meta": "phantom-black Eexterior Colour phantom-black Eexterior Colour phantom-black Eexterior Colour phantom-black Eexterior Colour",
+          "page": "https://www.kia.com/uk/new-cars/ev4/"
+        },
+        {
+          "score": -24,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/common/exterior-colour/ARD_magma_red_0000.jpg",
+          "meta": "magma-red Eexterior Colour magma-red Eexterior Colour magma-red Eexterior Colour magma-red Eexterior Colour",
+          "page": "https://www.kia.com/uk/new-cars/ev4/"
+        },
+        {
+          "score": -24,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/common/exterior-colour/B3L_blue_flame_0000.jpg",
+          "meta": "blue-flame Eexterior Colour blue-flame Eexterior Colour blue-flame Eexterior Colour blue-flame Eexterior Colour",
+          "page": "https://www.kia.com/uk/new-cars/ev4/"
+        },
+        {
+          "score": -24,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/kia-uk/images/newcars/new_img/img_start_360_view.png",
+          "meta": "Start 360° view Start 360° view Start 360° view Start 360° view",
+          "page": "https://www.kia.com/uk/new-cars/ev4/"
+        },
+        {
+          "score": -24,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/common/exterior-colour/kia-phantom-black.jpg",
+          "meta": "",
+          "page": "https://www.kia.com/uk/new-cars/ev4/"
+        },
+        {
+          "score": -24,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/common/exterior-colour/kia-magma-red.jpg",
+          "meta": "",
+          "page": "https://www.kia.com/uk/new-cars/ev4/"
+        },
+        {
+          "score": -24,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/common/exterior-colour/kia-blue-flame.jpg",
+          "meta": "",
+          "page": "https://www.kia.com/uk/new-cars/ev4/"
+        },
+        {
+          "score": -26,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/static/nav22/kia-pv5-cargo-3dr-240x135.png",
+          "meta": "PV5 Cargo PV5 Cargo",
+          "page": "https://www.kia.com/uk/new-cars/ev4/"
+        },
+        {
+          "score": -26.5,
+          "url": "https://www.kia.com/etc.clientlibs/settings/wcm/designs/kia-uk/clientlib/resources/rbr/logo_kia_white-rbr.png",
+          "meta": "KIA logo__whiteLogo KIA lg_img logo__whiteLogo Kia - The Power to Surprise lg_img",
+          "page": "https://www.kia.com/uk/new-cars/ev4/"
+        },
+        {
+          "score": -26.5,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/static/nav22/kia-sorento-phev_2024-4-interstellar-grey_0014_240x135.png",
+          "meta": "Sorento Sorento Sorento Sorento",
+          "page": "https://www.kia.com/uk/new-cars/ev4/"
+        }
+      ]
     },
     "K031": {
       "model": "EV4 GT",
@@ -918,7 +2176,129 @@
         "file": null,
         "source": null,
         "audit": "MISS"
-      }
+      },
+      "candidates": [
+        {
+          "score": -3,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/tasman/27my/content/tasman_exterior_front_mo.jpg",
+          "meta": "",
+          "page": "https://www.kia.com/kr/vehicles/tasman/features"
+        },
+        {
+          "score": -3,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/tasman/27my/content/tasman_exterior_front_pc.jpg",
+          "meta": "강인하고 파워풀한 타스만 전면부",
+          "page": "https://www.kia.com/kr/vehicles/tasman/features"
+        },
+        {
+          "score": -5,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/tasman/25my/content/tasman_exterior_side_mo.jpg",
+          "meta": "",
+          "page": "https://www.kia.com/kr/vehicles/tasman/features"
+        },
+        {
+          "score": -5,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/tasman/25my/content/tasman_exterior_side_pc.jpg",
+          "meta": "볼드하고 기능적인 타스만 측면부",
+          "page": "https://www.kia.com/kr/vehicles/tasman/features"
+        },
+        {
+          "score": -5,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/tasman/25my/content/tasman_exterior_rear_mo.jpg",
+          "meta": "",
+          "page": "https://www.kia.com/kr/vehicles/tasman/features"
+        },
+        {
+          "score": -5,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/tasman/25my/content/tasman_exterior_rear_pc.jpg",
+          "meta": "실용적이고 편리한 후면부",
+          "page": "https://www.kia.com/kr/vehicles/tasman/features"
+        },
+        {
+          "score": -5,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/tasman/27my/content/tasman_exterior_best_selection_mo.jpg",
+          "meta": "",
+          "page": "https://www.kia.com/kr/vehicles/tasman/features"
+        },
+        {
+          "score": -5,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/tasman/27my/content/tasman_exterior_best_selection_pc.jpg",
+          "meta": "베스트 셀렉션 트림 전용, 바디 컬러 클래딩",
+          "page": "https://www.kia.com/kr/vehicles/tasman/features"
+        },
+        {
+          "score": -5,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/tasman/25my/content/tasman_kga_card-key_mo.jpg",
+          "meta": "small",
+          "page": "https://www.kia.com/kr/vehicles/tasman/features"
+        },
+        {
+          "score": -5,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/tasman/25my/content/tasman_kga_card-key_sm.jpg",
+          "meta": "스마트카드키 small",
+          "page": "https://www.kia.com/kr/vehicles/tasman/features"
+        },
+        {
+          "score": -5,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/tasman/25my/content/tasman_kga_card-key_lg.jpg",
+          "meta": "스마트카드키 large",
+          "page": "https://www.kia.com/kr/vehicles/tasman/features"
+        },
+        {
+          "score": -5,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/tasman/25my/content/tasman_kga_card-key_pop_pc.jpg",
+          "meta": "",
+          "page": "https://www.kia.com/kr/vehicles/tasman/features"
+        },
+        {
+          "score": -5,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/tasman/25my/content/tasman_kga_card-key_pop_mo.jpg",
+          "meta": "",
+          "page": "https://www.kia.com/kr/vehicles/tasman/features"
+        },
+        {
+          "score": -7,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/tasman/27my/content/tasman_brand_10_mo.jpg",
+          "meta": "small",
+          "page": "https://www.kia.com/kr/vehicles/tasman/features"
+        },
+        {
+          "score": -7,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/tasman/27my/content/tasman_brand_10_sm.jpg",
+          "meta": "The 2027 Tasman - 준비된 사람 small",
+          "page": "https://www.kia.com/kr/vehicles/tasman/features"
+        },
+        {
+          "score": -7,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/tasman/27my/content/tasman_brand_10_lg.jpg",
+          "meta": "The 2027 Tasman - 준비된 사람 large",
+          "page": "https://www.kia.com/kr/vehicles/tasman/features"
+        },
+        {
+          "score": -7,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/tasman/27my/content/tasman_brand_11_mo.jpg",
+          "meta": "small",
+          "page": "https://www.kia.com/kr/vehicles/tasman/features"
+        },
+        {
+          "score": -7,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/tasman/27my/content/tasman_brand_11_sm.jpg",
+          "meta": "The 2027 Tasman - 초보 사장 small",
+          "page": "https://www.kia.com/kr/vehicles/tasman/features"
+        },
+        {
+          "score": -7,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/tasman/27my/content/tasman_brand_11_lg.jpg",
+          "meta": "The 2027 Tasman - 초보 사장 large",
+          "page": "https://www.kia.com/kr/vehicles/tasman/features"
+        },
+        {
+          "score": -7,
+          "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/tasman/25my/content/tasman_brand_08_mo.jpg",
+          "meta": "small",
+          "page": "https://www.kia.com/kr/vehicles/tasman/features"
+        }
+      ]
     },
     "K039": {
       "model": "Tasman Single Cab Chassis",
@@ -927,7 +2307,129 @@
         "file": null,
         "source": null,
         "audit": "MISS"
-      }
+      },
+      "candidates": [
+        {
+          "score": -25,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/preview/link/kia-tasman.webp",
+          "meta": "",
+          "page": "https://www.kia.com/au/cars/tasman/"
+        },
+        {
+          "score": -26.5,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/main/kia-homepage-main-sales-white.webp",
+          "meta": "Kia White Kia White Kia White",
+          "page": "https://www.kia.com/au/"
+        },
+        {
+          "score": -26.5,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/main/icons/icon-catalog-white.png",
+          "meta": "",
+          "page": "https://www.kia.com/au/"
+        },
+        {
+          "score": -26.5,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/main/icons/icon-brochure-white.png",
+          "meta": "",
+          "page": "https://www.kia.com/au/"
+        },
+        {
+          "score": -28,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/service/componentimages/new-img.jpg",
+          "meta": "",
+          "page": "https://www.kia.com/au/cars/tasman/"
+        },
+        {
+          "score": -28,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/shopping-tools/confirm_popup.jpg",
+          "meta": "thank you A confirmation message has been sent to your email account",
+          "page": "https://www.kia.com/au/"
+        },
+        {
+          "score": -28,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/main/kia-homepage-main-sep-m2.webp",
+          "meta": "",
+          "page": "https://www.kia.com/au/"
+        },
+        {
+          "score": -28,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/main/icons/icon-find-a-dealer-black.png",
+          "meta": "",
+          "page": "https://www.kia.com/au/"
+        },
+        {
+          "score": -28,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/main/kia-homepage-main-sales-black.webp",
+          "meta": "Kia black Kia black Kia black",
+          "page": "https://www.kia.com/au/"
+        },
+        {
+          "score": -28,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/main/kia-homepage-main-hybrid-pct.webp",
+          "meta": "Kia Hybrid range, Kia Sportage Hybrid with a Centaur",
+          "page": "https://www.kia.com/au/"
+        },
+        {
+          "score": -28,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/main/kia-homepage-main-hybrid-m.webp",
+          "meta": "",
+          "page": "https://www.kia.com/au/"
+        },
+        {
+          "score": -28,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/main/icons/icon-offer-black.png",
+          "meta": "Offers icon",
+          "page": "https://www.kia.com/au/"
+        },
+        {
+          "score": -28,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/main/kia-homepage-main-test-drive.webp",
+          "meta": "Kia Hybrid Range",
+          "page": "https://www.kia.com/au/"
+        },
+        {
+          "score": -28,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/preview/kia-logo-black.webp",
+          "meta": "",
+          "page": "https://www.kia.com/au/"
+        },
+        {
+          "score": -28,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/linkpreview/kia-logo.jpg",
+          "meta": "",
+          "page": "https://www.kia.com/au/"
+        },
+        {
+          "score": -29,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/showroom/tasman/features/kia-tasman-features-ladder-frame.webp",
+          "meta": "Kia Tasman ladder frame chassis lazyload Kia Tasman ladder frame chassis lazyload",
+          "page": "https://www.kia.com/au/cars/tasman/"
+        },
+        {
+          "score": -30,
+          "url": "https://www.kia.com/au/images/showroom/tasman/features/kia-tasman-kv-pct2.webp",
+          "meta": "Kia Tasman front view outback",
+          "page": "https://www.kia.com/au/cars/tasman/"
+        },
+        {
+          "score": -30,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/showroom/tasman/features/kia-tasman-icon-large-chasing-cars.webp",
+          "meta": "Kia Tasman Chasing Cars award",
+          "page": "https://www.kia.com/au/cars/tasman/"
+        },
+        {
+          "score": -30,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/showroom/tasman/features/kia-tasman-icon-large-drive.webp",
+          "meta": "Kia Tasman Drive Car of the Yea award",
+          "page": "https://www.kia.com/au/cars/tasman/"
+        },
+        {
+          "score": -30,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/showroom/tasman/features/kia-tasman-intro2.webp",
+          "meta": "Kia Tasman top front view lazyload",
+          "page": "https://www.kia.com/au/cars/tasman/"
+        }
+      ]
     },
     "K040": {
       "model": "Tasman Dual Cab Chassis",
@@ -936,7 +2438,129 @@
         "file": null,
         "source": null,
         "audit": "MISS"
-      }
+      },
+      "candidates": [
+        {
+          "score": -25,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/preview/link/kia-tasman.webp",
+          "meta": "",
+          "page": "https://www.kia.com/au/cars/tasman/"
+        },
+        {
+          "score": -26.5,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/main/kia-homepage-main-sales-white.webp",
+          "meta": "Kia White Kia White Kia White",
+          "page": "https://www.kia.com/au/"
+        },
+        {
+          "score": -26.5,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/main/icons/icon-catalog-white.png",
+          "meta": "",
+          "page": "https://www.kia.com/au/"
+        },
+        {
+          "score": -26.5,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/main/icons/icon-brochure-white.png",
+          "meta": "",
+          "page": "https://www.kia.com/au/"
+        },
+        {
+          "score": -28,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/service/componentimages/new-img.jpg",
+          "meta": "",
+          "page": "https://www.kia.com/au/cars/tasman/"
+        },
+        {
+          "score": -28,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/shopping-tools/confirm_popup.jpg",
+          "meta": "thank you A confirmation message has been sent to your email account",
+          "page": "https://www.kia.com/au/"
+        },
+        {
+          "score": -28,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/main/kia-homepage-main-sep-m2.webp",
+          "meta": "",
+          "page": "https://www.kia.com/au/"
+        },
+        {
+          "score": -28,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/main/icons/icon-find-a-dealer-black.png",
+          "meta": "",
+          "page": "https://www.kia.com/au/"
+        },
+        {
+          "score": -28,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/main/kia-homepage-main-sales-black.webp",
+          "meta": "Kia black Kia black Kia black",
+          "page": "https://www.kia.com/au/"
+        },
+        {
+          "score": -28,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/main/kia-homepage-main-hybrid-pct.webp",
+          "meta": "Kia Hybrid range, Kia Sportage Hybrid with a Centaur",
+          "page": "https://www.kia.com/au/"
+        },
+        {
+          "score": -28,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/main/kia-homepage-main-hybrid-m.webp",
+          "meta": "",
+          "page": "https://www.kia.com/au/"
+        },
+        {
+          "score": -28,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/main/icons/icon-offer-black.png",
+          "meta": "Offers icon",
+          "page": "https://www.kia.com/au/"
+        },
+        {
+          "score": -28,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/main/kia-homepage-main-test-drive.webp",
+          "meta": "Kia Hybrid Range",
+          "page": "https://www.kia.com/au/"
+        },
+        {
+          "score": -28,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/preview/kia-logo-black.webp",
+          "meta": "",
+          "page": "https://www.kia.com/au/"
+        },
+        {
+          "score": -28,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/linkpreview/kia-logo.jpg",
+          "meta": "",
+          "page": "https://www.kia.com/au/"
+        },
+        {
+          "score": -29,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/showroom/tasman/features/kia-tasman-features-ladder-frame.webp",
+          "meta": "Kia Tasman ladder frame chassis lazyload Kia Tasman ladder frame chassis lazyload",
+          "page": "https://www.kia.com/au/cars/tasman/"
+        },
+        {
+          "score": -29,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/showroom/tasman/features/kia-tasman-features-dual-charging-tray.webp",
+          "meta": "Kia Tasman wireless phone charging lazyload Kia Tasman wireless phone charging lazyload",
+          "page": "https://www.kia.com/au/cars/tasman/"
+        },
+        {
+          "score": -30,
+          "url": "https://www.kia.com/au/images/showroom/tasman/features/kia-tasman-kv-pct2.webp",
+          "meta": "Kia Tasman front view outback",
+          "page": "https://www.kia.com/au/cars/tasman/"
+        },
+        {
+          "score": -30,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/showroom/tasman/features/kia-tasman-icon-large-chasing-cars.webp",
+          "meta": "Kia Tasman Chasing Cars award",
+          "page": "https://www.kia.com/au/cars/tasman/"
+        },
+        {
+          "score": -30,
+          "url": "https://www.kia.com/content/dam/kwcms/au/en/images/showroom/tasman/features/kia-tasman-icon-large-drive.webp",
+          "meta": "Kia Tasman Drive Car of the Yea award",
+          "page": "https://www.kia.com/au/cars/tasman/"
+        }
+      ]
     },
     "K041": {
       "model": "PV5 Passenger",

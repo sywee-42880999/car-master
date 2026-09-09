@@ -27,18 +27,18 @@ jobs:
         with:
           name: car-master-production-preview
           path: production-preview/
-      - name: Commit batch 20 second 100-item attempt
+      - name: Commit batch 21
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/master.json research/backlog-recovery-20-100-attempt.md
-          for id in 0265 0289 0304 0310 0319 0332 0348 0356 0367 0417 0499 0377 0283 0284 0285 0286 0287 0288 0305 0353 0498; do
+          git add data/master.json research/backlog-recovery-21-direct-sensors.md
+          for id in 0009 0010 0218 0219 0220 0378 0379 0380 0381 0475; do
             if [ -f "images/parts/$id.jpg" ]; then git add "images/parts/$id.jpg"; fi
           done
           if git diff --cached --quiet; then
-            echo "No validated batch-20 changes."
+            echo "No validated batch-21 changes."
           else
-            git commit -m "Recover second accelerated 100-item batch 20"
+            git commit -m "Recover direct sensors and fuse puller batch 21"
             git pull --rebase origin main
             git push origin HEAD:main
           fi

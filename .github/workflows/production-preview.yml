@@ -21,24 +21,24 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: pip install pillow fonttools
+      - run: pip install pillow
       - run: python tools/build_production_preview.py
       - uses: actions/upload-artifact@v4
         with:
           name: car-master-production-preview
           path: production-preview/
-      - name: Commit batch 19 100-item attempt
+      - name: Commit batch 20 second 100-item attempt
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/master.json research/backlog-recovery-19-100-attempt.md
-          for id in 0138 0263 0266 0270 0282 0306 0311 0312 0313 0322 0329 0351 0352 0354 0355 0358 0361 0362 0382 0383 0384 0385 0396 0405 0410 0411 0412 0420 0429 0446 0466 0469 0470 0474 0486 0490 0500; do
+          git add data/master.json research/backlog-recovery-20-100-attempt.md
+          for id in 0265 0289 0304 0310 0319 0332 0348 0356 0367 0417 0499 0377 0283 0284 0285 0286 0287 0288 0305 0353 0498; do
             if [ -f "images/parts/$id.jpg" ]; then git add "images/parts/$id.jpg"; fi
           done
           if git diff --cached --quiet; then
-            echo "No validated batch-19 changes."
+            echo "No validated batch-20 changes."
           else
-            git commit -m "Recover accelerated 100-item batch 19"
+            git commit -m "Recover second accelerated 100-item batch 20"
             git pull --rebase origin main
             git push origin HEAD:main
           fi

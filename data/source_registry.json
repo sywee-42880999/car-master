@@ -3257,6 +3257,74 @@
         "0301"
       ],
       "source_verified_at": "2026-09-09"
+    },
+    "HY_NX4_2025_POWER_SEAT_SWITCH": {
+      "maker": "Hyundai",
+      "model": "Tucson NX4",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NX4/2025/en_GN/id29715f61b14.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_AdjustSeatForwardBackwardAuto",
+        "2C_AdjustSeatHeightAuto",
+        "2C_AdjustSeatBackAuto"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0314"
+      ],
+      "source_verified_at": "2026-09-09"
+    },
+    "HY_NE1A_2025_DIGITAL_KEY_PAD": {
+      "maker": "Hyundai",
+      "model": "IONIQ 5 NE1a",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/id23BO90R0KY4.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_WirelessChargingPad"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0290"
+      ],
+      "source_verified_at": "2026-09-09"
+    },
+    "HY_NE1A_2025_FRONT_VENT_DEFROST": {
+      "maker": "Hyundai",
+      "model": "IONIQ 5 NE1a",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/id042e6950a36.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_FrontVent",
+        "2C_AirconFrontDefrostButton"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0254",
+        "0343"
+      ],
+      "source_verified_at": "2026-09-09"
+    },
+    "HY_LX3_2026_REAR_DEFROST": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/id6aa0bcddbbd.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_RearWindowDefrost"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0344"
+      ],
+      "source_verified_at": "2026-09-09"
     }
   }
 }

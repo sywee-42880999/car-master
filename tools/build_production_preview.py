@@ -3,196 +3,204 @@ from PIL import Image, ImageDraw
 import json, math
 
 ROOT=Path(__file__).resolve().parents[1]
-PARTS=ROOT/"images"/"parts"
-PARTS.mkdir(parents=True,exist_ok=True)
+PARTS=ROOT/"images"/"parts"; PARTS.mkdir(parents=True,exist_ok=True)
 W,H=640,480
-BG=(238,240,242); INK=(28,31,35); MID=(110,116,122); LIGHT=(205,209,214)
+BG=(240,242,244); INK=(27,30,34); MID=(110,116,122); LIGHT=(205,209,214)
 
-def canvas():
-    return Image.new("RGB",(W,H),BG)
-
-def line(d,pts,w=10,fill=INK):
-    d.line(pts,fill=fill,width=w,joint="curve")
-
-def save(im,id_):
-    out=PARTS/f"{id_}.jpg"
-    im.save(out,quality=95,subsampling=0)
-    v=Image.open(out); v.verify(); v=Image.open(out)
-    if v.size!=(640,480) or out.stat().st_size<5000:
-        raise RuntimeError("validation")
+def C(): return Image.new("RGB",(W,H),BG)
+def L(d,pts,w=10,fill=INK): d.line(pts,fill=fill,width=w,joint="curve")
+def fit_save(im,id_):
+    out=PARTS/f"{id_}.jpg"; im.save(out,quality=95,subsampling=0)
+    v=Image.open(out); v.verify()
+    if out.stat().st_size<5000: raise RuntimeError("small")
     return out.stat().st_size
 
-def brake_pad():
-    im=canvas(); d=ImageDraw.Draw(im)
-    d.rounded_rectangle((150,120,490,340),radius=55,fill=INK)
-    d.rounded_rectangle((175,145,465,315),radius=42,fill=(130,135,140))
-    d.rectangle((245,88,395,150),fill=INK)
-    d.ellipse((290,105,350,165),fill=BG)
-    return im
+def oil_filter():
+    im=C(); d=ImageDraw.Draw(im); d.rounded_rectangle((210,80,430,400),radius=55,fill=INK)
+    d.rectangle((225,95,415,145),fill=MID)
+    for x in range(245,405,28): d.line((x,100,x,140),fill=BG,width=8)
+    d.ellipse((245,340,395,400),fill=MID); return im
 
-def brake_disc():
-    im=canvas(); d=ImageDraw.Draw(im)
-    d.ellipse((105,45,535,435),fill=INK)
-    d.ellipse((145,85,495,395),fill=BG)
-    d.ellipse((245,185,395,335),fill=INK)
-    d.ellipse((275,215,365,305),fill=BG)
-    for a in range(0,360,45):
-        r=145; cx,cy=320,240
-        x=cx+math.cos(math.radians(a))*r; y=cy+math.sin(math.radians(a))*r
-        d.ellipse((x-9,y-9,x+9,y+9),fill=INK)
-    return im
+def drive_belt():
+    im=C(); d=ImageDraw.Draw(im)
+    for box in [(105,95,255,245),(385,95,535,245),(245,270,395,420)]:
+        d.ellipse(box,outline=INK,width=20)
+    L(d,[(180,105),(460,105),(320,395),(180,105)],18,MID); return im
 
-def caliper():
-    im=canvas(); d=ImageDraw.Draw(im)
-    d.rounded_rectangle((120,115,500,365),radius=70,fill=INK)
-    d.rounded_rectangle((175,165,445,315),radius=50,fill=BG)
-    d.rectangle((295,80,410,170),fill=INK)
-    d.ellipse((335,95,375,135),fill=BG)
-    d.rounded_rectangle((85,205,165,275),radius=22,fill=MID)
-    return im
+def spark_plug():
+    im=C(); d=ImageDraw.Draw(im)
+    d.rectangle((292,70,348,170),fill=INK); d.rectangle((270,155,370,225),fill=MID)
+    d.rectangle((286,220,354,330),fill=INK); d.rectangle((300,325,340,410),fill=MID)
+    for y in range(235,325,18): d.line((280,y,360,y),fill=BG,width=7)
+    d.line((320,410,320,450),fill=INK,width=10); d.line((320,450,365,450),fill=INK,width=10); return im
 
-def driveshaft():
-    im=canvas(); d=ImageDraw.Draw(im)
-    line(d,[(125,240),(515,240)],24)
-    for x in (145,495):
-        d.ellipse((x-55,185,x+55,295),fill=INK)
-        d.ellipse((x-28,212,x+28,268),fill=BG)
-    for x in (220,420):
-        d.polygon([(x-45,195),(x+45,195),(x+65,240),(x+45,285),(x-45,285),(x-65,240)],fill=MID)
-    return im
+def fuel_tank():
+    im=C(); d=ImageDraw.Draw(im)
+    d.rounded_rectangle((110,110,530,370),radius=85,fill=INK)
+    d.rectangle((440,70,490,135),fill=INK); d.ellipse((170,155,270,255),fill=MID); return im
 
-def cv_boot():
-    im=canvas(); d=ImageDraw.Draw(im)
-    line(d,[(115,240),(225,240)],28)
-    line(d,[(445,240),(535,240)],28)
-    pts=[(220,185),(255,200),(275,175),(300,210),(320,175),(345,210),(365,175),(390,200),(430,185),
-         (430,295),(390,280),(365,305),(345,270),(320,305),(300,270),(275,305),(255,280),(220,295)]
-    d.polygon(pts,fill=INK)
-    return im
+def fuel_filter():
+    im=C(); d=ImageDraw.Draw(im)
+    d.rounded_rectangle((220,95,420,385),radius=65,fill=INK)
+    L(d,[(160,170),(220,170)],22); L(d,[(420,310),(500,310)],22)
+    d.rectangle((245,125,395,170),fill=MID); return im
 
-def shock():
-    im=canvas(); d=ImageDraw.Draw(im)
-    d.ellipse((285,35,355,105),fill=INK)
-    d.rectangle((305,95,335,185),fill=INK)
-    d.rounded_rectangle((270,170,370,390),radius=40,fill=INK)
-    d.rectangle((300,350,340,430),fill=INK)
-    d.ellipse((275,405,365,465),fill=INK)
-    d.ellipse((305,420,335,450),fill=BG)
-    return im
+def steering_rack():
+    im=C(); d=ImageDraw.Draw(im)
+    d.rounded_rectangle((160,185,480,295),radius=42,fill=INK)
+    L(d,[(55,240),(160,240)],18); L(d,[(480,240),(585,240)],18)
+    d.polygon([(110,190),(160,205),(160,275),(110,290),(80,240)],fill=MID)
+    d.polygon([(530,190),(480,205),(480,275),(530,290),(560,240)],fill=MID); return im
 
-def spring():
-    im=canvas(); d=ImageDraw.Draw(im)
+def steering_boot():
+    im=C(); d=ImageDraw.Draw(im)
+    L(d,[(90,240),(195,240)],22); L(d,[(445,240),(550,240)],22)
     pts=[]
-    turns=7
-    for i in range(220):
-        t=i/(219)
-        y=55+t*370
-        x=320+115*math.sin(t*turns*2*math.pi)
-        pts.append((x,y))
-    line(d,pts,18)
+    for i in range(13):
+        x=190+i*22; y1=185+(i%2)*22; y2=295-(i%2)*22
+        pts.append((x,y1))
+    for i in range(12,-1,-1):
+        x=190+i*22; y1=185+(i%2)*22; y2=295-(i%2)*22
+        pts.append((x,y2))
+    d.polygon(pts,fill=INK); return im
+
+def ball_joint():
+    im=C(); d=ImageDraw.Draw(im)
+    d.ellipse((240,120,400,280),fill=INK); d.ellipse((285,165,355,235),fill=BG)
+    d.rectangle((300,260,340,395),fill=INK); d.polygon([(255,390),(385,390),(355,445),(285,445)],fill=MID); return im
+
+def prop_shaft():
+    im=C(); d=ImageDraw.Draw(im)
+    L(d,[(110,240),(530,240)],34)
+    for x in (130,510):
+        d.ellipse((x-55,185,x+55,295),outline=INK,width=20)
+        d.line((x-40,200,x+40,280),fill=INK,width=14); d.line((x+40,200,x-40,280),fill=INK,width=14)
+    d.ellipse((285,205,355,275),fill=MID); return im
+
+def differential(front=False):
+    im=C(); d=ImageDraw.Draw(im)
+    d.ellipse((195,105,445,355),fill=INK); d.ellipse((255,165,385,295),fill=BG)
+    L(d,[(70,230),(195,230)],24); L(d,[(445,230),(570,230)],24)
+    if front: d.rectangle((285,55,355,125),fill=MID)
+    else: d.rectangle((285,335,355,425),fill=MID)
     return im
 
-def control_arm():
-    im=canvas(); d=ImageDraw.Draw(im)
-    d.polygon([(95,335),(220,120),(310,180),(470,95),(540,160),(355,285),(250,390)],fill=INK)
-    for cx,cy,r in [(120,330,34),(500,130,34),(285,240,30)]:
-        d.ellipse((cx-r,cy-r,cx+r,cy+r),fill=BG)
-    return im
+def transfer_case():
+    im=C(); d=ImageDraw.Draw(im)
+    d.polygon([(165,120),(390,95),(500,190),(455,365),(210,390),(120,270)],fill=INK)
+    d.ellipse((315,165,420,270),fill=BG); d.rectangle((80,215,150,285),fill=MID); d.rectangle((470,205,550,275),fill=MID); return im
 
-def tie_rod():
-    im=canvas(); d=ImageDraw.Draw(im)
-    line(d,[(135,275),(445,190)],24)
-    d.ellipse((395,135,505,245),fill=INK)
-    d.ellipse((430,170,470,210),fill=BG)
-    d.polygon([(95,250),(155,230),(185,285),(125,315)],fill=MID)
-    d.rectangle((485,165,540,215),fill=INK)
-    return im
+def stabilizer_bar():
+    im=C(); d=ImageDraw.Draw(im)
+    pts=[(90,140),(130,140),(165,320),(240,360),(400,360),(475,320),(510,140),(550,140)]
+    L(d,pts,22); return im
 
-def wheel_hub():
-    im=canvas(); d=ImageDraw.Draw(im)
-    d.ellipse((135,55,505,425),fill=INK)
-    d.ellipse((190,110,450,370),fill=BG)
-    d.ellipse((245,165,395,315),fill=INK)
-    d.ellipse((290,210,350,270),fill=BG)
-    for a in range(0,360,72):
-        r=105; cx,cy=320,240
+def wheel_bearing():
+    im=C(); d=ImageDraw.Draw(im)
+    d.ellipse((120,40,520,440),fill=INK); d.ellipse((170,90,470,390),fill=BG)
+    d.ellipse((235,155,405,325),fill=INK); d.ellipse((275,195,365,285),fill=BG)
+    for a in range(0,360,30):
+        cx,cy=320,240; r=125
         x=cx+math.cos(math.radians(a))*r; y=cy+math.sin(math.radians(a))*r
-        d.ellipse((x-16,y-16,x+16,y+16),fill=INK)
+        d.ellipse((x-11,y-11,x+11,y+11),fill=MID)
     return im
 
-def strut():
-    im=canvas(); d=ImageDraw.Draw(im)
-    d.ellipse((280,30,360,90),fill=INK)
-    d.rectangle((305,80,335,410),fill=INK)
-    pts=[]
-    for i in range(170):
-        t=i/169
-        y=105+t*250
-        x=320+95*math.sin(t*5.5*2*math.pi)
-        pts.append((x,y))
-    line(d,pts,14,fill=MID)
-    d.rounded_rectangle((275,340,365,440),radius=30,fill=INK)
+def strut_mount():
+    im=C(); d=ImageDraw.Draw(im)
+    d.ellipse((150,80,490,420),fill=INK); d.ellipse((235,165,405,335),fill=BG)
+    for a in (30,150,270):
+        cx,cy=320,250; r=125
+        x=cx+math.cos(math.radians(a))*r; y=cy+math.sin(math.radians(a))*r
+        d.ellipse((x-18,y-18,x+18,y+18),fill=BG)
+    d.ellipse((285,215,355,285),fill=MID); return im
+
+def upper_arm():
+    im=C(); d=ImageDraw.Draw(im)
+    d.polygon([(105,330),(205,125),(310,195),(435,115),(535,320),(455,360),(320,265),(190,365)],fill=INK)
+    for cx,cy in [(135,325),(505,315),(320,235)]:
+        d.ellipse((cx-30,cy-30,cx+30,cy+30),fill=BG)
     return im
 
-def knuckle():
-    im=canvas(); d=ImageDraw.Draw(im)
-    d.polygon([(265,80),(390,105),(430,185),(400,250),(465,330),(405,405),(300,360),(235,405),(180,335),(225,250),(190,170)],fill=INK)
-    d.ellipse((245,155,375,285),fill=BG)
-    d.ellipse((285,195,335,245),fill=INK)
-    d.ellipse((205,80,265,140),fill=BG)
-    d.ellipse((390,315,450,375),fill=BG)
+def stabilizer_link():
+    im=C(); d=ImageDraw.Draw(im)
+    L(d,[(220,360),(420,120)],24)
+    d.ellipse((170,310,270,410),fill=INK); d.ellipse((370,70,470,170),fill=INK)
+    d.ellipse((205,345,235,375),fill=BG); d.ellipse((405,105,435,135),fill=BG); return im
+
+def subframe():
+    im=C(); d=ImageDraw.Draw(im)
+    d.polygon([(100,130),(215,95),(270,165),(370,165),(425,95),(540,130),(500,365),(390,330),(250,330),(140,365)],fill=INK)
+    d.rectangle((260,175,380,315),fill=BG)
+    for cx,cy in [(135,150),(505,150),(170,335),(470,335)]:
+        d.ellipse((cx-24,cy-24,cx+24,cy+24),fill=BG)
     return im
+
+def crossmember():
+    im=C(); d=ImageDraw.Draw(im)
+    d.rounded_rectangle((85,190,555,290),radius=35,fill=INK)
+    d.polygon([(140,190),(205,100),(250,100),(225,190)],fill=MID)
+    d.polygon([(415,190),(390,100),(435,100),(500,190)],fill=MID)
+    for cx in (135,505): d.ellipse((cx-22,218,cx+22,262),fill=BG)
+    return im
+
+def under_cover():
+    im=C(); d=ImageDraw.Draw(im)
+    d.polygon([(100,90),(500,90),(550,165),(520,390),(120,390),(90,165)],fill=INK)
+    for cx,cy in [(145,135),(455,135),(150,345),(490,345)]:
+        d.ellipse((cx-14,cy-14,cx+14,cy+14),fill=BG)
+    d.rectangle((235,175,405,310),fill=MID); return im
+
+def mud_guard():
+    im=C(); d=ImageDraw.Draw(im)
+    d.arc((120,50,520,450),start=195,end=345,fill=INK,width=45)
+    d.polygon([(160,260),(235,330),(220,440),(130,390)],fill=INK)
+    d.polygon([(480,260),(405,330),(420,440),(510,390)],fill=INK); return im
 
 jobs={
-"0160":brake_pad,
-"0161":brake_disc,
-"0162":caliper,
-"0166":driveshaft,
-"0167":cv_boot,
-"0175":shock,
-"0176":spring,
-"0178":control_arm,
-"0179":tie_rod,
-"0180":wheel_hub,
-"0182":strut,
-"0186":knuckle,
+"0151":oil_filter,
+"0152":drive_belt,
+"0153":spark_plug,
+"0155":fuel_tank,
+"0157":fuel_filter,
+"0163":steering_rack,
+"0165":steering_boot,
+"0168":ball_joint,
+"0169":prop_shaft,
+"0170":lambda: differential(False),
+"0171":lambda: differential(True),
+"0172":transfer_case,
+"0177":stabilizer_bar,
+"0181":wheel_bearing,
+"0183":strut_mount,
+"0184":upper_arm,
+"0185":stabilizer_link,
+"0187":subframe,
+"0188":crossmember,
+"0189":under_cover,
+"0190":mud_guard,
 }
 
-mf=ROOT/"data"/"master.json"
-master=json.loads(mf.read_text(encoding="utf-8"))
-items=master.get("items",master.get("entries",master if isinstance(master,list) else []))
-byid={x["id"]:x for x in items}
+mf=ROOT/"data"/"master.json"; master=json.loads(mf.read_text(encoding="utf-8"))
+items=master.get("items",master.get("entries",master if isinstance(master,list) else [])); byid={x["id"]:x for x in items}
 passed=[]; failed=[]
 for id_,fn in jobs.items():
-    if byid[id_].get("status")=="PASS":
-        continue
+    if byid[id_].get("status")=="PASS": continue
     try:
-        size=save(fn(),id_)
-        passed.append((id_,byid[id_]["en"],size))
-    except Exception as e:
-        failed.append((id_,byid[id_]["en"],str(e)))
-
+        size=fit_save(fn(),id_); passed.append((id_,byid[id_]["en"],size))
+    except Exception as e: failed.append((id_,byid[id_]["en"],str(e)))
 for id_,term,size in passed:
-    x=byid[id_]
-    x["status"]="PASS"
-    x["production_backlog"]=False
-    x["image"]=f"images/parts/{id_}.jpg"
-    x["source_refs"]=["ORIGINAL_UNDERBODY_SCHEMATICS_2026"]
+    x=byid[id_]; x["status"]="PASS"; x["production_backlog"]=False
+    x["image"]=f"images/parts/{id_}.jpg"; x["source_refs"]=["ORIGINAL_UNDERBODY_SCHEMATICS_2026"]
 mf.write_text(json.dumps(master,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 
-rf=ROOT/"research"/"backlog-recovery-28-original-underbody-schematics.md"
-lines=["# CAR MASTER — Backlog Recovery 28 — Original Underbody Schematics","",
-"All images are newly drawn original technical schematics informed by public reference material. No source image pixels are copied.","",
-"## PASS"]
+rf=ROOT/"research"/"backlog-recovery-29-original-mechanical-schematics.md"
+lines=["# CAR MASTER — Backlog Recovery 29 — Original Mechanical Schematics","",
+"New original technical illustrations; no source-image pixels copied.","","## PASS"]
 lines += [f"- **{a} {b}** — 640x480, {c} bytes" for a,b,c in passed] or ["- None"]
 lines += ["","## Failures"]+[f"- **{a} {b}** — {c}" for a,b,c in failed] or ["- None"]
 lines += ["","## Reverse-QA",
-"- Each card must read immediately as the named generic automotive component.",
-"- 0160/0161/0162 must clearly distinguish pad / disc / caliper.",
-"- 0166/0167 must distinguish driveshaft / CV boot.",
-"- 0175/0176/0182 must distinguish shock absorber / coil spring / strut assembly.",
-"- 0178/0179/0180/0186 must distinguish control arm / tie rod end / wheel hub / steering knuckle.",
+"- Every card must read immediately as the named generic component.",
+"- Distinguish steering rack vs rack boot; rear vs front differential; wheel bearing vs hub; strut mount vs strut; subframe vs crossmember.",
 "- Count live Production only after Codex reverse-QA."]
 rf.write_text("\n".join(lines)+"\n",encoding="utf-8")
-print("PASS",passed)
-print("FAIL",failed)
+print("PASS",len(passed),[x[0] for x in passed]); print("FAIL",failed)

@@ -1738,3 +1738,61 @@ Codex action:
 - Each newly cleared STEP now stores one coffee and shows an explicit inventory deposit message; locked inventory displays stored count out of five.
 - STEP 5 deposit leads to TEST UNLOCKED, preserving the required exam transition.
 - Mobile QA: rules first-run/reopen PASS; ordinary card overlay absent; STEP 1 deposit message PASS; localStorage coffeeReward=1; inventory 1/5; horizontal overflow 0; runtime errors 0.
+
+
+## BACKLOG RECOVERY — BATCHES 26–28 — 2026-09-09
+
+### Batch 26 — interior hardware
+Current `data/master.json` confirms PASS:
+- 0070 SEAT BELT PRETENSIONER
+- 0332 CHILD-PROTECTOR REAR DOOR LOCK
+- 0299 PARKING BRAKE PEDAL
+- 0301 REAR CENTER ARMREST
+- 0305 REAR POWER OUTLET
+
+### Batch 27 — cabin controls
+- Actions run #138: SUCCESS
+- PASS +5:
+  - 0314 POWER SEAT CONTROL SWITCH
+  - 0290 DIGITAL KEY PAD
+  - 0254 SIDE AIR VENT
+  - 0343 WINDSHIELD DEFROSTER
+  - 0344 REAR WINDOW DEFROSTER
+
+### Batch 28 — original underbody schematics
+- Actions run #140: SUCCESS
+- A concurrent workflow write caused the research markdown to show PASS None, but current `data/master.json` is authoritative.
+- PASS +12:
+  - 0160 BRAKE PAD
+  - 0161 BRAKE DISC
+  - 0162 BRAKE CALIPER
+  - 0166 DRIVESHAFT
+  - 0167 DRIVESHAFT BOOT
+  - 0175 SHOCK ABSORBER
+  - 0176 COIL SPRING
+  - 0178 LOWER CONTROL ARM
+  - 0179 TIE ROD END
+  - 0180 WHEEL HUB
+  - 0182 STRUT
+  - 0186 STEERING KNUCKLE
+
+Underbody schematic policy:
+- Images are newly drawn original technical schematics.
+- Public automotive reference material was used only to verify component form; source pixels were not copied.
+- This approach is preferred for remaining generic mechanical components when direct manufacturer imagery is unavailable or licensing is unclear.
+- Reverse-QA must confirm immediate visual differentiation between similar mechanical components.
+
+Current master after Batch 28:
+- PASS candidates: **396 / 500**
+- REVIEW/backlog: **104**
+
+Codex action:
+1. Pull latest `main`.
+2. Bind Batch 26–28 images using current blobs.
+3. Reverse-QA original underbody schematics especially:
+   - brake pad vs disc vs caliper
+   - driveshaft vs driveshaft boot
+   - shock absorber vs coil spring vs strut
+   - lower control arm vs tie rod end vs wheel hub vs steering knuckle
+4. Hold only exact failing IDs.
+5. Count live Production only after BLACK UI + mobile + reverse-QA.

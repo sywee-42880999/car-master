@@ -43,7 +43,7 @@ def toks(name):
 def page_images(page):
     if page in PAGE_CACHE:
         return PAGE_CACHE[page]
-    r = S.get(page, timeout=25)
+    r = S.get(page, timeout=12)
     r.raise_for_status()
     soup = BeautifulSoup(r.text, "html.parser")
     out = set()
@@ -97,7 +97,10 @@ def uscore(u, name, want):
     return s
 
 def getimg(url):
-    r = S.get(url, timeout=25)
+    if url in IMG_CACHE:
+        im, final = IMG_CACHE[url]
+        return im.copy(), final
+    r = S.get(url, timeout=12)
     r.raise_for_status()
     im = Image.open(io.BytesIO(r.content))
     im.load()
@@ -109,6 +112,7 @@ def getimg(url):
         im = bg.convert("RGB")
     else:
         im = im.convert("RGB")
+    IMG_CACHE[url] = (im.copy(), r.url)
     return im, r.url
 
 def whiteness(im):
@@ -188,8 +192,12 @@ def choose(name, vt, pages, over, want):
                 pool[u] = max(pool.get(u,-999), uscore(u,name,want))
         except Exception as e:
             print(" page failed:", p, e, flush=True)
+    ranked = sorted(pool.items(), key=lambda x:x[1], reverse=True)
+    if want == "rear":
+        explicit = [(u,s) for u,s in ranked if any(k in unquote(u).lower() for k in REAR)]
+        ranked = explicit
     best = None
-    for u, us in sorted(pool.items(), key=lambda x:x[1], reverse=True)[:14]:
+    for u, us in ranked[:7]:
         try:
             im, final = getimg(u)
             sc = us + qscore(im, final, want)

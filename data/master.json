@@ -1612,34 +1612,40 @@
       "id": "0151",
       "en": "ENGINE OIL FILTER",
       "ko": "엔진 오일 필터",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
-        "HY_LX3_2026_MAINTENANCE_ITEMS"
-      ]
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0151.jpg"
     },
     {
       "id": "0152",
       "en": "DRIVE BELT",
       "ko": "구동 벨트",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
-        "HY_LX3_2026_MAINTENANCE_ITEMS"
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
       ],
       "aliases": [
         "DRIVE BELTS"
-      ]
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0152.jpg"
     },
     {
       "id": "0153",
       "en": "SPARK PLUG",
       "ko": "점화 플러그",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
-        "HY_LX3_2026_MAINTENANCE_ITEMS"
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
       ],
       "aliases": [
         "SPARK PLUGS"
-      ]
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0153.jpg"
     },
     {
       "id": "0154",
@@ -1655,10 +1661,12 @@
       "id": "0155",
       "en": "FUEL TANK",
       "ko": "연료 탱크",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
-        "HY_LX3_2026_MAINTENANCE_ITEMS"
-      ]
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0155.jpg"
     },
     {
       "id": "0156",
@@ -1673,10 +1681,12 @@
       "id": "0157",
       "en": "FUEL FILTER",
       "ko": "연료 필터",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
-        "HY_LX3_2026_MAINTENANCE_ITEMS"
-      ]
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0157.jpg"
     },
     {
       "id": "0158",
@@ -1740,10 +1750,12 @@
       "id": "0163",
       "en": "STEERING GEAR RACK",
       "ko": "스티어링 기어 랙",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
-        "HY_LX3_2026_SEVERE_MAINTENANCE"
-      ]
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0163.jpg"
     },
     {
       "id": "0164",
@@ -1758,10 +1770,12 @@
       "id": "0165",
       "en": "STEERING GEAR BOOT",
       "ko": "스티어링 기어 부트",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
-        "HY_LX3_2026_SEVERE_MAINTENANCE"
-      ]
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0165.jpg"
     },
     {
       "id": "0166",
@@ -1789,48 +1803,56 @@
       "id": "0168",
       "en": "SUSPENSION BALL JOINT",
       "ko": "서스펜션 볼 조인트",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
-        "HY_LX3_2026_SEVERE_MAINTENANCE"
-      ]
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0168.jpg"
     },
     {
       "id": "0169",
       "en": "PROPELLER SHAFT",
       "ko": "프로펠러 샤프트",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
-        "HY_LX3_2026_SEVERE_MAINTENANCE"
-      ]
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0169.jpg"
     },
     {
       "id": "0170",
       "en": "REAR DIFFERENTIAL",
       "ko": "리어 디퍼렌셜",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
-        "HY_LX3_2026_SEVERE_MAINTENANCE"
-      ]
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0170.jpg"
     },
     {
       "id": "0171",
       "en": "FRONT DIFFERENTIAL",
       "ko": "프론트 디퍼렌셜",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
-      ]
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0171.jpg"
     },
     {
       "id": "0172",
       "en": "TRANSFER CASE",
       "ko": "트랜스퍼 케이스",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
-      ]
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0172.jpg"
     },
     {
       "id": "0173",
@@ -1878,11 +1900,12 @@
       "id": "0177",
       "en": "STABILIZER BAR",
       "ko": "스태빌라이저 바",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
-      ]
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0177.jpg"
     },
     {
       "id": "0178",
@@ -1921,11 +1944,12 @@
       "id": "0181",
       "en": "WHEEL BEARING",
       "ko": "휠 베어링",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
-      ]
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0181.jpg"
     },
     {
       "id": "0182",
@@ -1942,31 +1966,34 @@
       "id": "0183",
       "en": "STRUT MOUNT",
       "ko": "스트럿 마운트",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
-      ]
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0183.jpg"
     },
     {
       "id": "0184",
       "en": "UPPER CONTROL ARM",
       "ko": "어퍼 컨트롤 암",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
-      ]
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0184.jpg"
     },
     {
       "id": "0185",
       "en": "STABILIZER LINK",
       "ko": "스태빌라이저 링크",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
-      ]
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0185.jpg"
     },
     {
       "id": "0186",
@@ -1983,41 +2010,45 @@
       "id": "0187",
       "en": "SUBFRAME",
       "ko": "서브프레임",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
-      ]
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0187.jpg"
     },
     {
       "id": "0188",
       "en": "CROSSMEMBER",
       "ko": "크로스멤버",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
-      ]
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0188.jpg"
     },
     {
       "id": "0189",
       "en": "UNDER COVER",
       "ko": "언더 커버",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
-      ]
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0189.jpg"
     },
     {
       "id": "0190",
       "en": "MUD GUARD",
       "ko": "머드 가드",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
-      ]
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0190.jpg"
     },
     {
       "id": "0191",

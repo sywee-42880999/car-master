@@ -4,6 +4,7 @@ from pathlib import Path
 from urllib.parse import urljoin, unquote
 
 import requests
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from bs4 import BeautifulSoup
 from PIL import Image, ImageChops, ImageStat
 
@@ -140,8 +141,22 @@ def choose(name,vt,pages,over):
         except Exception:pass
     return None,None,None,None
 
+def prefetch(pages):
+    uniq=list(dict.fromkeys(pages))
+    def one(p):
+        try:
+            return p,page_images(p)
+        except Exception:
+            return p,[]
+    with ThreadPoolExecutor(max_workers=12) as ex:
+        futs=[ex.submit(one,p) for p in uniq]
+        for fut in as_completed(futs):
+            p,items=fut.result()
+            PAGE_CACHE[p]=items
+
 def main():
     data=json.loads(REG.read_text())
+    prefetch([p for row in data["m"] for p in row[4]])
     status=json.loads(STAT.read_text()) if STAT.exists() else {"models":{}}
     found=0
     for n,row in enumerate(data["m"],1):

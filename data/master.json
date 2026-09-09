@@ -2987,71 +2987,78 @@
       "id": "0283",
       "en": "VOLUME KNOB",
       "ko": "볼륨 노브",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_US4_2025_AUDIO_CONTROL_PANEL"
+      ],
+      "image": "images/parts/0283.jpg"
     },
     {
       "id": "0284",
       "en": "TUNE KNOB",
       "ko": "튠 노브",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_US4_2025_AUDIO_CONTROL_PANEL"
+      ],
+      "image": "images/parts/0284.jpg"
     },
     {
       "id": "0285",
       "en": "HOME BUTTON",
       "ko": "홈 버튼",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_US4_2025_AUDIO_CONTROL_PANEL"
+      ],
+      "image": "images/parts/0285.jpg"
     },
     {
       "id": "0286",
       "en": "MEDIA BUTTON",
       "ko": "미디어 버튼",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_US4_2025_AUDIO_CONTROL_PANEL"
+      ],
+      "image": "images/parts/0286.jpg"
     },
     {
       "id": "0287",
       "en": "SETUP BUTTON",
       "ko": "설정 버튼",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_US4_2025_AUDIO_CONTROL_PANEL"
+      ],
+      "image": "images/parts/0287.jpg"
     },
     {
       "id": "0288",
       "en": "SEEK/TRACK BUTTON",
       "ko": "탐색·트랙 버튼",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_US4_2025_AUDIO_CONTROL_PANEL"
+      ],
+      "image": "images/parts/0288.jpg"
     },
     {
       "id": "0289",
       "en": "PASSENGER AIRBAG INDICATOR",
       "ko": "동승석 에어백 표시등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3HEV_2026_OCS_INDICATOR"
+      ],
+      "image": "images/parts/0289.jpg"
     },
     {
       "id": "0290",
@@ -3205,11 +3212,12 @@
       "id": "0304",
       "en": "REAR USB CHARGER",
       "ko": "뒷좌석 USB 충전 포트",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_NX4_2025_REAR_USB_CHARGER"
+      ],
+      "image": "images/parts/0304.jpg"
     },
     {
       "id": "0305",
@@ -3267,11 +3275,12 @@
       "id": "0310",
       "en": "CARGO POWER OUTLET",
       "ko": "러기지 전원 소켓",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_NX4_2025_CARGO_POWER_OUTLET"
+      ],
+      "image": "images/parts/0310.jpg"
     },
     {
       "id": "0311",
@@ -3364,11 +3373,12 @@
       "id": "0319",
       "en": "RELAXATION COMFORT SEAT SWITCH",
       "ko": "릴렉션 컴포트 시트 스위치",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_MX5A_2024_RELAXATION_SEAT_SWITCH"
+      ],
+      "image": "images/parts/0319.jpg"
     },
     {
       "id": "0320",
@@ -3666,11 +3676,12 @@
       "id": "0348",
       "en": "AUTO LIGHT SENSOR",
       "ko": "오토 라이트 센서",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_NX4_2025_AUTO_LIGHT_SENSOR"
+      ],
+      "image": "images/parts/0348.jpg"
     },
     {
       "id": "0349",
@@ -3750,11 +3761,12 @@
       "id": "0356",
       "en": "REAR CONSOLE USB PORT",
       "ko": "리어 콘솔 USB 포트",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_NX4_2025_REAR_USB_CHARGER"
+      ],
+      "image": "images/parts/0356.jpg"
     },
     {
       "id": "0357",
@@ -3868,11 +3880,12 @@
       "id": "0367",
       "en": "PASSENGER OCCUPANT SENSOR",
       "ko": "동승석 승객 감지 센서",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "HY_LX3_2025_OCS_PARTS"
+      ],
+      "image": "images/parts/0367.jpg"
     },
     {
       "id": "0368",
@@ -3969,11 +3982,12 @@
       "id": "0377",
       "en": "FRONT CENTER SIDE AIRBAG",
       "ko": "앞좌석 중앙 사이드 에어백",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_AIRBAG_LOCATION"
-      ]
+      ],
+      "image": "images/parts/0377.jpg"
     },
     {
       "id": "0378",
@@ -4394,11 +4408,12 @@
       "id": "0417",
       "en": "FRONT TRUNK",
       "ko": "프론트 트렁크",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_NE1A_2025_MOTOR_ROOM"
-      ]
+        "HY_NE1A_2025_FRONT_TRUNK"
+      ],
+      "image": "images/parts/0417.jpg"
     },
     {
       "id": "0418",
@@ -5263,21 +5278,23 @@
       "id": "0498",
       "en": "V2L CONNECTOR COVER",
       "ko": "V2L 커넥터 커버",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_V2L_COMPONENTS"
-      ]
+      ],
+      "image": "images/parts/0498.jpg"
     },
     {
       "id": "0499",
       "en": "FRONT TRUNK COVER",
       "ko": "프론트 트렁크 커버",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_FRONT_TRUNK_COMPONENTS"
-      ]
+      ],
+      "image": "images/parts/0499.jpg"
     },
     {
       "id": "0500",

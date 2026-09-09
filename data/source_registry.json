@@ -3325,6 +3325,41 @@
         "0344"
       ],
       "source_verified_at": "2026-09-09"
+    },
+    "ORIGINAL_UNDERBODY_SCHEMATICS_2026": {
+      "maker": "Original technical illustration",
+      "model": "Generic passenger vehicle components",
+      "year": "2026",
+      "type": "original_schematic_reference",
+      "web_url": "https://commons.wikimedia.org/wiki/File:Automobile_brake_pad.jpg",
+      "alternate_web_urls": [
+        "https://commons.wikimedia.org/wiki/File:Brake_calipers.jpg",
+        "https://commons.wikimedia.org/wiki/File:Drive_Shaft.JPG",
+        "https://commons.wikimedia.org/wiki/File:Tie_rod_end.jpeg",
+        "https://commons.wikimedia.org/wiki/File:Wheel_hub_assembly.jpg",
+        "https://commons.wikimedia.org/wiki/File:Control_Arm_Fahrwerk.JPG",
+        "https://commons.wikimedia.org/wiki/File:Steering_knuckle.jpg",
+        "https://www.kyb.com/products/",
+        "https://www.gknautomotive.com/en/aftermarket/portfolio/driveshaft-boots/"
+      ],
+      "image_keys": [],
+      "repo_asset": null,
+      "used_by": [
+        "0160",
+        "0161",
+        "0162",
+        "0166",
+        "0167",
+        "0175",
+        "0176",
+        "0178",
+        "0179",
+        "0180",
+        "0182",
+        "0186"
+      ],
+      "source_verified_at": "2026-09-09",
+      "note": "Reference-only. Learning-card pixels are newly drawn original schematics; no source image pixels are copied."
     }
   }
 }

@@ -10,11 +10,9 @@
         "score": 30.03
       },
       "rear": {
-        "file": "images/vehicles/hyundai/h001_rear.webp",
-        "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_INSTER_2024_Interior_Editorial_03:1x1?wid=480&fit=wrap",
-        "score": 14,
-        "meta": "A side view of the front and rear seats of the new Hyundai INSTER small electric car.",
-        "audit": "RECHECK"
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "H002": {
@@ -115,9 +113,9 @@
       },
       "rear": {
         "file": "images/vehicles/hyundai/h007_rear.webp",
-        "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ-9_Exterior-Rear_Charging-Cable_Closeup_Emotional:4x3?wid=480&fit=wrap",
+        "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ-9_Exterior-Rear_Charging-Cable_Closeup_Emotional:4x3?wid=768&fit=wrap",
         "score": 22,
-        "meta": "The open charging socket of Hyundai IONIQ 9 electric SUV with charging cable.",
+        "meta": "",
         "audit": "RECHECK"
       }
     },
@@ -1877,9 +1875,9 @@
       ],
       "rear": {
         "file": "images/vehicles/hyundai/h057_rear.webp",
-        "source": "https://trucknbus.hyundai.com/global/en/images/product/cars/universe/wide-outside-rear-view-mirror.jpg",
-        "score": 30,
-        "meta": "Wide outside rear view mirror",
+        "source": "https://trucknbus.hyundai.com/global/en/images/product/cars/universe/air-suspension-rear.jpg",
+        "score": 22,
+        "meta": "Air suspension (Rear)",
         "audit": "RECHECK"
       }
     },
@@ -1909,9 +1907,9 @@
       },
       "rear": {
         "file": "images/vehicles/kia/k002_rear.webp",
-        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ray/27my/content/ray_xline_rear_garnish_lg.jpg",
+        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ray/27my/content/ray_xline_rear_skid_plate_mo.jpg",
         "score": 12,
-        "meta": "다크메탈 테일게이트 가니쉬, 블랙 엠블럼",
+        "meta": "",
         "audit": "RECHECK"
       }
     },
@@ -2314,11 +2312,9 @@
         "score": 16.5
       },
       "rear": {
-        "file": "images/vehicles/kia/k012_rear.webp",
-        "source": "https://www.kia.com/content/dam/kia2/in/en/our-vehicles/showroom/sonet/slider/safety/2023/4-d.jpg",
-        "score": 14,
-        "meta": "Front and Rear Parking Sensors",
-        "audit": "RECHECK"
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K013": {
@@ -2344,11 +2340,9 @@
         "score": 16.22
       },
       "rear": {
-        "file": "images/vehicles/kia/k014_rear.webp",
-        "source": "https://www.kia.com/content/dam/kia2/in/en/our-vehicles/syros/eng/Eng-5.jpg",
-        "score": 22,
-        "meta": "Kia Syros SUV with Front and Rear All Seat 3-Point Seatbelts with Reminder",
-        "audit": "RECHECK"
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K015": {
@@ -2514,11 +2508,9 @@
         "score": 17.26
       },
       "rear": {
-        "file": "images/vehicles/kia/k025_rear.webp",
-        "source": "https://www.kia.com/us/en/vehicles/telluride/2027/_jcr_content/root/responsivegrid/fiftyfifty.coreimg.jpeg/1781797359708/l2q-telluride-ice-5050-accessories-v2.jpeg",
-        "score": 14,
-        "meta": "A close-up image of a rear-seat entertainment system in the 2027 Kia Telluride featuring two Kia accessories mounted on black headrests.",
-        "audit": "RECHECK"
+        "file": null,
+        "source": null,
+        "audit": "MISS"
       }
     },
     "K026": {
@@ -3550,6 +3542,6 @@
       }
     }
   },
-  "rear_generated_at": "2026-09-09T22:35:13Z",
-  "rear_found": 57
+  "rear_generated_at": "2026-09-09T22:37:47Z",
+  "rear_found": 53
 }

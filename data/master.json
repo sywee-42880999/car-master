@@ -4096,41 +4096,45 @@
       "id": "0386",
       "en": "ENGINE COOLANT TEMPERATURE GAUGE",
       "ko": "엔진 냉각수 온도 게이지",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_CLUSTER_GAUGES_WARNINGS"
-      ]
+      ],
+      "image": "images/parts/0386.jpg"
     },
     {
       "id": "0387",
       "en": "CLUSTER DISPLAY",
       "ko": "클러스터 디스플레이",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_CLUSTER_GAUGES_WARNINGS"
-      ]
+      ],
+      "image": "images/parts/0387.jpg"
     },
     {
       "id": "0388",
       "en": "DISTANCE TO EMPTY",
       "ko": "주행 가능 거리 표시",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_LX3_2026_CLUSTER_GAUGES_WARNINGS"
-      ]
+        "HY_LX3_2026_DISTANCE_TO_EMPTY"
+      ],
+      "image": "images/parts/0388.jpg"
     },
     {
       "id": "0389",
       "en": "OUTSIDE TEMPERATURE GAUGE",
       "ko": "외기 온도 게이지",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_LX3_2026_CLUSTER_GAUGES_WARNINGS"
-      ]
+        "HY_NE1A_2025_OUTSIDE_TEMP"
+      ],
+      "image": "images/parts/0389.jpg"
     },
     {
       "id": "0390",

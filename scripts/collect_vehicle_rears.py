@@ -10,12 +10,17 @@ from PIL import Image, ImageChops, ImageStat
 
 ROOT=Path(__file__).resolve().parents[1]
 REG=ROOT/"data/models-latest.json"
+REJECTS_FILE=ROOT/"data/rear-source-rejects.json"
 STAT=ROOT/"data/model-image-status.json"
 OUT=ROOT/"images/vehicles"
 S=requests.Session()
 S.headers.update({"User-Agent":"Mozilla/5.0 Chrome/128 Safari/537.36","Accept-Language":"en-US,en;q=0.9,ko;q=0.8"})
 PAGE_CACHE={}
 IMG_CACHE={}
+REJECTS={}
+if REJECTS_FILE.exists():
+    _rj=json.loads(REJECTS_FILE.read_text()).get("rejects",{})
+    REJECTS={k:v.get("url") for k,v in _rj.items()}
 REAR=("rear","back","34rear","rear34","rear-three-quarter","three-quarter-rear","rear_3-4","rear-3-4","back34","back-34")
 BAD=("interior","seat","wheel","lamp","headlamp","grille","spoiler","sunroof","sensor","safety","adas","detail","close","feature","accessory","profile-eui-sun","governance","suspension","protection")
 NEUTRAL=("silver","gray","grey","white","uyuni","atlas","snow","steel","pearl","creamy","cyber","ecotronic","shimmering")
@@ -121,7 +126,7 @@ def normalize(im,vt):
     canvas.paste(im,((cw-nw)//2,y))
     return canvas
 
-def choose(name,vt,pages,over):
+def choose(mid,name,vt,pages,over):
     if over.get("rear"):
         try:
             im,final=getimg(over["rear"]);return im,final,999,"override"
@@ -130,6 +135,8 @@ def choose(name,vt,pages,over):
     for p in pages:
         try:
             for u,m in page_images(p):
+                if REJECTS.get(mid)==u:
+                    continue
                 sc=score(u,m,name)
                 if sc>-999:ranked.append((sc,u,m,p))
         except Exception as e: print(" page failed",p,e,flush=True)
@@ -163,7 +170,7 @@ def main():
         mid,brand,name,vt,pages,over=row
         print(f"[{n}/{len(data['m'])}] {mid} {name}",flush=True)
         rec=status.setdefault("models",{}).setdefault(mid,{"model":name,"brand":brand})
-        im,url,sc,meta=choose(name,vt,pages,over)
+        im,url,sc,meta=choose(mid,name,vt,pages,over)
         out=OUT/brand/f"{mid.lower()}_rear.webp"
         if im:
             out.parent.mkdir(parents=True,exist_ok=True)

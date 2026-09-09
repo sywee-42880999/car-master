@@ -1,0 +1,1190 @@
+{
+  "version": "2026-09-10",
+  "policy": {
+    "current_models_only": true,
+    "ai_generated_images": false,
+    "official_sources_only": true,
+    "wrong_image_policy": "MISS is preferred to a wrong vehicle/detail image",
+    "front_requirement": "full vehicle; exact model; current; neutral/white background preferred",
+    "rear_requirement": "full rear/rear-three-quarter vehicle; exact model; no feature/detail crops"
+  },
+  "summary": {
+    "models": 117,
+    "front_pass": 115,
+    "front_recheck_trim": 2,
+    "rear_available": 60,
+    "rear_missing": 57
+  },
+  "models": {
+    "H001": {
+      "model": "INSTER",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h001_front.webp",
+      "front_source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_INSTER_Lounge_Exterior_Top_Front_3x4:3x4?wid=1920&fit=wrap",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "H002": {
+      "model": "CASPER",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h002_front.webp",
+      "front_source": "https://casper.hyundai.com/wstatic/images/pc/vehicles/bg-main-vehicle-model.jpg",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/hyundai/h002_rear.webp",
+      "rear_source": "https://casper.hyundai.com/wstatic/images/pc/vehicles/highlight/27my/rear-day-27my.jpg"
+    },
+    "H003": {
+      "model": "IONIQ 5",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h003_front.webp",
+      "front_source": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/find-a-car/pip/eco/ioniq5-2024/design/ioniq5-design-exterior-main-mo.jpg",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/hyundai/h003_rear.webp",
+      "rear_source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ_5_2024_SHOT04_34_Rear_Lights_On:4x3?wid=640&hei=480&fit=wrap"
+    },
+    "H004": {
+      "model": "IONIQ 5 N",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h004_front.webp",
+      "front_source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/03_IONIQ5N_Exterior_Driving_Circuit_Front_02:4x3?wid=480&hei=360&fit=wrap",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/hyundai/h004_rear.webp",
+      "rear_source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/05_IONIQ5N_Exterior_Driving_Winding_Road_Rear_01:4x3?wid=640&hei=480&fit=wrap"
+    },
+    "H005": {
+      "model": "IONIQ 6",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h005_front.webp",
+      "front_source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ6_Exterior_Video_16x9_Thumbnail?wid=720&fit=constrain",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/hyundai/h005_rear.webp",
+      "rear_source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ6_Exterior_SHOT08_34_Rear_Lights_On:1x1?wid=1920&fit=wrap"
+    },
+    "H006": {
+      "model": "IONIQ 6 N",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h006_front.webp",
+      "front_source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ-6N_Exterior-Front_Driving_CE_N_Exterior_Main_02_Urban:16x9?wid=1920&fit=wrap",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/hyundai/h006_rear.webp",
+      "rear_source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ-6N_Exterior-Rear-Quarter_Driving_22_IONIQ-6N_Driving-Rear:3x4?wid=1920&fit=wrap"
+    },
+    "H007": {
+      "model": "IONIQ 9",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h007_front.webp",
+      "front_source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ-9_Exterior_04_KV_IONIQ_9_34_Front?wid=1920",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "H008": {
+      "model": "KONA",
+      "brand": "hyundai",
+      "front_status": "RECHECK_TRIM",
+      "front": "images/vehicles/hyundai/h008_front.webp",
+      "front_source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_KONA_Petrol_N-Line_Exterior-Front_16x9:4x3?wid=640&hei=480&fit=wrap",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "H009": {
+      "model": "TUCSON",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h009_front.webp",
+      "front_source": "https://www.hyundai.com/contents/repn-car/side-45/tucson-26my-45side.png",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/hyundai/h009_rear.webp",
+      "rear_source": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/find-a-car/pip/suv/tucson-nx4-2023/design/tucson-design-rear-accordion-m.jpg"
+    },
+    "H010": {
+      "model": "SANTA FE",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h010_front.webp",
+      "front_source": "https://www.hyundai.com/content/dam/hyundai/id/en/data/vehicle-thumbnail/product/all-new-santa-fe/all-new-santa-fe-640x344.png",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/hyundai/h010_rear.webp",
+      "rear_source": "https://www.hyundai.com/content/dam/hyundai/id/id/images/find-a-car/360vr/all-new-sf-calligraphy-h/lhd/ex/sf-20h-alloy/sf-hev-c-cwp/sf-hev-c-cwp_18.png"
+    },
+    "H011": {
+      "model": "PALISADE",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h011_front.webp",
+      "front_source": "https://www.hyundai.com/content/dam/hyundai/au/en/models/palisade/lx3/FSC-9UW7L9G1GAA216_EXT-GMP_TYPE-Front-34.png",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/hyundai/h011_rear.webp",
+      "rear_source": "https://www.hyundai.com/content/dam/hyundai/au/en/hyundai-info/news/2025/all-new-2026-hyundai-palisade-suv-makes--debut-in-new-york/Hyundai_PR_2026_Palisade_Hybrid_Rear-Back_D_1920x720.jpg"
+    },
+    "H012": {
+      "model": "NEXO",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h012_front.webp",
+      "front_source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_NEXO_Exterior-Front_PI_SHOT01:4x3?wid=1920&hei=1440&fit=wrap",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/hyundai/h012_rear.webp",
+      "rear_source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_NEXO_Exterior-Rear_PI_SHOT02:4x3?wid=640&hei=480&fit=wrap"
+    },
+    "H013": {
+      "model": "BAYON",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h013_front.webp",
+      "front_source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_BAYON_Exterior-Front_Parking_04_Bayon_Parking_34Front_16-9:16x9?wid=640&hei=360&fit=wrap",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "H014": {
+      "model": "i20",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h014_front.webp",
+      "front_source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_i20_Exterior-Front_Driving_06_i20_Driving_Front:16x9?wid=640&hei=360&fit=wrap",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "H015": {
+      "model": "i20 N Line",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h015_front.webp",
+      "front_source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/i20-n-line/Highlights/pc/i20-n-linethumbnail-pc.png",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "H016": {
+      "model": "i30",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h016_front.webp",
+      "front_source": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/find-a-car/pip/cars/i30-pde/i30-pde-design-front-accordion-m.jpg",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/hyundai/h016_rear.webp",
+      "rear_source": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/find-a-car/pip/cars/i30-pde/i30-pde-design-rear-accordion-m.jpg"
+    },
+    "H017": {
+      "model": "i30 Wagon",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h017_front.webp",
+      "front_source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_i30_WG_2024_Exterior_SHOT03_34_Front_Lights_On:4x3?wid=2560&hei=1920&fmt=png-alpha&fit=wrap",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/hyundai/h017_rear.webp",
+      "rear_source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/HYU_PD_WAGON_EViz_Env_PE2-EcotronicGrayPearl_52910G4720_C06"
+    },
+    "H018": {
+      "model": "STARIA",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h018_front.webp",
+      "front_source": "https://www.hyundai.com/content/dam/hyundai/id/en/data/vehicle-thumbnail/product/staria/staria-640x344.png",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "H019": {
+      "model": "STARIA Electric",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h019_front.webp",
+      "front_source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_STARIA-Electric_Exterior-Front:4x3?wid=640&hei=480&fit=wrap",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/hyundai/h019_rear.webp",
+      "rear_source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_STARIA-Electric_Exterior_Rear_3x4:3x4?wid=480&fit=wrap"
+    },
+    "H020": {
+      "model": "ST1",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h020_front.webp",
+      "front_source": "https://conversionplus.hyundai.com/upload/model/pcimg/2026/03/b7f40661bd7c492d97a4df0bc0ca280a.png",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "H021": {
+      "model": "PORTER II",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h021_front.webp",
+      "front_source": "https://www.hyundai-motor.com.tw/upload/car_data/s728add0260b55cb1e6ba7ce70f2b8fe2.png",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "H022": {
+      "model": "PORTER II Electric",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h022_front.webp",
+      "front_source": "https://www.hyundai.com/content/dam/hyundai/kr/ko/images/vehicles/porter2-electric/pip-porter2-electric-keyvisual-w.jpg",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "H023": {
+      "model": "CRETA",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h023_front.webp",
+      "front_source": "https://www.hyundai.com/content/dam/hyundai/id/en/data/vehicle-thumbnail/product/new-creta/creta-640x344.png",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "H024": {
+      "model": "CRETA N Line",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h024_front.webp",
+      "front_source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/vehicle-thumbnail/Thumbnail/creta-thumbnail-pc.png",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/hyundai/h024_rear.webp",
+      "rear_source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/creta-n-line/highlights/knight/cretanlinebig4.jpg"
+    },
+    "H025": {
+      "model": "CRETA Electric",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h025_front.webp",
+      "front_source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/creta-electric/highlights/cretaevthumbnailkv.jpg",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "H026": {
+      "model": "EXTER",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h026_front.webp",
+      "front_source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Exter/exterior/exter-ext-front.jpg",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/hyundai/h026_rear.webp",
+      "rear_source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Exter/exterior/exter-ext-rear.jpg"
+    },
+    "H027": {
+      "model": "ALCAZAR",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h027_front.webp",
+      "front_source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/vehicle-thumbnail/Thumbnail/thumbnail460x250.png",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "H028": {
+      "model": "VERNA / ACCENT",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h028_front.webp",
+      "front_source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/vehicle-thumbnail/Thumbnail/verna_thumbanil_pc.png",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "H029": {
+      "model": "AURA",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h029_front.webp",
+      "front_source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/vehicle-thumbnail/Thumbnail/aura_thumbnail_pc.png",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/hyundai/h029_rear.webp",
+      "rear_source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Aura/gallery/pc/auragallerypc_1.jpg"
+    },
+    "H030": {
+      "model": "Grand i10 NIOS / Grand i10",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h030_front.webp",
+      "front_source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/vehicle-thumbnail/Thumbnail/grandi10nios_thumbnail_pc.png",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/hyundai/h030_rear.webp",
+      "rear_source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Grand-i10-Nios/Gallery%20Section/big/pc/niosgallerysmal_2.jpg"
+    },
+    "H031": {
+      "model": "Prime-HB",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h031_front.webp",
+      "front_source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/vehicle-thumbnail/Thumbnail/prime-hb-thumbnail-pc.jpg",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "H032": {
+      "model": "Prime-SD",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h032_front.webp",
+      "front_source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/vehicle-thumbnail/Thumbnail/prime-sd-thumbnail-pc.jpg",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "H033": {
+      "model": "VENUE",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h033_front.webp",
+      "front_source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Venue/Exterior/pc/venueextfront1.jpg",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/hyundai/h033_rear.webp",
+      "rear_source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Venue/Exterior/pc/venueextrear1.jpg"
+    },
+    "H034": {
+      "model": "VENUE N Line",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h034_front.webp",
+      "front_source": "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/venue-n-line/360/atlas-white/pc/atlas-white_5.png",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "H035": {
+      "model": "HB20",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h035_front.webp",
+      "front_source": "https://www.hyundai.com.br/content/dam/hmb/product-page/novo-hyndai-hb20/veiculo/360/externo/hb20_cinza_shadow_01.webp",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/hyundai/h035_rear.webp",
+      "rear_source": "https://www.hyundai.com.br/content/dam/hmb/product-page/novo-hyndai-hb20/design/features/modal/desktop/05-design_traseira_desk.webp"
+    },
+    "H036": {
+      "model": "HB20S",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h036_front.webp",
+      "front_source": "https://www.hyundai.com.br/content/dam/hmb/product-page/novo-hyundai-hb20s/veiculo/360/externo_v2/hb20s_cinza_shadow_01.webp",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/hyundai/h036_rear.webp",
+      "rear_source": "https://www.hyundai.com.br/content/dam/hmb/product-page/novo-hyundai-hb20s/design/features/modal/desktop/05-design_traseira_desk.webp"
+    },
+    "H037": {
+      "model": "SANTA CRUZ",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h037_front.webp",
+      "front_source": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/newsroom/news-image/2024/03/0328-1/media-kit/mk3.jpg",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "H038": {
+      "model": "STARGAZER / STARGAZER Cartenz",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h038_front.webp",
+      "front_source": "https://www.hyundai.com/content/dam/hyundai/id/id/images/find-a-car/pip/stargazer-cartenz/car-thumbnail/stargazer-cartenz-640x344.png",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/hyundai/h038_rear.webp",
+      "rear_source": "https://www.hyundai.com/content/dam/hyundai/ph/en/images/find-a-car/pip/new-stargazer/gallery/design/STARGAZER-FL-Rear.jpg"
+    },
+    "H039": {
+      "model": "STARGAZER X / Cartenz X",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h039_front.webp",
+      "front_source": "https://www.hyundai.com/content/dam/hyundai/id/en/data/vehicle-thumbnail/product/stargazer-cartenz-x/default/stargazer-cartenz-x-640x344.png",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "H040": {
+      "model": "CUSTIN / CUSTO",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h040_front.webp",
+      "front_source": "https://www.hyundai.com/content/dam/hyundai/ph/en/images/find-a-car/pip/Custin/exterior/CASTIN_Front_45_White.jpg",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/hyundai/h040_rear.webp",
+      "rear_source": "https://www.hyundai.com/content/dam/hyundai/ph/en/images/find-a-car/pip/Custin/exterior/rear-custin.jpg"
+    },
+    "H041": {
+      "model": "ELANTRA / AVANTE",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h041_front.webp",
+      "front_source": "https://www.hyundai.com/content/dam/hyundai/ph/en/images/find-a-car/pip/elantra/ext-colors/CN7_PE_K2_LHD_COLOR_EXTERIOR_Atlas%20White_CMYK.jpg",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/hyundai/h041_rear.webp",
+      "rear_source": "https://www.hyundai.com/content/dam/hyundai/ph/en/images/find-a-car/pip/elantra/Gallery/design/DESIGN-ELANTRA-Assets-10.jpg"
+    },
+    "H042": {
+      "model": "AVANTE N / ELANTRA N",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h042_front.webp",
+      "front_source": "https://org3.hyundai.com/content/dam/hyundai/ww/en/images/newsroom/news-image/2023/09/0915-02/gallery/gallery-image-1170x640-04.jpg",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/hyundai/h042_rear.webp",
+      "rear_source": "https://org3.hyundai.com/content/dam/hyundai/ww/en/images/newsroom/news-image/2023/09/0915-02/gallery/gallery-image-1170x640-05.jpg"
+    },
+    "H043": {
+      "model": "SONATA",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h043_front.webp",
+      "front_source": "https://sonata.beijing-hyundai.com.cn/sonata/assets/resource/vehicle/config/group01/01.png",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "H044": {
+      "model": "GRANDEUR",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h044_front.webp",
+      "front_source": "https://www.hyundai.com/contents/repn-car/side-45/grandeur-27fl-45side.png",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "H045": {
+      "model": "ELEXIO / EO",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h045_front.webp",
+      "front_source": "https://www.hyundai.com/content/dam/hyundai/au/en/models/elexio/oe/FSC-I8W5ZHZ7ZHH198_EXT-PB2_TYPE-Front-34.png",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "H046": {
+      "model": "MU FASA",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h046_front.webp",
+      "front_source": "https://mufasa.beijing-hyundai.com.cn/assets/resource/vehicle/outside/img01-mb.jpg",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "H047": {
+      "model": "MIGHTY",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h047_front.webp",
+      "front_source": "https://www.hyundai.com/cstatic/images/product/cars/mighty/color/creamy_white.jpg",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "H048": {
+      "model": "PAVISE",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h048_front.webp",
+      "front_source": "https://www.hyundai.com/cstatic/images/product/cars/pavis/pavise-armroll-truck-bin-kv-pc.jpg",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "H049": {
+      "model": "XCIENT",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h049_front.webp",
+      "front_source": "https://trucknbus.hyundai.com/global/en/images/product/360vr/xcient-qz/exterior/creamy-white/creamy-white-000.png",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "H050": {
+      "model": "XCIENT Fuel Cell",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h050_front.webp",
+      "front_source": "https://www.hyundai.com/ccontents/metadata/MT00002361/facebook-xcient-fuel-cell.jpg",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "H051": {
+      "model": "COUNTY",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h051_front.webp",
+      "front_source": "https://trucknbus.hyundai.com/global/en/images/product/cars/county-new-breeze/county-new-main-bg.jpg",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/hyundai/h051_rear.webp",
+      "rear_source": "https://www.hyundai.com/cstatic/images/product/cars/county/facade-rear-design-2.jpg"
+    },
+    "H052": {
+      "model": "COUNTY Electric",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h052_front.webp",
+      "front_source": "https://www.hyundai.com/cstatic/images/product/cars/county-electric/design-options-2.jpg",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "H053": {
+      "model": "ELEC CITY",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h053_front.webp",
+      "front_source": "https://www.hyundai.com/cstatic/images/product/cars/eleccity/design-exterior-01.jpg",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "H054": {
+      "model": "ELEC CITY Town",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h054_front.webp",
+      "front_source": "https://www.hyundai.com/cstatic/images/product/cars/elec-city-town/electric-bus-front-design.jpg",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/hyundai/h054_rear.webp",
+      "rear_source": "https://www.hyundai.com/cstatic/images/product/cars/elec-city-town/electric-bus-rear-design.jpg"
+    },
+    "H055": {
+      "model": "ELEC CITY Double Decker",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h055_front.webp",
+      "front_source": "https://www.hyundai.com/cstatic/images/product/cars/elec-city-double-decker/eleccity-double-3-4.jpg",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "H056": {
+      "model": "UNICITY",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h056_front.webp",
+      "front_source": "https://www.hyundai.com/ccontents/carmng/KV00000214/KV00000106unicity-kv-01.jpg",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "H057": {
+      "model": "UNIVERSE",
+      "brand": "hyundai",
+      "front_status": "PASS",
+      "front": "images/vehicles/hyundai/h057_front.webp",
+      "front_source": "https://trucknbus.hyundai.com/global/en/images/product/cars/universe/universe-nobel.jpg",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/hyundai/h057_rear.webp",
+      "rear_source": "https://trucknbus.hyundai.com/global/en/images/product/cars/universe/rear-combination-lamp.jpg"
+    },
+    "K001": {
+      "model": "Picanto / Morning",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k001_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/vehicles/ja/picanto-my25/discover/kia-picanto-gtl-my25-Static-FrontTop-exterior-with-Talent--w-t-m.jpg",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/kia/k001_rear.webp",
+      "rear_source": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/vehicles/ja/picanto-my25/discover/kia-picanto-my25-rearlights-keyvisual-w-d.jpg"
+    },
+    "K002": {
+      "model": "Ray",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k002_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ray/27my/content/ray_gravity_front_skid_plate_pop_pc.jpg",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/kia/k002_rear.webp",
+      "rear_source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ray/23my/content/ray_exterior_beige.jpg"
+    },
+    "K003": {
+      "model": "Ray EV",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k003_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ray-ev/27my/content/rayev_exterior_front_side_pc.jpg",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "K004": {
+      "model": "K3 Sedan",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k004_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwcms/mx/es/images/showroom/2026/k3-sedan/MiniaturasCaracteristicas/AjusteMiniaturas/K3_sd_white_L.png",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "K005": {
+      "model": "K3 Hatchback",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k005_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwcms/mx/es/images/showroom/2024/k3-hatchback/360-complete/snow-white-pearl/360-Kia-K3-HB-SNOW-WHITE-PEARL00.png",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "K006": {
+      "model": "K4 Sedan",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k006_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kia/us/en/vehicles/k4/2026/trim-cards/kia-trim-jellies-my26-k4-ex.png",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "K007": {
+      "model": "K4 Hatchback",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k007_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kia/us/en/vehicles/k4-hatchback/2026/trims/ex/exterior/61656a/360/04.png",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "K008": {
+      "model": "K4 Sportswagon",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k008_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/contents/about-kia/neue-modelle/k4-sw/kia_neue-modelle_k4-sw_940x640_04.webp",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "K009": {
+      "model": "K5",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k009_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kia/us/en/home2-0/mtf-carousel/sedan/k5/my27-k5-mtf-large-middle.png",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/kia/k009_rear.webp",
+      "rear_source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k5/26my/spec/k5pe_specification_rear_image_pc.png"
+    },
+    "K010": {
+      "model": "K8",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k010_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/represent/krgl301/k8_gljs49i36_a_agt.png",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/kia/k010_rear.webp",
+      "rear_source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k8/26my/spec/k8_specification_rear_pc.png"
+    },
+    "K011": {
+      "model": "K9",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k011_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k9/24my/content/k9_exterior_front_pc.jpg",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/kia/k011_rear.webp",
+      "rear_source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/k9/24my/content/k9_exterior_rear_mo.jpg"
+    },
+    "K012": {
+      "model": "Sonet",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k012_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kia2/in/en/images/360vr/sonet/sxw5k2g1uhh078/exterior/gb2/09-d.png",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "K013": {
+      "model": "Seltos",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k013_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwcms/mx/es/images/showroom/2026/seltos/thumbnail/Sxl_snow-white-pearl_seltos_configura_tu_kia.png",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "K014": {
+      "model": "Syros",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k014_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kia2/in/en/images/360vr/syros/8ww5k2g1upp121/exterior/ebb/09-d.png",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "K015": {
+      "model": "Syros EV",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k015_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kia2/in/en/images/360vr/syros_ev/8bw5zhz7zpp078/exterior/ism/09-d.png",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "K016": {
+      "model": "Carens",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k016_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kia2/in/en/images/360vr/carens/tyw71mc57dd413/exterior/mpb/08-m.png",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "K017": {
+      "model": "Carens Clavis",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k017_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kia2/in/en/images/home/h-1/mpv/carens-clavis.png",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "K018": {
+      "model": "Carens Clavis EV",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k018_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kia2/in/en/our-vehicles/kia-carens-clavis-ev/showroom/s-5/s5-kv-d.png",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "K019": {
+      "model": "Carnival",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k019_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kia2/in/en/images/360vr/carnival/8tb72hc5jgg000/exterior/gwp/08-m.png",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "K020": {
+      "model": "Niro",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k020_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/all-new-niro/RHD_Front_Static_HI_d_2.jpg",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/kia/k020_rear.webp",
+      "rear_source": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/vehicles/niro-sg2/discover/kia-niro-my24-visual-34-rear-d-w.jpg"
+    },
+    "K021": {
+      "model": "Stonic",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k021_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/vehicles/stonic/my26/embargo/discover/kia-stonic-ice-gtl-my26_BS_front-driving-w.jpg",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/kia/k021_rear.webp",
+      "rear_source": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/vehicles/stonic/my26/embargo/discover/kia-stonic-ice-gtl-my26_PD_Rear%20Lights_sRGB.jpg"
+    },
+    "K022": {
+      "model": "XCeed",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k022_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/xceed/MY26/XCeed_Blue-Flame(1920x1080).jpg",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/kia/k022_rear.webp",
+      "rear_source": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/xceed/MY26/Xceed_GTL_MY26(04)_1160x653.jpg"
+    },
+    "K023": {
+      "model": "Sportage",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k023_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/The_all-new_Sportage/Sportage-GTLineS-1920x1080.png",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/kia/k023_rear.webp",
+      "rear_source": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/vehicles/sportage/my26/discover/kia-sportage-hev-gtl-my26_BS_34Rear_with_Talent-1920x1440.jpg"
+    },
+    "K024": {
+      "model": "Sorento",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k024_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwcms/mx/es/images/showroom/2024/sorento/usps-exterior/1-Nuevo-dise%C3%B1o-de-faros-frontal-900x600.jpg",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/kia/k024_rear.webp",
+      "rear_source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/sorento/26my/spec/sorento_specification_rear_image_mo.png"
+    },
+    "K025": {
+      "model": "Telluride",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k025_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kia/us/en/vehicles/telluride/2027/trims/x-line-sx-prestige/exterior/adb4c0/360/05.png",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "K026": {
+      "model": "EV2",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k026_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/news-articles/article-images-%28940x529%29/EV2-Unveil-1%28940x529%29.jpg",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/kia/k026_rear.webp",
+      "rear_source": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/vehicles/ev2/my27/discover/kia-ev2-my27-BL-BS_Rear-1920x1080.jpg"
+    },
+    "K027": {
+      "model": "EV3",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k027_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/vehicles/sv/sv-my25/discover/kia-ev3-pe-gtl-34front.png",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/kia/k027_rear.webp",
+      "rear_source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ev3/26my/spec/ev3_specification_rear_pc.png"
+    },
+    "K028": {
+      "model": "EV3 GT",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k028_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/contents/about-kia/neue-modelle/gt-modelle/kia_ev3_gt_940x640.jpg",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/kia/k028_rear.webp",
+      "rear_source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ev3-gt/26my/spec/ev3_gt_specification_rear_pc.png"
+    },
+    "K029": {
+      "model": "EV4",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k029_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ev4/25my/content/the-kia-ev4_feature_bg_pc.jpg",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "K030": {
+      "model": "EV4 Fastback / Hatchback",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k030_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/images/new-cars/ev4/2026/ev4_fastback_gtl_specs_482x272.png",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/kia/k030_rear.webp",
+      "rear_source": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/vehicles/ev4/my26/discover/kia-ev4-my26-NA-Beauty_34-Rear_MaleTalent_rgb-1920x1080.jpg"
+    },
+    "K031": {
+      "model": "EV4 GT",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k031_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/contents/about-kia/neue-modelle/gt-modelle/kia_ev4_gt_940x640.jpg",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "K032": {
+      "model": "EV5",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k032_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/vehicles/ev5/my26-presales/trims/ev5-presales-air.png",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/kia/k032_rear.webp",
+      "rear_source": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/vehicles/ev5-my26/discover/kia-EV5-GTL-MY26-NA-Lifestyle-34Rear-rgb.jpg"
+    },
+    "K033": {
+      "model": "EV5 GT",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k033_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/contents/about-kia/neue-modelle/gt-modelle/kia_ev5_gt_940x640.jpg",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/kia/k033_rear.webp",
+      "rear_source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ev5-gt/26my/spec/ev5_gt_specification_rear_pc.png"
+    },
+    "K034": {
+      "model": "EV6",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k034_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/EV6/EV6_GTL_MY25_LifstyleExterior_FullFront_with_Talent_sRGB_577x432.jpg",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/kia/k034_rear.webp",
+      "rear_source": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/vehicles/ev6/ev6-pe-my25/digital-discover/kia-ev6-pe-my24-delp-exterior-driving-rear.jpg"
+    },
+    "K035": {
+      "model": "EV6 GT",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k035_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ev6-gt/27my/gallery/image/ev6-gt_gallery_image_front.jpg",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/kia/k035_rear.webp",
+      "rear_source": "https://kwp1.kia.com/content/dam/kwp/kr/ko/vehicles/ev6-gt/26pe/spec/ev6-gt_specification_rear_pc.png"
+    },
+    "K036": {
+      "model": "EV9",
+      "brand": "kia",
+      "front_status": "RECHECK_TRIM",
+      "front": "images/vehicles/kia/k036_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/EV9/kia-ev9_2022-gt-line-s-7-seat-pacific-blue_0014-1920x1080.png",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/kia/k036_rear.webp",
+      "rear_source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ev9/24my/spec/ev9_specification_rear_image_pc.png"
+    },
+    "K037": {
+      "model": "EV9 GT",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k037_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ev9-gt/26my/gallery/image/ev9-gt_gallery_image_front.jpg",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/kia/k037_rear.webp",
+      "rear_source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ev9-gt/my/spec/ev9-gt_specification_rear_pc.png"
+    },
+    "K038": {
+      "model": "Tasman Pick-up",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k038_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwcms/au/en/images/showroom/tasman/features/kia-tasman-grade-comparison-pu-s.webp",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "K039": {
+      "model": "Tasman Single Cab Chassis",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k039_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwcms/au/en/images/showroom/tasman/cab-chassis/kia-tasman-grade-comparison-scc-s.webp",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "K040": {
+      "model": "Tasman Dual Cab Chassis",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k040_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwcms/au/en/images/showroom/tasman/cab-chassis/kia-tasman-grade-comparison-dcc-s.webp",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "K041": {
+      "model": "PV5 Passenger",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k041_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/gnb/flyout-neu/kia_pv5-passenger_520x260.png",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/kia/k041_rear.webp",
+      "rear_source": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/contents/pbv/5/freecoding/pv5-passenger/Design_Exterior_03_m.jpg"
+    },
+    "K042": {
+      "model": "PV5 Cargo",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k042_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/gnb/flyout-neu/kia_pv5-cargo_520x260.png",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/kia/k042_rear.webp",
+      "rear_source": "https://eu-www.kia.com/content/dam/kwcms/kme/global/en/assets/contents/pbv/5/freecoding/pv5-cargo/Design_Exterior_03_m.jpg"
+    },
+    "K043": {
+      "model": "PV5 Crew",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k043_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/gnb/flyout-neu/kia_pv5-crew_520x260.webp",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "K044": {
+      "model": "PV5 Chassis Cab",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k044_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/gnb/flyout-neu/Kia_pv5-chassis-cab_520x260.png",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "K045": {
+      "model": "PV5 WAV",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k045_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/contents/pv5wav-gnb/pv5-wav-520x260.png",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/kia/k045_rear.webp",
+      "rear_source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/pv5-wav/27my/spec/pv5_wav_specification_rear_pc.png"
+    },
+    "K046": {
+      "model": "PV5 Open Bed",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k046_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/pv5-openbed/27my/content/the_kia_pv5_openbed_bg_pc.jpg",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/kia/k046_rear.webp",
+      "rear_source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/pv5-openbed/27my/spec/pv5_openbed_specification_rear_mo.png"
+    },
+    "K047": {
+      "model": "Bongo III",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k047_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwp/kr/ko/main-kv-contents/202311/kv_bongo3_contract_pc.jpg",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/kia/k047_rear.webp",
+      "rear_source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/bongo3/26my/spec/bongo3_specification_rear_image_pc.png"
+    },
+    "K048": {
+      "model": "Bongo III EV",
+      "brand": "kia",
+      "front_status": "PASS",
+      "front": "images/vehicles/kia/k048_front.webp",
+      "front_source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/bongo3ev/26my/spec/bongo3ev_specification_front_image_pc.png",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/kia/k048_rear.webp",
+      "rear_source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/bongo3ev/26my/spec/bongo3ev_specification_rear_image_pc.png"
+    },
+    "G001": {
+      "model": "G70",
+      "brand": "genesis",
+      "front_status": "PASS",
+      "front": "images/vehicles/genesis/g001_front.webp",
+      "front_source": "https://s7d1.scene7.com/is/image/hyundai/2026-g70-33t-spt-pst-awd-capriblue-obsidianblackwredstitch-frontdrvrangle-studio-4:16-9?wid=1000&hei=563&fmt=webp",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/genesis/g001_rear.webp",
+      "rear_source": "https://s7d1.scene7.com/is/image/hyundai/my24-ik-0365:4-3?wid=900&hei=675&fmt=webp"
+    },
+    "G002": {
+      "model": "G70 Shooting Brake",
+      "brand": "genesis",
+      "front_status": "PASS",
+      "front": "images/vehicles/genesis/g002_front.webp",
+      "front_source": "https://www.genesis.com/content/dam/genesis-p2/kr/admin/model-information/G70%20Shooting%20Brake/wide-image/2026-01-08/18-20-35/genesis-kr-admin-model-wide-image-g70-shooting-brake-desktop-880x335-kr.png",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/genesis/g002_rear.webp",
+      "rear_source": "https://dams.hyundai-autoever.com/cdn-cgi/image/width=708,height=400,fit=cover,quality=85,format=auto/v1/openapi/hmg-presigned-url/50534b313031303030303030303030303131393637/genesis-g70-shooting-brake-2026-standard-exterior-rear-design-large.png"
+    },
+    "G003": {
+      "model": "G80",
+      "brand": "genesis",
+      "front_status": "PASS",
+      "front": "images/vehicles/genesis/g003_front.webp",
+      "front_source": "https://s7d1.scene7.com/is/image/hyundai/2026-g80-35t-spt-pst-awd-uyuniwhite-obsidianblackwredstitchwcarbonfiber-frontdrvrangle-studio-3:16-9?wid=1000&hei=563&fmt=webp",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/genesis/g003_rear.webp",
+      "rear_source": "https://s7d1.scene7.com/is/image/hyundai/my27-rg3-0602:2-1?wid=900&hei=450&fmt=webp"
+    },
+    "G004": {
+      "model": "Electrified G80",
+      "brand": "genesis",
+      "front_status": "PASS",
+      "front": "images/vehicles/genesis/g004_front.webp",
+      "front_source": "https://www.genesis.com/content/dam/genesis-p2/kr/admin/model-information/Electrified%20G80/wide-image/2026-03-03/10-13-31/genesis-kr-admin-model-list-thumbnail-electrified-g80-27my-desktop-880x335.png",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "G005": {
+      "model": "G90",
+      "brand": "genesis",
+      "front_status": "PASS",
+      "front": "images/vehicles/genesis/g005_front.webp",
+      "front_source": "https://s7d1.scene7.com/is/image/hyundai/2026-g90-35t-e-sc-awd-vikblack-blackmonotone-frontdrvrangle-studio-3:16-9?wid=1000&hei=563&fmt=webp",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "G006": {
+      "model": "G90 Long Wheel Base",
+      "brand": "genesis",
+      "front_status": "PASS",
+      "front": "images/vehicles/genesis/g006_front.webp",
+      "front_source": "https://www.genesis.com/content/dam/genesis-p2/kr/admin/model-information/G90%20Long%20Wheel%20Base/wide-image/2025-03-04/10-27-07/genesis-kr-admin-model-wide-image-g90-lwb-desktop-880x335-ko.png",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "G007": {
+      "model": "GV60",
+      "brand": "genesis",
+      "front_status": "PASS",
+      "front": "images/vehicles/genesis/g007_front.webp",
+      "front_source": "https://s7d1.scene7.com/is/image/hyundai/2026-gv60-prf-awd-uyuniwhite-obsidianblackmonotonenappaleather-frontdrvrangle-studio-gnav:16-9?wid=1000&hei=563&fmt=webp",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/genesis/g007_rear.webp",
+      "rear_source": "https://s7d1.scene7.com/is/image/hyundai/my27-jw-0578:16-9?wid=1800&hei=1013&fmt=webp"
+    },
+    "G008": {
+      "model": "GV60 Magma",
+      "brand": "genesis",
+      "front_status": "PASS",
+      "front": "images/vehicles/genesis/g008_front.webp",
+      "front_source": "https://www.genesis.com/content/dam/genesis-p2/kr/admin/model-information/GV60%20Magma/wide-image/2026-01-12/15-19-31/genesis-kr-admin-model-list-thumbnail-gv60-magma-desktop-desktop-880x335-en.png",
+      "rear_status": "MISS",
+      "rear": null,
+      "rear_source": null
+    },
+    "G009": {
+      "model": "GV70",
+      "brand": "genesis",
+      "front_status": "PASS",
+      "front": "images/vehicles/genesis/g009_front.webp",
+      "front_source": "https://www.genesis.com/content/dam/genesis-p2/kr/admin/bto-information/gv70-2024-jk4b/exterior/pc-image/gv70-24my-bto-exterior-uyuni-white-desktop-1920x960.png",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/genesis/g009_rear.webp",
+      "rear_source": "https://s7d1.scene7.com/is/image/hyundai/my27-jk-1497:2-1?wid=900&hei=450&fmt=webp"
+    },
+    "G010": {
+      "model": "Electrified GV70",
+      "brand": "genesis",
+      "front_status": "PASS",
+      "front": "images/vehicles/genesis/g010_front.webp",
+      "front_source": "https://s7d1.scene7.com/is/image/hyundai/2027_egv70_pst_awd_savilesilver_obsidianblackwithgraystitch_frontdrvrangle_studio:16-9?wid=700&hei=394&fmt=webp",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/genesis/g010_rear.webp",
+      "rear_source": "https://s7d1.scene7.com/is/image/hyundai/my27-jkev-1489:1-1?wid=1000&hei=1000&fmt=webp"
+    },
+    "G011": {
+      "model": "GV80",
+      "brand": "genesis",
+      "front_status": "PASS",
+      "front": "images/vehicles/genesis/g011_front.webp",
+      "front_source": "https://s7d1.scene7.com/is/image/hyundai/2027-gv80-35t-pst-awd-makalugray-blackmonotoneandoliveashwood-frontdrvrangle-studio-gnav:16-9?wid=700&hei=394&fmt=webp",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/genesis/g011_rear.webp",
+      "rear_source": "https://s7d1.scene7.com/is/image/hyundai/my27-jx-1085-woutbadge-extended-1:16-9?wid=1800&hei=1013&fmt=webp"
+    },
+    "G012": {
+      "model": "GV80 Coupe",
+      "brand": "genesis",
+      "front_status": "PASS",
+      "front": "images/vehicles/genesis/g012_front.webp",
+      "front_source": "https://s7d1.scene7.com/is/image/hyundai/2027-gv80coupe-35t-e-sc-mhev-pst-awd-ceresblue-obsidianblackmonotonegraystitch-frontdrvrangle-gnav:16-9?wid=1000&hei=563&fmt=webp",
+      "rear_status": "PASS_SOURCE_CHECK",
+      "rear": "images/vehicles/genesis/g012_rear.webp",
+      "rear_source": "https://s7d1.scene7.com/is/image/hyundai/my27-jxcoupe-0093:24-9?wid=1328&hei=498&fmt=webp"
+    }
+  }
+}

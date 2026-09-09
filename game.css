@@ -2,3 +2,23 @@
 
 .card-nav-wrap{position:relative}.card-nav{display:none}
 @media(min-width:700px){.card-nav{position:absolute;top:50%;z-index:3;display:grid;width:30px;height:42px;place-items:center;padding:0;border:1px solid rgba(255,255,255,.16);border-radius:9px;background:rgba(20,20,20,.58);color:rgba(255,255,255,.72);font-size:1.45rem;line-height:1;cursor:pointer;transform:translateY(-50%);backdrop-filter:blur(5px);transition:background .15s,color .15s,border-color .15s}.card-nav:hover,.card-nav:focus-visible{border-color:rgba(200,238,114,.48);background:rgba(28,28,28,.82);color:var(--lime);outline:0}.card-nav-prev{left:-42px}.card-nav-next{right:-42px}}
+
+/* Vehicle master image slot — preserves existing part-card layout.
+   Mobile visual is ~398×244 at 430px app width. Vehicle assets are normalized
+   around this slot with more breathing room for tall commercial vehicles. */
+.visual.vehicle-visual,.test-image.vehicle-visual{background:#f5f5f2}
+.vehicle-image{object-fit:contain!important;box-sizing:border-box}
+.visual .vehicle-image{padding:18px 24px 20px}
+.test-image .vehicle-image{padding:24px 28px 26px}
+.vehicle-image[data-vehicle-type="suv"],
+.vehicle-image[data-vehicle-type="mpv"],
+.vehicle-image[data-vehicle-type="pickup"]{padding-left:26px;padding-right:26px}
+.vehicle-image[data-vehicle-type="truck"],
+.vehicle-image[data-vehicle-type="bus"],
+.vehicle-image[data-vehicle-type="commercial"]{padding:18px 34px 20px}
+@media(max-width:370px){
+  .visual .vehicle-image{padding:16px 20px 18px}
+  .vehicle-image[data-vehicle-type="truck"],
+  .vehicle-image[data-vehicle-type="bus"],
+  .vehicle-image[data-vehicle-type="commercial"]{padding:16px 28px 18px}
+}

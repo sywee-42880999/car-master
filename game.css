@@ -20,3 +20,10 @@
   .vehicle-image[data-vehicle-type="bus"],
   .vehicle-image[data-vehicle-type="commercial"]{padding:16px 28px 18px}
 }
+
+/* Locked journey destinations */
+.journey button.locked{position:relative;overflow:hidden;padding:0 2px;color:#777;background:#101010;border-color:#3a3a37}
+.journey button.locked::before{content:'';position:absolute;left:-12%;top:50%;width:124%;height:1px;background:#5b5b56;transform:rotate(-24deg);transform-origin:center;opacity:.9}
+.journey button.locked::after{content:none}
+.journey button.locked .lock-icon{position:absolute;top:2px;right:3px;font-size:.48rem;line-height:1;filter:grayscale(1);opacity:.9}
+.journey button.locked:active{border-color:var(--lime);color:#aaa}

@@ -10,7 +10,7 @@ ROOT=Path(__file__).resolve().parents[1]
 REG=ROOT/"data/models-latest.json"
 OUT=ROOT/"images/vehicles"
 STAT=ROOT/"data/model-image-status.json"
-S=requests.Session()
+PAGE_CACHE={}\nS=requests.Session()
 S.headers.update({"User-Agent":"Mozilla/5.0 Chrome/128 Safari/537.36","Accept-Language":"en-US,en;q=0.9,ko;q=0.8"})
 GOOD=("34front","front34","3-4","front","exterior","trim","thumbnail","model-list","build","config","360")
 REAR=("rear","back","34rear","rear34")
@@ -124,7 +124,7 @@ def choose(mid,name,vt,pages,over,want):
             for u in page_images(p):pool[u]=max(pool.get(u,-999),uscore(u,name,want))
         except Exception as e:tried.append(f"{p}: {e}")
     best=None
-    for u,us in sorted(pool.items(),key=lambda x:x[1],reverse=True)[:30]:
+    for u,us in sorted(pool.items(),key=lambda x:x[1],reverse=True)[:14]:
         try:
             im,final=getimg(u);sc=us+qscore(im,final,want)
             if best is None or sc>best[0]:best=(sc,im,final)

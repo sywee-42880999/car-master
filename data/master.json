@@ -4245,21 +4245,23 @@
       "id": "0400",
       "en": "CHARGING CONNECTOR",
       "ko": "충전 커넥터",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_NE1A_2025_EV_CHARGING"
-      ]
+        "HY_SX2EV_2025_AC_CHARGER"
+      ],
+      "image": "images/parts/0400.jpg"
     },
     {
       "id": "0401",
       "en": "CHARGING CONNECTOR UNLOCK BUTTON",
       "ko": "충전 커넥터 잠금 해제 버튼",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_NE1A_2025_EV_CHARGING"
-      ]
+        "HY_SX2EV_2025_AC_CHARGER"
+      ],
+      "image": "images/parts/0401.jpg"
     },
     {
       "id": "0402",
@@ -5017,31 +5019,34 @@
       "id": "0471",
       "en": "ENGINE COOLANT CAP",
       "ko": "엔진 냉각수 캡",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_ENGINE_MAINTENANCE_COMPONENTS"
-      ]
+        "HY_NX4_2025_COOLANT_CAP"
+      ],
+      "image": "images/parts/0471.jpg"
     },
     {
       "id": "0472",
       "en": "12 V BATTERY POSITIVE TERMINAL",
       "ko": "12V 배터리 양극 단자",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_BATTERY_COMPONENTS"
-      ]
+        "HY_LX3_2026_JUMP_TERMINALS"
+      ],
+      "image": "images/parts/0472.jpg"
     },
     {
       "id": "0473",
       "en": "12 V BATTERY NEGATIVE TERMINAL",
       "ko": "12V 배터리 음극 단자",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_BATTERY_COMPONENTS"
-      ]
+        "HY_LX3_2026_JUMP_TERMINALS"
+      ],
+      "image": "images/parts/0473.jpg"
     },
     {
       "id": "0474",
@@ -5145,21 +5150,23 @@
       "id": "0483",
       "en": "FRONT WIPER ARM CAP",
       "ko": "앞유리 와이퍼 암 캡",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_WIPER_COMPONENTS"
-      ]
+      ],
+      "image": "images/parts/0483.jpg"
     },
     {
       "id": "0484",
       "en": "REAR WIPER ARM CAP",
       "ko": "뒷유리 와이퍼 암 캡",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_WIPER_COMPONENTS"
-      ]
+      ],
+      "image": "images/parts/0484.jpg"
     },
     {
       "id": "0485",
@@ -5288,11 +5295,12 @@
       "id": "0497",
       "en": "CHARGING CONNECTOR RELEASE BUTTON",
       "ko": "충전 커넥터 해제 버튼",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_EV_CHARGING_COMPONENTS"
-      ]
+        "HY_SX2EV_2025_AC_CHARGER"
+      ],
+      "image": "images/parts/0497.jpg"
     },
     {
       "id": "0498",

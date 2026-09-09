@@ -3246,8 +3246,8 @@
       "rear": {
         "file": "images/vehicles/kia/k041_rear.webp",
         "source": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/contents/pbv/5/freecoding/pv5-passenger/Design_Exterior_03_m.jpg",
-        "score": 30,
-        "meta": "Full rear view of the Kia PV5 Passenger",
+        "score": 999,
+        "meta": "override",
         "audit": "RECHECK"
       }
     },
@@ -3261,9 +3261,9 @@
       },
       "rear": {
         "file": "images/vehicles/kia/k042_rear.webp",
-        "source": "https://eu-www.kia.com/content/dam/kwcms/kme/global/en/assets/contents/pbv/5/freecoding/pv5-cargo/Exterior%20Rear-Popup_01_m.jpg",
-        "score": 30,
-        "meta": "Video of the Kia PV5 Cargo's rear doors getting fully opened",
+        "source": "https://eu-www.kia.com/content/dam/kwcms/kme/global/en/assets/contents/pbv/5/freecoding/pv5-cargo/Design_Exterior_03_m.jpg",
+        "score": 999,
+        "meta": "override",
         "audit": "RECHECK"
       }
     },
@@ -3305,9 +3305,9 @@
       },
       "rear": {
         "file": "images/vehicles/kia/k045_rear.webp",
-        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/pv5-wav/27my/spec/pv5_wav_specification_rear_mo.png",
-        "score": 30,
-        "meta": "",
+        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/pv5-wav/27my/spec/pv5_wav_specification_rear_pc.png",
+        "score": 999,
+        "meta": "override",
         "audit": "RECHECK"
       }
     },
@@ -3338,9 +3338,11 @@
         "audit": "RECHECK"
       },
       "rear": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/kia/k047_rear.webp",
+        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/bongo3/26my/spec/bongo3_specification_rear_image_pc.png",
+        "score": 999,
+        "meta": "override",
+        "audit": "RECHECK"
       }
     },
     "K048": {
@@ -3352,9 +3354,11 @@
         "score": 24.68
       },
       "rear": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/kia/k048_rear.webp",
+        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/bongo3ev/26my/spec/bongo3ev_specification_rear_image_pc.png",
+        "score": 999,
+        "meta": "override",
+        "audit": "RECHECK"
       }
     },
     "G001": {
@@ -3544,6 +3548,6 @@
       }
     }
   },
-  "rear_generated_at": "2026-09-09T22:43:02Z",
-  "rear_found": 54
+  "rear_generated_at": "2026-09-09T22:45:03Z",
+  "rear_found": 56
 }

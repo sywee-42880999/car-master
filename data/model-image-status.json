@@ -2537,9 +2537,9 @@
       },
       "rear": {
         "file": "images/vehicles/kia/k027_rear.webp",
-        "source": "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/vehicles/sv/sv-my25/discover/kia-ev3-gtl-my25-delp-exterior-rear.jpg",
-        "score": 12,
-        "meta": "kia-ev3-gtl-my25-delp-exterior-rear.jpg",
+        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ev3/26my/spec/ev3_specification_rear_pc.png",
+        "score": 999,
+        "meta": "override",
         "audit": "RECHECK"
       }
     },
@@ -2552,9 +2552,11 @@
         "score": 13.04
       },
       "rear": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/kia/k028_rear.webp",
+        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ev3-gt/26my/spec/ev3_gt_specification_rear_pc.png",
+        "score": 999,
+        "meta": "override",
+        "audit": "RECHECK"
       }
     },
     "K029": {
@@ -2752,9 +2754,11 @@
         "score": 13.04
       },
       "rear": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/kia/k033_rear.webp",
+        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ev5-gt/26my/spec/ev5_gt_specification_rear_pc.png",
+        "score": 999,
+        "meta": "override",
+        "audit": "RECHECK"
       }
     },
     "K034": {
@@ -2784,9 +2788,11 @@
         "audit": "RECHECK"
       },
       "rear": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/kia/k035_rear.webp",
+        "source": "https://kwp1.kia.com/content/dam/kwp/kr/ko/vehicles/ev6-gt/26pe/spec/ev6-gt_specification_rear_pc.png",
+        "score": 999,
+        "meta": "override",
+        "audit": "RECHECK"
       }
     },
     "K036": {
@@ -2798,9 +2804,11 @@
         "score": 999
       },
       "rear": {
-        "file": null,
-        "source": null,
-        "audit": "MISS"
+        "file": "images/vehicles/kia/k036_rear.webp",
+        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ev9/24my/spec/ev9_specification_rear_image_pc.png",
+        "score": 999,
+        "meta": "override",
+        "audit": "RECHECK"
       }
     },
     "K037": {
@@ -2815,9 +2823,9 @@
       },
       "rear": {
         "file": "images/vehicles/kia/k037_rear.webp",
-        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ev9-gt/my/content/ev9-gt_brand_02_sm.jpg",
-        "score": 42,
-        "meta": "The Kia EV9 GT 후면 디자인",
+        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ev9-gt/my/spec/ev9-gt_specification_rear_pc.png",
+        "score": 999,
+        "meta": "override",
         "audit": "RECHECK"
       }
     },
@@ -3548,6 +3556,6 @@
       }
     }
   },
-  "rear_generated_at": "2026-09-09T22:45:03Z",
-  "rear_found": 56
+  "rear_generated_at": "2026-09-09T22:46:03Z",
+  "rear_found": 60
 }

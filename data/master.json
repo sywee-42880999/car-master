@@ -2279,11 +2279,12 @@
       "id": "0210",
       "en": "DOOR SCUFF TRIM",
       "ko": "도어 스커프 트림",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0210.jpg"
     },
     {
       "id": "0211",
@@ -2399,21 +2400,23 @@
       "id": "0221",
       "en": "DOOR WEATHERSTRIP",
       "ko": "도어 웨더스트립",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0221.jpg"
     },
     {
       "id": "0222",
       "en": "WINDOW WEATHERSTRIP",
       "ko": "윈도우 웨더스트립",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0222.jpg"
     },
     {
       "id": "0223",
@@ -2485,41 +2488,45 @@
       "id": "0229",
       "en": "COWL TOP COVER",
       "ko": "카울 탑 커버",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0229.jpg"
     },
     {
       "id": "0230",
       "en": "WINDSHIELD MOLDING",
       "ko": "앞유리 몰딩",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0230.jpg"
     },
     {
       "id": "0231",
       "en": "ROOF MOLDING",
       "ko": "루프 몰딩",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0231.jpg"
     },
     {
       "id": "0232",
       "en": "ROOF DRIP MOLDING",
       "ko": "루프 드립 몰딩",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0232.jpg"
     },
     {
       "id": "0233",
@@ -2624,91 +2631,100 @@
       "id": "0242",
       "en": "SUNROOF WIND DEFLECTOR",
       "ko": "선루프 윈드 디플렉터",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0242.jpg"
     },
     {
       "id": "0243",
       "en": "SUNROOF DRAIN",
       "ko": "선루프 드레인",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0243.jpg"
     },
     {
       "id": "0244",
       "en": "ROOF ANTENNA BASE",
       "ko": "루프 안테나 베이스",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0244.jpg"
     },
     {
       "id": "0245",
       "en": "DOOR GLASS RUN",
       "ko": "도어 글라스 런",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0245.jpg"
     },
     {
       "id": "0246",
       "en": "FRONT DOOR FRAME",
       "ko": "프론트 도어 프레임",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0246.jpg"
     },
     {
       "id": "0247",
       "en": "REAR DOOR FRAME",
       "ko": "리어 도어 프레임",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0247.jpg"
     },
     {
       "id": "0248",
       "en": "LIFTGATE WEATHERSTRIP",
       "ko": "리프트게이트 웨더스트립",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0248.jpg"
     },
     {
       "id": "0249",
       "en": "HOOD WEATHERSTRIP",
       "ko": "후드 웨더스트립",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0249.jpg"
     },
     {
       "id": "0250",
       "en": "COWL WEATHERSTRIP",
       "ko": "카울 웨더스트립",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0250.jpg"
     },
     {
       "id": "0251",
@@ -3334,11 +3350,12 @@
       "id": "0308",
       "en": "CARGO SIDE TRIM",
       "ko": "러기지 사이드 트림",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0308.jpg"
     },
     {
       "id": "0309",
@@ -3553,11 +3570,12 @@
       "id": "0328",
       "en": "CHILD RESTRAINT ANCHOR COVER",
       "ko": "어린이 보호장치 앵커 커버",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0328.jpg"
     },
     {
       "id": "0329",
@@ -3585,11 +3603,12 @@
       "id": "0331",
       "en": "DOOR LOCK KNOB",
       "ko": "도어 잠금 노브",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0331.jpg"
     },
     {
       "id": "0332",
@@ -3606,11 +3625,12 @@
       "id": "0333",
       "en": "DOOR COURTESY LIGHT",
       "ko": "도어 커티시 램프",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0333.jpg"
     },
     {
       "id": "0334",
@@ -3777,21 +3797,23 @@
       "id": "0349",
       "en": "WINDSHIELD CAMERA COVER",
       "ko": "앞유리 카메라 커버",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0349.jpg"
     },
     {
       "id": "0350",
       "en": "MIRROR BASE",
       "ko": "미러 베이스",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_DIRECT_VISUAL_OR_TAXONOMY_REQUIRED"
-      ]
+        "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0350.jpg"
     },
     {
       "id": "0351",

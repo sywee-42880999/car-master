@@ -3126,6 +3126,38 @@
         "0488"
       ],
       "source_verified_at": "2026-09-09"
+    },
+    "HY_NX4_2025_BATTERY_SENSOR_DIRECT": {
+      "maker": "Hyundai",
+      "model": "Tucson NX4",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/NX4/2025/en_GN/topic_vtp_wv4_nwb.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_ISGBatterySensor"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0479"
+      ],
+      "source_verified_at": "2026-09-09"
+    },
+    "HY_LX3_2026_TIRE_SIDEWALL_DIRECT": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/topic_mbq_qb2_qcc.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_TireSideWallLabelling"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0489"
+      ],
+      "source_verified_at": "2026-09-09"
     }
   }
 }

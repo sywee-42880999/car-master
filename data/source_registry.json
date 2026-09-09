@@ -3089,6 +3089,43 @@
         "0497"
       ],
       "source_verified_at": "2026-09-09"
+    },
+    "HY_LX2_2025_REAR_SEAT_GUIDE": {
+      "maker": "Hyundai",
+      "model": "Palisade LX2",
+      "year": "2025",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX2/2025/en_US/id886c008e6a3.html",
+      "pdf_url": null,
+      "image_keys": [
+        "B0053EU07",
+        "B0053EU08",
+        "B0053EU09",
+        "B0053EU10"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0079",
+        "0330",
+        "0364"
+      ],
+      "source_verified_at": "2026-09-09"
+    },
+    "HY_LX3_2026_TMK_VALVE": {
+      "maker": "Hyundai",
+      "model": "Palisade LX3",
+      "year": "2026",
+      "type": "official_web_manual",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/id_wss_gdv_wcc.html",
+      "pdf_url": null,
+      "image_keys": [
+        "2C_TMKProcedure_3"
+      ],
+      "repo_asset": null,
+      "used_by": [
+        "0488"
+      ],
+      "source_verified_at": "2026-09-09"
     }
   }
 }

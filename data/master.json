@@ -4251,21 +4251,23 @@
       "id": "0406",
       "en": "V2L CONNECTOR",
       "ko": "V2L 커넥터",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_NE1A_2025_V2L"
-      ]
+      ],
+      "image": "images/parts/0406.jpg"
     },
     {
       "id": "0407",
       "en": "V2L POWER OUTLET",
       "ko": "V2L 전원 콘센트",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_NE1A_2025_V2L"
-      ]
+      ],
+      "image": "images/parts/0407.jpg"
     },
     {
       "id": "0408",
@@ -4374,21 +4376,23 @@
       "id": "0418",
       "en": "CHARGE/POWER GAUGE",
       "ko": "충전·출력 게이지",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_NE1A_2025_EV_GAUGES"
-      ]
+        "HY_NE1A_2025_EV_GAUGES_2"
+      ],
+      "image": "images/parts/0418.jpg"
     },
     {
       "id": "0419",
       "en": "HIGH VOLTAGE BATTERY SOC GAUGE",
       "ko": "고전압 배터리 충전량 게이지",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_NE1A_2025_EV_GAUGES"
-      ]
+        "HY_NE1A_2025_EV_GAUGES_2"
+      ],
+      "image": "images/parts/0419.jpg"
     },
     {
       "id": "0420",
@@ -4828,11 +4832,12 @@
       "id": "0460",
       "en": "TPMS MALFUNCTION INDICATOR",
       "ko": "TPMS 고장 표시등",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
         "HY_LX3_2026_TPMS"
-      ]
+      ],
+      "image": "images/parts/0460.jpg"
     },
     {
       "id": "0461",

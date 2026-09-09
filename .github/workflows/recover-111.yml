@@ -1,0 +1,83 @@
+name: Recover 111 missing CAR MASTER images
+
+on:
+  push:
+    paths:
+      - ".github/workflows/recover-111.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install pillow
+      - name: Re-run seven historical production batches without false PASS skip
+        shell: bash
+        run: |
+          set -euo pipefail
+          refs=(
+            315fa0f9f29b5af95c7efbe774779fc279aa2753
+            4b84b17a07e5d6c9419af494fa942bdc32f29a97
+            f0f5077e2122714489506b337dea779f0aa1f264
+            b3ef36d02043601584db14d37bb272d80653120b
+            8b18f35d116c978bc014925a9a1cd976fb15a0c4
+            435b9b7517c886b6812781c475747da9edfe24b2
+            fdb714ddd6814cea6dabf9632d677664c540e5cb
+          )
+          for ref in "${refs[@]}"; do
+            git show "${ref}:tools/build_production_preview.py" > tools/build_production_preview.py
+            python - <<'PY'
+          from pathlib import Path
+          p=Path("tools/build_production_preview.py")
+          s=p.read_text(encoding="utf-8")
+          s=s.replace(
+              'if byid[id_].get("status")=="PASS": continue',
+              'if byid[id_].get("status")=="PASS" and (PARTS/f"{id_}.jpg").exists(): continue'
+          )
+          s=s.replace(
+              'if byid[id_].get("status")=="PASS":\n        continue',
+              'if byid[id_].get("status")=="PASS" and (PARTS/f"{id_}.jpg").exists():\n        continue'
+          )
+          s=s.replace(
+              'if byid["0305"].get("status")!="PASS":',
+              'if byid["0305"].get("status")!="PASS" or not (PARTS/"0305.jpg").exists():'
+          )
+          p.write_text(s,encoding="utf-8")
+          PY
+            echo "=== historical ref $ref ==="
+            python tools/build_production_preview.py
+          done
+      - name: Verify all 500 permanent image files exist
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path("images/parts")
+          missing=[f"{i:04d}" for i in range(1,501) if not (p/f"{i:04d}.jpg").is_file()]
+          print("missing",len(missing),missing)
+          if missing:
+              raise SystemExit(1)
+          PY
+      - name: Commit restored image assets only
+        run: |
+          git restore data/master.json tools/build_production_preview.py || true
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add images/parts
+          count=$(git diff --cached --name-only -- 'images/parts/*.jpg' | wc -l)
+          echo "restored image count: $count"
+          if [ "$count" -ne 111 ]; then
+            echo "Expected exactly 111 restored JPGs."
+            git diff --cached --name-only
+            exit 1
+          fi
+          git commit -m "Restore 111 missing CAR MASTER image assets"
+          git pull --rebase origin main
+          git push origin HEAD:main

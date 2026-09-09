@@ -1700,35 +1700,41 @@
       "id": "0160",
       "en": "BRAKE PAD",
       "ko": "브레이크 패드",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
-        "HY_LX3_2026_MAINTENANCE_ITEMS"
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
       ],
       "aliases": [
         "BRAKE PADS"
-      ]
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0160.jpg"
     },
     {
       "id": "0161",
       "en": "BRAKE DISC",
       "ko": "브레이크 디스크",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
-        "HY_LX3_2026_SEVERE_MAINTENANCE"
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
       ],
       "aliases": [
         "BRAKE ROTOR",
         "ROTOR"
-      ]
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0161.jpg"
     },
     {
       "id": "0162",
       "en": "BRAKE CALIPER",
       "ko": "브레이크 캘리퍼",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
-        "HY_LX3_2026_SEVERE_MAINTENANCE"
-      ]
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0162.jpg"
     },
     {
       "id": "0163",
@@ -1761,19 +1767,23 @@
       "id": "0166",
       "en": "DRIVESHAFT",
       "ko": "드라이브샤프트",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
-        "HY_LX3_2026_SEVERE_MAINTENANCE"
-      ]
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0166.jpg"
     },
     {
       "id": "0167",
       "en": "DRIVESHAFT BOOT",
       "ko": "드라이브샤프트 부트",
-      "status": "REVIEW",
+      "status": "PASS",
       "source_refs": [
-        "HY_LX3_2026_SEVERE_MAINTENANCE"
-      ]
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
+      ],
+      "production_backlog": false,
+      "image": "images/parts/0167.jpg"
     },
     {
       "id": "0168",
@@ -1846,21 +1856,23 @@
       "id": "0175",
       "en": "SHOCK ABSORBER",
       "ko": "쇼크 업소버",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
-      ]
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0175.jpg"
     },
     {
       "id": "0176",
       "en": "COIL SPRING",
       "ko": "코일 스프링",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
-      ]
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0176.jpg"
     },
     {
       "id": "0177",
@@ -1876,31 +1888,34 @@
       "id": "0178",
       "en": "LOWER CONTROL ARM",
       "ko": "로어 컨트롤 암",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
-      ]
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0178.jpg"
     },
     {
       "id": "0179",
       "en": "TIE ROD END",
       "ko": "타이로드 엔드",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
-      ]
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0179.jpg"
     },
     {
       "id": "0180",
       "en": "WHEEL HUB",
       "ko": "휠 허브",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
-      ]
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0180.jpg"
     },
     {
       "id": "0181",
@@ -1916,11 +1931,12 @@
       "id": "0182",
       "en": "STRUT",
       "ko": "스트럿",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
-      ]
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0182.jpg"
     },
     {
       "id": "0183",
@@ -1956,11 +1972,12 @@
       "id": "0186",
       "en": "STEERING KNUCKLE",
       "ko": "스티어링 너클",
-      "status": "REVIEW",
-      "production_backlog": true,
+      "status": "PASS",
+      "production_backlog": false,
       "source_refs": [
-        "HY_UNDERBODY_DIRECT_VISUAL_REQUIRED"
-      ]
+        "ORIGINAL_UNDERBODY_SCHEMATICS_2026"
+      ],
+      "image": "images/parts/0186.jpg"
     },
     {
       "id": "0187",

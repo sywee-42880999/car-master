@@ -3360,6 +3360,38 @@
       ],
       "source_verified_at": "2026-09-09",
       "note": "Reference-only. Learning-card pixels are newly drawn original schematics; no source image pixels are copied."
+    },
+    "ORIGINAL_GENERIC_COMPONENT_SCHEMATICS_2026": {
+      "maker": "Original technical illustration",
+      "model": "Generic passenger vehicle components",
+      "year": "2026",
+      "type": "original_schematic_reference",
+      "web_url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/idff24e696250.html",
+      "alternate_web_urls": [
+        "https://ownersmanual.hyundai.com/full_webhelp/US4/2025/en_GN/id7ef7468d787.html",
+        "https://ownersmanual.hyundai.com/full_webhelp/NE1N/2026/en_US/idfe72b865d15.html"
+      ],
+      "image_keys": [],
+      "repo_asset": null,
+      "used_by": [
+        "0119",
+        "0199",
+        "0200",
+        "0202",
+        "0296",
+        "0300",
+        "0309",
+        "0323",
+        "0324",
+        "0330",
+        "0338",
+        "0339",
+        "0340",
+        "0363",
+        "0364"
+      ],
+      "source_verified_at": "2026-09-09",
+      "note": "Reference-only. Card pixels are newly drawn original schematics; official manual pages verify function and component form."
     }
   }
 }

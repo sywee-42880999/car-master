@@ -22,19 +22,15 @@ jobs:
         with:
           python-version: "3.11"
       - run: python tools/build_production_preview.py
-      - uses: actions/upload-artifact@v4
-        with:
-          name: car-master-production-preview
-          path: production-preview/
-      - name: Commit warning icon discovery
+      - name: Commit warning DOM discovery
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add research/warning-icon-discovery.md
+          git add research/warning-dom-discovery.md
           if git diff --cached --quiet; then
             echo "No discovery changes."
           else
-            git commit -m "Discover Hyundai warning icon source paths"
+            git commit -m "Inspect Hyundai warning icon DOM structure"
             git pull --rebase origin main
             git push origin HEAD:main
           fi

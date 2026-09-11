@@ -1,5 +1,5 @@
 {
-  "version": "2026-09-10-b",
+  "version": "2026-09-11",
   "target_ids": [
     "H009",
     "H021",
@@ -16,5 +16,7 @@
     "K039",
     "K040"
   ],
-  "rule": "Manual closeout queue: correct current model + whole vehicle only. Save page image candidates for inspection."
+  "rule": "Manual closeout queue: correct current model + whole vehicle only. Save page image candidates for inspection.",
+  "research_manifest": "data/model-image-closeout-2026-09-11.json",
+  "research_status": "14/14 current-model identities and manufacturer candidate sources verified; final visual whole-vehicle inspection still required before removing IDs from this queue."
 }

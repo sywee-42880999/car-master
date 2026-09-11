@@ -1,0 +1,155 @@
+{
+  "version": "2026-09-11",
+  "purpose": "Manual closeout research for the 14 remaining vehicle-image audit targets. Current-model identity and official manufacturer source pages were rechecked before final visual asset approval.",
+  "rule": "Final PASS still requires correct current model + whole vehicle. Prefer manufacturer-hosted image assets. Do not use generic/stock images.",
+  "targets": [
+    {
+      "id": "H009",
+      "brand": "hyundai",
+      "model": "TUCSON",
+      "current_model_verified": true,
+      "official_page": "https://www.hyundai.com/kr/ko/e/vehicles/tucson/intro",
+      "candidate": "https://www.hyundai.com/contents/repn-car/side-45/tucson-26my-45side.png",
+      "status": "CANDIDATE_READY",
+      "note": "Korea official current TUCSON page verified; candidate is Hyundai-hosted 26MY 45-degree whole-vehicle asset."
+    },
+    {
+      "id": "H021",
+      "brand": "hyundai",
+      "model": "PORTER II",
+      "current_model_verified": true,
+      "official_page": "https://www.hyundai.com/kr/ko/e/vehicles/porter2/intro",
+      "candidate": "https://www.hyundai-motor.com.tw/upload/car_data/s728add0260b55cb1e6ba7ce70f2b8fe2.png",
+      "status": "CANDIDATE_READY_CROSS_MARKET",
+      "note": "Korea official PORTER II current page verified. Candidate is an official Hyundai regional asset; confirm visual matches current Korean exterior before PASS."
+    },
+    {
+      "id": "H038",
+      "brand": "hyundai",
+      "model": "STARGAZER / STARGAZER Cartenz",
+      "current_model_verified": true,
+      "official_page": "https://www.hyundai.com/id/en/find-a-car/stargazer/highlights",
+      "candidate": "https://www.hyundai.com/content/dam/hyundai/id/id/images/find-a-car/pip/stargazer-cartenz/car-thumbnail/stargazer-cartenz-640x344.png",
+      "status": "CANDIDATE_READY_NAME_REVIEW",
+      "note": "Hyundai Indonesia currently lists STARGAZER Cartenz and STARGAZER separately. Candidate is official Cartenz whole-vehicle thumbnail; final label should be reviewed to avoid mixing two active nameplates/variants."
+    },
+    {
+      "id": "H044",
+      "brand": "hyundai",
+      "model": "GRANDEUR",
+      "current_model_verified": true,
+      "official_page": "https://www.hyundai.com/kr/ko/e/vehicles/the-new-grandeur/intro",
+      "candidate": "https://www.hyundai.com/contents/repn-car/side-45/grandeur-27fl-45side.png",
+      "status": "CANDIDATE_READY",
+      "note": "Hyundai Korea GRANDEUR intro redirects to The new GRANDEUR; 27FL 45-degree Hyundai-hosted whole-vehicle asset is the preferred candidate."
+    },
+    {
+      "id": "H046",
+      "brand": "hyundai",
+      "model": "MU FASA",
+      "current_model_verified": true,
+      "official_page": "https://www.beijing-hyundai.com.cn/vehicleslist/",
+      "candidate": "https://mufasa.beijing-hyundai.com.cn/assets/resource/vehicle/outside/img01-mb.jpg",
+      "status": "CANDIDATE_READY",
+      "note": "Beijing Hyundai current vehicle list still carries MUFASA/沐飒 as a current SUV; candidate is manufacturer-hosted."
+    },
+    {
+      "id": "H051",
+      "brand": "hyundai",
+      "model": "COUNTY",
+      "current_model_verified": true,
+      "official_page": "https://www.hyundai.com/kr/ko/c/products/bus/county",
+      "candidate": "https://trucknbus.hyundai.com/global/en/images/product/cars/county-new-breeze/county-new-main-bg.jpg",
+      "status": "CANDIDATE_READY",
+      "note": "Current Korean model is COUNTY New Breeze. Official product page and whole-vehicle lineup images verified."
+    },
+    {
+      "id": "H056",
+      "brand": "hyundai",
+      "model": "UNICITY",
+      "current_model_verified": true,
+      "official_page": "https://www.hyundai.com/kr/ko/c/products/bus/uni-city",
+      "candidate": "https://www.hyundai.com/ccontents/carmng/KV00000214/KV00000106unicity-kv-01.jpg",
+      "status": "CANDIDATE_READY",
+      "note": "Current Korean UNICITY product and exterior gallery verified."
+    },
+    {
+      "id": "H057",
+      "brand": "hyundai",
+      "model": "UNIVERSE",
+      "current_model_verified": true,
+      "official_page": "https://www.hyundai.com/kr/ko/c/products/bus/universe",
+      "candidate": "https://trucknbus.hyundai.com/global/en/images/product/cars/universe/universe-nobel.jpg",
+      "status": "CANDIDATE_READY",
+      "note": "Current Korean UNIVERSE product and exterior gallery verified; candidate is Hyundai Truck & Bus official asset."
+    },
+    {
+      "id": "K008",
+      "brand": "kia",
+      "model": "K4 Sportswagon",
+      "current_model_verified": true,
+      "official_page": "https://www.kia.com/de/ueber-kia/neue-modelle/",
+      "candidate": "https://www.kia.com/content/dam/kwcms/kme/de/de/assets/contents/about-kia/neue-modelle/k4-sw/kia_neue-modelle_k4-sw_940x640_04.webp",
+      "status": "CANDIDATE_READY",
+      "note": "Kia Germany current lineup explicitly lists K4 Sportswagon and provides dedicated official gallery images."
+    },
+    {
+      "id": "K010",
+      "brand": "kia",
+      "model": "K8",
+      "current_model_verified": true,
+      "official_page": "https://www.kia.com/kr/vehicles/k8/specification",
+      "candidate": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/represent/krgl301/k8_gljs49i36_a_agt.png",
+      "status": "CANDIDATE_READY",
+      "note": "Kia Korea page is The 2027 K8; candidate is Kia-hosted representative whole-vehicle asset."
+    },
+    {
+      "id": "K030",
+      "brand": "kia",
+      "model": "EV4 Fastback",
+      "current_model_verified": true,
+      "official_page": "https://www.kia.com/uk/new-cars/ev4/",
+      "candidate": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/images/new-cars/ev4/2026/ev4_fastback_gtl_specs_482x272.png",
+      "status": "CANDIDATE_READY_LABEL_FIX",
+      "note": "Current EU lineup distinguishes EV4 and EV4 Fastback. Existing label 'EV4 Fastback / Hatchback' should be normalized to 'EV4 Fastback' because Hatchback is not the same body derivative."
+    },
+    {
+      "id": "K038",
+      "brand": "kia",
+      "model": "Tasman Pick-up",
+      "current_model_verified": true,
+      "official_page": "https://www.kia.com/kr/vehicles/tasman/features",
+      "candidate": "https://www.kia.com/content/dam/kwcms/au/en/images/showroom/tasman/features/kia-tasman-grade-comparison-pu-s.webp",
+      "status": "CANDIDATE_READY",
+      "note": "Tasman Pick-up is current on Kia Korea/Australia official pages; candidate is Kia official grade-comparison whole-vehicle asset."
+    },
+    {
+      "id": "K039",
+      "brand": "kia",
+      "model": "Tasman Single Cab Chassis",
+      "current_model_verified": true,
+      "official_page": "https://www.kia.com/au/cars/tasman-cab-chassis/features.html",
+      "candidate": "https://www.kia.com/content/dam/kwcms/au/en/images/showroom/tasman/cab-chassis/kia-tasman-grade-comparison-scc-s.webp",
+      "status": "CANDIDATE_READY",
+      "note": "Kia Australia current Cab Chassis range explicitly offers Single Cab; official Build & Price page also identifies Tasman Single Cab Chassis."
+    },
+    {
+      "id": "K040",
+      "brand": "kia",
+      "model": "Tasman Dual Cab Chassis",
+      "current_model_verified": true,
+      "official_page": "https://www.kia.com/au/cars/tasman-cab-chassis/features.html",
+      "candidate": "https://www.kia.com/content/dam/kwcms/au/en/images/showroom/tasman/cab-chassis/kia-tasman-grade-comparison-dcc-s.webp",
+      "status": "CANDIDATE_READY",
+      "note": "Kia Australia current Cab Chassis range explicitly offers Dual Cab; official Build & Price page identifies Tasman Dual Cab Chassis."
+    }
+  ],
+  "summary": {
+    "targets": 14,
+    "current_model_verified": 14,
+    "candidate_ready": 14,
+    "label_review": ["H038", "K030"],
+    "cross_market_visual_check": ["H021"],
+    "next_step": "Download/inspect the 14 manufacturer-hosted candidates, confirm whole-vehicle framing and exact current exterior, then remove confirmed IDs from data/model-image-audit.json and update local vehicle image assets."
+  }
+}

@@ -1,22 +1,13 @@
 {
-  "version": "2026-09-11",
-  "target_ids": [
-    "H009",
-    "H021",
-    "H038",
-    "H044",
-    "H046",
-    "H051",
-    "H056",
-    "H057",
-    "K008",
-    "K010",
-    "K030",
-    "K038",
-    "K039",
-    "K040"
-  ],
+  "version": "2026-09-11-closeout",
+  "target_ids": [],
   "rule": "Manual closeout queue: correct current model + whole vehicle only. Save page image candidates for inspection.",
   "research_manifest": "data/model-image-closeout-2026-09-11.json",
-  "research_status": "14/14 current-model identities and manufacturer candidate sources verified; final visual whole-vehicle inspection still required before removing IDs from this queue."
+  "research_status": "CLOSED: 14/14 front-image targets are current-model manufacturer assets and already carry front_status PASS in data/model-image-qc.json.",
+  "separate_followup": {
+    "id": "H057",
+    "scope": "rear",
+    "status": "BACKLOG",
+    "reason": "Current rear source filename rear-combination-lamp.jpg indicates a detail crop and conflicts with the whole-rear-vehicle requirement. Replace with a full rear/rear-three-quarter UNIVERSE image before rear PASS."
+  }
 }

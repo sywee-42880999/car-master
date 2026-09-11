@@ -95,10 +95,8 @@ def candidate_score(u,meta,name,page):
     ctext=clean(text)
     score=0
     als=aliases(name)
-    # Strong exact alias/model signature match.
     exact=max((len(a) for a in als if a and a in ctext),default=0)
     score += 18 if exact>=5 else 8 if exact>=2 else -12
-    # Short core tokens, e.g. gv80 / k3 / i30.
     toks=[x for x in re.findall(r"[a-z0-9]+",name.lower()) if len(x)>=2 and x not in {"the","new","line"}]
     score += sum(3 for t in toks if clean(t) in ctext)
     for group in required_variant(name):
@@ -160,11 +158,14 @@ def normalize(im,vt):
     canvas.paste(im,((cw-nw)//2,y))
     return canvas
 
-def choose(name,vt,pages,over):
-    if over.get("front"):
+def choose(name,vt,pages,over,audit_front=None):
+    # Manual closeout candidate in data/model-image-audit.json has highest priority.
+    # This lets a reviewed generic/base-model asset supersede a stale trim-specific registry override.
+    for label,url in (("audit_override",audit_front),("registry_override",over.get("front"))):
+        if not url: continue
         try:
-            im,final=getimg(over["front"]);return im,final,999,"override"
-        except Exception as e: print(" override failed",e,flush=True)
+            im,final=getimg(url);return im,final,999,label
+        except Exception as e: print(f" {label} failed",e,flush=True)
     pool=[]
     for page in pages:
         try:
@@ -184,13 +185,16 @@ def choose(name,vt,pages,over):
 
 def main():
     data=json.loads(REG.read_text())
-    target=set(json.loads(AUDIT.read_text()).get("target_ids",[])) if AUDIT.exists() else set()
+    audit=json.loads(AUDIT.read_text()) if AUDIT.exists() else {}
+    target=set(audit.get("target_ids",[]))
+    audit_targets=audit.get("targets",{})
     old=json.loads(STAT.read_text()) if STAT.exists() else {"models":{}}
     rows={r[0]:r for r in data["m"]}
     for n,mid in enumerate(target,1):
         row=rows[mid]; _,brand,name,vt,pages,over=row
+        audit_front=(audit_targets.get(mid) or {}).get("preferred_candidate")
         print(f"[{n}/{len(target)}] {mid} {name}",flush=True)
-        im,url,score,meta=choose(name,vt,pages,over)
+        im,url,score,meta=choose(name,vt,pages,over,audit_front)
         rec=old.setdefault("models",{}).setdefault(mid,{"model":name,"brand":brand})
         diag=[]
         for page in pages:

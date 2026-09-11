@@ -4,20 +4,24 @@
   "rule": "Final front-image closeout: exact current model, generic/base model identity when the ID is generic, whole vehicle only, official manufacturer source only.",
   "closed_previous_targets": ["H009","H021","H038","H044","H046","H051","H056","H057","K008","K010","K030","K038","K039","K040"],
   "research_manifest": "data/model-image-closeout-2026-09-11.json",
-  "research_status": "Previous 14/14 front-image targets closed. Two global QC RECHECK_TRIM items remain: H008 KONA and K036 EV9.",
+  "research_status": "Previous 14/14 front-image targets closed. H008 and K036 now have reviewed non-N-Line/non-GT manufacturer candidates ready for asset replacement.",
   "targets": {
     "H008": {
       "model": "KONA",
       "problem": "Current front asset is KONA N Line while the master ID is generic KONA.",
       "preferred_candidate": "https://dmassets.hyundai.com/is/image/hyundaiautoever/sx2iceadvance%2Bcopy%3A16x9?fmt=png-alpha",
       "official_page": "https://www.hyundai.com/kr/ko/e/vehicles/kona/purchase-info",
-      "status": "REPLACE_WITH_GENERIC_KONA"
+      "current_model_reference": "https://www.hyundaimotorgroup.com/ko/news/hyundai-motor-company-2027-kona-launch",
+      "status": "READY_REPLACE_GENERIC_KONA",
+      "note": "2027 KONA is current in Korea. Generic KONA and N Line are distinct trims; use the Hyundai-hosted ICE Advance generic KONA asset, not the N Line image."
     },
     "K036": {
       "model": "EV9",
       "problem": "Current front asset is an older GT-Line-specific image while the master ID is generic EV9.",
-      "official_page": "https://www.kia.com/kr/vehicles/ev9/gallery",
-      "status": "FIND_CURRENT_GENERIC_EV9_WHOLE_VEHICLE"
+      "preferred_candidate": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ev9/24my/content/ev9_exterior_flagship_pc.jpg",
+      "official_page": "https://www.kia.com/kr/vehicles/ev9/features",
+      "status": "READY_REPLACE_GENERIC_EV9",
+      "note": "This whole front-three-quarter non-GT EV9 asset is served on Kia Korea's current The 2026 EV9 features page. The 24my path is an asset-path legacy, not evidence that the currently served model image is obsolete."
     }
   },
   "separate_rear_followup": {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T22:31:37Z",
+  "generated_at": "2026-09-12T00:28:33Z",
   "models": {
     "H001": {
       "model": "INSTER",
@@ -124,14 +124,138 @@
       "brand": "hyundai",
       "front": {
         "file": "images/vehicles/hyundai/h008_front.webp",
-        "source": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_KONA_Petrol_N-Line_Exterior-Front_16x9:4x3?wid=640&hei=480&fit=wrap",
-        "score": 27.53
+        "source": "https://www.hyundai.com/contents/repn-car/side-45/kona-27my-45side.png",
+        "score": 13.12,
+        "meta": "",
+        "audit": "RECHECK"
       },
       "rear": {
         "file": null,
         "source": null,
         "audit": "MISS"
-      }
+      },
+      "candidates": [
+        {
+          "score": 13,
+          "url": "https://www.hyundai.com/contents/repn-car/side-45/kona-27my-45side.png",
+          "meta": "",
+          "page": "https://www.hyundai.com/kr/ko/e/vehicles/kona/intro"
+        },
+        {
+          "score": 13,
+          "url": "https://dmassets.hyundai.com/is/image/hyundaiautoever/HME_SX2_HEV_SUPPORTING_KEY_VISUAL_DESIGN_FRONT",
+          "meta": "The Hyundai KONA in blue parked next to a men with yellow shirt. picture__image lazyload",
+          "page": "https://www.hyundai.com/eu/en/models/kona.html"
+        },
+        {
+          "score": 13,
+          "url": "https://dmassets.hyundai.com/is/image/hyundaiautoever/HME_SX2_HEV_KEY_VISUAL_STATIC",
+          "meta": "The Hyundai KONA parked in front a big building.  picture__image lazyload",
+          "page": "https://www.hyundai.com/eu/en/models/kona.html"
+        },
+        {
+          "score": 13,
+          "url": "https://dmassets.hyundai.com/is/image/hyundaiautoever/HME_SX2_HEV_RGENERATIVE_BRAKING",
+          "meta": "The new Connected Car Navigation Cockpit with Over The Air (OTA) of the Hyundai KONA. picture__image lazyload",
+          "page": "https://www.hyundai.com/eu/en/models/kona.html"
+        },
+        {
+          "score": 13,
+          "url": "https://www.hyundai.com/eu/en/models/kona.thumb.800.480.png?ck=1781686738",
+          "meta": "",
+          "page": "https://www.hyundai.com/eu/en/models/kona.html"
+        },
+        {
+          "score": 11,
+          "url": "https://dmassets.hyundai.com/is/image/hyundaiautoever/HME_SX2_HEV_LIFEESTYLE_01",
+          "meta": "A man with a yellow shirt enters the all new Hyundai Kona in blue and a person walks towards to it. picture__image lazyload",
+          "page": "https://www.hyundai.com/eu/en/models/kona.html"
+        },
+        {
+          "score": 11,
+          "url": "https://dmassets.hyundai.com/is/image/hyundaiautoever/HME_SX2_HEV_SEAMLESS_DRIVING_02",
+          "meta": "A man with a yellow shirt driving the Hyundai KONA.  picture__image lazyload",
+          "page": "https://www.hyundai.com/eu/en/models/kona.html"
+        },
+        {
+          "score": 4,
+          "url": "https://dmassets.hyundai.com/is/image/hyundaiautoever/HME_SX2_HEV_FEATURE_DIGITAL_KEY_SPhone",
+          "meta": "A man exploring the connectivity of the Hyundai KONA by opening the door with a smartphone. picture__image lazyload",
+          "page": "https://www.hyundai.com/eu/en/models/kona.html"
+        },
+        {
+          "score": -2,
+          "url": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ-3_Exterior-Front-Side_3_Three-Quarter-Front:16x9?wid=640&hei=360&fit=wrap",
+          "meta": "",
+          "page": "https://www.hyundai.com/eu/en/models/kona.html"
+        },
+        {
+          "score": -2,
+          "url": "https://www.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ-3_Exterior-Front-Side_3_Three-Quarter-Front:16x9?wid=640&hei=360&fit=wrap,1",
+          "meta": "",
+          "page": "https://www.hyundai.com/eu/en/models/kona.html"
+        },
+        {
+          "score": -3,
+          "url": "https://dmassets.hyundai.com/is/image/hyundaiautoever/HME_SX2_HEV_INTERIOR_ROOMINESS",
+          "meta": "The roomy back seat of the Hyundai KONA SUV.  picture__image lazyload",
+          "page": "https://www.hyundai.com/eu/en/models/kona.html"
+        },
+        {
+          "score": -3,
+          "url": "https://dmassets.hyundai.com/is/image/hyundaiautoever/HME_SX2_HEV_SUPPORTING_KEY_VISUAL_BVM",
+          "meta": "A close-up image of a man using the steering wheel of the Hyundai KONA.  picture__image lazyload",
+          "page": "https://www.hyundai.com/eu/en/models/kona.html"
+        },
+        {
+          "score": -4,
+          "url": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ-3_Exterior-Front-Side_3_Three-Quarter-Front:16x9?wid=960&hei=540&fit=wrap",
+          "meta": "",
+          "page": "https://www.hyundai.com/eu/en/models/kona.html"
+        },
+        {
+          "score": -4,
+          "url": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ-3_Exterior-Front-Side_3_Three-Quarter-Front:16x9?wid=1280&hei=720&fit=wrap",
+          "meta": "",
+          "page": "https://www.hyundai.com/eu/en/models/kona.html"
+        },
+        {
+          "score": -4,
+          "url": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ-3_Exterior-Front-Side_3_Three-Quarter-Front:16x9?wid=1920&hei=1080&fit=wrap",
+          "meta": "",
+          "page": "https://www.hyundai.com/eu/en/models/kona.html"
+        },
+        {
+          "score": -4,
+          "url": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ-3_Exterior-Front-Side_3_Three-Quarter-Front:16x9?wid=2880&hei=1620&fit=wrap",
+          "meta": "",
+          "page": "https://www.hyundai.com/eu/en/models/kona.html"
+        },
+        {
+          "score": -4,
+          "url": "https://www.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ-3_Exterior-Front-Side_3_Three-Quarter-Front:16x9?wid=960&hei=540&fit=wrap,1",
+          "meta": "",
+          "page": "https://www.hyundai.com/eu/en/models/kona.html"
+        },
+        {
+          "score": -4,
+          "url": "https://www.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ-3_Exterior-Front-Side_3_Three-Quarter-Front:16x9?wid=1280&hei=720&fit=wrap,1",
+          "meta": "",
+          "page": "https://www.hyundai.com/eu/en/models/kona.html"
+        },
+        {
+          "score": -4,
+          "url": "https://www.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ-3_Exterior-Front-Side_3_Three-Quarter-Front:16x9?wid=1920&hei=1080&fit=wrap,1",
+          "meta": "",
+          "page": "https://www.hyundai.com/eu/en/models/kona.html"
+        },
+        {
+          "score": -4,
+          "url": "https://www.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ-3_Exterior-Front-Side_3_Three-Quarter-Front:16x9?wid=2880&hei=1620&fit=wrap,1",
+          "meta": "",
+          "page": "https://www.hyundai.com/eu/en/models/kona.html"
+        }
+      ]
     },
     "H009": {
       "model": "TUCSON",
@@ -2800,8 +2924,10 @@
       "brand": "kia",
       "front": {
         "file": "images/vehicles/kia/k036_front.webp",
-        "source": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/EV9/kia-ev9_2022-gt-line-s-7-seat-pacific-blue_0014-1920x1080.png",
-        "score": 999
+        "source": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ev9/24my/content/ev9_exterior_flagship_pc.jpg",
+        "score": 999,
+        "meta": "audit_override",
+        "audit": "RECHECK"
       },
       "rear": {
         "file": "images/vehicles/kia/k036_rear.webp",
@@ -2809,7 +2935,129 @@
         "score": 999,
         "meta": "override",
         "audit": "RECHECK"
-      }
+      },
+      "candidates": [
+        {
+          "score": -3.5,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/common/exterior-colour/kia-white-pearl",
+          "meta": "white-pearl,aurora-red,midnight-black,lithium-silver",
+          "page": "https://www.kia.com/uk/new-cars/ev9/"
+        },
+        {
+          "score": -3.5,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/common/exterior-colour/kia-white-pearl,aurora-red,midnight-black,lithium-silver.jpg",
+          "meta": "",
+          "page": "https://www.kia.com/uk/new-cars/ev9/"
+        },
+        {
+          "score": -5.0,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/common/exterior-colour/SWPa_white_pearl_0000.jpg",
+          "meta": "white-pearl Eexterior Colour white-pearl Eexterior Colour white-pearl Eexterior Colour white-pearl Eexterior Colour",
+          "page": "https://www.kia.com/uk/new-cars/ev9/"
+        },
+        {
+          "score": -5.0,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/common/exterior-colour/kia-white-pearl.jpg",
+          "meta": "",
+          "page": "https://www.kia.com/uk/new-cars/ev9/"
+        },
+        {
+          "score": -6.5,
+          "url": "https://www.kia.com/us/content/dam/kia/us/en/home2-0/home-hero/375-hero-hybrid.jpg",
+          "meta": "Five modern, impressive Kia vehicles parked on a street, in blue, tan, and white, reflecting Kia's hybrid SUV lineup. The cityscape is visible in the distance, with tall buildings ",
+          "page": "https://www.kia.com/us/en"
+        },
+        {
+          "score": -6.5,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/common/exterior-colour/ISG_lithium_silver_0000.jpg",
+          "meta": "lithium-silver Eexterior Colour",
+          "page": "https://www.kia.com/uk/new-cars/ev9/"
+        },
+        {
+          "score": -6.5,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/common/exterior-colour/DFG_shadow_grey_0000.jpg",
+          "meta": "shadow-grey Eexterior Colour shadow-grey Eexterior Colour shadow-grey Eexterior Colour",
+          "page": "https://www.kia.com/uk/new-cars/ev9/"
+        },
+        {
+          "score": -6.5,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/common/exterior-colour/kia-lithium-silver.jpg",
+          "meta": "",
+          "page": "https://www.kia.com/uk/new-cars/ev9/"
+        },
+        {
+          "score": -6.5,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/common/exterior-colour/kia-shadow-grey.jpg",
+          "meta": "",
+          "page": "https://www.kia.com/uk/new-cars/ev9/"
+        },
+        {
+          "score": -8,
+          "url": "https://www.kia.com/us/content/dam/kia/us/en/images/global-header/vehicles/suv-cuv-mpv/mm-large-desktop-static-2027.png",
+          "meta": "Kia Carnival MPV vehicle-list-cat__side-image",
+          "page": "https://www.kia.com/us/en"
+        },
+        {
+          "score": -8,
+          "url": "https://www.kia.com/us/content/dam/kia/us/en/images/global-header/vehicles/suv-cuv-mpv/mm-large-desktop-hover-2027.png",
+          "meta": "Kia Carnival MPV vehicle-list-cat__profile-image",
+          "page": "https://www.kia.com/us/en"
+        },
+        {
+          "score": -8,
+          "url": "https://www.kia.com/us/content/dam/kia/us/en/images/global-header/vehicles/hybrid-electric/mm-carnival-hybrid-large-desktop-static.png",
+          "meta": "Kia Carnival MPV Hybrid vehicle-list-cat__side-image",
+          "page": "https://www.kia.com/us/en"
+        },
+        {
+          "score": -8,
+          "url": "https://www.kia.com/us/content/dam/kia/us/en/images/global-header/vehicles/hybrid-electric/mm-carnival-hybrid-large-desktop-hover.png",
+          "meta": "Kia Carnival MPV Hybrid vehicle-list-cat__profile-image",
+          "page": "https://www.kia.com/us/en"
+        },
+        {
+          "score": -8,
+          "url": "https://www.kia.com/content/dam/kia/us/en/images/global-header/vehicles/hybrid-electric/mm-carnival-hybrid-large-desktop-static.png",
+          "meta": "",
+          "page": "https://www.kia.com/us/en"
+        },
+        {
+          "score": -8,
+          "url": "https://www.kia.com/content/dam/kia/us/en/images/global-header/vehicles/hybrid-electric/mm-carnival-hybrid-large-desktop-hover.png",
+          "meta": "",
+          "page": "https://www.kia.com/us/en"
+        },
+        {
+          "score": -8,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/common/exterior-colour/C7R_aurora_red_0000.jpg",
+          "meta": "aurora-red Eexterior Colour aurora-red Eexterior Colour aurora-red Eexterior Colour aurora-red Eexterior Colour",
+          "page": "https://www.kia.com/uk/new-cars/ev9/"
+        },
+        {
+          "score": -8,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/All-New%20Picanto/Specifications/ABP_midnight_black_0000.jpg",
+          "meta": "midnight-black Eexterior Colour midnight-black Eexterior Colour midnight-black Eexterior Colour midnight-black Eexterior Colour",
+          "page": "https://www.kia.com/uk/new-cars/ev9/"
+        },
+        {
+          "score": -8,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/kia-uk/images/newcars/new_img/img_start_360_view.png",
+          "meta": "Start 360° view Start 360° view Start 360° view Start 360° view",
+          "page": "https://www.kia.com/uk/new-cars/ev9/"
+        },
+        {
+          "score": -8,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/common/exterior-colour/OBG_pacific_blue_0000.jpg",
+          "meta": "pacific-blue Eexterior Colour pacific-blue Eexterior Colour pacific-blue Eexterior Colour",
+          "page": "https://www.kia.com/uk/new-cars/ev9/"
+        },
+        {
+          "score": -8,
+          "url": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/common/exterior-colour/PT9_pantera_metal_matt_0000.jpg",
+          "meta": "panthera-metal_matt Eexterior Colour",
+          "page": "https://www.kia.com/uk/new-cars/ev9/"
+        }
+      ]
     },
     "K037": {
       "model": "EV9 GT",

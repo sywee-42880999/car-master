@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#080808">
+  <meta name="description" content="현대·기아 최신 차종 단어장 — 공식 이미지로 차종을 익히고 맞혀보세요">
+  <title>현기 차종 단어장</title>
+  <base href="../">
+  <link rel="stylesheet" href="./game.css?v=8">
+  <link rel="stylesheet" href="./model-master.css?v=1">
+</head>
+<body>
+<main class="app model-app">
+  <header class="topbar model-topbar">
+    <div><span class="brand-kicker">CAR MASTER / MODELS</span><h1>현기 차종 단어장</h1><p>최신 현행 차종 · 공식 제조사 이미지</p></div>
+    <a class="back-link" href="./index.html">부품</a>
+  </header>
+  <section class="model-summary">
+    <div><span>LEARN</span><strong id="learnedCount">0 / 0</strong><small>익힌 차종</small></div>
+    <div><span>TEST</span><strong>20</strong><small>문제</small></div>
+    <button id="startTestTop" type="button">테스트</button>
+  </section>
+  <nav class="model-filters" aria-label="브랜드 필터">
+    <button class="active" data-brand="all" type="button">ALL</button>
+    <button data-brand="hyundai" type="button">HYUNDAI</button>
+    <button data-brand="kia" type="button">KIA</button>
+  </nav>
+  <section id="learnViewModel" class="model-view">
+    <div class="model-position-row"><span id="modelPosition">0 / 0</span><button id="restoreModels" class="text-button" type="button">숨긴 차종 복원</button></div>
+    <article id="modelCard" class="model-card">
+      <button id="prevModel" class="model-arrow model-arrow-prev" type="button" aria-label="이전 차종">‹</button>
+      <div id="modelVisual" class="model-visual"><img id="modelImage" alt=""><span id="modelId" class="item-id"></span><span id="angleTag" class="angle-tag">FRONT</span></div>
+      <div class="model-copy">
+        <span id="modelBrand" class="model-brand"></span>
+        <h2 id="modelName">불러오는 중</h2>
+        <p id="modelMeta"></p>
+        <div class="model-card-actions"><button id="toggleRear" class="pill hidden" type="button">FRONT / REAR</button></div>
+      </div>
+      <button id="nextModel" class="model-arrow model-arrow-next" type="button" aria-label="다음 차종">›</button>
+    </article>
+    <button id="knowModel" class="primary" type="button">알아요 · 다음 차종 ✓</button>
+    <div class="deck-tools"><span>SWIPE ↔</span><button id="shuffleModels" class="pill" type="button">SHUFFLE</button></div>
+  </section>
+  <section id="testViewModel" class="model-view hidden">
+    <div class="test-head"><strong id="modelTestCount">TEST 01 / 20</strong><span id="cropModeLabel">FULL VEHICLE</span></div>
+    <div id="modelTestVisual" class="model-test-image"><img id="modelTestImage" alt="차종 맞히기 문제 이미지"></div>
+    <form id="modelAnswerForm" autocomplete="off">
+      <label for="modelAnswer">차종명을 입력하세요</label>
+      <input id="modelAnswer" name="answer" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" enterkeyhint="done" required>
+      <button class="primary" type="submit">제출</button>
+    </form>
+    <button id="exitTest" class="secondary" type="button">학습으로 돌아가기</button>
+  </section>
+  <section id="modelResultView" class="model-view hidden"><div id="modelResultBody"></div></section>
+</main>
+<div id="modelToast" class="toast" role="status"></div>
+<script src="./model-master.js?v=1"></script>
+</body>
+</html>

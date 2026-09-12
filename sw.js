@@ -1,9 +1,12 @@
-const CACHE = 'car-vocabulary-game-v3';
+const CACHE = 'car-vocabulary-game-v4';
 const ASSETS = [
   './',
   './index.html',
-  './game.css?v=3',
-  './game.js?v=2',
+  './game.css?v=7',
+  './game.js?v=5',
+  './model-master.html',
+  './model-master.css?v=1',
+  './model-master.js?v=1',
   './black-preview.html',
   './black-preview.css?v=2',
   './black-preview.js?v=3',
@@ -15,20 +18,22 @@ const ASSETS = [
   './data/master.json',
   './data/source_registry.json',
   './data/vehicles.json',
+  './data/models-latest.json',
+  './data/model-image-qc.json',
   './images/venue/front.jpg',
   './images/venue/rear.jpg',
   './images/venue/side.jpg',
-  './images/placeholder-suv.svg'
-  ,'./images/parts/0011.jpg'
-  ,'./images/parts/0012.jpg'
-  ,'./images/parts/0013.jpg'
-  ,'./images/parts/0014.jpg'
-  ,'./images/parts/0015.jpg'
-  ,'./images/parts/0016.jpg'
-  ,'./images/parts/0017.jpg'
-  ,'./images/parts/0018.jpg'
-  ,'./images/parts/0019.jpg'
-  ,'./images/parts/0020.jpg'
+  './images/placeholder-suv.svg',
+  './images/parts/0011.jpg',
+  './images/parts/0012.jpg',
+  './images/parts/0013.jpg',
+  './images/parts/0014.jpg',
+  './images/parts/0015.jpg',
+  './images/parts/0016.jpg',
+  './images/parts/0017.jpg',
+  './images/parts/0018.jpg',
+  './images/parts/0019.jpg',
+  './images/parts/0020.jpg'
 ];
 
 self.addEventListener('install', event => {
@@ -46,7 +51,6 @@ self.addEventListener('activate', event => {
 
 self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') return;
-
   event.respondWith(
     fetch(event.request)
       .then(response => {

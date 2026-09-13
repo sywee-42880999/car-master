@@ -27,3 +27,8 @@
 .journey button.locked::after{content:none}
 .journey button.locked .lock-icon{position:absolute;top:2px;right:3px;font-size:.48rem;line-height:1;filter:grayscale(1);opacity:.9}
 .journey button.locked:active{border-color:var(--lime);color:#aaa}
+
+/* CTA layer correction — preserve the locked BLACK UI styling. */
+.view{position:relative;overflow:visible}
+.learn-card{z-index:1}
+.learn-card+.primary{position:relative;z-index:6}

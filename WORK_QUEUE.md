@@ -1956,3 +1956,13 @@ IMPORTANT:
 
 Production commit for final 22:
 - `b00fb50ed1d8eb087c7202596d61f19834c325b4`
+
+## 2026-09-12 CODEX — Model Master asset cleanup + CTA layer
+
+- Inspected every active Hyundai/Kia front/rear asset; did not trust legacy PASS metadata as visual QA.
+- Corrected confirmed green/colored matte backgrounds to white while retaining the vehicle silhouette and subtle source shadow.
+- Replaced visible model-name plate text with `1234567` on representative confirmed assets including K019 Carnival.
+- Reviewed prior blobs for suspected lifestyle/partial assets; rejected mismatched models, interiors, chassis diagrams, and other unsafe candidates.
+- Raised CAR MASTER and Model Master learn CTA wrappers above card shadows without changing BLACK UI styling; preserved safe-area padding.
+- Exact corrected files and unresolved official-source replacements: `data/model-asset-cleanup-2026-09-12.json`.
+- Remaining: entries in `requires_official_source_replacement` need a verified current manufacturer whole-vehicle source before replacement. No generated substitute was made.
